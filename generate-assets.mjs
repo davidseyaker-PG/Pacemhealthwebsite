@@ -10,7 +10,7 @@ const PLACEHOLDER_PNG = Buffer.from(
 );
 
 const viteConfig = readFileSync(join(__dirname, 'vite.config.ts'), 'utf-8');
-const assetRegex = /\/src\/assets\/([a-f0-9]+\.png)/g;
+const assetRegex = /src\/assets\/([a-f0-9]+\.png)/g;
 const assets = new Set();
 let match;
 while ((match = assetRegex.exec(viteConfig)) !== null) {
