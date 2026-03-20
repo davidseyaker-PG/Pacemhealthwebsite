@@ -9,28 +9,6 @@ const PLACEHOLDER_PNG = Buffer.from(
   'base64'
 );
 
-const viteConfig = readFileSync(join(__dirname, 'vite.config.ts'), 'utf-8');
-const assetRegex = /src\/assets\/([a-f0-9]+\.png)/g;
-const assets = new Set();
-let match;
-while ((match = assetRegex.exec(viteConfig)) !== null) {
-  assets.add(match[1]);
-}
-
-const assetsDir = join(__dirname, 'src', 'assets');
-if (!existsSync(assetsDir)) {
-  mkdirSync(assetsDir, { recursive: true });
-}
-let created = 0;
-for (const filename of assets) {
-  const filepath = join(assetsDir, filename);
-  if (!existsSync(filepath)) {
-    writeFileSync(filepath, PLACEHOLDER_PNG);
-    created++;
-  }
-}
-console.log('Generated ' + created + ' placeholder assets (' + assets.size + ' total)');
-
 function walkDir(dir) {
   const files = [];
   for (const entry of readdirSync(dir)) {
@@ -45,10 +23,43 @@ function walkDir(dir) {
   return files;
 }
 
+// Step 1: Collect ALL asset hashes from both vite.config.ts AND source files
+const assets = new Set();
+
+const viteConfig = readFileSync(join(__dirname, 'vite.config.ts'), 'utf-8');
+let match;
+const configRegex = /([a-f0-9]{20,})\.png/g;
+while ((match = configRegex.exec(viteConfig)) !== null) {
+  assets.add(match[1] + '.png');
+}
+
 const srcDir = join(__dirname, 'src');
 const sourceFiles = walkDir(srcDir);
-let patchedFiles = 0;
+for (const file of sourceFiles) {
+  const content = readFileSync(file, 'utf-8');
+  const srcRegex = /figma:asset\/([a-f0-9]+\.png)/g;
+  while ((match = srcRegex.exec(content)) !== null) {
+    assets.add(match[1]);
+  }
+}
 
+// Step 2: Generate placeholder PNGs for ALL discovered assets
+const assetsDir = join(__dirname, 'src', 'assets');
+if (!existsSync(assetsDir)) {
+  mkdirSync(assetsDir, { recursive: true });
+}
+let created = 0;
+for (const filename of assets) {
+  const filepath = join(assetsDir, filename);
+  if (!existsSync(filepath)) {
+    writeFileSync(filepath, PLACEHOLDER_PNG);
+    created++;
+  }
+}
+console.log('Generated ' + created + ' placeholder assets (' + assets.size + ' total discovered)');
+
+// Step 3: Patch source files to replace figma:asset imports with relative paths
+let patchedFiles = 0;
 for (const file of sourceFiles) {
   let content = readFileSync(file, 'utf-8');
   if (content.includes('figma:asset/')) {
