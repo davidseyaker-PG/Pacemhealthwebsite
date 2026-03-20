@@ -1,18 +1,16 @@
-// Pre-build script: generates placeholder PNG files for all figma:asset references
-// Run this before `vite build` to ensure all asset aliases in vite.config.ts resolve
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
-import { dirname, join } from 'path';
+// Pre-build script: generates placeholder PNGs AND patches source imports
+// Removes all figma:asset/ dependencies so the project builds standalone
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, statSync } from 'fs';
+import { dirname, join, relative } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-// 1x1 transparent PNG (smallest valid PNG)
 const PLACEHOLDER_PNG = Buffer.from(
   'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg==',
   'base64'
 );
 
-// Read vite.config.ts and extract all asset filenames
 const viteConfig = readFileSync(join(__dirname, 'vite.config.ts'), 'utf-8');
 const assetRegex = /\/src\/assets\/([a-f0-9]+\.png)/g;
 const assets = new Set();
@@ -21,13 +19,10 @@ while ((match = assetRegex.exec(viteConfig)) !== null) {
   assets.add(match[1]);
 }
 
-// Create src/assets directory
 const assetsDir = join(__dirname, 'src', 'assets');
 if (!existsSync(assetsDir)) {
   mkdirSync(assetsDir, { recursive: true });
 }
-
-// Generate placeholder PNGs for each missing asset
 let created = 0;
 for (const filename of assets) {
   const filepath = join(assetsDir, filename);
@@ -36,5 +31,35 @@ for (const filename of assets) {
     created++;
   }
 }
+console.log('Generated ' + created + ' placeholder assets (' + assets.size + ' total)');
 
-console.log(`Generated ${created} placeholder assets in src/assets/ (${assets.size} total referenced)`);
+function walkDir(dir) {
+  const files = [];
+  for (const entry of readdirSync(dir)) {
+    const full = join(dir, entry);
+    if (entry === 'node_modules' || entry === 'dist' || entry === '.git') continue;
+    if (statSync(full).isDirectory()) {
+      files.push(...walkDir(full));
+    } else if (/\.(tsx?|jsx?)$/.test(entry)) {
+      files.push(full);
+    }
+  }
+  return files;
+}
+
+const srcDir = join(__dirname, 'src');
+const sourceFiles = walkDir(srcDir);
+let patchedFiles = 0;
+
+for (const file of sourceFiles) {
+  let content = readFileSync(file, 'utf-8');
+  if (content.includes('figma:asset/')) {
+    const fileDir = dirname(file);
+    const relPath = relative(fileDir, assetsDir).replace(/\\\\/g, '/');
+    const prefix = relPath || '.';
+    content = content.replace(/figma:asset\/([a-f0-9]+\.png)/g, prefix + '/$1');
+    writeFileSync(file, content);
+    patchedFiles++;
+  }
+}
+console.log('Patched ' + patchedFiles + ' source files - project is now Figma-independent');
