@@ -21,12 +21,12 @@ const newsStories = [
     link: '/stories/partnership-announcement'
   },
   {
-    title: 'Community Health Initiative Reaches 100,000 Patients Milestone',
+    title: 'Community Health Program Reaches 100,000 Patients Milestone',
     image: communityMilestoneImage,
     link: '/stories/community-milestone'
   },
   {
-    title: 'Digital Health Platform Launched to Improve Patient Care',
+    title: 'Digital Health Platform Deployed to Strengthen Patient Access',
     image: digitalHealthImage,
     link: '/stories/digital-platform'
   },
@@ -64,7 +64,7 @@ export function NewsCarousel() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-4xl md:text-5xl font-heading font-extrabold text-navy mt-6"
             >
-              Discover our News and Stories.
+              Discover Our News and Stories
             </motion.h2>
           </div>
           <div className="flex gap-3">
@@ -110,8 +110,8 @@ export function NewsCarousel() {
                       whileHover={{ scale: 1.1 }}
                     />
                   </div>
-                  <div className="p-6">
-                    <h3 className="text-navy mb-4 leading-snug">{story.title}</h3>
+                  <div className="border-t-4 border-green p-6">
+                    <h3 className="text-navy font-heading font-semibold mb-4 leading-snug">{story.title}</h3>
                     <Link
                       href={story.link}
                       className="text-blue hover:text-blue-light transition-colors duration-300 inline-flex items-center gap-1"
