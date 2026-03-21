@@ -1,12 +1,10 @@
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
-import { Heart, Users, Globe, Leaf, Award, Building2, GraduationCap, Activity, Handshake, Shield, Target, Lightbulb } from 'lucide-react';
 import heroImage from 'figma:asset/d5af171be4c697d3ddbfcf1622198d24682a769c.png';
 
 export default function CorporateCitizenship() {
   const citizenshipPillars = [
     {
-      icon: Heart,
       title: 'Community Impact',
       description: 'Improving health outcomes and quality of life in the communities we serve across Africa.',
       initiatives: [
@@ -17,7 +15,6 @@ export default function CorporateCitizenship() {
       ]
     },
     {
-      icon: Leaf,
       title: 'Environmental Stewardship',
       description: 'Operating sustainably and minimizing our environmental footprint across all operations.',
       initiatives: [
@@ -28,7 +25,6 @@ export default function CorporateCitizenship() {
       ]
     },
     {
-      icon: GraduationCap,
       title: 'Education & Training',
       description: 'Investing in healthcare workforce development and professional education programs.',
       initiatives: [
@@ -39,7 +35,6 @@ export default function CorporateCitizenship() {
       ]
     },
     {
-      icon: Users,
       title: 'Employee Well-being',
       description: 'Creating an inclusive, supportive workplace where our team members can thrive.',
       initiatives: [
@@ -55,132 +50,115 @@ export default function CorporateCitizenship() {
     {
       title: 'Maternal & Child Health',
       description: 'Programs supporting pregnant women, new mothers, and children with essential healthcare access and nutrition.',
-      impact: '50,000+ mothers and children targeted annually by 2028',
-      icon: Heart
+      impact: '50,000+ mothers and children targeted annually by 2028'
     },
     {
       title: 'Healthcare Access for Underserved',
       description: 'Mobile clinics and community outreach bringing healthcare services to remote and underserved areas.',
-      impact: '200+ communities targeted across 5 priority countries',
-      icon: Activity
+      impact: '200+ communities targeted across 5 priority countries'
     },
     {
       title: 'Chronic Disease Management',
-      description: 'Education and support programs for diabetes, hypertension, and other chronic conditions.',
-      impact: '15,000+ patients targeted for management programs by 2028',
-      icon: Shield
+      description: 'Education and support programs for diabetes, hypertension, and other chronic conditions affecting African communities.',
+      impact: '15,000+ patients targeted for management programs by 2028'
     },
     {
       title: 'Healthcare Professional Development',
       description: 'Scholarships and training programs developing the next generation of African healthcare leaders.',
-      impact: '500+ scholarships targeted by 2028',
-      icon: GraduationCap
+      impact: '500+ scholarships targeted by 2028'
     },
     {
       title: 'Local Business Partnerships',
       description: 'Supporting local suppliers, entrepreneurs, and small businesses in our healthcare supply chain.',
-      impact: '300+ local businesses targeted for our network',
-      icon: Handshake
+      impact: '300+ local businesses targeted for our network'
     },
     {
       title: 'Health Solutions Fund',
       description: 'Investing in African healthcare solutions and purpose-built technology improving patient outcomes.',
-      impact: '$2M+ targeted investment in local health tech solutions',
-      icon: Lightbulb
+      impact: '$2M+ targeted investment in local health tech solutions'
     }
   ];
 
   const philanthropicCommitments = [
     {
       title: 'Medicine Donation Program',
-      description: 'Providing essential medications to vulnerable populations during emergencies and humanitarian crises.',
-      amount: '$5M+ annual donation target'
+      description: 'Providing essential medications to vulnerable populations during emergencies and humanitarian crises.'
     },
     {
       title: 'Disaster Response Fund',
-      description: 'Rapid response pharmaceutical and medical supplies for natural disasters and health emergencies.',
-      amount: '24/7 emergency response capability'
+      description: 'Rapid response pharmaceutical and medical supplies for natural disasters and health emergencies.'
     },
     {
       title: 'Community Health Centers',
-      description: 'Building and supporting community health facilities in underserved regions.',
-      amount: '20+ facilities targeted by 2028'
+      description: 'Building and supporting community health facilities in underserved regions.'
     },
     {
       title: 'Research Partnerships',
-      description: 'Collaborating with universities and research institutions on African health challenges.',
-      amount: '15+ research partnerships planned'
+      description: 'Collaborating with universities and research institutions on African health challenges.'
     }
   ];
 
   const governanceCommitments = [
     {
-      icon: Target,
       title: 'Ethical Operations',
       description: 'Conducting business with integrity, transparency, and accountability to all stakeholders.'
     },
     {
-      icon: Globe,
       title: 'Sustainable Development Goals',
       description: 'Aligning our operations with UN SDGs, particularly Good Health and Well-being (SDG 3).'
     },
     {
-      icon: Building2,
       title: 'Responsible Governance',
-      description: 'Strong corporate governance ensuring responsible decision-making and stakeholder value.'
-    },
-    {
-      icon: Award,
-      title: 'Industry Leadership',
-      description: 'Setting standards for corporate citizenship in the African healthcare industry.'
+      description: 'Strong corporate governance ensuring responsible decision-making at every level.'
     }
   ];
 
+  const pillarColors = ['border-green', 'border-blue', 'border-orange', 'border-navy'];
+
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section className="relative h-[60vh] min-h-[500px] flex items-center bg-white overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src={heroImage}
-            alt="Corporate citizenship"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-navy/90 via-navy/80 to-transparent"></div>
+      {/* Breadcrumb */}
+      <nav className="bg-gray-50 border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-6 py-4">
+          <div className="flex items-center gap-2 text-sm text-gray-500">
+            <Link href="/" className="hover:text-navy transition-colors">Home</Link>
+            <span>/</span>
+            <Link href="/about/company" className="hover:text-navy transition-colors">Our Story</Link>
+            <span>/</span>
+            <span className="text-navy">Corporate Citizenship</span>
+          </div>
         </div>
+      </nav>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 w-full">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
+      {/* Hero Section */}
+      <section className="relative h-[60vh] min-h-[400px] overflow-hidden">
+        <div className="absolute inset-0">
+          <img src={heroImage} alt="Corporate Citizenship" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/90 to-navy/70" />
+        </div>
+        <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center z-10">
+          <div className="max-w-2xl w-full">
             <h1 className="text-5xl md:text-6xl font-heading font-extrabold text-white mb-4 leading-tight">
               Corporate Citizenship
             </h1>
-            <p className="text-2xl text-white/90 max-w-2xl">
+            <p className="text-xl text-white/80">
               Making a Positive Impact in the Communities We Serve
             </p>
-          </motion.div>
+          </div>
         </div>
       </section>
 
       {/* Intro Section */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-8">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
+            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-8">
               Committed to Social Responsibility
             </h2>
-            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+            <p className="text-xl text-gray-600 leading-relaxed">
               At Pacem Health, corporate citizenship is core to our identity. We believe businesses have a responsibility to contribute positively to society, protect the environment, and support the communities where we operate.
             </p>
-            <p className="text-xl text-gray-700 leading-relaxed">
+            <p className="text-lg text-gray-600 leading-relaxed mt-6">
               Our corporate citizenship strategy focuses on improving health outcomes, advancing education, promoting environmental sustainability, and fostering economic development across Africa.
             </p>
           </motion.div>
@@ -190,14 +168,8 @@ export default function CorporateCitizenship() {
       {/* Citizenship Pillars */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-6">
               Our Citizenship Pillars
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -206,50 +178,31 @@ export default function CorporateCitizenship() {
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {citizenshipPillars.map((pillar, index) => {
-              const Icon = pillar.icon;
-              return (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: index * 0.1 }}
-                  className="bg-white p-8 rounded-2xl border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300"
-                >
-                  <div className="flex items-center gap-4 mb-6">
-                    <div className="bg-orange/10 p-4 rounded-xl">
-                      <Icon className="w-8 h-8 text-orange" />
-                    </div>
-                    <h3 className="text-2xl font-heading font-bold text-navy">{pillar.title}</h3>
-                  </div>
-                  <p className="text-gray-700 leading-relaxed mb-6">{pillar.description}</p>
-                  <div className="space-y-2">
-                    {pillar.initiatives.map((initiative, idx) => (
-                      <div key={idx} className="flex items-start gap-3">
-                        <span className="text-orange font-medium">•</span>
-                        <span className="text-gray-700">{initiative}</span>
-                      </div>
-                    ))}
-                  </div>
-                </motion.div>
-              );
-            })}
+            {citizenshipPillars.map((pillar, index) => (
+              <motion.div key={index} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: index * 0.1 }}
+                className={`bg-white rounded-xl p-8 shadow-sm border-l-4 ${pillarColors[index]} hover:shadow-md transition-shadow`}
+              >
+                <h3 className="text-2xl font-heading font-bold text-navy mb-3">{pillar.title}</h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">{pillar.description}</p>
+                <ul className="space-y-2">
+                  {pillar.initiatives.map((item, i) => (
+                    <li key={i} className="flex items-start gap-3 text-gray-700">
+                      <span className="text-green mt-1 font-bold">&bull;</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Social Programs */}
+      {/* Social Impact Programs */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-6">
               Social Impact Programs
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -258,86 +211,14 @@ export default function CorporateCitizenship() {
           </motion.div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {socialPrograms.map((program, index) => {
-              const Icon = program.icon;
-              return (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: index * 0.1 }}
-                  className="bg-white p-8 rounded-2xl border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300"
-                >
-                  <div className="bg-blue/10 p-4 rounded-xl inline-block mb-4">
-                    <Icon className="w-8 h-8 text-blue" />
-                  </div>
-                  <h3 className="text-xl font-heading font-semibold text-navy mb-3">{program.title}</h3>
-                  <p className="text-gray-700 leading-relaxed mb-4">{program.description}</p>
-                  <div className="bg-orange/10 px-4 py-2 rounded-lg inline-block">
-                    <span className="text-orange font-semibold text-sm">{program.impact}</span>
-                  </div>
-                </motion.div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Impact Statement */}
-      <section className="py-20 bg-gradient-to-br from-navy via-navy/95 to-blue">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
-              Creating Shared Value
-            </h2>
-            <p className="text-xl text-white/90 leading-relaxed mb-6">
-              Our corporate citizenship initiatives create shared value for our business and the communities we serve. By investing in health, education, and sustainable development, we strengthen healthcare systems and improve lives across Africa.
-            </p>
-            <p className="text-xl text-white/90 leading-relaxed">
-              We measure our success not just by financial performance, but by the positive social impact we create and the lives we improve every day.
-            </p>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Philanthropic Commitments */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
-              Philanthropic Commitments
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Supporting communities through strategic giving and partnerships
-            </p>
-          </motion.div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {philanthropicCommitments.map((commitment, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: index * 0.1 }}
-                className="bg-white p-8 rounded-2xl border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300"
+            {socialPrograms.map((program, index) => (
+              <motion.div key={index} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="bg-white rounded-xl border border-gray-200 p-8 hover:shadow-lg transition-shadow"
               >
-                <h3 className="text-xl font-heading font-semibold text-navy mb-3">{commitment.title}</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">{commitment.description}</p>
-                <div className="bg-blue/10 px-4 py-2 rounded-lg inline-block">
-                  <span className="text-blue font-semibold">{commitment.amount}</span>
+                <h3 className="text-xl font-heading font-bold text-navy mb-3">{program.title}</h3>
+                <p className="text-gray-600 leading-relaxed mb-6">{program.description}</p>
+                <div className="bg-green/5 border border-green/20 rounded-lg px-4 py-3">
+                  <p className="text-sm font-heading font-semibold text-green">{program.impact}</p>
                 </div>
               </motion.div>
             ))}
@@ -345,97 +226,92 @@ export default function CorporateCitizenship() {
         </div>
       </section>
 
-      {/* Governance */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
-              Governance & Leadership
+      {/* Impact Statement */}
+      <section className="py-20 bg-navy text-white">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
+            <h2 className="text-4xl md:text-5xl font-heading font-extrabold mb-6">
+              Creating Shared Value
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Leading by example with responsible corporate governance
+            <p className="text-xl text-white/90 leading-relaxed mb-6">
+              Our corporate citizenship initiatives create shared value for our business and the communities we serve. By investing in health, education, and sustainable development, we strengthen healthcare systems and improve lives across Africa.
+            </p>
+            <p className="text-lg text-white/80 leading-relaxed">
+              We measure our success not just by financial performance, but by the positive social impact we create and the lives we improve every day.
             </p>
           </motion.div>
+        </div>
+      </section>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {governanceCommitments.map((commitment, index) => {
-              const Icon = commitment.icon;
-              return (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: index * 0.1 }}
-                  className="bg-white p-8 rounded-2xl border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300 text-center"
-                >
-                  <div className="bg-orange/10 p-4 rounded-xl inline-block mb-4">
-                    <Icon className="w-8 h-8 text-orange" />
+      {/* Philanthropic Commitments & Governance */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-16">
+            {/* Philanthropic */}
+            <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
+              <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-navy mb-4">
+                Philanthropic Commitments
+              </h2>
+              <p className="text-gray-600 mb-8">Supporting communities through strategic giving and partnerships</p>
+              <div className="space-y-6">
+                {philanthropicCommitments.map((item, index) => (
+                  <div key={index} className="bg-white rounded-lg p-6 border-l-4 border-green shadow-sm">
+                    <h3 className="text-lg font-heading font-bold text-navy mb-2">{item.title}</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">{item.description}</p>
                   </div>
-                  <h3 className="text-xl font-heading font-semibold text-navy mb-3">{commitment.title}</h3>
-                  <p className="text-gray-700 leading-relaxed">{commitment.description}</p>
-                </motion.div>
-              );
-            })}
+                ))}
+              </div>
+            </motion.div>
+            {/* Governance */}
+            <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
+              <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-navy mb-4">
+                Governance & Leadership
+              </h2>
+              <p className="text-gray-600 mb-8">Leading by example with responsible corporate governance</p>
+              <div className="space-y-6">
+                {governanceCommitments.map((item, index) => (
+                  <div key={index} className="bg-white rounded-lg p-6 border-l-4 border-blue shadow-sm">
+                    <h3 className="text-lg font-heading font-bold text-navy mb-2">{item.title}</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">{item.description}</p>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>
 
       {/* Partner With Us */}
       <section className="py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
+        <div className="max-w-4xl mx-auto px-6">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
+            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-6 text-center">
               Partner With Us
             </h2>
-            <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-              We're always looking for partners who share our commitment to improving healthcare access and creating positive social impact across Africa. Whether you're an NGO, community organization, educational institution, or business, let's work together to create meaningful change.
+            <p className="text-lg text-gray-600 leading-relaxed text-center">
+              We’re always looking for partners who share our commitment to improving healthcare access and creating positive social impact across Africa. Whether you’re an NGO, community organization, educational institution, or business, let’s work together to create meaningful change.
             </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/contact" className="inline-flex items-center gap-2 bg-blue text-white px-8 py-4 rounded-lg font-heading font-semibold hover:bg-blue/90 transition-all duration-300 transform hover:scale-105">
-                Explore Partnership Opportunities
-              </Link>
-              <Link href="/about/community-impact" className="inline-flex items-center gap-2 bg-white text-navy px-8 py-4 rounded-lg font-heading font-semibold border-2 border-navy hover:bg-navy hover:text-white transition-all duration-300">
-                View Community Impact
-              </Link>
-            </div>
           </motion.div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-navy via-navy/95 to-blue">
+      <section className="py-20 bg-gradient-to-br from-navy via-navy/95 to-blue/90 text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
+            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">
               Join Our Mission
             </h2>
             <p className="text-xl mb-8 text-white/90">
               Together, we can create a healthier, more equitable future for Africa. Learn more about our corporate citizenship initiatives and how you can get involved.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/about/sustainability" className="inline-flex items-center gap-2 bg-white text-navy px-8 py-4 rounded-lg font-heading font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
-                View Sustainability Report
+              <Link href="/contact" className="inline-flex items-center gap-2 bg-white text-navy px-8 py-4 rounded-lg font-heading font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
+                Get in Touch
               </Link>
-              <a href="mailto:inquiries@pacemhealth.com" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur text-white px-8 py-4 rounded-lg font-heading font-semibold hover:bg-white/20 transition-all duration-300 border border-white/20">
-                Contact Our Team
-              </a>
+              <Link href="/about/company" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur text-white px-8 py-4 rounded-lg font-heading font-semibold hover:bg-white/20 transition-all duration-300 border border-white/20">
+                Learn More About Us
+              </Link>
             </div>
           </motion.div>
         </div>
