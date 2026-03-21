@@ -49,7 +49,7 @@ export default function MissionVision() {
         'Committed to sourcing 100% WHO-prequalified pharmaceuticals and certified medical equipment',
         'Implementing ISO-certified quality management systems across all operations',
         'Planning to train 5,000+ healthcare workers annually starting 2027',
-        'Building continuous improvement processes through technology and continuous improvement'
+        'Building continuous improvement processes through technology and evidence-based practices'
       ]
     },
     equity: {
@@ -111,7 +111,7 @@ export default function MissionVision() {
       description: 'Building health infrastructure that operates independently of external aidâwith local leadership, sustainable financing, robust regulatory frameworks, and trained workforces capable of delivering quality care without perpetual donor dependency.'
     },
     {
-      title: 'African-Led Healthcare Innovation',
+      title: 'African-Led Healthcare Transformation',
       description: 'Championing solutions designed by African leaders for African contextsârespecting local knowledge, cultural norms, and community wisdom. Our African-led leadership team ensures every solution is contextually appropriate and locally owned.'
     },
     {
@@ -501,7 +501,7 @@ export default function MissionVision() {
                 transition={{ duration: 0.4, delay: index * 0.1 }}
                 className="text-center p-8 bg-white/5 backdrop-blur rounded-xl border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-300 group"
               >
-                <p className="text-5xl font-heading font-extrabold mb-3 text-white group-hover:scale-110 transition-transform duration-300">
+                <p className="text-5xl font-heading font-extrabold mb-3 text-green group-hover:scale-110 transition-transform duration-300">
                   {stat.number}
                 </p>
                 <p className="text-white font-semibold mb-1">{stat.label}</p>
