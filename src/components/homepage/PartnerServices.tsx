@@ -9,25 +9,25 @@ import regulatoryImage from 'figma:asset/5b1221aa4de28fdbad4420eb78f8feddaff6de5
 const services = [
   {
     title: 'Market Access Services',
-    description: 'Strategic market entry and expansion support across African healthcare markets',
+    description: 'Strategic market entry and expansion support across African healthcare markets, built on local knowledge and trusted partnerships.',
     image: marketAccessImage,
     link: '/services/market-access',
   },
   {
     title: 'Procurement & Distribution',
-    description: 'Efficient sourcing and delivery of pharmaceuticals and medical supplies',
+    description: 'Reliable sourcing and delivery of quality-assured pharmaceuticals and medical supplies to where they are needed most.',
     image: procurementImage,
     link: '/services/procurement-distribution',
   },
   {
     title: 'Supply Chain & Logistics',
-    description: 'End-to-end logistics solutions ensuring timely delivery of healthcare products',
+    description: 'End-to-end logistics solutions purpose-built for African health systems, ensuring timely and accountable delivery.',
     image: supplyChainImage,
     link: '/services/supply-chain-logistics',
   },
   {
     title: 'Regulatory & Compliance',
-    description: 'Expert guidance on healthcare regulations and quality standards',
+    description: 'Expert guidance on healthcare regulations and quality standards to help partners navigate complex regulatory environments.',
     image: regulatoryImage,
     link: '/services/regulatory-compliance',
   },
@@ -55,7 +55,7 @@ export function PartnerServices() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-gray-600 max-w-3xl mx-auto mb-8"
           >
-            Comprehensive B2B services designed to help global health organizations expand their impact across Africa.
+            Scalable B2B services designed to help global health organizations expand their reach and deepen their impact across Africa through sustainable, locally-informed partnerships.
           </motion.p>
           <motion.a
             href="/partners"
@@ -92,8 +92,8 @@ export function PartnerServices() {
                       whileHover={{ scale: 1.1 }}
                     />
                   </div>
-                  <div className="p-6">
-                    <h3 className="text-blue hover:text-blue-light transition-colors duration-300 mb-2">
+                  <div className="border-t-4 border-green p-6">
+                    <h3 className="text-blue font-heading font-semibold hover:text-blue-light transition-colors duration-300 mb-2">
                       {service.title}
                     </h3>
                     <p className="text-gray-600 text-sm">{service.description}</p>
