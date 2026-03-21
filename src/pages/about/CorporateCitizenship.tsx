@@ -94,7 +94,7 @@ export default function CorporateCitizenship() {
     {
       title: 'Medicine Donation Program',
       description: 'Providing essential medications to vulnerable populations during emergencies and humanitarian crises.',
-      amount: '$5M+ in annual donations'
+      amount: '$5M+ annual donation target'
     },
     {
       title: 'Disaster Response Fund',
@@ -104,12 +104,12 @@ export default function CorporateCitizenship() {
     {
       title: 'Community Health Centers',
       description: 'Building and supporting community health facilities in underserved regions.',
-      amount: '20+ facilities supported'
+      amount: '20+ facilities targeted by 2028'
     },
     {
       title: 'Research Partnerships',
       description: 'Collaborating with universities and research institutions on African health challenges.',
-      amount: '15+ active research partnerships'
+      amount: '15+ research partnerships planned'
     }
   ];
 
@@ -215,7 +215,7 @@ export default function CorporateCitizenship() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: index * 0.1 }}
-                  className="bg-white p-8 rounded-2xl border-t-4 border-green shadow-md hover:shadow-xl transition-all duration-300"
+                  className="bg-white p-8 rounded-2xl border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300"
                 >
                   <div className="flex items-center gap-4 mb-6">
                     <div className="bg-orange/10 p-4 rounded-xl">
@@ -267,7 +267,7 @@ export default function CorporateCitizenship() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: index * 0.1 }}
-                  className="bg-white p-8 rounded-2xl border-t-4 border-green shadow-md hover:shadow-xl transition-all duration-300"
+                  className="bg-white p-8 rounded-2xl border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300"
                 >
                   <div className="bg-blue/10 p-4 rounded-xl inline-block mb-4">
                     <Icon className="w-8 h-8 text-blue" />
@@ -332,7 +332,7 @@ export default function CorporateCitizenship() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
-                className="bg-white p-8 rounded-2xl border-t-4 border-green shadow-md hover:shadow-xl transition-all duration-300"
+                className="bg-white p-8 rounded-2xl border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300"
               >
                 <h3 className="text-xl font-heading font-semibold text-navy mb-3">{commitment.title}</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">{commitment.description}</p>
@@ -373,7 +373,7 @@ export default function CorporateCitizenship() {
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: index * 0.1 }}
-                  className="bg-white p-8 rounded-2xl border-t-4 border-green shadow-md hover:shadow-xl transition-all duration-300 text-center"
+                  className="bg-white p-8 rounded-2xl border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300 text-center"
                 >
                   <div className="bg-orange/10 p-4 rounded-xl inline-block mb-4">
                     <Icon className="w-8 h-8 text-orange" />
@@ -406,7 +406,7 @@ export default function CorporateCitizenship() {
               <Link href="/contact" className="inline-flex items-center gap-2 bg-blue text-white px-8 py-4 rounded-lg font-heading font-semibold hover:bg-blue/90 transition-all duration-300 transform hover:scale-105">
                 Explore Partnership Opportunities
               </Link>
-              <Link href="/about/community-impact" className="inline-flex items-center gap-2 bg-white text-navy px-8 py-4 rounded-lg font-semibold border-2 border-navy hover:bg-navy hover:text-white transition-all duration-300">
+              <Link href="/about/community-impact" className="inline-flex items-center gap-2 bg-white text-navy px-8 py-4 rounded-lg font-heading font-semibold border-2 border-navy hover:bg-navy hover:text-white transition-all duration-300">
                 View Community Impact
               </Link>
             </div>
