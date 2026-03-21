@@ -59,8 +59,11 @@ export default function Programs() {
             className="max-w-4xl"
           >
             <h1 className="text-5xl md:text-6xl font-heading font-extrabold text-white mb-4 leading-tight">
-              Building Health Ecosystems That Transform Communities
+              Strengthening Health Systems Through Purpose-Built Programs
             </h1>
+            <p className="text-lg md:text-xl text-white/90 mb-6 max-w-2xl leading-relaxed">
+              Three integrated programs designed to build health literacy, ensure pharmaceutical quality, and strengthen maternal-child health across Africa.
+            </p>
 
             <div className="flex flex-wrap gap-4">
               <motion.a
@@ -85,7 +88,7 @@ export default function Programs() {
               Our Strategic Programs
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Three integrated programs that strengthen health systems, ensure pharmaceutical quality, and transform maternal-child health outcomes
+              Three integrated programs that strengthen health systems, ensure pharmaceutical quality, and strengthen maternal-child health outcomes
             </p>
           </div>
 
@@ -154,7 +157,7 @@ export default function Programs() {
               Partner With Our Programs
             </h2>
             <p className="text-xl text-white/90 mb-10 leading-relaxed">
-              Join us in building sustainable health ecosystems across Africa. Together, we can create lasting impact and transform communities.
+              Join us in building sustainable health ecosystems across Africa. Together, we can strengthen health systems and build lasting partnerships.
             </p>
             
             <div className="flex flex-wrap justify-center gap-4">
@@ -168,12 +171,12 @@ export default function Programs() {
                 <ArrowRight className="w-6 h-6" />
               </motion.a>
               <motion.a
-                href="/"
+                href="/about"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-10 py-5 rounded-full font-semibold text-lg hover:bg-white/20 transition-colors"
               >
-                Back to Home
+                Learn About Us
               </motion.a>
             </div>
           </motion.div>
