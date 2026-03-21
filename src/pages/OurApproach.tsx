@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { Link } from "wouter";
 import { CheckCircle, ArrowRight, Target, Shield, Users, Lightbulb, TrendingUp, Globe, Building2, Zap, Award } from "lucide-react";
 import heroImage from "figma:asset/1360f77dc6f8810ca5c43a1ccd02731f871d62ec.png";
 
@@ -104,9 +105,18 @@ export default function OurApproach() {
 
   return (
     <div className="min-h-screen bg-white">
+      {/* Breadcrumb */}
+      <div className="max-w-7xl mx-auto px-6 pt-4">
+        <nav className="flex items-center gap-2 text-sm text-gray-500">
+          <Link href="/" className="hover:text-blue transition-colors">Home</Link>
+          <span>/</span>
+          <span className="text-navy font-medium">Our Approach</span>
+        </nav>
+      </div>
+
       {/* Hero Section */}
-      <section className="relative h-[70vh] min-h-[600px] flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-navy/60 via-navy/50 to-navy/40 z-10" />
+      <section className="relative h-[60vh] min-h-[400px] flex items-center overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/90 to-navy/70 z-10" />
         <motion.img
           src={heroImage}
           alt="Global healthcare network"
@@ -123,7 +133,7 @@ export default function OurApproach() {
             transition={{ duration: 0.8 }}
             className="max-w-4xl"
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-heading font-extrabold text-white mb-4 leading-tight">
               Our Approach
             </h1>
             <p className="text-2xl text-white/90 mb-8 leading-relaxed">
@@ -142,7 +152,7 @@ export default function OurApproach() {
             viewport={{ once: true }}
             className="text-center"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
               Strategy and Implementation, Seamlessly Integrated
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
@@ -161,7 +171,7 @@ export default function OurApproach() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-4">
               Core Values
             </h2>
             <p className="text-xl text-gray-600">
@@ -180,7 +190,7 @@ export default function OurApproach() {
                   transition={{ delay: index * 0.1 }}
                   className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-t-4 border-navy hover:border-blue"
                 >
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-heading text-navy mb-3">
                     {value.title}
                   </h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
@@ -210,7 +220,7 @@ export default function OurApproach() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-4">
               What Makes Us Different
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -229,7 +239,7 @@ export default function OurApproach() {
                   transition={{ delay: index * 0.1 }}
                   className="bg-gray-50 rounded-xl p-8 hover:shadow-xl transition-all duration-300 border-t-4 border-navy hover:border-blue"
                 >
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-heading text-navy mb-3">
                     {approach.title}
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
@@ -251,7 +261,7 @@ export default function OurApproach() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-4">
               Partner Types
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -269,7 +279,7 @@ export default function OurApproach() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-gray-50 rounded-xl p-8 hover:shadow-xl transition-all duration-300"
               >
-                <h3 className="text-xl font-serif text-navy font-bold mb-4">
+                <h3 className="text-xl font-heading text-navy font-bold mb-4">
                   {type.category}
                 </h3>
                 <div className="flex flex-wrap gap-2">
@@ -297,7 +307,7 @@ export default function OurApproach() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-4">
               Our Process
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -336,11 +346,11 @@ export default function OurApproach() {
                 transition={{ delay: index * 0.1 }}
                 className="flex items-start gap-6 bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
               >
-                <div className="bg-navy text-white text-2xl font-serif w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="bg-navy text-white text-2xl font-heading w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
                   {phase.step}
                 </div>
                 <div>
-                  <h3 className="text-2xl font-serif text-navy mb-3">{phase.title}</h3>
+                  <h3 className="text-2xl font-heading text-navy mb-3">{phase.title}</h3>
                   <p className="text-gray-700 leading-relaxed">{phase.description}</p>
                 </div>
               </motion.div>
@@ -364,7 +374,7 @@ export default function OurApproach() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
               Experience the Pacem Health Difference
             </h2>
             <p className="text-xl text-white/90 mb-10 leading-relaxed">
@@ -376,7 +386,7 @@ export default function OurApproach() {
                 href="/contact"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-blue text-white px-10 py-5 rounded-lg font-semibold text-lg flex items-center gap-2 hover:bg-blue/90 transition-colors"
+                className="bg-blue text-white px-10 py-5 rounded-full font-semibold text-lg flex items-center gap-2 hover:bg-blue/90 transition-colors"
               >
                 Partner With Us
                 <ArrowRight className="w-6 h-6" />
@@ -385,7 +395,7 @@ export default function OurApproach() {
                 href="/commitments/programs"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-10 py-5 rounded-lg font-semibold text-lg hover:bg-white/20 transition-colors"
+                className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-10 py-5 rounded-full font-semibold text-lg hover:bg-white/20 transition-colors"
               >
                 View Success Stories
               </motion.a>
