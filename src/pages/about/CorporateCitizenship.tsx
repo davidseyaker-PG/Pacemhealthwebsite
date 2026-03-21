@@ -155,7 +155,7 @@ export default function CorporateCitizenship() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-6xl lg:text-7xl font-heading font-extrabold text-white mb-6">
+            <h1 className="text-5xl md:text-6xl font-heading font-extrabold text-white mb-4 leading-tight">
               Corporate Citizenship
             </h1>
             <p className="text-2xl text-white/90 max-w-2xl">
