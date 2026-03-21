@@ -48,7 +48,7 @@ export default function Board() {
     <div className="bg-white">
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0d2d4a] via-[#0d2d4a] to-[#4a9fd8]" />
+        <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy to-[#1E3A6E]" />
         <div className="absolute inset-0 bg-black/20" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6">
@@ -58,7 +58,7 @@ export default function Board() {
             transition={{ duration: 0.8 }}
           >
             <p className="text-lg text-white/90 mb-4 font-semibold">Corporate Governance</p>
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6">
+            <h1 className="text-6xl lg:text-7xl font-heading font-extrabold text-white mb-6">
               Board of Directors
             </h1>
             <p className="text-xl text-white/95 max-w-3xl leading-relaxed">
@@ -107,35 +107,35 @@ export default function Board() {
             className="space-y-6"
           >
             <div>
-              <h3 className="text-xl font-serif text-navy mb-2">Board Composition:</h3>
+              <h3 className="text-xl font-heading font-bold text-navy mb-2">Board Composition:</h3>
               <p className="text-gray-700 leading-relaxed">
                 Pacem Health's Board of Directors is composed of six distinguished members with complementary expertise spanning healthcare systems, international development, African markets, financial leadership, supply chain operations, and corporate governance.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-serif text-navy mb-2">Meeting Frequency:</h3>
+              <h3 className="text-xl font-heading font-bold text-navy mb-2">Meeting Frequency:</h3>
               <p className="text-gray-700 leading-relaxed">
                 The Board meets quarterly to review strategic initiatives, financial performance, operational metrics, risk management, and alignment with our mission to strengthen healthcare delivery across Africa.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-serif text-navy mb-2">Oversight Responsibilities:</h3>
+              <h3 className="text-xl font-heading font-bold text-navy mb-2">Oversight Responsibilities:</h3>
               <p className="text-gray-700 leading-relaxed">
                 Board members provide strategic guidance on market expansion, partnership development, capital allocation, governance policies, and long-term sustainability. They ensure the company maintains the highest standards of corporate governance while staying true to our mission-driven values.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-serif text-navy mb-2">Independence:</h3>
+              <h3 className="text-xl font-heading font-bold text-navy mb-2">Independence:</h3>
               <p className="text-gray-700 leading-relaxed">
                 Our Board includes independent directors who bring objective oversight and ensure accountability to all stakeholders including partners, investors, customers, and the communities we serve.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-serif text-navy mb-2">Stakeholder Trust:</h3>
+              <h3 className="text-xl font-heading font-bold text-navy mb-2">Stakeholder Trust:</h3>
               <p className="text-gray-700 leading-relaxed">
                 This governance structure demonstrates our commitment to transparency, accountability, and professional management as we build lasting partnerships with governments, development agencies, health systems, and communities across Africa.
               </p>
@@ -154,11 +154,11 @@ export default function Board() {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-12">
+            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-12">
               Our Board Members
             </h2>
             <div className="bg-gray-50 rounded-xl p-16">
-              <p className="text-2xl text-gray-500 font-serif">Coming Soon</p>
+              <p className="text-2xl text-gray-500 font-heading font-semibold">Coming Soon</p>
             </div>
           </motion.div>
         </div>
@@ -174,7 +174,7 @@ export default function Board() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-4">
               Board Governance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -192,7 +192,7 @@ export default function Board() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
               >
-                <h3 className="text-xl font-serif text-navy mb-4">
+                <h3 className="text-xl font-heading font-bold text-navy mb-4">
                   {area.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -214,7 +214,7 @@ export default function Board() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-4">
               Board Expertise
             </h2>
           </motion.div>
@@ -229,7 +229,7 @@ export default function Board() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="bg-gray-50 rounded-xl p-8 hover:bg-gray-100 transition-colors duration-300"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">
+                <h3 className="text-xl font-heading font-bold text-navy mb-3">
                   {area.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -252,7 +252,7 @@ export default function Board() {
             className="bg-gray-100 rounded-xl p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6"
           >
             <div className="text-center md:text-left">
-              <h3 className="text-2xl font-serif text-navy mb-2">
+              <h3 className="text-2xl font-heading font-bold text-navy mb-2">
                 Meet Our Leadership Team
               </h3>
               <p className="text-gray-600">
@@ -263,7 +263,7 @@ export default function Board() {
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-flex items-center gap-2 bg-[#4a9fd8] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#3a8fc8] transition-colors duration-300 shadow-lg whitespace-nowrap cursor-pointer"
+                className="inline-flex items-center gap-2 bg-blue text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-orange transition-colors duration-300 shadow-lg whitespace-nowrap cursor-pointer"
               >
                 View Leadership Team
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
