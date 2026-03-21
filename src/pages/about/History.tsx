@@ -182,7 +182,6 @@ export default function History() {
                 <div className="mt-6">
                   <Link href="/about/leadership/david-seyaker" className="inline-flex items-center gap-2 text-blue hover:text-orange font-heading font-semibold transition-colors">
                     Read Full Bio →
-                  <Link href="/about/leadership/david-seyaker" className="inline-flex items-center gap-2 text-blue hover:text-orange font-heading font-semibold transition-colors">
                   </Link>
                 </div>
               </div>
