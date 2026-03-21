@@ -128,15 +128,16 @@ export default function CommunityImpact() {
 
   return (
     <div className="min-h-screen bg-white">
+      <div className="max-w-7xl mx-auto px-6 pt-4"><nav className="flex items-center gap-2 text-sm text-gray-500"><Link href="/" className="hover:text-blue transition-colors">Home</Link><span>/</span><Link href="/about" className="hover:text-blue transition-colors">About</Link><span>/</span><span className="text-navy font-medium">Community Impact</span></nav></div>
       {/* Hero Section */}
-      <section className="relative min-h-[50vh] flex items-center bg-white overflow-hidden">
+      <section className="relative h-[60vh] min-h-[400px] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img
             src={heroImage}
             alt="Community healthcare"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-navy/80 via-navy/70 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/90 to-navy/70"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 w-full">
@@ -145,7 +146,7 @@ export default function CommunityImpact() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white">
+            <h1 className="text-5xl md:text-6xl font-heading font-extrabold text-white mb-4 leading-tight">
               Strengthening Communities Through Healthcare Excellence
             </h1>
           </motion.div>
@@ -181,7 +182,7 @@ export default function CommunityImpact() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
               Our Community Impact Areas
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -204,7 +205,7 @@ export default function CommunityImpact() {
                   <div className="w-14 h-14 bg-blue/10 rounded-xl flex items-center justify-center mb-6">
                     <Icon className="w-7 h-7 text-blue" />
                   </div>
-                  <h3 className="text-xl font-serif text-navy mb-4">{area.title}</h3>
+                  <h3 className="text-xl font-heading font-bold text-navy mb-4">{area.title}</h3>
                   <p className="text-gray-700 leading-relaxed mb-6">{area.description}</p>
                   <div className="border-t border-gray-200 pt-4">
                     <div className="text-3xl font-bold text-orange mb-1">{area.stat}</div>
@@ -227,7 +228,7 @@ export default function CommunityImpact() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
               Our Community Programs
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -254,7 +255,7 @@ export default function CommunityImpact() {
                   <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent"></div>
                 </div>
                 <div className="p-8">
-                  <h3 className="text-xl font-serif text-navy mb-4">{program.title}</h3>
+                  <h3 className="text-xl font-heading font-bold text-navy mb-4">{program.title}</h3>
                   <p className="text-gray-700 leading-relaxed mb-6">{program.description}</p>
                   <Link href={program.link} className="text-blue hover:text-blue/80 font-semibold inline-flex items-center gap-2 transition-colors">
                     Learn more →
@@ -276,7 +277,7 @@ export default function CommunityImpact() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
               Community Health Initiatives
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -301,7 +302,7 @@ export default function CommunityImpact() {
                       <Icon className="w-6 h-6 text-blue" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-serif text-navy mb-2">{initiative.title}</h3>
+                      <h3 className="text-xl font-heading font-bold text-navy mb-2">{initiative.title}</h3>
                       <p className="text-gray-700">{initiative.description}</p>
                     </div>
                   </div>
@@ -330,7 +331,7 @@ export default function CommunityImpact() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif mb-6">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">
               Our Impact by the Numbers
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
@@ -368,7 +369,7 @@ export default function CommunityImpact() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+              <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
                 Building Partnerships That Last
               </h2>
               <p className="text-xl text-gray-700 leading-relaxed mb-6">
@@ -441,7 +442,7 @@ export default function CommunityImpact() {
                 />
               </div>
               <div className="p-8">
-                <h3 className="text-xl font-serif text-navy mb-4">Our Programs</h3>
+                <h3 className="text-xl font-heading font-bold text-navy mb-4">Our Programs</h3>
                 <p className="text-gray-700 mb-6">
                   Explore our flagship programs transforming healthcare delivery, building pharmacy excellence, and improving pediatric care.
                 </p>
@@ -466,7 +467,7 @@ export default function CommunityImpact() {
                 />
               </div>
               <div className="p-8">
-                <h3 className="text-xl font-serif text-navy mb-4">Sustainability</h3>
+                <h3 className="text-xl font-heading font-bold text-navy mb-4">Sustainability</h3>
                 <p className="text-gray-700 mb-6">
                   Discover how we're building sustainable healthcare systems that benefit communities, economies, and the environment.
                 </p>
@@ -491,7 +492,7 @@ export default function CommunityImpact() {
                 />
               </div>
               <div className="p-8">
-                <h3 className="text-xl font-serif text-navy mb-4">Our Approach</h3>
+                <h3 className="text-xl font-heading font-bold text-navy mb-4">Our Approach</h3>
                 <p className="text-gray-700 mb-6">
                   Learn about our systematic approach to strengthening health systems, ensuring quality, and building local capacity.
                 </p>
@@ -505,7 +506,7 @@ export default function CommunityImpact() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-blue via-blue/95 to-navy">
+      <section className="py-20 bg-gradient-to-br from-navy via-navy/95 to-blue/90">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -513,17 +514,17 @@ export default function CommunityImpact() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
               Partner With Us to Strengthen Communities
             </h2>
             <p className="text-xl mb-8 text-white/90">
               Join Pacem Health in creating lasting impact through community-focused healthcare programs, workforce development, and sustainable health system strengthening across Africa.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/contact" className="inline-flex items-center gap-2 bg-white text-blue px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
+              <Link href="/contact" className="inline-flex items-center gap-2 bg-white text-blue px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
                 Get Involved
               </Link>
-              <Link href="/programs" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/20 transition-all duration-300 border border-white/20">
+              <Link href="/programs" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur text-white px-8 py-4 rounded-full font-semibold hover:bg-white/20 transition-all duration-300 border border-white/20">
                 Explore Programs
               </Link>
             </div>
