@@ -21,7 +21,7 @@ const milestones = [
     title: 'Building Knowledge',
     image: universityImage,
     imageAlt: 'University graduation',
-    description: 'Continued education in Biochemistry with a focus on Pharmaceuticals at The University of Texas at Tyler. Immersed in pharmaceutical science, quality assurance, drug stability, and regulatory standards\u2014studying WHO guidelines, good manufacturing practices, and the chemistry behind safe and effective medicines. Graduated in 2022 with the scientific knowledge and conviction that Africa deserved better healthcare logistics.'
+    description: 'Continued education in Biochemistry with a focus on Pharmaceuticals at The University of Texas at Tyler. Immersed in pharmaceutical science, quality assurance, drug stability, and regulatory standards\u2014studying international health guidelines, good manufacturing practices, and the chemistry behind safe and effective medicines. Graduated in 2022 with the scientific knowledge and conviction that Africa deserved better healthcare logistics.'
   },
   {
     year: '2023',
@@ -50,27 +50,26 @@ export default function History() {
   return (
     <div className="min-h-screen bg-white">
       {/* Breadcrumb */}
-      <div className="bg-gray-50 border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="flex items-center gap-2 text-sm text-gray-600">
-            <Link href="/" className="hover:text-navy transition-colors">Home</Link>
-            <span>/</span>
-            <Link href="/about/company" className="hover:text-navy transition-colors">Our Story</Link>
-            <span>/</span>
-            <span className="text-navy">Our History</span>
-          </div>
-        </div>
+      <div className="max-w-7xl mx-auto px-6 pt-4">
+        <nav className="flex items-center gap-2 text-sm text-gray-500">
+          <Link href="/" className="hover:text-blue transition-colors">Home</Link>
+          <span>/</span>
+          <Link href="/about/company" className="hover:text-blue transition-colors">Our Story</Link>
+          <span>/</span>
+          <span className="text-navy font-medium">Our History</span>
+        </nav>
       </div>
 
       {/* Hero Section */}
-      <section className="relative h-[60vh] min-h-[500px] flex items-center bg-blue overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue via-blue/95 to-navy/90"></div>
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(45deg, transparent 48%, rgba(255,255,255,0.1) 50%, transparent 52%)', backgroundSize: '100px 100px' }}></div>
-        </div>
+      <section className="relative h-[60vh] min-h-[500px] flex items-center overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy to-[#1E3A6E]" />
+        <div className="absolute inset-0 bg-black/20" />
         <div className="relative z-10 w-full px-6 py-12">
           <div className="max-w-7xl mx-auto">
-            <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}>
               <h1 className="text-5xl md:text-6xl font-heading font-extrabold text-white leading-tight">Our History</h1>
             </motion.div>
           </div>
@@ -80,12 +79,16 @@ export default function History() {
       {/* Intro Text */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}>
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              In 2013, a team of five Chemistry students at Cuttington University in Liberia discovered that 79% of the most consumed aspirin brand had the lowest quality and highest impurities. This revelation sparked a mission that would transform African healthcare logistics.
+              In 2013, a team of five Chemistry students at Cuttington University in Liberia discovered that 79% of the most consumed aspirin brand had the lowest quality and highest impurities. This revelation sparked a mission that would strengthen African healthcare logistics.
             </p>
             <p className="text-xl text-gray-700 leading-relaxed">
-              Today, Pacem Health looks very different, but in realizing our founder’s vision, we remain committed to ensuring quality medicines, reliable equipment, and sustainable health systems reach every corner of Africa.
+              Today, Pacem Health looks very different, but in realizing our founder's vision, we remain committed to ensuring quality medicines, reliable equipment, and sustainable health systems reach every corner of Africa.
             </p>
           </motion.div>
         </div>
@@ -94,9 +97,14 @@ export default function History() {
       {/* Unified Timeline */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center mb-20">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-4">A Decade of Purpose</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">From discovery to action, every step prepared us to transform African healthcare logistics</p>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">From discovery to action, every step prepared us to strengthen African healthcare logistics</p>
           </motion.div>
 
           <div className="relative">
@@ -109,17 +117,31 @@ export default function History() {
                 <div key={index} className="relative mb-20 last:mb-0">
                   {/* Year badge on line */}
                   <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 z-10 items-center justify-center">
-                    <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.2 }} className="bg-orange text-white font-heading font-bold text-sm px-4 py-2 rounded-full shadow-lg whitespace-nowrap">
+                    <motion.div
+                      initial={{ scale: 0 }}
+                      whileInView={{ scale: 1 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.4, delay: 0.2 }}
+                      className="bg-orange text-white font-heading font-bold text-sm px-4 py-2 rounded-full shadow-lg whitespace-nowrap">
                       {milestone.year}
                     </motion.div>
                   </div>
 
                   {/* Card */}
                   <div className={`flex flex-col md:flex-row items-start ${isLeft ? '' : 'md:flex-row-reverse'}`}>
-                    <motion.div initial={{ opacity: 0, x: isLeft ? -40 : 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className={`w-full md:w-[calc(50%-2rem)] ${isLeft ? 'md:mr-auto' : 'md:ml-auto'}`}>
+                    <motion.div
+                      initial={{ opacity: 0, x: isLeft ? -40 : 40 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.6 }}
+                      className={`w-full md:w-[calc(50%-2rem)] ${isLeft ? 'md:mr-auto' : 'md:ml-auto'}`}>
                       <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300">
                         <div className="relative h-56 overflow-hidden">
-                          <img src={milestone.image} alt={milestone.imageAlt} className="w-full h-full object-cover" />
+                          <img
+                            src={milestone.image}
+                            alt={milestone.imageAlt}
+                            className="w-full h-full object-cover"
+                          />
                           <div className="absolute inset-0 bg-gradient-to-t from-navy/40 to-transparent" />
                           <div className="md:hidden absolute bottom-4 left-4">
                             <span className="bg-orange text-white font-heading font-bold text-sm px-3 py-1.5 rounded-full shadow-lg">{milestone.year}</span>
@@ -150,7 +172,7 @@ export default function History() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
               Leadership and Vision
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -177,7 +199,7 @@ export default function History() {
                 <h3 className="text-2xl font-heading font-bold text-navy mb-2">David Seyaker</h3>
                 <p className="text-blue font-heading font-semibold mb-4">Founder, President & CEO</p>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Pacem Health’s founder serves as President and Chief Executive Officer—bringing over a decade of dedication to accelerating Africa’s healthcare transformation.
+                  Pacem Health's founder serves as President and Chief Executive Officer—bringing over a decade of dedication to strengthening healthcare across Africa.
                 </p>
                 <div className="mt-6">
                   <Link href="/about/leadership/david-seyaker" className="inline-flex items-center gap-2 text-blue hover:text-orange font-heading font-semibold transition-colors">
@@ -203,13 +225,13 @@ export default function History() {
               Join Our Story
             </h2>
             <p className="text-xl mb-8 text-white/90">
-              We’re just getting started. Partner with us to write the next chapter in African healthcare transformation.
+              We're just getting started. Partner with us to write the next chapter in strengthening African healthcare.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/contact" className="inline-flex items-center gap-2 bg-white text-navy px-8 py-4 rounded-lg font-heading font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
+              <Link href="/contact" className="inline-flex items-center gap-2 bg-white text-navy px-8 py-4 rounded-full font-heading font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
                 Get in Touch
               </Link>
-              <Link href="/about/company" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur text-white px-8 py-4 rounded-lg font-heading font-semibold hover:bg-white/20 transition-all duration-300 border border-white/20">
+              <Link href="/about/company" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-white/20 transition-all duration-300 border border-white/20">
                 Learn More About Us
               </Link>
             </div>
