@@ -88,13 +88,13 @@ export default function OurCompany() {
             className="prose prose-lg max-w-none"
           >
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              When <strong>David Seyaker</strong> founded <strong>Pacem Health</strong> in 2025, the vision was clear: to build resilient health systems that transform care delivery across Africa. Drawing from years of experience in global health supply chains and pharmaceutical distribution, David recognized that Africa's healthcare challenges required more than isolated interventionsÃ¢ÂÂthey demanded integrated, sustainable solutions.
+              When <strong>David Seyaker</strong> founded <strong>Pacem Health</strong> in 2025, the vision was clear: to build resilient health systems that transform care delivery across Africa. Drawing from years of experience in global health supply chains and pharmaceutical distribution, David recognized that Africa's healthcare challenges required more than isolated interventions—they demanded integrated, sustainable solutions.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Pacem Health was born from a simple yet powerful insight: <em>the strongest health systems are built through partnership, not charity</em>. We started by listeningÃ¢ÂÂto ministries of health, to frontline healthcare workers, to communities who knew their needs best. What emerged was a model that combines world-class supply chain management, pharmaceutical expertise, medical equipment provisioning, and healthcare facility developmentÃ¢ÂÂall tailored to the unique context of each partner country.
+              Pacem Health was born from a simple yet powerful insight: <em>the strongest health systems are built through partnership, not charity</em>. We started by listening—to ministries of health, to frontline healthcare workers, to communities who knew their needs best. What emerged was a model that combines world-class supply chain management, pharmaceutical expertise, medical equipment provisioning, and healthcare facility development—all tailored to the unique context of each partner country.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Today, Pacem Health is more than a companyÃ¢ÂÂit's a movement toward health equity. With active projects in Kenya, Ghana, and Nigeria, and a growing pipeline across the continent, when you invest in systems, build true partnerships, and design for self-sufficiency, transformational impact is possible. Our work touches every aspect of the healthcare value chain, from pharmaceuticals and medical equipment to digital infrastructure and workforce developmentÃ¢ÂÂall anchored in our core commitment to building health systems that last.
+              Today, Pacem Health is more than a company—it's a movement toward health equity. With active projects in Kenya, Ghana, and Nigeria, and a growing pipeline across the continent, when you invest in systems, build true partnerships, and design for self-sufficiency, transformational impact is possible. Our work touches every aspect of the healthcare value chain, from pharmaceuticals and medical equipment to digital infrastructure and workforce development—all anchored in our core commitment to building health systems that last.
             </p>
           </motion.div>
         </div>
@@ -128,7 +128,7 @@ export default function OurCompany() {
             >
               <h3 className="text-xl font-heading font-semibold text-navy mb-4">Our Vision</h3>
               <p className="text-gray-700 leading-relaxed mb-6">
-                A future where every person in Africa has access to quality, affordable healthcareÃ¢ÂÂpowered by resilient systems, purpose-built solutions, and partnerships that prioritize people over profit.
+                A future where every person in Africa has access to quality, affordable healthcare—powered by resilient systems, purpose-built solutions, and partnerships that prioritize people over profit.
               </p>
             </motion.div>
 
@@ -142,7 +142,7 @@ export default function OurCompany() {
             >
               <h3 className="text-xl font-heading font-semibold text-navy mb-4">Our Values</h3>
               <p className="text-gray-700 leading-relaxed mb-6">
-                PACEMÃ¢ÂÂPartnership, Accountability, Excellence, Equity, and Mutual RespectÃ¢ÂÂguides every decision we make, every relationship we build, and every system we strengthen.
+                PACEM—Partnership, Accountability, Excellence, Equity, and Mutual Respect—guides every decision we make, every relationship we build, and every system we strengthen.
               </p>
               <a href="/about/leadership" className="text-blue hover:text-navy font-heading font-semibold inline-flex items-center gap-2 transition-colors">
                 Learn about our leadership approach
@@ -234,10 +234,10 @@ export default function OurCompany() {
               Pacem Health is a leading health systems integrator focused on strengthening healthcare delivery across sub-Saharan Africa. We partner with governments, NGOs, development organizations, and private sector leaders to build resilient, self-sustaining health infrastructure through integrated pharmaceutical supply chains, medical equipment provisioning, healthcare facility development, and digital health solutions.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Our model is rooted in the belief that transformational health outcomes require systemic solutionsÃ¢ÂÂnot isolated interventions. By combining deep expertise in supply chain management, pharmaceutical distribution, medical technology, and facility operations, we deliver end-to-end support that addresses the full spectrum of healthcare delivery challenges.
+              Our model is rooted in the belief that transformational health outcomes require systemic solutions—not isolated interventions. By combining deep expertise in supply chain management, pharmaceutical distribution, medical technology, and facility operations, we deliver end-to-end support that addresses the full spectrum of healthcare delivery challenges.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              From Kenya to Ghana to Nigeria, our work is already making an impact. Whether provisioning quality-assured essential medicines to rural clinics, equipping new healthcare facilities with purpose-built medical technology, or implementing digital health infrastructure that improves patient outcomesÃ¢ÂÂwe're building the foundation for a healthier Africa, one partnership at a time.
+              From Kenya to Ghana to Nigeria, our work is already making an impact. Whether provisioning quality-assured essential medicines to rural clinics, equipping new healthcare facilities with purpose-built medical technology, or implementing digital health infrastructure that improves patient outcomes—we're building the foundation for a healthier Africa, one partnership at a time.
             </p>
           </motion.div>
 
@@ -342,7 +342,7 @@ export default function OurCompany() {
             >
               <h3 className="text-2xl font-heading font-semibold text-navy mb-4">1. Systems, Not Just Solutions</h3>
               <p className="text-gray-700 leading-relaxed">
-                We don't deliver isolated products or servicesÃ¢ÂÂwe build integrated ecosystems that address root causes, strengthen infrastructure, and create lasting capacity.
+                We don't deliver isolated products or services—we build integrated ecosystems that address root causes, strengthen infrastructure, and create lasting capacity.
               </p>
             </motion.div>
 
@@ -355,7 +355,7 @@ export default function OurCompany() {
             >
               <h3 className="text-2xl font-heading font-semibold text-navy mb-4">2. True Partnership</h3>
               <p className="text-gray-700 leading-relaxed">
-                We co-design solutions with local stakeholders, respecting context and culture, ensuring ownership and alignment at every levelÃ¢ÂÂfrom policy to practice.
+                We co-design solutions with local stakeholders, respecting context and culture, ensuring ownership and alignment at every level—from policy to practice.
               </p>
             </motion.div>
 
@@ -401,7 +401,7 @@ export default function OurCompany() {
             >
               <h3 className="text-2xl font-heading font-semibold text-navy mb-3">Digital Health Infrastructure</h3>
               <p className="text-gray-700 leading-relaxed">
-                Electronic health records, telemedicine platforms, and data analytics that improve care coordination, clinical decision-making, and health outcomesÃ¢ÂÂdesigned for low-resource settings.
+                Electronic health records, telemedicine platforms, and data analytics that improve care coordination, clinical decision-making, and health outcomes—designed for low-resource settings.
               </p>
             </motion.div>
 
@@ -427,7 +427,7 @@ export default function OurCompany() {
             >
               <h3 className="text-2xl font-heading font-semibold text-navy mb-3">Workforce Development</h3>
               <p className="text-gray-700 leading-relaxed">
-                Training programs, certification pathways, and continuous professional development for healthcare workersÃ¢ÂÂbuilding local capacity that sustains impact long-term.
+                Training programs, certification pathways, and continuous professional development for healthcare workers—building local capacity that sustains impact long-term.
               </p>
             </motion.div>
 
