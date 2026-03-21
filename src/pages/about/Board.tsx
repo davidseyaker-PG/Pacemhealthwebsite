@@ -94,7 +94,7 @@ export default function Board() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-4xl md:text-5xl font-serif text-navy mb-12"
+            className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-12"
           >
             About Our Board
           </motion.h2>
