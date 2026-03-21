@@ -30,9 +30,18 @@ export default function Programs() {
 
   return (
     <div className="min-h-screen bg-white">
+
+      {/* Breadcrumb */}
+      <div className="max-w-7xl mx-auto px-6 pt-4">
+        <nav className="flex items-center gap-2 text-sm text-gray-500">
+          <Link href="/" className="hover:text-blue transition-colors">Home</Link>
+          <span>/</span>
+          <span className="text-navy font-medium">Programs</span>
+        </nav>
+      </div>
       {/* Hero Section */}
-      <section className="relative h-[700px] flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-navy/75 via-navy/50 to-navy/25 z-10" />
+      <section className="relative h-[60vh] min-h-[400px] flex items-center overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/90 to-navy/70 z-10" />
         <motion.img
           src={heroImage}
           alt="Community health programs"
@@ -49,7 +58,7 @@ export default function Programs() {
             transition={{ duration: 0.8 }}
             className="max-w-4xl"
           >
-            <h1 className="text-5xl lg:text-6xl font-serif font-bold text-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-heading font-extrabold text-white mb-4 leading-tight">
               Building Health Ecosystems That Transform Communities
             </h1>
 
@@ -58,7 +67,7 @@ export default function Programs() {
                 href="#programs"
                 whileHover={{ scale: 1.05, x: 5 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-blue text-white px-8 py-4 rounded-lg font-semibold text-lg flex items-center gap-2 hover:bg-blue/90 transition-colors"
+                className="bg-blue text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center gap-2 hover:bg-blue/90 transition-colors"
               >
                 Explore Our Programs
                 <ArrowRight className="w-5 h-5" />
@@ -72,7 +81,7 @@ export default function Programs() {
       <section id="programs" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-4">
               Our Strategic Programs
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -103,7 +112,7 @@ export default function Programs() {
 
                     {/* Content */}
                     <div className="p-8">
-                      <h3 className="text-xl font-serif text-navy mb-3">
+                      <h3 className="text-xl font-heading font-bold text-navy mb-3">
                         {program.title}
                       </h3>
                       <p className="text-gray-700 leading-relaxed mb-6">
@@ -127,8 +136,8 @@ export default function Programs() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-navy/95 z-10" />
+      <section className="relative py-20 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy/95 to-blue/90 z-10" />
         <motion.img
           src="https://images.unsplash.com/photo-1761039808159-f02b58f07032?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBoZWFsdGglMjBlZHVjYXRpb258ZW58MXx8fHwxNzY3OTE3NDE1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
           alt="Partner background"
@@ -141,7 +150,7 @@ export default function Programs() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-5xl font-serif text-white mb-6">
+            <h2 className="text-5xl font-heading font-bold text-white mb-6">
               Partner With Our Programs
             </h2>
             <p className="text-xl text-white/90 mb-10 leading-relaxed">
@@ -153,7 +162,7 @@ export default function Programs() {
                 href="/contact"
                 whileHover={{ scale: 1.05, x: 5 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-blue text-white px-10 py-5 rounded-lg font-semibold text-lg flex items-center gap-2 hover:bg-blue/90 transition-colors"
+                className="bg-blue text-white px-10 py-5 rounded-full font-semibold text-lg flex items-center gap-2 hover:bg-blue/90 transition-colors"
               >
                 Get Involved
                 <ArrowRight className="w-6 h-6" />
@@ -162,7 +171,7 @@ export default function Programs() {
                 href="/"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-10 py-5 rounded-lg font-semibold text-lg hover:bg-white/20 transition-colors"
+                className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-10 py-5 rounded-full font-semibold text-lg hover:bg-white/20 transition-colors"
               >
                 Back to Home
               </motion.a>
