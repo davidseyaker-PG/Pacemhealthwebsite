@@ -136,7 +136,6 @@ export default function CorporateCitizenship() {
           <img src={heroImage} alt="Corporate Citizenship" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/90 to-navy/70" />
         </div>
-        </div>
         <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center z-10">
           <div className="max-w-2xl w-full">
             <h1 className="text-5xl md:text-6xl font-heading font-extrabold text-white mb-4 leading-tight">
