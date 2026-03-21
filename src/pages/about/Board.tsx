@@ -19,7 +19,7 @@ const governanceAreas = [
 const expertiseAreas = [
   {
     title: 'Healthcare Systems',
-    description: 'WHO experience, pharmaceutical regulation, health system strengthening'
+    description: 'Global health agency experience, pharmaceutical regulation, health system strengthening'
   },
   {
     title: 'Financial Leadership',
@@ -31,7 +31,7 @@ const expertiseAreas = [
   },
   {
     title: 'International Development',
-    description: 'World Bank, development finance, multilateral partnerships'
+    description: 'Multilateral development institutions, development finance, global partnerships'
   },
   {
     title: 'Supply Chain Excellence',
@@ -39,18 +39,26 @@ const expertiseAreas = [
   },
   {
     title: 'Governance & Policy',
-    description: 'African Union, public policy, corporate governance'
+    description: 'Continental policy organizations, public policy, corporate governance'
   }
 ];
 
 export default function Board() {
   return (
     <div className="bg-white">
+      {/* Breadcrumb */}
+      <div className="max-w-7xl mx-auto px-6 pt-4">
+        <nav className="flex items-center gap-2 text-sm text-gray-500">
+          <Link href="/" className="hover:text-blue transition-colors">Home</Link>
+          <span>/</span>
+          <span className="text-navy font-medium">Board of Directors</span>
+        </nav>
+      </div>
+
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[500px] flex items-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy to-[#1E3A6E]" />
         <div className="absolute inset-0 bg-black/20" />
-
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -78,10 +86,7 @@ export default function Board() {
             transition={{ duration: 0.6 }}
             className="text-lg text-gray-700 leading-relaxed text-center"
           >
-            Pacem Health's Board of Directors brings together global health systems expertise, financial leadership, 
-            African business acumen, and governance experience to guide our strategic direction and ensure accountability 
-            to stakeholders. Our Board members provide oversight, strategic guidance, and deep industry expertise as we 
-            work to strengthen healthcare systems across Africa.
+            Pacem Health's Board of Directors brings together global health systems expertise, financial leadership, African business acumen, and governance experience to guide our strategic direction and ensure accountability to stakeholders. Our Board members provide oversight, strategic guidance, and deep industry expertise as we work to strengthen healthcare systems across Africa.
           </motion.p>
         </div>
       </section>
@@ -94,7 +99,7 @@ export default function Board() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-12"
+            className="text-4xl md:text-5xl font-heading font-bold text-navy mb-12"
           >
             About Our Board
           </motion.h2>
@@ -154,7 +159,7 @@ export default function Board() {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-12">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-12">
               Our Board Members
             </h2>
             <div className="bg-gray-50 rounded-xl p-16">
@@ -174,11 +179,11 @@ export default function Board() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-4">
               Board Governance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our Board provides strategic oversight and ensures alignment with our mission to strengthen Africa's health systems
+              Our Board provides strategic oversight and ensures alignment with our mission to strengthen healthcare across Africa
             </p>
           </motion.div>
 
@@ -190,7 +195,7 @@ export default function Board() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
+                className="bg-white rounded-xl border-t-4 border-blue p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
               >
                 <h3 className="text-xl font-heading font-bold text-navy mb-4">
                   {area.title}
@@ -214,7 +219,7 @@ export default function Board() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-4">
               Board Expertise
             </h2>
           </motion.div>
@@ -263,12 +268,9 @@ export default function Board() {
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-flex items-center gap-2 bg-blue text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-orange transition-colors duration-300 shadow-lg whitespace-nowrap cursor-pointer"
+                className="inline-flex items-center gap-2 bg-blue text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-navy transition-colors duration-300 shadow-lg whitespace-nowrap cursor-pointer"
               >
-                View Leadership Team
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
+                View Leadership Team →
               </motion.div>
             </Link>
           </motion.div>
