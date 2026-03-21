@@ -16,17 +16,17 @@ export function Commitments() {
           >
             <SectionLabel>COMMITMENTS</SectionLabel>
             <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mt-6 mb-6">
-              Hope for Communities
+              Building Resilient Health Systems Together
             </h2>
             <div className="space-y-4 text-gray-600">
               <p>
-                At Pacem Health, we believe that access to quality healthcare is a fundamental right. Our commitment extends beyond business to making a lasting impact on communities across Africa.
+                At Pacem Health, we believe that access to quality healthcare is a fundamental right. Our commitment goes beyond delivering products—we invest in the infrastructure, partnerships, and locally-led programs that make lasting change possible.
               </p>
               <p>
-                Through sustainable partnerships, innovative solutions, and community-focused initiatives, we're working to build healthier futures for millions of people. From rural clinics to urban hospitals, our presence ensures that essential medicines and equipment reach those who need them most.
+                Through sustainable partnerships and community-focused initiatives, we work alongside governments and health providers to build stronger, more equitable health systems. From rural clinics to urban hospitals, our presence ensures that quality-assured medicines and reliable equipment reach the communities that need them most.
               </p>
               <p>
-                We invest in local healthcare infrastructure, train healthcare workers, and support community health programs that address the unique challenges facing African healthcare systems.
+                We strengthen local healthcare infrastructure, support the training of healthcare workers, and champion scalable programs designed to address the real challenges facing health systems across Africa.
               </p>
             </div>
             <motion.a
