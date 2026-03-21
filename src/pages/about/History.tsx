@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
-import { ArrowRight } from 'lucide-react';
 import heroStudentsImage from 'figma:asset/09b8771a02d610843b420a905cf063c2d9690401.png';
 import discoveryImage from 'figma:asset/09b8771a02d610843b420a905cf063c2d9690401.png';
 import universityImage from 'figma:asset/01e48fa181569f4541cceb857bc9d96e8ffe9261.png';
@@ -182,8 +181,8 @@ export default function History() {
                 </p>
                 <div className="mt-6">
                   <Link href="/about/leadership/david-seyaker" className="inline-flex items-center gap-2 text-blue hover:text-orange font-heading font-semibold transition-colors">
-                    Read Full Bio
-                    <ArrowRight className="w-4 h-4" />
+                    Read Full Bio →
+                  <Link href="/about/leadership/david-seyaker" className="inline-flex items-center gap-2 text-blue hover:text-orange font-heading font-semibold transition-colors">
                   </Link>
                 </div>
               </div>
