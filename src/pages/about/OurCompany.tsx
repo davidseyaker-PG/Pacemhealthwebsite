@@ -52,7 +52,7 @@ export default function OurCompany() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0A1628]/60 to-[#0A1628]/30"></div>
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
