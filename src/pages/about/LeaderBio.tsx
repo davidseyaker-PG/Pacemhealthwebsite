@@ -12,19 +12,19 @@ const leaderData: Record<string, {
   fullBio: string[];
   category: 'us' | 'global';
 }> = {
-  'david-seydaer': {
-    name: 'David Seydaer',
+  'david-seyaker': {
+    name: 'David Seyaker',
     title: 'Founder & Chief Executive Officer',
     image: 'https://images.unsplash.com/photo-1737574821698-862e77f044c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzc21hbiUyMGV4ZWN1dGl2ZSUyMHBvcnRyYWl0fGVufDF8fHx8MTc2ODAwNjI4M3ww&ixlib=rb-4.1.0&q=80&w=1080',
-    email: 'david.seydaer@pacemhealth.com',
+    email: 'david.seyaker@pacemhealth.com',
     linkedin: 'https://www.linkedin.com',
     category: 'us',
     fullBio: [
-      'David Seydaer founded Pacem Health in 2024 with a vision to strengthen healthcare delivery across Africa through integrated systems and sustainable solutions. As CEO, he guides the company\'s strategic direction, partnership development, and expansion across the African continent.',
+      'David Seyaker founded Pacem Health in 2025 with a vision to strengthen healthcare delivery across Africa through integrated systems and sustainable solutions. As CEO, he guides the company\'s strategic direction, partnership development, and expansion across the African continent.',
       'With more than 15 years of experience in global health systems and medical supply chain management, David brings a unique combination of operational expertise and strategic vision. He has worked extensively across East, West, and Southern Africa, developing deep relationships with Ministries of Health, healthcare facilities, and development partners.',
       'Prior to founding Pacem Health, David served in leadership roles at international medical equipment distributors and global health organizations, where he managed multi-million dollar procurement programs and health system strengthening initiatives across 12 African countries. His experience spans pharmaceutical supply chains, medical equipment distribution, laboratory systems, and healthcare facility operations.',
       'David\'s approach to health systems strengthening emphasizes sustainability, local capacity building, and systems thinking. He believes that transforming African healthcare requires more than just delivering products—it requires integrated solutions that address procurement, training, maintenance, and sustainable financing simultaneously.',
-      'Under his leadership, Pacem Health has established operations across multiple African countries, built partnerships with leading global manufacturers, and developed innovative financing mechanisms to improve healthcare access. The company\'s three-division model (Products & Procurement, Advisory Services, and Advanced Solutions) reflects his vision of comprehensive health system support.',
+      'Under his leadership, Pacem Health has established operations across multiple African countries, built partnerships with leading global manufacturers, and developed purpose-built financing mechanisms to improve healthcare access. The company\'s three-division model (Products & Procurement, Advisory Services, and Advanced Solutions) reflects his vision of comprehensive health system support.',
       'David holds a Master\'s degree in International Health from a leading U.S. university and a Bachelor\'s degree in Business Administration. He is a frequent speaker at global health conferences and has published on topics including health supply chain optimization, sustainable procurement models, and public-private partnerships in African healthcare.',
       'He serves on the advisory boards of several health technology companies and is actively involved in industry associations focused on improving healthcare access in resource-limited settings. David is passionate about mentoring the next generation of global health leaders and regularly engages with African universities and training programs.'
     ]
@@ -67,7 +67,7 @@ const leaderData: Record<string, {
     category: 'us',
     fullBio: [
       'Jennifer Chen manages financial operations, investment planning, and sustainable financing strategies at Pacem Health. With a background in healthcare finance and international development, she ensures the organization\'s financial health while supporting its mission-driven approach to African health systems strengthening.',
-      'Jennifer brings over 15 years of financial management experience across healthcare, international development, and social enterprise sectors. She specializes in innovative financing mechanisms, impact investment, and financial sustainability for organizations operating in emerging markets.',
+      'Jennifer brings over 15 years of financial management experience across healthcare, international development, and social enterprise sectors. She specializes in sustainable financing mechanisms, impact investment, and financial sustainability for organizations operating in emerging markets.',
       'Prior to joining Pacem Health, Jennifer held senior finance roles at global health NGOs and impact investment funds, where she managed complex multi-country budgets, structured blended finance transactions, and developed performance-based financing models for health programs.',
       'Her financial leadership approach balances fiscal discipline with mission alignment, ensuring that Pacem Health maintains strong financial foundations while pursuing aggressive growth in underserved African markets.',
       'Jennifer has been instrumental in developing Pacem Health\'s financing solutions for healthcare facilities, including equipment leasing programs, supplier credit arrangements, and donor-funded procurement mechanisms.',
@@ -96,7 +96,7 @@ const leaderData: Record<string, {
     email: 'lisa.thompson@pacemhealth.com',
     category: 'us',
     fullBio: [
-      'Lisa Thompson drives new market expansion, government partnerships, and strategic alliances across Africa at Pacem Health. Previously with USAID and the World Bank, she brings extensive experience in public-private partnerships and innovative finance for health system strengthening.',
+      'Lisa Thompson drives new market expansion, government partnerships, and strategic alliances across Africa at Pacem Health. Previously with USAID and the World Bank, she brings extensive experience in public-private partnerships and sustainable finance for health system strengthening.',
       'With over 12 years working on health programs across Sub-Saharan Africa, Lisa has developed deep expertise in navigating complex government procurement processes, building relationships with Ministries of Health, and structuring partnerships with international donors and development finance institutions.',
       'At USAID, Lisa managed health systems strengthening programs in 8 African countries, overseeing procurement technical assistance, supply chain reforms, and capacity building initiatives. At the World Bank, she supported the design of health sector financing reforms and public-private partnership frameworks.',
       'Lisa\'s approach to business development emphasizes long-term relationship building, understanding government priorities, and aligning Pacem Health\'s solutions with national health strategies and donor-funded programs.',
@@ -216,7 +216,7 @@ const leaderData: Record<string, {
     email: 'youssef.elamin@pacemhealth.com',
     category: 'global',
     fullBio: [
-      'Youssef El-Amin leads operations across Morocco, Tunisia, and Francophone countries including Egypt, Morocco, Tunisia, and Central Africa. Fluent in French and Arabic, he navigates diverse regulatory environments and cultural contexts to expand Pacem Health\'s reach across the francophone world.',
+      'Youssef El-Amin leads operations across North Africa and Francophone markets, including Morocco, Tunisia, Egypt, and Central Africa. Fluent in French and Arabic, he navigates diverse regulatory environments and cultural contexts to expand Pacem Health\'s reach across the francophone world.',
       'With over 16 years of experience in pharmaceutical distribution and medical equipment supply across North Africa and Francophone markets, Youssef brings deep expertise in both Maghreb and Sub-Saharan Francophone African contexts.',
       'Before joining Pacem Health, Youssef worked with pharmaceutical distributors and medical equipment importers serving North African markets, building expertise in complex regulatory environments and developing relationships with health authorities across the region.',
       'His multilingual capabilities (Arabic, French, English) and cultural fluency enable effective engagement across diverse markets—from North African countries with strong pharmaceutical manufacturing sectors to Central African countries heavily dependent on imports.',
@@ -252,9 +252,9 @@ export default function LeaderBio() {
     return (
       <div className="min-h-screen bg-navy flex items-center justify-center">
         <div className="text-center text-white">
-          <h1 className="text-4xl font-serif mb-4">Leader Not Found</h1>
+          <h1 className="text-4xl font-heading font-extrabold mb-4">Leader Not Found</h1>
           <Link href="/about/leadership">
-            <a className="text-blue-300 hover:text-blue-200 underline">Back to Leadership</a>
+            <a className="text-blue hover:text-white underline">Back to Leadership</a>
           </Link>
         </div>
       </div>
@@ -287,7 +287,7 @@ export default function LeaderBio() {
       {/* Back to Management Link */}
       <div className="bg-navy border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-6">
-          <Link href="/about/leadership" className="inline-flex items-center gap-2 text-white hover:text-blue-300 transition-colors">
+          <Link href="/about/leadership" className="inline-flex items-center gap-2 text-white hover:text-blue transition-colors">
             <ArrowLeft className="w-5 h-5" />
             <span>Back to Management</span>
           </Link>
@@ -303,7 +303,7 @@ export default function LeaderBio() {
           transition={{ duration: 0.6 }}
           className="mb-12"
         >
-          <h1 className="text-6xl lg:text-7xl font-serif text-white mb-4">{leader.name}</h1>
+          <h1 className="text-6xl lg:text-7xl font-heading font-extrabold text-white mb-4">{leader.name}</h1>
           <p className="text-2xl text-white/80">{leader.title}</p>
         </motion.div>
 
@@ -350,7 +350,7 @@ export default function LeaderBio() {
         >
           <a
             href={`mailto:${leader.email}`}
-            className="flex items-center gap-3 text-white hover:text-blue-300 transition-colors group"
+            className="flex items-center gap-3 text-white hover:text-blue transition-colors group"
           >
             <Mail className="w-5 h-5" />
             <span className="group-hover:underline">{leader.email}</span>
@@ -360,7 +360,7 @@ export default function LeaderBio() {
               href={leader.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 text-white hover:text-blue-300 transition-colors group"
+              className="flex items-center gap-3 text-white hover:text-blue transition-colors group"
             >
               <Linkedin className="w-5 h-5" />
               <span className="group-hover:underline">Connect with {leader.name.split(' ')[0]}</span>
