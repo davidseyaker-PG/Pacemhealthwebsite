@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
-import { ArrowRight, Target, Eye, Heart, Users, Award, Shield, Handshake, CheckCircle, ChevronDown } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 import partnershipImage from 'figma:asset/b44f646b4420de97c03315aae69cfa18146efc14.png';
 import accountabilityImage from 'figma:asset/1046ae3a93c7085bd26ffc18f9da87ba3eca78dc.png';
 import excellenceImage from 'figma:asset/8712fbe1da3e019a1db43190c491503533761199.png';
@@ -18,7 +18,6 @@ export default function MissionVision() {
   const values = {
     partnership: {
       title: 'Partnership',
-      icon: Handshake,
       description: 'We believe in the power of collaboration. By working hand-in-hand with governments, healthcare providers, NGOs, and communities, we create solutions that are co-designed, locally relevant, and sustainable. Our partnerships are built on mutual respect, shared goals, and a commitment to lasting impact.',
       image: partnershipImage,
       actions: [
@@ -30,8 +29,7 @@ export default function MissionVision() {
     },
     accountability: {
       title: 'Accountability',
-      icon: Shield,
-      description: 'We hold ourselves to the highest standards of transparency, reliability, and performance. Every commitment we make—whether to a government, healthcare facility, or patient—is a promise we keep. We measure our success by the health outcomes we enable and the trust we build.',
+      description: 'We hold ourselves to the highest standards of transparency, reliability, and performance. Every commitment we make\u2014whether to a government, healthcare facility, or patient\u2014is a promise we keep. We measure our success by the health outcomes we enable and the trust we build.',
       image: accountabilityImage,
       actions: [
         'Targeting 98%+ on-time delivery commitments across all operations by 2027',
@@ -42,11 +40,10 @@ export default function MissionVision() {
     },
     excellence: {
       title: 'Excellence',
-      icon: Award,
-      description: 'Quality is non-negotiable. From product selection to service delivery, we pursue operational excellence at every step. We source only WHO-prequalified and internationally certified products, implement rigorous quality assurance processes, and continuously improve our systems to serve African healthcare better.',
+      description: 'Quality is non-negotiable. From product selection to service delivery, we pursue operational excellence at every step. We source only internationally prequalified and certified products, implement rigorous quality assurance processes, and continuously improve our systems to serve African healthcare better.',
       image: excellenceImage,
       actions: [
-        'Committed to sourcing 100% WHO-prequalified pharmaceuticals and certified medical equipment',
+        'Committed to sourcing 100% internationally prequalified pharmaceuticals and certified medical equipment',
         'Implementing ISO-certified quality management systems across all operations',
         'Planning to train 5,000+ healthcare workers annually starting 2027',
         'Building continuous improvement processes through technology and evidence-based practices'
@@ -54,8 +51,7 @@ export default function MissionVision() {
     },
     equity: {
       title: 'Equity',
-      icon: Users,
-      description: 'Healthcare is a human right, not a privilege. We design our solutions to ensure that quality healthcare reaches everyone—from urban teaching hospitals to remote rural clinics. Our tiered pricing models, flexible financing options, and last-mile delivery capabilities prioritize access for underserved communities.',
+      description: 'Healthcare is a human right, not a privilege. We design our solutions to ensure that quality healthcare reaches everyone\u2014from urban teaching hospitals to remote rural clinics. Our tiered pricing models, flexible financing options, and last-mile delivery capabilities prioritize access for underserved communities.',
       image: equityImage,
       actions: [
         'Expanding to reach all 54 African countries by 2030',
@@ -66,14 +62,13 @@ export default function MissionVision() {
     },
     respect: {
       title: 'Mutual Respect',
-      icon: Heart,
-      description: 'We approach every relationship with humility and respect for local knowledge, context, and expertise. We listen before we speak, learn before we advise, and adapt our solutions to fit—not force—local realities. Mutual respect means valuing African leadership, local capacity, and cultural wisdom.',
+      description: 'We approach every relationship with humility and respect for local knowledge, context, and expertise. We listen before we speak, learn before we advise, and adapt our solutions to fit\u2014not force\u2014local realities. Mutual respect means valuing African leadership, local capacity, and cultural wisdom.',
       image: mutualRespectImage,
       actions: [
         'African-led leadership team driving strategy and operations',
         'Investing in local capacity building and training programs',
         'Adapting solutions to local contexts, languages, and cultural norms',
-        'Treating every stakeholder—from ministers to community health workers—with equal respect'
+        'Treating every stakeholder\u2014from ministers to community health workers\u2014with equal respect'
       ]
     }
   };
@@ -81,7 +76,7 @@ export default function MissionVision() {
   const missionPillars = [
     {
       title: 'Quality-Assured Product Distribution',
-      description: 'Reliable procurement and distribution of WHO-prequalified pharmaceuticals and internationally certified medical equipment, ensuring every product meets the highest quality standards from manufacturer to patient.'
+      description: 'Reliable procurement and distribution of internationally prequalified pharmaceuticals and certified medical equipment, ensuring every product meets the highest quality standards from manufacturer to patient.'
     },
     {
       title: 'Healthcare Workforce Development',
@@ -89,7 +84,7 @@ export default function MissionVision() {
     },
     {
       title: 'Government Advisory Services',
-      description: 'Strategic advisory services to Ministries of Health on procurement reform, regulatory strengthening, supply chain optimization, and health systems development—building institutional capacity for long-term sustainability.'
+      description: 'Strategic advisory services to Ministries of Health on procurement reform, regulatory strengthening, supply chain optimization, and health systems development\u2014building institutional capacity for long-term sustainability.'
     },
     {
       title: 'Sustainable Healthcare Financing',
@@ -97,22 +92,22 @@ export default function MissionVision() {
     },
     {
       title: 'Last-Mile Delivery Excellence',
-      description: 'Advanced logistics and cold chain capabilities ensuring reliable delivery to remote health facilities in the most challenging environments—from urban centers to rural communities across 54 African countries.'
+      description: 'Advanced logistics and cold chain capabilities ensuring reliable delivery to remote health facilities in the most challenging environments\u2014from urban centers to rural communities across 54 African countries.'
     }
   ];
 
   const visionPillars = [
     {
       title: 'Universal Access Across 54 Countries',
-      description: 'Ensuring every person in Africa—regardless of geography, income, or background—has access to essential medicines, medical equipment, and quality healthcare services. Our expansion roadmap targets comprehensive coverage across all African nations by 2030.'
+      description: 'Ensuring every person in Africa\u2014regardless of geography, income, or background\u2014has access to essential medicines, medical equipment, and quality healthcare services. Our expansion roadmap targets comprehensive coverage across all African nations by 2030.'
     },
     {
       title: 'Self-Sufficient Health Systems',
-      description: 'Building health infrastructure that operates independently of external aid—with local leadership, sustainable financing, robust regulatory frameworks, and trained workforces capable of delivering quality care without perpetual donor dependency.'
+      description: 'Building health infrastructure that operates independently\u2014with local leadership, sustainable financing, robust regulatory frameworks, and trained workforces capable of delivering quality care without perpetual external dependency.'
     },
     {
-      title: 'African-Led Healthcare Transformation',
-      description: 'Championing solutions designed by African leaders for African contexts—respecting local knowledge, cultural norms, and community wisdom. Our African-led leadership team ensures every solution is contextually appropriate and locally owned.'
+      title: 'African-Led Healthcare Solutions',
+      description: 'Championing solutions designed by African leaders for African contexts\u2014respecting local knowledge, cultural norms, and community wisdom. Our African-led leadership team ensures every solution is contextually appropriate and locally owned.'
     },
     {
       title: 'Modern Health Facility Infrastructure',
@@ -153,7 +148,6 @@ export default function MissionVision() {
           />
           <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy/95 to-[#0A1628]/90"></div>
         </div>
-
         <div className="relative z-10 max-w-7xl mx-auto px-6 py-24 w-full">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -167,11 +161,10 @@ export default function MissionVision() {
               Our mission and vision aren't just statements—they're commitments we live every day across 54 African countries.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link href="/contact" className="inline-flex items-center gap-2 bg-blue text-white px-8 py-4 rounded-lg font-heading font-semibold hover:bg-blue/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-                Partner With Us
-                <ArrowRight className="w-5 h-5" />
+              <Link href="/contact" className="inline-flex items-center gap-2 bg-blue text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-blue/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                Partner With Us →
               </Link>
-              <Link href="/about/company" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur text-white px-8 py-4 rounded-lg font-heading font-semibold hover:bg-white/20 transition-all duration-300 border border-white/20">
+              <Link href="/about/company" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-white/20 transition-all duration-300 border border-white/20">
                 Learn Our Story
               </Link>
             </div>
@@ -252,7 +245,7 @@ export default function MissionVision() {
                       </div>
                       <h4 className="text-lg font-heading font-semibold text-navy">{pillar.title}</h4>
                     </div>
-                    <ChevronDown 
+                    <ChevronDown
                       className={`w-5 h-5 text-gray-400 transition-transform duration-300 ${
                         expandedMission === index ? 'rotate-180' : ''
                       }`}
@@ -352,7 +345,7 @@ export default function MissionVision() {
                       </div>
                       <h4 className="text-lg font-heading font-semibold text-navy">{pillar.title}</h4>
                     </div>
-                    <ChevronDown 
+                    <ChevronDown
                       className={`w-5 h-5 text-gray-400 transition-transform duration-300 ${
                         expandedVision === index ? 'rotate-180' : ''
                       }`}
@@ -390,19 +383,18 @@ export default function MissionVision() {
           >
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">Our Values</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              PACEM represents our unwavering commitment to transforming healthcare through principled action
+              PACEM represents our unwavering commitment to strengthening healthcare through principled action
             </p>
           </motion.div>
 
           {/* Value Tabs */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             {Object.entries(values).map(([key, value]) => {
-              const Icon = value.icon;
               return (
                 <motion.button
                   key={key}
                   onClick={() => setActiveValue(key)}
-                  className={`flex items-center gap-2 px-6 py-3 rounded-full font-heading font-semibold transition-all duration-300 ${
+                  className={`px-8 py-3 rounded-full font-heading font-semibold transition-all duration-300 ${
                     activeValue === key
                       ? 'bg-navy text-white shadow-lg scale-105'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
@@ -410,7 +402,6 @@ export default function MissionVision() {
                   whileHover={{ scale: activeValue === key ? 1.05 : 1.02 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <Icon className="w-5 h-5" />
                   {value.title}
                 </motion.button>
               );
@@ -466,12 +457,8 @@ export default function MissionVision() {
       {/* Impact Stats Section */}
       <section className="py-24 bg-gradient-to-br from-navy via-[#0A1628] to-navy/90 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-            backgroundSize: '40px 40px'
-          }}></div>
+          <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '40px 40px' }}></div>
         </div>
-        
         <div className="relative z-10 max-w-7xl mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -482,7 +469,7 @@ export default function MissionVision() {
           >
             <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">2027 Targets</h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              Our ambitious goals for transforming African healthcare after launch
+              Our ambitious goals for strengthening African healthcare after launch
             </p>
           </motion.div>
 
@@ -490,7 +477,7 @@ export default function MissionVision() {
             {[
               { number: '5,000+', label: 'Healthcare Workers Trained Annually', sublabel: '2027 Target' },
               { number: '98%', label: 'On-Time Delivery Rate', sublabel: '2027 Target' },
-              { number: '100%', label: 'WHO-Prequalified Products', sublabel: 'Quality Standard' },
+              { number: '100%', label: 'Internationally Prequalified Products', sublabel: 'Quality Standard' },
               { number: '54', label: 'African Countries', sublabel: '2030 Goal' }
             ].map((stat, index) => (
               <motion.div
@@ -518,7 +505,6 @@ export default function MissionVision() {
           <div className="absolute top-0 left-0 w-96 h-96 bg-navy rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue rounded-full blur-3xl"></div>
         </div>
-        
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -533,11 +519,10 @@ export default function MissionVision() {
               Whether you're a government, healthcare facility, or development partner, we're ready to collaborate on solutions that make a real difference.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/contact" className="inline-flex items-center gap-2 bg-blue text-white px-8 py-4 rounded-lg font-heading font-semibold hover:bg-blue/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-                Start a Conversation
-                <ArrowRight className="w-5 h-5" />
+              <Link href="/contact" className="inline-flex items-center gap-2 bg-blue text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-blue/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                Start a Conversation →
               </Link>
-              <Link href="/solutions" className="inline-flex items-center gap-2 bg-navy text-white px-8 py-4 rounded-lg font-heading font-semibold hover:bg-navy/90 transition-all duration-300 shadow-lg hover:shadow-xl">
+              <Link href="/solutions" className="inline-flex items-center gap-2 bg-navy text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-navy/90 transition-all duration-300 shadow-lg hover:shadow-xl">
                 Explore Our Solutions
               </Link>
             </div>
