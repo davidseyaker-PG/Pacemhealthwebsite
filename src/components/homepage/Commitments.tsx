@@ -15,7 +15,7 @@ export function Commitments() {
             transition={{ duration: 0.8 }}
           >
             <SectionLabel>COMMITMENTS</SectionLabel>
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mt-6 mb-6">
+            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mt-6 mb-6">
               Hope for Communities
             </h2>
             <div className="space-y-4 text-gray-600">
