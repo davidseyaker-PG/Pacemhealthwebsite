@@ -85,7 +85,7 @@ const leaderData: Record<string, {
       'Robert has built an extensive network of relationships with pharmaceutical manufacturers, medical device companies, and laboratory equipment suppliers worldwide, enabling Pacem Health to offer competitive pricing and reliable supply chains to African healthcare facilities.',
       'Before joining Pacem Health, Robert served as Director of Procurement at major pharmaceutical distributors and international health organizations, managing procurement portfolios exceeding $500 million annually across developing markets.',
       'His procurement philosophy emphasizes building long-term partnerships with quality manufacturers, rigorous vendor due diligence, and creating transparent pricing structures that deliver value to customers while ensuring product quality and regulatory compliance.',
-      'Robert has pioneered innovative procurement approaches including group purchasing mechanisms, direct manufacturer relationships, and volume commitment agreements that reduce costs for African health facilities while maintaining the highest quality standards.',
+      'Robert has pioneered purpose-built procurement approaches including group purchasing mechanisms, direct manufacturer relationships, and volume commitment agreements that reduce costs for African health facilities while maintaining the highest quality standards.',
       'He holds a Master\'s degree in Supply Chain Management and professional certifications in procurement and contract management. Robert regularly speaks at industry conferences on topics including global health procurement, vendor management, and supply chain optimization for resource-limited settings.'
     ]
   },
@@ -129,7 +129,7 @@ const leaderData: Record<string, {
       'James Kariuki manages operations across Kenya, Tanzania, Uganda, Rwanda, and Ethiopia. With 20+ years in pharmaceutical logistics and port operations in East Africa, he ensures seamless delivery of equipment, training, and technical support to health facilities.',
       'James began his career in pharmaceutical distribution in Kenya and has built deep expertise in East African customs regulations, cold chain logistics, and last-mile delivery to rural health facilities across challenging terrains.',
       'Before joining Pacem Health, James served as Operations Director for major pharmaceutical importers in East Africa, managing port clearance, warehousing, and distribution networks serving thousands of health facilities across the region.',
-      'His operational excellence has been critical to Pacem Health\'s success in East Africa. James has established reliable distribution networks, built relationships with customs authorities, and developed innovative solutions for maintaining cold chain integrity during transportation to remote areas.',
+      'His operational excellence has been critical to Pacem Health\'s success in East Africa. James has established reliable distribution networks, built relationships with customs authorities, and developed purpose-built solutions for maintaining cold chain integrity during transportation to remote areas.',
       'James is known for his problem-solving abilities and commitment to ensuring that health products reach facilities on time and in good condition, regardless of infrastructure challenges.',
       'He holds a degree in Supply Chain Management and professional certifications in cold chain logistics and pharmaceutical warehousing. James is active in industry associations and regularly mentors young logistics professionals across East Africa.'
     ]
@@ -159,7 +159,7 @@ const leaderData: Record<string, {
       'Kwame Mensah directs operations across Nigeria, Ghana, Senegal, and Francophone West Africa. With extensive experience in pharmaceutical distribution and cold chain logistics, warehousing, and last-mile delivery across challenging environments.',
       'Based in Accra, Ghana, Kwame has over 18 years of experience in pharmaceutical distribution, medical equipment supply, and healthcare logistics across West Africa. He has deep knowledge of ECOWAS regulations, national procurement systems, and the unique operational challenges of West African markets.',
       'Before joining Pacem Health, Kwame served as Regional Manager for pharmaceutical distributors serving both Anglophone and Francophone West Africa, managing operations across 8 countries and building distribution networks that reached urban teaching hospitals and rural health centers alike.',
-      'Kwame\'s operational expertise includes navigating Nigeria\'s complex regulatory environment, managing multi-country distribution from regional hubs, and developing innovative last-mile delivery solutions for areas with limited infrastructure.',
+      'Kwame\'s operational expertise includes navigating Nigeria\'s complex regulatory environment, managing multi-country distribution from regional hubs, and developing purpose-built last-mile delivery solutions for areas with limited infrastructure.',
       'He is fluent in English and French and has built strong relationships with regulators, customs officials, and logistics partners across West Africa, enabling Pacem Health to operate efficiently across diverse regulatory and operational environments.',
       'Kwame holds a degree in Business Administration with a focus on International Trade and professional certifications in pharmaceutical distribution and quality assurance. He is committed to building local capacity and regularly trains logistics staff across West Africa.'
     ]
@@ -304,7 +304,7 @@ export default function LeaderBio() {
           className="mb-12"
         >
           <h1 className="text-6xl lg:text-7xl font-heading font-extrabold text-white mb-4">{leader.name}</h1>
-          <p className="text-2xl text-white/80">{leader.title}</p>
+          <p className="text-2xl text-white/80 font-heading">{leader.title}</p>
         </motion.div>
 
         {/* Two Column Layout */}
