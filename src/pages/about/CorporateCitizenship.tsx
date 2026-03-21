@@ -50,32 +50,32 @@ export default function CorporateCitizenship() {
     {
       title: 'Maternal & Child Health',
       description: 'Programs supporting pregnant women, new mothers, and children with essential healthcare access and nutrition.',
-      impact: '50,000+ mothers and children targeted annually by 2028'
+      impact: 'Our goal: expanding access to maternal and child healthcare across Africa'
     },
     {
       title: 'Healthcare Access for Underserved',
       description: 'Mobile clinics and community outreach bringing healthcare services to remote and underserved areas.',
-      impact: '200+ communities targeted across 5 priority countries'
+      impact: 'Our goal: reaching underserved communities across priority markets'
     },
     {
       title: 'Chronic Disease Management',
       description: 'Education and support programs for diabetes, hypertension, and other chronic conditions affecting African communities.',
-      impact: '15,000+ patients targeted for management programs by 2028'
+      impact: 'Our goal: growing chronic care support across African communities'
     },
     {
       title: 'Healthcare Professional Development',
       description: 'Scholarships and training programs developing the next generation of African healthcare leaders.',
-      impact: '500+ scholarships targeted by 2028'
+      impact: 'Our goal: developing the next generation of healthcare leaders'
     },
     {
       title: 'Local Business Partnerships',
       description: 'Supporting local suppliers, entrepreneurs, and small businesses in our healthcare supply chain.',
-      impact: '300+ local businesses targeted for our network'
+      impact: 'Our goal: strengthening local supply chains and partnerships'
     },
     {
       title: 'Health Solutions Fund',
       description: 'Investing in African healthcare solutions and purpose-built technology improving patient outcomes.',
-      impact: '$2M+ targeted investment in local health tech solutions'
+      impact: 'Our goal: investing in African-led health technology solutions'
     }
   ];
 
@@ -153,13 +153,13 @@ export default function CorporateCitizenship() {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
             <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-8">
-              Committed to Social Responsibility
+              Committed to Building Together
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
               At Pacem Health, corporate citizenship is core to our identity. We believe businesses have a responsibility to contribute positively to society, protect the environment, and support the communities where we operate.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mt-6">
-              Our corporate citizenship strategy focuses on improving health outcomes, advancing education, promoting environmental sustainability, and fostering economic development across Africa.
+              Our corporate citizenship strategy focuses on improving health outcomes, advancing education, promoting environmental sustainability, and building economic opportunity across Africa.
             </p>
           </motion.div>
         </div>
@@ -206,7 +206,7 @@ export default function CorporateCitizenship() {
               Social Impact Programs
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Initiatives creating measurable positive change in African communities
+              Initiatives creating real, lasting change in African communities
             </p>
           </motion.div>
 
@@ -231,10 +231,10 @@ export default function CorporateCitizenship() {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
             <h2 className="text-4xl md:text-5xl font-heading font-extrabold mb-6">
-              Creating Shared Value
+              Creating Lasting Value
             </h2>
             <p className="text-xl text-white/90 leading-relaxed mb-6">
-              Our corporate citizenship initiatives create shared value for our business and the communities we serve. By investing in health, education, and sustainable development, we strengthen healthcare systems and improve lives across Africa.
+              Our corporate citizenship initiatives create lasting value for our business and the communities we serve. By investing in health, education, and sustainable development, we strengthen healthcare systems and improve lives across Africa.
             </p>
             <p className="text-lg text-white/80 leading-relaxed">
               We measure our success not just by financial performance, but by the positive social impact we create and the lives we improve every day.
@@ -252,7 +252,7 @@ export default function CorporateCitizenship() {
               <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-navy mb-4">
                 Philanthropic Commitments
               </h2>
-              <p className="text-gray-600 mb-8">Supporting communities through strategic giving and partnerships</p>
+              <p className="text-gray-600 mb-8">Supporting communities through purposeful giving and partnerships</p>
               <div className="space-y-6">
                 {philanthropicCommitments.map((item, index) => (
                   <div key={index} className="bg-white rounded-lg p-6 border-l-4 border-green shadow-sm">
