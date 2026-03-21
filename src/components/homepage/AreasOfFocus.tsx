@@ -63,7 +63,7 @@ export function AreasOfFocus() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-gray-600 max-w-3xl mx-auto mb-8"
           >
-            We provide comprehensive healthcare solutions across multiple sectors, ensuring quality care reaches every corner of Africa.
+            Purpose-built healthcare solutions designed to strengthen health systems and expand access to quality-assured products and services across Africa.
           </motion.p>
           <motion.a
             href="/solutions"
@@ -100,8 +100,8 @@ export function AreasOfFocus() {
                       whileHover={{ scale: 1.1 }}
                     />
                   </div>
-                  <div className="p-6">
-                    <h3 className="text-blue hover:text-blue-light transition-colors duration-300 flex items-center gap-2">
+                  <div className="border-t-4 border-green p-6">
+                    <h3 className="text-blue font-heading font-semibold hover:text-blue-light transition-colors duration-300 flex items-center gap-2">
                       {area.title}
                       <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
                     </h3>
