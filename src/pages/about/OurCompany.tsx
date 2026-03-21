@@ -276,7 +276,7 @@ export default function OurCompany() {
               transition={{ duration: 0.6 }}
               className="text-center"
             >
-              <div className="text-5xl font-heading font-extrabold text-white mb-2">10+</div>
+              <div className="text-5xl font-heading font-extrabold text-green mb-2">10+</div>
               <div className="text-gray-300">Healthcare Facilities in Active Pipeline</div>
             </motion.div>
 
@@ -287,7 +287,7 @@ export default function OurCompany() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-center"
             >
-              <div className="text-5xl font-heading font-extrabold text-white mb-2">3</div>
+              <div className="text-5xl font-heading font-extrabold text-green mb-2">3</div>
               <div className="text-gray-300">Priority Countries (Kenya, Ghana, Nigeria)</div>
             </motion.div>
 
@@ -298,7 +298,7 @@ export default function OurCompany() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-center"
             >
-              <div className="text-5xl font-heading font-extrabold text-white mb-2">12</div>
+              <div className="text-5xl font-heading font-extrabold text-green mb-2">12</div>
               <div className="text-gray-300">Regulatory Authority MOUs Signed</div>
             </motion.div>
 
@@ -309,7 +309,7 @@ export default function OurCompany() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-center"
             >
-              <div className="text-5xl font-heading font-extrabold text-white mb-2">$500K+</div>
+              <div className="text-5xl font-heading font-extrabold text-green mb-2">$500K+</div>
               <div className="text-gray-300">Initial Product Commitments Secured</div>
             </motion.div>
           </div>
@@ -375,7 +375,7 @@ export default function OurCompany() {
         </div>
       </section>
 
-      {/* Innovation That Fits the Field */}
+      {/* Purpose-Built Solutions for the Field */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
@@ -385,9 +385,9 @@ export default function OurCompany() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-4">Innovation That Fits the Field</h2>
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-4">Purpose-Built Solutions for the Field</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We deploy purpose-built technology and field-tested strategies to deliver practical, scalable solutions
+              Technology and strategies engineered for the realities of healthcare delivery in diverse settings
             </p>
           </motion.div>
 
