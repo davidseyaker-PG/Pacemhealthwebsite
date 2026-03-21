@@ -88,13 +88,13 @@ export default function OurCompany() {
             className="prose prose-lg max-w-none"
           >
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              When <strong>David Seyaker</strong> founded <strong>Pacem Health</strong> in 2025, the vision was clear: to build resilient health systems that transform care delivery across Africa. Drawing from years of experience in global health supply chains and pharmaceutical distribution, David recognized that Africa's healthcare challenges required more than isolated interventionsâthey demanded integrated, sustainable solutions.
+              When <strong>David Seyaker</strong> founded <strong>Pacem Health</strong> in 2025, the vision was clear: to build resilient health systems that transform care delivery across Africa. Drawing from years of experience in global health supply chains and pharmaceutical distribution, David recognized that Africa's healthcare challenges required more than isolated interventionsÃ¢ÂÂthey demanded integrated, sustainable solutions.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Pacem Health was born from a simple yet powerful insight: <em>the strongest health systems are built through partnership, not charity</em>. We started by listeningâto ministries of health, to frontline healthcare workers, to communities who knew their needs best. What emerged was a model that combines world-class supply chain management, pharmaceutical expertise, medical equipment provisioning, and healthcare facility developmentâall tailored to the unique context of each partner country.
+              Pacem Health was born from a simple yet powerful insight: <em>the strongest health systems are built through partnership, not charity</em>. We started by listeningÃ¢ÂÂto ministries of health, to frontline healthcare workers, to communities who knew their needs best. What emerged was a model that combines world-class supply chain management, pharmaceutical expertise, medical equipment provisioning, and healthcare facility developmentÃ¢ÂÂall tailored to the unique context of each partner country.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Today, Pacem Health is more than a companyâit's a movement toward health equity. With active projects in Kenya, Ghana, and Nigeria, and a growing pipeline across the continent, we're proving that when you invest in systems, build true partnerships, and design for self-sufficiency, transformational impact is possible. Our work touches every aspect of the healthcare value chain, from pharmaceuticals and medical equipment to digital infrastructure and workforce developmentâall anchored in our core commitment to building health systems that last.
+              Today, Pacem Health is more than a companyÃ¢ÂÂit's a movement toward health equity. With active projects in Kenya, Ghana, and Nigeria, and a growing pipeline across the continent, when you invest in systems, build true partnerships, and design for self-sufficiency, transformational impact is possible. Our work touches every aspect of the healthcare value chain, from pharmaceuticals and medical equipment to digital infrastructure and workforce developmentÃ¢ÂÂall anchored in our core commitment to building health systems that last.
             </p>
           </motion.div>
         </div>
@@ -110,7 +110,7 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-white border-t-4 border-green p-8 rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
+              className="bg-white border-t-4 border-blue p-8 rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
             >
               <h3 className="text-xl font-heading font-semibold text-navy mb-4">Our Mission</h3>
               <p className="text-gray-700 leading-relaxed mb-6">
@@ -124,11 +124,11 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-white border-t-4 border-green p-8 rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
+              className="bg-white border-t-4 border-blue p-8 rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
             >
               <h3 className="text-xl font-heading font-semibold text-navy mb-4">Our Vision</h3>
               <p className="text-gray-700 leading-relaxed mb-6">
-                A future where every person in Africa has access to quality, affordable healthcareâpowered by resilient systems, purpose-built solutions, and partnerships that prioritize people over profit.
+                A future where every person in Africa has access to quality, affordable healthcareÃ¢ÂÂpowered by resilient systems, purpose-built solutions, and partnerships that prioritize people over profit.
               </p>
             </motion.div>
 
@@ -138,13 +138,13 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white border-t-4 border-green p-8 rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
+              className="bg-white border-t-4 border-blue p-8 rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
             >
               <h3 className="text-xl font-heading font-semibold text-navy mb-4">Our Values</h3>
               <p className="text-gray-700 leading-relaxed mb-6">
-                PACEMâPartnership, Accountability, Excellence, Equity, and Mutual Respectâguides every decision we make, every relationship we build, and every system we strengthen.
+                PACEMÃ¢ÂÂPartnership, Accountability, Excellence, Equity, and Mutual RespectÃ¢ÂÂguides every decision we make, every relationship we build, and every system we strengthen.
               </p>
-              <a href="/about/leadership" className="text-green hover:text-navy font-heading font-semibold inline-flex items-center gap-2 transition-colors">
+              <a href="/about/leadership" className="text-blue hover:text-navy font-heading font-semibold inline-flex items-center gap-2 transition-colors">
                 Learn about our leadership approach
                 <ArrowRight className="w-4 h-4" />
               </a>
@@ -234,10 +234,10 @@ export default function OurCompany() {
               Pacem Health is a leading health systems integrator focused on strengthening healthcare delivery across sub-Saharan Africa. We partner with governments, NGOs, development organizations, and private sector leaders to build resilient, self-sustaining health infrastructure through integrated pharmaceutical supply chains, medical equipment provisioning, healthcare facility development, and digital health solutions.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Our model is rooted in the belief that transformational health outcomes require systemic solutionsânot isolated interventions. By combining deep expertise in supply chain management, pharmaceutical distribution, medical technology, and facility operations, we deliver end-to-end support that addresses the full spectrum of healthcare delivery challenges.
+              Our model is rooted in the belief that transformational health outcomes require systemic solutionsÃ¢ÂÂnot isolated interventions. By combining deep expertise in supply chain management, pharmaceutical distribution, medical technology, and facility operations, we deliver end-to-end support that addresses the full spectrum of healthcare delivery challenges.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              From Kenya to Ghana to Nigeria, our work is already making an impact. Whether provisioning quality-assured essential medicines to rural clinics, equipping new healthcare facilities with purpose-built medical technology, or implementing digital health infrastructure that improves patient outcomesâwe're building the foundation for a healthier Africa, one partnership at a time.
+              From Kenya to Ghana to Nigeria, our work is already making an impact. Whether provisioning quality-assured essential medicines to rural clinics, equipping new healthcare facilities with purpose-built medical technology, or implementing digital health infrastructure that improves patient outcomesÃ¢ÂÂwe're building the foundation for a healthier Africa, one partnership at a time.
             </p>
           </motion.div>
 
@@ -245,7 +245,7 @@ export default function OurCompany() {
           <div className="flex flex-wrap gap-4 justify-center">
             <a
               href="/contact"
-              className="px-8 py-4 bg-green text-white rounded-lg hover:bg-navy transition-all duration-300 font-heading font-semibold inline-flex items-center gap-2 group"
+              className="px-8 py-4 bg-blue text-white rounded-lg hover:bg-navy transition-all duration-300 font-heading font-semibold inline-flex items-center gap-2 group"
             >
               Partner With Us
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -338,11 +338,11 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-white border-t-4 border-green p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
+              className="bg-white border-t-4 border-blue p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
             >
               <h3 className="text-2xl font-heading font-semibold text-navy mb-4">1. Systems, Not Just Solutions</h3>
               <p className="text-gray-700 leading-relaxed">
-                We don't deliver isolated products or servicesâwe build integrated ecosystems that address root causes, strengthen infrastructure, and create lasting capacity.
+                We don't deliver isolated products or servicesÃ¢ÂÂwe build integrated ecosystems that address root causes, strengthen infrastructure, and create lasting capacity.
               </p>
             </motion.div>
 
@@ -351,11 +351,11 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-white border-t-4 border-green p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
+              className="bg-white border-t-4 border-blue p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
             >
               <h3 className="text-2xl font-heading font-semibold text-navy mb-4">2. True Partnership</h3>
               <p className="text-gray-700 leading-relaxed">
-                We co-design solutions with local stakeholders, respecting context and culture, ensuring ownership and alignment at every levelâfrom policy to practice.
+                We co-design solutions with local stakeholders, respecting context and culture, ensuring ownership and alignment at every levelÃ¢ÂÂfrom policy to practice.
               </p>
             </motion.div>
 
@@ -364,7 +364,7 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white border-t-4 border-green p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
+              className="bg-white border-t-4 border-blue p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
             >
               <h3 className="text-2xl font-heading font-semibold text-navy mb-4">3. Building for Self-Sufficiency</h3>
               <p className="text-gray-700 leading-relaxed">
@@ -397,11 +397,11 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-white border-t-4 border-green p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
+              className="bg-white border-t-4 border-blue p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
             >
               <h3 className="text-2xl font-heading font-semibold text-navy mb-3">Digital Health Infrastructure</h3>
               <p className="text-gray-700 leading-relaxed">
-                Electronic health records, telemedicine platforms, and data analytics that improve care coordination, clinical decision-making, and health outcomesâdesigned for low-resource settings.
+                Electronic health records, telemedicine platforms, and data analytics that improve care coordination, clinical decision-making, and health outcomesÃ¢ÂÂdesigned for low-resource settings.
               </p>
             </motion.div>
 
@@ -410,7 +410,7 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-white border-t-4 border-green p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
+              className="bg-white border-t-4 border-blue p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
             >
               <h3 className="text-2xl font-heading font-semibold text-navy mb-3">Mobile & Modular Solutions</h3>
               <p className="text-gray-700 leading-relaxed">
@@ -423,11 +423,11 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white border-t-4 border-green p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
+              className="bg-white border-t-4 border-blue p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
             >
               <h3 className="text-2xl font-heading font-semibold text-navy mb-3">Workforce Development</h3>
               <p className="text-gray-700 leading-relaxed">
-                Training programs, certification pathways, and continuous professional development for healthcare workersâbuilding local capacity that sustains impact long-term.
+                Training programs, certification pathways, and continuous professional development for healthcare workersÃ¢ÂÂbuilding local capacity that sustains impact long-term.
               </p>
             </motion.div>
 
@@ -436,7 +436,7 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-white border-t-4 border-green p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
+              className="bg-white border-t-4 border-blue p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300"
             >
               <h3 className="text-2xl font-heading font-semibold text-navy mb-3">Smart Supply Chain</h3>
               <p className="text-gray-700 leading-relaxed">
@@ -483,7 +483,7 @@ export default function OurCompany() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.05 }}
-                className="bg-gray-50 p-6 rounded-lg text-center hover:bg-green hover:text-white transition-all duration-300 group cursor-default"
+                className="bg-gray-50 p-6 rounded-lg text-center hover:bg-blue hover:text-white transition-all duration-300 group cursor-default"
               >
                 <p className="font-medium text-sm">{partner}</p>
               </motion.div>
@@ -496,7 +496,7 @@ export default function OurCompany() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-green rounded-2xl p-12 text-center text-white"
+            className="bg-blue rounded-2xl p-12 text-center text-white"
           >
             <h3 className="text-3xl font-heading font-bold mb-4">Become a Partner</h3>
             <p className="text-lg mb-8 max-w-2xl mx-auto opacity-95">
@@ -505,7 +505,7 @@ export default function OurCompany() {
             <div className="flex flex-wrap gap-4 justify-center">
               <a
                 href="/contact"
-                className="px-8 py-4 bg-white text-green rounded-lg hover:bg-navy hover:text-white transition-all duration-300 font-heading font-semibold inline-flex items-center gap-2"
+                className="px-8 py-4 bg-white text-blue rounded-lg hover:bg-navy hover:text-white transition-all duration-300 font-heading font-semibold inline-flex items-center gap-2"
               >
                 Request Partnership Information
               </a>
@@ -549,7 +549,7 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="group bg-white rounded-lg overflow-hidden border-t-4 border-green shadow-md hover:shadow-xl transition-all duration-300"
+              className="group bg-white rounded-lg overflow-hidden border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300"
             >
               <div className="relative h-48 overflow-hidden">
                 <img
@@ -559,7 +559,7 @@ export default function OurCompany() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-heading font-semibold text-green mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-heading font-semibold text-blue mb-2 flex items-center gap-2">
                   Leadership
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
@@ -576,7 +576,7 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="group bg-white rounded-lg overflow-hidden border-t-4 border-green shadow-md hover:shadow-xl transition-all duration-300"
+              className="group bg-white rounded-lg overflow-hidden border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300"
             >
               <div className="relative h-48 overflow-hidden">
                 <img
@@ -586,7 +586,7 @@ export default function OurCompany() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-heading font-semibold text-green mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-heading font-semibold text-blue mb-2 flex items-center gap-2">
                   History
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
@@ -603,7 +603,7 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="group bg-white rounded-lg overflow-hidden border-t-4 border-green shadow-md hover:shadow-xl transition-all duration-300"
+              className="group bg-white rounded-lg overflow-hidden border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300"
             >
               <div className="relative h-48 overflow-hidden">
                 <img
@@ -613,7 +613,7 @@ export default function OurCompany() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-heading font-semibold text-green mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-heading font-semibold text-blue mb-2 flex items-center gap-2">
                   Corporate Governance
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
@@ -630,7 +630,7 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="group bg-white rounded-lg overflow-hidden border-t-4 border-green shadow-md hover:shadow-xl transition-all duration-300"
+              className="group bg-white rounded-lg overflow-hidden border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300"
             >
               <div className="relative h-48 overflow-hidden">
                 <img
@@ -640,7 +640,7 @@ export default function OurCompany() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-heading font-semibold text-green mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-heading font-semibold text-blue mb-2 flex items-center gap-2">
                   Sustainability
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
@@ -657,7 +657,7 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="group bg-white rounded-lg overflow-hidden border-t-4 border-green shadow-md hover:shadow-xl transition-all duration-300"
+              className="group bg-white rounded-lg overflow-hidden border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300"
             >
               <div className="relative h-48 overflow-hidden">
                 <img
@@ -667,7 +667,7 @@ export default function OurCompany() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-heading font-semibold text-green mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-heading font-semibold text-blue mb-2 flex items-center gap-2">
                   Business Segments
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
@@ -684,7 +684,7 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.5 }}
-              className="group bg-white rounded-lg overflow-hidden border-t-4 border-green shadow-md hover:shadow-xl transition-all duration-300"
+              className="group bg-white rounded-lg overflow-hidden border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300"
             >
               <div className="relative h-48 overflow-hidden">
                 <img
@@ -694,7 +694,7 @@ export default function OurCompany() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-heading font-semibold text-green mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-heading font-semibold text-blue mb-2 flex items-center gap-2">
                   Quality Standards
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
@@ -711,7 +711,7 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.6 }}
-              className="group bg-white rounded-lg overflow-hidden border-t-4 border-green shadow-md hover:shadow-xl transition-all duration-300"
+              className="group bg-white rounded-lg overflow-hidden border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300"
             >
               <div className="relative h-48 overflow-hidden">
                 <img
@@ -721,7 +721,7 @@ export default function OurCompany() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-heading font-semibold text-green mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-heading font-semibold text-blue mb-2 flex items-center gap-2">
                   Our Locations
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
@@ -738,7 +738,7 @@ export default function OurCompany() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.7 }}
-              className="group bg-white rounded-lg overflow-hidden border-t-4 border-green shadow-md hover:shadow-xl transition-all duration-300"
+              className="group bg-white rounded-lg overflow-hidden border-t-4 border-blue shadow-md hover:shadow-xl transition-all duration-300"
             >
               <div className="relative h-48 overflow-hidden">
                 <img
@@ -748,7 +748,7 @@ export default function OurCompany() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-heading font-semibold text-green mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-heading font-semibold text-blue mb-2 flex items-center gap-2">
                   Newsroom
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
