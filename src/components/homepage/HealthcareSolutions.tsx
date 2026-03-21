@@ -31,7 +31,7 @@ export function HealthcareSolutions() {
             transition={{ duration: 0.8 }}
             className="bg-white p-6 rounded-lg shadow-lg"
           >
-            <h2 className="text-4xl font-serif text-navy mb-4">
+            <h2 className="text-4xl font-heading font-extrabold text-navy mb-4">
               Advancing Healthcare Access Across Africa
             </h2>
             <p className="text-gray-600 mb-3 leading-relaxed">
