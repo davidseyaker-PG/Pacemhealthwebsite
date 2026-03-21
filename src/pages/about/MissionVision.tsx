@@ -31,7 +31,7 @@ export default function MissionVision() {
     accountability: {
       title: 'Accountability',
       icon: Shield,
-      description: 'We hold ourselves to the highest standards of transparency, reliability, and performance. Every commitment we makeâwhether to a government, healthcare facility, or patientâis a promise we keep. We measure our success by the health outcomes we enable and the trust we build.',
+      description: 'We hold ourselves to the highest standards of transparency, reliability, and performance. Every commitment we make—whether to a government, healthcare facility, or patient—is a promise we keep. We measure our success by the health outcomes we enable and the trust we build.',
       image: accountabilityImage,
       actions: [
         'Targeting 98%+ on-time delivery commitments across all operations by 2027',
@@ -55,7 +55,7 @@ export default function MissionVision() {
     equity: {
       title: 'Equity',
       icon: Users,
-      description: 'Healthcare is a human right, not a privilege. We design our solutions to ensure that quality healthcare reaches everyoneâfrom urban teaching hospitals to remote rural clinics. Our tiered pricing models, flexible financing options, and last-mile delivery capabilities prioritize access for underserved communities.',
+      description: 'Healthcare is a human right, not a privilege. We design our solutions to ensure that quality healthcare reaches everyone—from urban teaching hospitals to remote rural clinics. Our tiered pricing models, flexible financing options, and last-mile delivery capabilities prioritize access for underserved communities.',
       image: equityImage,
       actions: [
         'Expanding to reach all 54 African countries by 2030',
@@ -67,13 +67,13 @@ export default function MissionVision() {
     respect: {
       title: 'Mutual Respect',
       icon: Heart,
-      description: 'We approach every relationship with humility and respect for local knowledge, context, and expertise. We listen before we speak, learn before we advise, and adapt our solutions to fitânot forceâlocal realities. Mutual respect means valuing African leadership, local capacity, and cultural wisdom.',
+      description: 'We approach every relationship with humility and respect for local knowledge, context, and expertise. We listen before we speak, learn before we advise, and adapt our solutions to fit—not force—local realities. Mutual respect means valuing African leadership, local capacity, and cultural wisdom.',
       image: mutualRespectImage,
       actions: [
         'African-led leadership team driving strategy and operations',
         'Investing in local capacity building and training programs',
         'Adapting solutions to local contexts, languages, and cultural norms',
-        'Treating every stakeholderâfrom ministers to community health workersâwith equal respect'
+        'Treating every stakeholder—from ministers to community health workers—with equal respect'
       ]
     }
   };
@@ -89,7 +89,7 @@ export default function MissionVision() {
     },
     {
       title: 'Government Advisory Services',
-      description: 'Strategic advisory services to Ministries of Health on procurement reform, regulatory strengthening, supply chain optimization, and health systems developmentâbuilding institutional capacity for long-term sustainability.'
+      description: 'Strategic advisory services to Ministries of Health on procurement reform, regulatory strengthening, supply chain optimization, and health systems development—building institutional capacity for long-term sustainability.'
     },
     {
       title: 'Sustainable Healthcare Financing',
@@ -97,22 +97,22 @@ export default function MissionVision() {
     },
     {
       title: 'Last-Mile Delivery Excellence',
-      description: 'Advanced logistics and cold chain capabilities ensuring reliable delivery to remote health facilities in the most challenging environmentsâfrom urban centers to rural communities across 54 African countries.'
+      description: 'Advanced logistics and cold chain capabilities ensuring reliable delivery to remote health facilities in the most challenging environments—from urban centers to rural communities across 54 African countries.'
     }
   ];
 
   const visionPillars = [
     {
       title: 'Universal Access Across 54 Countries',
-      description: 'Ensuring every person in Africaâregardless of geography, income, or backgroundâhas access to essential medicines, medical equipment, and quality healthcare services. Our expansion roadmap targets comprehensive coverage across all African nations by 2030.'
+      description: 'Ensuring every person in Africa—regardless of geography, income, or background—has access to essential medicines, medical equipment, and quality healthcare services. Our expansion roadmap targets comprehensive coverage across all African nations by 2030.'
     },
     {
       title: 'Self-Sufficient Health Systems',
-      description: 'Building health infrastructure that operates independently of external aidâwith local leadership, sustainable financing, robust regulatory frameworks, and trained workforces capable of delivering quality care without perpetual donor dependency.'
+      description: 'Building health infrastructure that operates independently of external aid—with local leadership, sustainable financing, robust regulatory frameworks, and trained workforces capable of delivering quality care without perpetual donor dependency.'
     },
     {
       title: 'African-Led Healthcare Transformation',
-      description: 'Championing solutions designed by African leaders for African contextsârespecting local knowledge, cultural norms, and community wisdom. Our African-led leadership team ensures every solution is contextually appropriate and locally owned.'
+      description: 'Championing solutions designed by African leaders for African contexts—respecting local knowledge, cultural norms, and community wisdom. Our African-led leadership team ensures every solution is contextually appropriate and locally owned.'
     },
     {
       title: 'Modern Health Facility Infrastructure',
@@ -164,7 +164,7 @@ export default function MissionVision() {
               Transforming Healthcare<br />Through Action
             </h1>
             <p className="text-2xl text-white/90 max-w-3xl mb-10 leading-relaxed">
-              Our mission and vision aren't just statementsâthey're commitments we live every day across 54 African countries.
+              Our mission and vision aren't just statements—they're commitments we live every day across 54 African countries.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/contact" className="inline-flex items-center gap-2 bg-blue text-white px-8 py-4 rounded-lg font-heading font-semibold hover:bg-blue/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
@@ -196,7 +196,7 @@ export default function MissionVision() {
               </p>
               <div className="bg-gray-50 border-l-4 border-orange p-6 rounded-r-lg">
                 <p className="text-gray-700 italic">
-                  "We're not just distributing productsâwe're building the foundation for Africa's healthcare independence."
+                  "We're not just distributing products—we're building the foundation for Africa's healthcare independence."
                 </p>
               </div>
             </motion.div>
@@ -314,11 +314,11 @@ export default function MissionVision() {
             >
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">Our Vision</h2>
               <p className="text-2xl text-navy/80 font-heading font-medium mb-8 leading-relaxed">
-                A future where every person in Africa has access to quality, affordable healthcareâpowered by resilient systems, purpose-built solutions, and partnerships that prioritize people over profit.
+                A future where every person in Africa has access to quality, affordable healthcare—powered by resilient systems, purpose-built solutions, and partnerships that prioritize people over profit.
               </p>
               <div className="bg-blue/5 border-l-4 border-blue p-6 rounded-r-lg">
                 <p className="text-gray-700 italic">
-                  "We envision an Africa where healthcare excellence is the norm, not the exceptionâwhere every community has the tools to thrive."
+                  "We envision an Africa where healthcare excellence is the norm, not the exception—where every community has the tools to thrive."
                 </p>
               </div>
             </motion.div>
