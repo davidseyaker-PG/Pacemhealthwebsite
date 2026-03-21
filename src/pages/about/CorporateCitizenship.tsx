@@ -118,22 +118,24 @@ export default function CorporateCitizenship() {
   return (
     <div className="min-h-screen bg-white">
       {/* Breadcrumb */}
-      <nav className="bg-gray-50 border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="flex items-center gap-2 text-sm text-gray-500">
-            <Link href="/" className="hover:text-navy transition-colors">Home</Link>
-            <span>/</span>
-            <Link href="/about/company" className="hover:text-navy transition-colors">Our Story</Link>
-            <span>/</span>
-            <span className="text-navy">Corporate Citizenship</span>
-          </div>
-        </div>
-      </nav>
+      <div className="max-w-7xl mx-auto px-6 pt-4">
+        <nav className="flex items-center gap-2 text-sm text-gray-500">
+          <Link href="/" className="hover:text-blue transition-colors">Home</Link>
+          <span>/</span>
+          <Link href="/about/company" className="hover:text-blue transition-colors">Our Story</Link>
+          <span>/</span>
+          <span className="text-navy font-medium">Corporate Citizenship</span>
+        </nav>
+      </div>
 
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] overflow-hidden">
         <div className="absolute inset-0">
-          <img src={heroImage} alt="Corporate Citizenship" className="w-full h-full object-cover" />
+          <img
+            src={heroImage}
+            alt="Corporate Citizenship"
+            className="w-full h-full object-cover"
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/90 to-navy/70" />
         </div>
         <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center z-10">
@@ -151,8 +153,12 @@ export default function CorporateCitizenship() {
       {/* Intro Section */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
-            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}>
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-8">
               Committed to Building Together
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
@@ -168,8 +174,13 @@ export default function CorporateCitizenship() {
       {/* Citizenship Pillars */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-6">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
               Our Citizenship Pillars
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -179,7 +190,12 @@ export default function CorporateCitizenship() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {citizenshipPillars.map((pillar, index) => (
-              <motion.div key={index} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: index * 0.1 }}
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
                 className={`bg-white rounded-xl p-8 shadow-sm border-l-4 ${pillarColors[index]} hover:shadow-md transition-shadow`}
               >
                 <h3 className="text-2xl font-heading font-bold text-navy mb-3">{pillar.title}</h3>
@@ -201,8 +217,13 @@ export default function CorporateCitizenship() {
       {/* Social Impact Programs */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-6">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
               Social Impact Programs
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -212,7 +233,12 @@ export default function CorporateCitizenship() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {socialPrograms.map((program, index) => (
-              <motion.div key={index} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: index * 0.1 }}
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-xl border border-gray-200 p-8 hover:shadow-lg transition-shadow"
               >
                 <h3 className="text-xl font-heading font-bold text-navy mb-3">{program.title}</h3>
@@ -229,8 +255,12 @@ export default function CorporateCitizenship() {
       {/* Impact Statement */}
       <section className="py-20 bg-navy text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
-            <h2 className="text-4xl md:text-5xl font-heading font-extrabold mb-6">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}>
+            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">
               Creating Lasting Value
             </h2>
             <p className="text-xl text-white/90 leading-relaxed mb-6">
@@ -248,8 +278,12 @@ export default function CorporateCitizenship() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-16">
             {/* Philanthropic */}
-            <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
-              <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-navy mb-4">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}>
+              <h2 className="text-3xl md:text-4xl font-heading font-bold text-navy mb-4">
                 Philanthropic Commitments
               </h2>
               <p className="text-gray-600 mb-8">Supporting communities through purposeful giving and partnerships</p>
@@ -262,9 +296,14 @@ export default function CorporateCitizenship() {
                 ))}
               </div>
             </motion.div>
+
             {/* Governance */}
-            <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
-              <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-navy mb-4">
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}>
+              <h2 className="text-3xl md:text-4xl font-heading font-bold text-navy mb-4">
                 Governance & Leadership
               </h2>
               <p className="text-gray-600 mb-8">Leading by example with responsible corporate governance</p>
@@ -284,12 +323,16 @@ export default function CorporateCitizenship() {
       {/* Partner With Us */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
-            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-6 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}>
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6 text-center">
               Partner With Us
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed text-center">
-              We’re always looking for partners who share our commitment to improving healthcare access and creating positive social impact across Africa. Whether you’re an NGO, community organization, educational institution, or business, let’s work together to create meaningful change.
+              We're always looking for partners who share our commitment to improving healthcare access and creating positive social impact across Africa. Whether you're an NGO, community organization, educational institution, or business, let's work together to create meaningful change.
             </p>
           </motion.div>
         </div>
@@ -298,7 +341,12 @@ export default function CorporateCitizenship() {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-navy via-navy/95 to-blue/90 text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
             <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">
               Join Our Mission
             </h2>
@@ -306,10 +354,10 @@ export default function CorporateCitizenship() {
               Together, we can create a healthier, more equitable future for Africa. Learn more about our corporate citizenship initiatives and how you can get involved.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/contact" className="inline-flex items-center gap-2 bg-white text-navy px-8 py-4 rounded-lg font-heading font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
+              <Link href="/contact" className="inline-flex items-center gap-2 bg-white text-navy px-8 py-4 rounded-full font-heading font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
                 Get in Touch
               </Link>
-              <Link href="/about/company" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur text-white px-8 py-4 rounded-lg font-heading font-semibold hover:bg-white/20 transition-all duration-300 border border-white/20">
+              <Link href="/about/company" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-white/20 transition-all duration-300 border border-white/20">
                 Learn More About Us
               </Link>
             </div>
