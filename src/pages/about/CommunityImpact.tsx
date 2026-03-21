@@ -149,6 +149,7 @@ export default function CommunityImpact() {
             <h1 className="text-5xl md:text-6xl font-heading font-extrabold text-white mb-4 leading-tight">
               Strengthening Communities Through Healthcare Excellence
             </h1>
+            <p className="text-lg md:text-xl text-white/90 mb-6 max-w-2xl leading-relaxed">Investing in people, building local capacity, and strengthening the healthcare infrastructure that communities across Africa depend on.</p>
           </motion.div>
         </div>
       </section>
@@ -232,7 +233,7 @@ export default function CommunityImpact() {
               Our Community Programs
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Flagship initiatives transforming healthcare delivery and building stronger communities
+              Flagship initiatives strengthening healthcare delivery and building stronger communities
             </p>
           </motion.div>
 
@@ -444,7 +445,7 @@ export default function CommunityImpact() {
               <div className="p-8">
                 <h3 className="text-xl font-heading font-bold text-navy mb-4">Our Programs</h3>
                 <p className="text-gray-700 mb-6">
-                  Explore our flagship programs transforming healthcare delivery, building pharmacy excellence, and improving pediatric care.
+                  Explore our flagship programs strengthening healthcare delivery, building pharmacy excellence, and improving pediatric care.
                 </p>
                 <Link href="/programs" className="text-blue hover:text-blue/80 font-semibold inline-flex items-center gap-2 transition-colors">
                   View Programs →
