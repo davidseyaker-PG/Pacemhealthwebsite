@@ -187,7 +187,7 @@ export default function Leadership() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[60vh] min-h-[500px] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img
             src={heroImage}
@@ -203,7 +203,7 @@ export default function Leadership() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-6xl lg:text-7xl font-heading font-extrabold text-white mb-6">
+            <h1 className="text-5xl md:text-6xl font-heading font-extrabold text-white mb-4 leading-tight">
               Leadership & Management
             </h1>
             <p className="text-xl text-white/95 max-w-3xl leading-relaxed">
