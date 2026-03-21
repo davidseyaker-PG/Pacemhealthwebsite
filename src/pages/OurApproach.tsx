@@ -10,7 +10,7 @@ export default function OurApproach() {
       title: "Quality First",
       description: "International certifications and world-class standards across every service",
       features: [
-        "WHO-prequalified products",
+        "Internationally prequalified products",
         "ISO-certified processes",
         "Continuous quality monitoring"
       ]
@@ -83,11 +83,11 @@ export default function OurApproach() {
   const partnerTypes = [
     {
       category: "Multilateral Organizations",
-      examples: ["World Bank", "AfDB", "IFC", "WHO", "Global Fund"]
+      examples: ["Multilateral development banks", "International health organizations", "Development finance institutions", "Global health agencies", "Health-focused multilateral funds"]
     },
     {
       category: "Development Agencies",
-      examples: ["USAID", "DFID", "GIZ", "AFD", "JICA"]
+      examples: ["Bilateral development agencies", "International cooperation organizations", "Technical assistance providers", "Foreign development ministries", "Global health development partners"]
     },
     {
       category: "Governments & Ministries",
@@ -99,7 +99,7 @@ export default function OurApproach() {
     },
     {
       category: "NGOs & Foundations",
-      examples: ["Gates Foundation", "CHAI", "MSF", "Local NGOs"]
+      examples: ["Global health foundations", "Health access organizations", "Humanitarian medical organizations", "Community-based organizations"]
     }
   ];
 
@@ -156,7 +156,7 @@ export default function OurApproach() {
               Strategy and Implementation, Seamlessly Integrated
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              We serve both <strong>global partners entering African markets</strong> and <strong>communities seeking quality healthcare</strong>. Our integrated approach delivers end-to-end solutions with unmatched efficiency and impact — combining unwavering quality standards, collaborative partnerships, continuous innovation, and deep local expertise.
+              We serve both <strong>global partners entering African markets</strong> and <strong>communities seeking quality healthcare</strong>. Our integrated approach delivers end-to-end solutions with unmatched efficiency and impact — combining unwavering quality standards, collaborative partnerships, purpose-built solutions, and deep local expertise.
             </p>
           </motion.div>
         </div>
@@ -190,7 +190,7 @@ export default function OurApproach() {
                   transition={{ delay: index * 0.1 }}
                   className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-t-4 border-navy hover:border-blue"
                 >
-                  <h3 className="text-xl font-heading text-navy mb-3">
+                  <h3 className="text-xl font-heading font-bold text-navy mb-3">
                     {value.title}
                   </h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
@@ -239,7 +239,7 @@ export default function OurApproach() {
                   transition={{ delay: index * 0.1 }}
                   className="bg-gray-50 rounded-xl p-8 hover:shadow-xl transition-all duration-300 border-t-4 border-navy hover:border-blue"
                 >
-                  <h3 className="text-xl font-heading text-navy mb-3">
+                  <h3 className="text-xl font-heading font-bold text-navy mb-3">
                     {approach.title}
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
@@ -330,7 +330,7 @@ export default function OurApproach() {
               {
                 step: "03",
                 title: "Implementation & Deployment",
-                description: "We execute with precision, leveraging our local networks and global expertise to deliver on time and on budget."
+                description: "We execute with precision, using our local networks and global expertise to deliver on time and on budget."
               },
               {
                 step: "04",
@@ -350,7 +350,7 @@ export default function OurApproach() {
                   {phase.step}
                 </div>
                 <div>
-                  <h3 className="text-2xl font-heading text-navy mb-3">{phase.title}</h3>
+                  <h3 className="text-2xl font-heading font-bold text-navy mb-3">{phase.title}</h3>
                   <p className="text-gray-700 leading-relaxed">{phase.description}</p>
                 </div>
               </motion.div>
@@ -360,8 +360,8 @@ export default function OurApproach() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-navy/95 z-10" />
+      <section className="relative py-20 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy/95 to-blue/90 z-10" />
         <img
           src="https://images.unsplash.com/photo-1759310610775-b298f34f73aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnbG9iYWwlMjBwYXJ0bmVyc2hpcCUyMGJ1c2luZXNzfGVufDF8fHx8MTc2ODUyNTk1NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
           alt="Partnership background"
