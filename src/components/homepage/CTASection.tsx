@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import { ArrowRight } from 'lucide-react';
 
 const ctas = [
   {
@@ -49,20 +50,21 @@ export function CTASection() {
               className={`${cta.background} ${cta.textColor} rounded-lg p-8 shadow-lg hover:shadow-2xl transition-all duration-300`}
             >
               <div className="relative mb-6">
-                <div className="absolute top-0 left-0 w-12 h-1 bg-orange" />
-                <p className="text-sm font-semibold tracking-wider pt-4 uppercase opacity-90">
+                <div className="absolute top-0 left-0 w-12 h-1 bg-green" />
+                <p className="text-sm font-heading font-bold tracking-wider pt-4 uppercase opacity-90">
                   {cta.label}
                 </p>
               </div>
-              <h3 className="text-2xl font-serif mb-4">{cta.title}</h3>
+              <h3 className="text-2xl font-heading font-bold mb-4">{cta.title}</h3>
               <p className="mb-6 leading-relaxed opacity-90">{cta.description}</p>
               <motion.a
                 href={cta.buttonLink}
-                className={`inline-block px-6 py-3 rounded-md transition-all duration-300 ${cta.buttonStyle}`}
+                className={`inline-flex items-center gap-2 px-6 py-3 rounded-md font-heading font-semibold transition-all duration-300 ${cta.buttonStyle}`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 {cta.buttonText}
+                <ArrowRight className="w-4 h-4" />
               </motion.a>
             </motion.div>
           ))}
