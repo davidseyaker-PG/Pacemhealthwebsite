@@ -66,11 +66,11 @@ export default function Sustainability() {
     },
     {
       title: 'Responsible Business Practices',
-      description: 'We maintain the highest quality and safety standards while operating with transparency, integrity, and ethical principles. By building long-term partnerships based on mutual respect and investing in innovative solutions that benefit communities, we ensure regular reporting on our sustainability goals and progress to maintain accountability to our stakeholders.'
+      description: 'We maintain the highest quality and safety standards while operating with transparency, integrity, and ethical principles. By building long-term partnerships based on mutual respect and investing in purpose-built solutions that benefit communities, we ensure regular reporting on our sustainability goals and progress to maintain accountability to our stakeholders.'
     },
     {
       title: 'Health Equity & Access',
-      description: 'We are committed to eliminating barriers to healthcare access across Africa by addressing social determinants of health through strategic programs. We develop innovative financing models for affordability, collaborate with governments and NGOs on health priorities, and build resilient health systems that serve all communities regardless of geographic location or economic status.'
+      description: 'We are committed to eliminating barriers to healthcare access across Africa by addressing social determinants of health through strategic programs. We develop purpose-built financing models for affordability, collaborate with governments and NGOs on health priorities, and build resilient health systems that serve all communities regardless of geographic location or economic status.'
     }
   ];
 
@@ -94,7 +94,7 @@ export default function Sustainability() {
         <div className="absolute inset-0">
           <img
             src={heroImage}
-            alt="Healthcare Innovation and Sustainability"
+            alt="Healthcare Sustainability"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/90 to-navy/70"></div>
@@ -107,8 +107,9 @@ export default function Sustainability() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-6xl font-heading font-extrabold text-white mb-4 leading-tight">
-              Healthcare Innovation Drives Sustainable Development
+              Strengthening Health Systems Through Sustainable Solutions
             </h1>
+            <p className="text-lg md:text-xl text-white/90 mb-6 max-w-2xl leading-relaxed">Building healthcare supply chains and infrastructure that benefit communities, economies, and the environment for generations to come.</p>
           </motion.div>
         </div>
       </section>
@@ -149,7 +150,7 @@ export default function Sustainability() {
               Our Sustainability Focus Areas
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Six pillars guide our sustainable approach to transforming African healthcare logistics
+              Six pillars guide our sustainable approach to strengthening African healthcare logistics
             </p>
           </motion.div>
 
@@ -308,7 +309,7 @@ export default function Sustainability() {
               Explore More About Pacem Health
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              Discover our programs, approach, and the story behind our mission to transform African healthcare.
+              Discover our programs, approach, and the story behind our mission to strengthen African healthcare.
             </p>
           </motion.div>
 
@@ -357,7 +358,7 @@ export default function Sustainability() {
               <div className="p-8 bg-white">
                 <h3 className="text-xl font-heading font-bold text-navy mb-4">Our Approach</h3>
                 <p className="text-gray-700 mb-6">
-                  Discover how we're building resilient health systems through strategic planning, quality assurance, and innovative logistics.
+                  Discover how we're building resilient health systems through strategic planning, quality assurance, and purpose-built logistics.
                 </p>
                 <Link href="/our-approach">
                   <a className="text-blue hover:text-blue/80 font-semibold inline-flex items-center gap-2 transition-colors">
@@ -384,7 +385,7 @@ export default function Sustainability() {
               <div className="p-8 bg-white">
                 <h3 className="text-xl font-heading font-bold text-navy mb-4">Our History</h3>
                 <p className="text-gray-700 mb-6">
-                  Read the story of how a 2013 research discovery in Liberia led to founding a company transforming African healthcare.
+                  Read the story of how a 2013 research discovery in Liberia led to founding a company strengthening African healthcare.
                 </p>
                 <Link href="/about/history">
                   <a className="text-blue hover:text-blue/80 font-semibold inline-flex items-center gap-2 transition-colors">
@@ -410,7 +411,7 @@ export default function Sustainability() {
               Join Us in Building Sustainable Healthcare Systems
             </h2>
             <p className="text-xl mb-8 text-white/90">
-              Partner with Pacem Health to create lasting impact through sustainable, equitable, and innovative healthcare solutions across Africa.
+              Partner with Pacem Health to create lasting impact through sustainable, equitable, and purpose-built healthcare solutions across Africa.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/contact">
@@ -418,9 +419,9 @@ export default function Sustainability() {
                   Contact Us
                 </a>
               </Link>
-              <Link href="/about/company">
+              <Link href="/about">
                 <a className="inline-flex items-center gap-2 bg-white/10 backdrop-blur text-white px-8 py-4 rounded-full font-semibold hover:bg-white/20 transition-all duration-300 border border-white/20">
-                  Explore Our Company
+                  Learn About Us
                 </a>
               </Link>
             </div>
