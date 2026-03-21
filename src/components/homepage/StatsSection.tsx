@@ -3,25 +3,25 @@ import { motion } from 'motion/react';
 const stats = [
   {
     value: 'WHO-approved',
-    description: 'Quality certification ensuring international healthcare standards',
+    description: 'Quality-assured certification meeting international healthcare standards',
     background: 'bg-blue',
     textColor: 'text-white',
   },
   {
     value: '15+',
-    description: 'Countries served across Africa with comprehensive healthcare solutions',
+    description: 'Countries served across Africa with reliable infrastructure and distribution networks',
     background: 'bg-navy',
     textColor: 'text-white',
   },
   {
     value: '3M+',
-    description: 'Patients reached through our distribution and service networks',
+    description: 'Patients and communities reached through our distribution and service networks',
     background: 'bg-navy',
     textColor: 'text-white',
   },
   {
     value: '50+',
-    description: 'Healthcare partners collaborating to improve access and outcomes',
+    description: 'Healthcare partners collaborating to expand equitable access and outcomes',
     background: 'bg-navy',
     textColor: 'text-white',
   },
