@@ -41,7 +41,7 @@ const impactTabs = [
     id: 'create',
     label: 'Create',
     title: 'Create Lasting Change',
-    description: 'We design and implement innovative solutions that create sustainable, long-term impact on health systems and communities.',
+    description: 'We design and implement purpose-built solutions that create sustainable, long-term impact on health systems and communities.',
     image: createImage
   },
   {
@@ -63,18 +63,18 @@ const leadershipQualities = [
     description: 'Deep understanding of complex healthcare systems, regulatory environments, and the unique challenges of operating across diverse African markets.'
   },
   {
-    title: 'Innovation Focus',
-    description: 'Commitment to pioneering new approaches, leveraging technology, and challenging conventional thinking to solve persistent health challenges.'
+    title: 'Purpose-Built Approach',
+    description: 'Commitment to deploying purpose-built approaches, using technology, and challenging conventional thinking to solve persistent health challenges.'
   }
 ];
 
 const usLeadership = [
   {
-    name: 'David Seydaer',
+    name: 'David Seyaker',
     title: 'Founder & Chief Executive Officer',
-    bio: 'David founded Pacem Health in 2024 with a vision to strengthen healthcare delivery across Africa through innovative supply chain solutions. With extensive experience in global health systems management, regulatory compliance, and market supply chain management, he leads the company\'s strategic direction and business development.',
+    bio: 'David founded Pacem Health in 2025 with a vision to strengthen healthcare delivery across Africa through purpose-built supply chain solutions. With extensive experience in global health systems management, regulatory compliance, and market supply chain management, he leads the company\'s strategic direction and business development.',
     image: 'https://images.unsplash.com/photo-1737574821698-862e77f044c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzc3MlMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzY4MDA2MjgzfDA&ixlib=rb-4.1.0&q=80&w=1080',
-    slug: 'david-seydaer'
+    slug: 'david-seyaker'
   },
   {
     name: 'Sarah Mitchell',
@@ -107,7 +107,7 @@ const usLeadership = [
   {
     name: 'Lisa Thompson',
     title: 'VP of Business Development',
-    bio: 'Lisa drives new market expansion, government partnerships, and strategic alliances across Africa. Previously with USAID and the World Bank, she brings extensive experience in public-private partnerships and innovative finance for health system strengthening.',
+    bio: 'Lisa drives new market expansion, government partnerships, and strategic alliances across Africa. Previously with USAID and the World Bank, she brings extensive experience in public-private partnerships and sustainable finance for health system strengthening.',
     image: 'https://images.unsplash.com/photo-1553028826-defa0c2187d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMGJ1c2luZXNzJTIwbGVhZGVyfGVufDF8fHx8MTc2ODAwNjI4NXww&ixlib=rb-4.1.0&q=80&w=1080',
     slug: 'lisa-thompson'
   }
@@ -194,7 +194,7 @@ export default function Leadership() {
             alt="Leadership Team - Diverse Professionals"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0d2d4a]/60 to-[#0d2d4a]/30"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0A1628]/60 to-[#0A1628]/30"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-6">
@@ -203,7 +203,7 @@ export default function Leadership() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6">
+            <h1 className="text-6xl lg:text-7xl font-heading font-extrabold text-white mb-6">
               Leadership & Management
             </h1>
             <p className="text-xl text-white/95 max-w-3xl leading-relaxed">
@@ -240,7 +240,7 @@ export default function Leadership() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-4">
               Our Leadership Principles
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -258,7 +258,7 @@ export default function Leadership() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-8 py-3 rounded-full font-semibold transition-all duration-300 ${
+                className={`px-8 py-3 rounded-full font-heading font-semibold transition-all duration-300 ${
                   activeTab === tab.id
                     ? 'bg-navy text-white shadow-lg scale-105'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
@@ -290,7 +290,7 @@ export default function Leadership() {
 
               {/* Content */}
               <div className="p-10 md:p-12 flex flex-col justify-center">
-                <h3 className="text-3xl md:text-4xl font-serif text-navy mb-6">
+                <h3 className="text-3xl md:text-4xl font-heading font-bold text-navy mb-6">
                   {activeTabData.title}
                 </h3>
                 <p className="text-lg text-gray-700 leading-relaxed">
@@ -313,7 +313,7 @@ export default function Leadership() {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">U.S. Leadership</h2>
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">U.S. Leadership</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
               The Pacem Health U.S. Leadership team is committed to serving the interests of the company and achieving sustainable growth in company value. In the following, you will also find further information on the management of our businesses.
             </p>
@@ -325,7 +325,7 @@ export default function Leadership() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+                  className="bg-white rounded-xl border-t-4 border-green shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
                 >
                   <div className="relative h-64 overflow-hidden group">
                     <img
@@ -336,12 +336,12 @@ export default function Leadership() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                   </div>
                   <div className="p-6">
-                    <h3 className="text-2xl font-serif text-navy mb-2">{leader.name}</h3>
+                    <h3 className="text-2xl font-heading font-semibold text-navy mb-2">{leader.name}</h3>
                     <p className="text-sm text-gray-600 mb-4">{leader.title}</p>
                     <p className="text-gray-700 leading-relaxed mb-6">{leader.bio}</p>
                     <Link
                       href={`/about/leadership/${leader.slug}`}
-                      className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors duration-300"
+                      className="inline-flex items-center gap-2 text-green hover:text-navy font-semibold transition-colors duration-300"
                     >
                       Biography
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -362,7 +362,7 @@ export default function Leadership() {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">Global Leadership</h2>
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">Global Leadership</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
               Our Global Leadership team brings together African health systems expertise, regional operational knowledge, and strategic partnerships to drive health system transformation across the continent.
             </p>
@@ -374,7 +374,7 @@ export default function Leadership() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+                  className="bg-white rounded-xl border-t-4 border-green shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
                 >
                   <div className="relative h-64 overflow-hidden group">
                     <img
@@ -385,12 +385,12 @@ export default function Leadership() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                   </div>
                   <div className="p-6">
-                    <h3 className="text-2xl font-serif text-navy mb-2">{leader.name}</h3>
+                    <h3 className="text-2xl font-heading font-semibold text-navy mb-2">{leader.name}</h3>
                     <p className="text-sm text-gray-600 mb-4">{leader.title}</p>
                     <p className="text-gray-700 leading-relaxed mb-6">{leader.bio}</p>
                     <Link
                       href={`/about/leadership/${leader.slug}`}
-                      className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors duration-300"
+                      className="inline-flex items-center gap-2 text-green hover:text-navy font-semibold transition-colors duration-300"
                     >
                       Biography
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -411,9 +411,9 @@ export default function Leadership() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300"
+                  className="bg-white rounded-xl border-t-4 border-green shadow-md p-8 hover:shadow-xl transition-shadow duration-300"
                 >
-                  <h3 className="text-xl font-serif text-navy mb-4">{quality.title}</h3>
+                  <h3 className="text-xl font-heading font-semibold text-navy mb-4">{quality.title}</h3>
                   <p className="text-gray-600 leading-relaxed">{quality.description}</p>
                 </motion.div>
               ))}
@@ -429,7 +429,7 @@ export default function Leadership() {
             className="bg-gray-100 rounded-xl p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6"
           >
             <div className="text-center md:text-left">
-              <h3 className="text-2xl font-serif text-navy mb-2">
+              <h3 className="text-2xl font-heading font-semibold text-navy mb-2">
                 Interested in Our Governance?
               </h3>
               <p className="text-gray-600">
@@ -440,7 +440,7 @@ export default function Leadership() {
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-flex items-center gap-2 bg-[#4a9fd8] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#3a8fc8] transition-colors duration-300 shadow-lg whitespace-nowrap cursor-pointer"
+                className="inline-flex items-center gap-2 bg-green text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-navy transition-colors duration-300 shadow-lg whitespace-nowrap cursor-pointer"
               >
                 View Board of Directors
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -462,7 +462,7 @@ export default function Leadership() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-4">
               Our Leadership Values & Approach
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -491,9 +491,9 @@ export default function Leadership() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-gray-50 rounded-xl p-8 hover:bg-gray-100 transition-colors duration-300"
+                className="bg-white rounded-xl border-t-4 border-green shadow-md p-8 hover:shadow-xl transition-all duration-300"
               >
-                <h3 className="text-2xl font-serif text-navy mb-4">{value.title}</h3>
+                <h3 className="text-2xl font-heading font-semibold text-navy mb-4">{value.title}</h3>
                 <p className="text-gray-700 leading-relaxed">{value.description}</p>
               </motion.div>
             ))}
@@ -503,7 +503,7 @@ export default function Leadership() {
 
       {/* Join Our Team CTA */}
       <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0d2d4a] via-[#0d2d4a] to-[#4a9fd8]" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0A1628] via-[#0A1628] to-green" />
         <div className="absolute inset-0 bg-black/20" />
         
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
@@ -513,7 +513,7 @@ export default function Leadership() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
               Join Our Team
             </h2>
             <p className="text-lg text-white/90 mb-10 max-w-2xl mx-auto leading-relaxed">
@@ -525,7 +525,7 @@ export default function Leadership() {
                 href="/careers"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-block bg-[#4a9fd8] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#3a8fc8] transition-colors duration-300 shadow-lg"
+                className="inline-block bg-green text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-navy transition-colors duration-300 shadow-lg"
               >
                 View Open Positions
               </motion.a>
@@ -533,7 +533,7 @@ export default function Leadership() {
                 href="/about/company"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-block bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white/10 transition-colors duration-300"
+                className="inline-block bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-white/10 transition-colors duration-300"
               >
                 Learn About Our Culture
               </motion.a>
