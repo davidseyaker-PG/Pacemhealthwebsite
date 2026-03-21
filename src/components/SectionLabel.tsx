@@ -14,7 +14,7 @@ export function SectionLabel({ children }: SectionLabelProps) {
       className="relative inline-block"
     >
       <div className="absolute top-0 left-0 w-16 h-1 bg-orange" />
-      <p className="text-sm font-semibold tracking-wider text-gray-600 pt-4 uppercase">
+      <p className="text-sm font-heading font-bold tracking-wider text-gray-600 pt-4 uppercase">
         {children}
       </p>
     </motion.div>
