@@ -13,7 +13,7 @@ export default function History() {
     <div className="min-h-screen bg-white">
       {/* Breadcrumb */}
       <div className="bg-gray-50 border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-4 w-full">
+        <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center gap-2 text-sm text-gray-600">
             <Link href="/" className="hover:text-navy transition-colors">
               Home
