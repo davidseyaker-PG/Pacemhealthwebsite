@@ -38,7 +38,8 @@ export function StatsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-serif mb-4">
+          <div className="w-16 h-1 bg-green mx-auto mb-6" />
+          <h2 className="text-4xl md:text-5xl font-heading font-extrabold mb-4">
             Pacem Health: Company at a Glance
           </h2>
           <p className="text-xl text-gray-300">
@@ -57,7 +58,7 @@ export function StatsSection() {
               whileHover={{ y: -5 }}
               className={`${stat.background} ${stat.textColor} rounded-lg p-8 shadow-lg hover:shadow-2xl transition-all duration-300`}
             >
-              <div className="text-4xl md:text-5xl font-bold mb-4">{stat.value}</div>
+              <div className="text-4xl md:text-5xl font-heading font-extrabold mb-4 text-green">{stat.value}</div>
               <p className="leading-relaxed opacity-90">{stat.description}</p>
             </motion.div>
           ))}
