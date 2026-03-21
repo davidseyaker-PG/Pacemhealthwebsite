@@ -256,7 +256,7 @@ export default function OurCompany() {
             </button>
             <a
               href="/commitments/programs"
-              className="px-8 py-4 bg-white border-2 border-navy text-navy rounded-lg hover:bg-navy hover:text-white transition-all duration-300 font-heading font-semibold inline-flex items-center gap-2 group"
+              className="px-8 py-4 bg-green text-white rounded-lg hover:bg-[#008a43] transition-all duration-300 font-heading font-semibold inline-flex items-center gap-2 group"
             >
               Explore our Impact
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
