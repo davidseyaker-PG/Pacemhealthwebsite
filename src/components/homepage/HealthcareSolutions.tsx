@@ -42,7 +42,7 @@ export function HealthcareSolutions() {
             </p>
             <motion.a
               href="/solutions"
-              className="inline-flex items-center gap-2 px-6 py-3 border-2 border-blue text-blue rounded-md hover:bg-blue hover:text-white transition-all duration-300"
+              className="inline-flex items-center gap-2 px-6 py-3 border-2 border-blue text-blue rounded-md hover:bg-blue hover:text-white transition-all duration-300 font-heading font-semibold"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
