@@ -5,7 +5,7 @@ const ctas = [
   {
     label: 'FOR CAREERS',
     title: 'Join Our Team',
-    description: 'Explore exciting opportunities to make a difference in African healthcare',
+    description: 'Build your career at the forefront of Africa\'s healthcare transformation alongside a team committed to lasting impact',
     buttonText: 'View Open Positions',
     buttonLink: '/careers',
     background: 'bg-gray-100',
@@ -15,7 +15,7 @@ const ctas = [
   {
     label: 'INVESTORS',
     title: 'Growth & Impact',
-    description: 'Discover investment opportunities in Africa\'s healthcare transformation',
+    description: 'Discover investment opportunities in a scalable, purpose-built healthcare platform positioned across Africa',
     buttonText: 'Explore Opportunities',
     buttonLink: '/investors',
     background: 'bg-navy',
@@ -25,7 +25,7 @@ const ctas = [
   {
     label: 'OUR APPROACH',
     title: 'Sustainable Solutions',
-    description: 'Learn how we\'re building resilient healthcare systems across Africa',
+    description: 'Learn how we\'re building resilient, locally-led healthcare systems designed for lasting impact across Africa',
     buttonText: 'Discover Our Approach',
     buttonLink: '/our-approach',
     background: 'bg-blue',
