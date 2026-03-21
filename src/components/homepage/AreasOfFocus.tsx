@@ -71,7 +71,7 @@ export function AreasOfFocus() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="inline-block px-6 py-3 border-2 border-blue text-blue rounded-md hover:bg-blue hover:text-white transition-all duration-300"
+            className="inline-block px-6 py-3 border-2 border-blue text-blue rounded-md hover:bg-blue hover:text-white transition-all duration-300 font-heading font-semibold"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -103,7 +103,7 @@ export function AreasOfFocus() {
                   <div className="border-t-4 border-green p-6">
                     <h3 className="text-blue font-heading font-semibold hover:text-blue-light transition-colors duration-300 flex items-center gap-2">
                       {area.title}
-                      <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
+                      <span className="group-hover:translate-x-1 transition-transform duration-300">â</span>
                     </h3>
                   </div>
                 </div>
