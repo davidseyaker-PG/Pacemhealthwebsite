@@ -128,7 +128,7 @@ export default function MissionVision() {
     <div className="min-h-screen">
       {/* Breadcrumb */}
       <div className="bg-gray-50 border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-4 w-full">
+        <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center gap-2 text-sm text-gray-600">
             <Link href="/" className="hover:text-navy transition-colors">
               Home
@@ -154,7 +154,7 @@ export default function MissionVision() {
           <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy/95 to-[#0A1628]/90"></div>
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 py-24">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 py-24 w-full">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
