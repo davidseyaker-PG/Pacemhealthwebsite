@@ -47,7 +47,7 @@ export default function Board() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[60vh] min-h-[500px] flex items-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy to-[#1E3A6E]" />
         <div className="absolute inset-0 bg-black/20" />
 
@@ -58,7 +58,7 @@ export default function Board() {
             transition={{ duration: 0.8 }}
           >
             <p className="text-lg text-white/90 mb-4 font-semibold">Corporate Governance</p>
-            <h1 className="text-6xl lg:text-7xl font-heading font-extrabold text-white mb-6">
+            <h1 className="text-5xl md:text-6xl font-heading font-extrabold text-white mb-4 leading-tight">
               Board of Directors
             </h1>
             <p className="text-xl text-white/95 max-w-3xl leading-relaxed">
