@@ -35,10 +35,10 @@ export function HealthcareSolutions() {
               Advancing Healthcare Access Across Africa
             </h2>
             <p className="text-gray-600 mb-3 leading-relaxed">
-              Pacem Health is committed to transforming healthcare delivery across the African continent through innovative solutions and sustainable partnerships.
+              Pacem Health is committed to transforming healthcare delivery across the African continent through purpose-built solutions and sustainable partnerships.
             </p>
             <p className="text-gray-600 mb-5 leading-relaxed">
-              We work with governments, healthcare providers, and communities to ensure access to quality medicines, reliable equipment, and essential health services. Our comprehensive approach addresses the unique challenges facing healthcare systems across the region.
+              We work with governments, healthcare providers, and communities to ensure access to quality-assured medicines, reliable equipment, and essential health services. Our evidence-based approach addresses the unique challenges facing healthcare systems across the region.
             </p>
             <motion.a
               href="/solutions"
@@ -46,7 +46,7 @@ export function HealthcareSolutions() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Download Report
+              Explore Our Solutions
               <ArrowRight className="w-5 h-5" />
             </motion.a>
           </motion.div>
