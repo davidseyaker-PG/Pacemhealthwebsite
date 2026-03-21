@@ -79,14 +79,14 @@ const usLeadership = [
   {
     name: 'Sarah Mitchell',
     title: 'Chief Operating Officer',
-    bio: 'Sarah oversees operational excellence across product sourcing, quality assurance, and service delivery. She brings deep expertise in procurement, supply chain management, pharmaceutical distributors, she brings her operational agility in healthcare supply chain regulation and operational management.',
+    bio: 'Sarah oversees operational excellence across product sourcing, quality assurance, and service delivery. She brings deep expertise in procurement, supply chain management, and pharmaceutical distribution, ensuring operational excellence across healthcare supply chain regulation and operations.',
     image: 'https://images.unsplash.com/photo-1758518729459-235dcaadc611?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzc3dvbWFuJTIwZXhlY3V0aXZlJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzY3OTM1MDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080',
     slug: 'sarah-mitchell'
   },
   {
     name: 'Michael Anderson',
     title: 'Chief Strategy Officer',
-    bio: 'Michael leads strategic planning, market development, and advisory services expansion. He specializes in designing health systems strengthening programs across 15 African countries and has played expertise in healthcare policy, business strategy and digital health transformation.',
+    bio: 'Michael leads strategic planning, market development, and advisory services expansion. He specializes in designing health systems strengthening programs across 15 African countries and has deep expertise in healthcare policy, business strategy and digital health transformation.',
     image: 'https://images.unsplash.com/photo-1578758803946-2c4f6738df87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwYW1lcmljYW4lMjBidXNpbmVzcyUyMGV4ZWN1dGl2ZXxlbnwxfHx8fDE3NjgwMDYyODR8MA&ixlib=rb-4.1.0&q=80&w=1080',
     slug: 'michael-anderson'
   },
@@ -166,7 +166,7 @@ const globalLeadership = [
   {
     name: 'Youssef El-Amin',
     title: 'North Africa & Francophone Director',
-    bio: 'Youssef leads operations across Morocco, Tunisia, and Francophone countries including Egypt, Morocco, Tunisia, and Central Africa. Fluent in French and Arabic, he navigates diverse regulatory environments and cultural contexts to expand Pacem Health\'s reach across the francophone world.',
+    bio: 'Youssef leads operations across North Africa and Francophone markets, including Morocco, Tunisia, Egypt, and Central Africa. Fluent in French and Arabic, he navigates diverse regulatory environments and cultural contexts to expand Pacem Health\'s reach across the francophone world.',
     image: 'https://images.unsplash.com/photo-1719561940606-ec38a36e5f18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxub3J0aCUyMGFmcmljYW4lMjBidXNpbmVzc21hbiUyMHN1aXR8ZW58MXx8fHwxNzY4MDA2NDczfDA&ixlib=rb-4.1.0&q=80&w=1080',
     slug: 'youssef-el-amin'
   },
@@ -325,7 +325,7 @@ export default function Leadership() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="bg-white rounded-xl border-t-4 border-green shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
+                  className="bg-white rounded-xl border-t-4 border-blue shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
                 >
                   <div className="relative h-64 overflow-hidden group">
                     <img
@@ -341,7 +341,7 @@ export default function Leadership() {
                     <p className="text-gray-700 leading-relaxed mb-6">{leader.bio}</p>
                     <Link
                       href={`/about/leadership/${leader.slug}`}
-                      className="inline-flex items-center gap-2 text-green hover:text-navy font-semibold transition-colors duration-300"
+                      className="inline-flex items-center gap-2 text-blue hover:text-orange font-semibold transition-colors duration-300"
                     >
                       Biography
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -374,7 +374,7 @@ export default function Leadership() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="bg-white rounded-xl border-t-4 border-green shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
+                  className="bg-white rounded-xl border-t-4 border-blue shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
                 >
                   <div className="relative h-64 overflow-hidden group">
                     <img
@@ -390,7 +390,7 @@ export default function Leadership() {
                     <p className="text-gray-700 leading-relaxed mb-6">{leader.bio}</p>
                     <Link
                       href={`/about/leadership/${leader.slug}`}
-                      className="inline-flex items-center gap-2 text-green hover:text-navy font-semibold transition-colors duration-300"
+                      className="inline-flex items-center gap-2 text-blue hover:text-orange font-semibold transition-colors duration-300"
                     >
                       Biography
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -411,7 +411,7 @@ export default function Leadership() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="bg-white rounded-xl border-t-4 border-green shadow-md p-8 hover:shadow-xl transition-shadow duration-300"
+                  className="bg-white rounded-xl border-t-4 border-blue shadow-md p-8 hover:shadow-xl transition-shadow duration-300"
                 >
                   <h3 className="text-xl font-heading font-semibold text-navy mb-4">{quality.title}</h3>
                   <p className="text-gray-600 leading-relaxed">{quality.description}</p>
@@ -440,7 +440,7 @@ export default function Leadership() {
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-flex items-center gap-2 bg-green text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-navy transition-colors duration-300 shadow-lg whitespace-nowrap cursor-pointer"
+                className="inline-flex items-center gap-2 bg-blue text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-navy transition-colors duration-300 shadow-lg whitespace-nowrap cursor-pointer"
               >
                 View Board of Directors
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -491,7 +491,7 @@ export default function Leadership() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-white rounded-xl border-t-4 border-green shadow-md p-8 hover:shadow-xl transition-all duration-300"
+                className="bg-white rounded-xl border-t-4 border-blue shadow-md p-8 hover:shadow-xl transition-all duration-300"
               >
                 <h3 className="text-2xl font-heading font-semibold text-navy mb-4">{value.title}</h3>
                 <p className="text-gray-700 leading-relaxed">{value.description}</p>
@@ -503,7 +503,7 @@ export default function Leadership() {
 
       {/* Join Our Team CTA */}
       <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0A1628] via-[#0A1628] to-green" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0A1628] via-[#0A1628] to-[#1E3A6E]" />
         <div className="absolute inset-0 bg-black/20" />
         
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
@@ -525,7 +525,7 @@ export default function Leadership() {
                 href="/careers"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-block bg-green text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-navy transition-colors duration-300 shadow-lg"
+                className="inline-block bg-blue text-white px-8 py-4 rounded-full font-heading font-semibold hover:bg-navy transition-colors duration-300 shadow-lg"
               >
                 View Open Positions
               </motion.a>
