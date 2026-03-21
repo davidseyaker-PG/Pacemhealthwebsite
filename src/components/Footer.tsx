@@ -35,20 +35,20 @@ export function Footer() {
             <img src={pacemHealthLogo} alt="Pacem Health Logo" className="h-14 mb-2" />
             <p className="text-green font-heading font-semibold text-sm mb-4 tracking-wide">Healthcare That Reaches.</p>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Transforming healthcare delivery across Africa through quality medicines, reliable equipment, and sustainable health systems.
+              Advancing healthcare access across Africa through reliable infrastructure, quality-assured medicines, and sustainable partnerships that put communities first.
             </p>
             <div className="space-y-3 text-gray-300">
               <p className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-green flex-shrink-0" />
-                <span>+1 (234) 567-8900</span>
+                <span>(616) 871-1799</span>
               </p>
               <p className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-green flex-shrink-0" />
-                <span>info@pacemhealth.com</span>
+                <span>inquiries@pacemhealth.com</span>
               </p>
               <p className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-green flex-shrink-0 mt-0.5" />
-                <span>123 Healthcare Drive<br />Atlanta, GA 30301</span>
+                <span>300 Ottawa Ave NW, 5th Floor<br />Grand Rapids, MI 49503, USA</span>
               </p>
             </div>
             <div className="flex gap-3 mt-6">
@@ -146,7 +146,6 @@ export function Footer() {
                 </Link>
               </li>
             </ul>
-
             <h4 className="font-heading font-bold text-sm tracking-wide mb-4">COMPANY</h4>
             <ul className="space-y-3 text-gray-300">
               <li>
