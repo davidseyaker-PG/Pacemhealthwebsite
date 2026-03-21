@@ -29,7 +29,7 @@ export default function History() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative min-h-[40vh] flex items-center bg-blue overflow-hidden">
+      <section className="relative h-[60vh] min-h-[500px] flex items-center bg-blue overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue via-blue/95 to-navy/90"></div>
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
@@ -45,7 +45,7 @@ export default function History() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <h1 className="text-6xl lg:text-7xl font-serif text-white">
+              <h1 className="text-6xl lg:text-7xl font-heading font-extrabold text-white">
                 Our History
               </h1>
             </motion.div>
@@ -82,7 +82,7 @@ export default function History() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy">
               The Discovery: 2013
             </h2>
           </motion.div>
@@ -120,7 +120,7 @@ export default function History() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy">
               Building Knowledge: 2019 - 2022
             </h2>
           </motion.div>
@@ -149,9 +149,9 @@ export default function History() {
               transition={{ duration: 0.6 }}
               className="flex-1"
             >
-              <h3 className="text-5xl font-bold text-navy mb-6">2019-2022</h3>
+              <h3 className="text-5xl font-heading font-extrabold text-navy mb-6">2019-2022</h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Continued education in Biochemistry with a focus on Pharmaceuticals at The University of Texas at Tyler. Immersed in pharmaceutical science, quality assurance, drug stability, and regulatory standards—studying WHO guidelines, good manufacturing practices, and the chemistry behind safe and effective medicines. Graduated in 2022 with the scientific knowledge and conviction that Africa deserved better healthcare logistics.
+                Continued education in Biochemistry with a focus on Pharmaceuticals at The University of Texas at Tyler. Immersed in pharmaceutical science, quality assurance, drug stability, and regulatory standardsâstudying WHO guidelines, good manufacturing practices, and the chemistry behind safe and effective medicines. Graduated in 2022 with the scientific knowledge and conviction that Africa deserved better healthcare logistics.
               </p>
             </motion.div>
           </div>
@@ -168,7 +168,7 @@ export default function History() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy">
               Learning From the Best: 2023
             </h2>
           </motion.div>
@@ -197,9 +197,9 @@ export default function History() {
               transition={{ duration: 0.6 }}
               className="flex-1"
             >
-              <h3 className="text-5xl font-bold text-navy mb-6">2023</h3>
+              <h3 className="text-5xl font-heading font-extrabold text-navy mb-6">2023</h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Studied healthcare logistics giants Medline, Cencora, and McKesson—analyzing their procurement strategies, distribution networks, inventory management systems, and customer relationships. Learned how these companies achieved 98%+ on-time delivery rates, maintained cold chains for temperature-sensitive products, and became strategic partners in healthcare delivery. Recognized the gap: these best practices and operational excellence weren't reaching Africa at scale.
+                Studied healthcare logistics giants Medline, Cencora, and McKessonâanalyzing their procurement strategies, distribution networks, inventory management systems, and customer relationships. Learned how these companies achieved 98%+ on-time delivery rates, maintained cold chains for temperature-sensitive products, and became strategic partners in healthcare delivery. Recognized the gap: these best practices and operational excellence weren't reaching Africa at scale.
               </p>
             </motion.div>
           </div>
@@ -216,7 +216,7 @@ export default function History() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy">
               Inside the Machine: 2024
             </h2>
           </motion.div>
@@ -245,9 +245,9 @@ export default function History() {
               transition={{ duration: 0.6 }}
               className="flex-1"
             >
-              <h3 className="text-5xl font-bold text-navy mb-6">2024</h3>
+              <h3 className="text-5xl font-heading font-extrabold text-navy mb-6">2024</h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Joined McKesson, one of the world's largest healthcare companies, gaining firsthand experience with world-class pharmaceutical distribution. Witnessed how systematic processes, technology integration, quality controls, and customer-centric service created seamless supply chains with 24-hour delivery and full quality assurance. The stark contrast with Africa—where hospitals might wait months for supplies—reinforced the mission to bring this operational excellence to African healthcare facilities.
+                Joined McKesson, one of the world's largest healthcare companies, gaining firsthand experience with world-class pharmaceutical distribution. Witnessed how systematic processes, technology integration, quality controls, and customer-centric service created seamless supply chains with 24-hour delivery and full quality assurance. The stark contrast with Africaâwhere hospitals might wait months for suppliesâreinforced the mission to bring this operational excellence to African healthcare facilities.
               </p>
             </motion.div>
           </div>
@@ -264,8 +264,8 @@ export default function History() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy">
-              The Beginning: 2024 - Present
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy">
+              The Beginning: 2025 - Present
             </h2>
           </motion.div>
 
@@ -293,9 +293,9 @@ export default function History() {
               transition={{ duration: 0.6 }}
               className="flex-1"
             >
-              <h3 className="text-5xl font-bold text-navy mb-6">2024-Present</h3>
+              <h3 className="text-5xl font-heading font-extrabold text-navy mb-6">2024-Present</h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                With a decade of experience—from discovering the problem in 2013 to understanding the science, studying industry leaders, and working inside the best system—founded Pacem Health in late 2024. Our mission: bring world-class pharmaceutical supply chains, medical equipment distribution, and healthcare infrastructure to every country in Africa as sustainable business built on partnership, accountability, excellence, equity, and mutual respect. Today serving 15+ African countries with the same reliability and quality standards witnessed at McKesson.
+                With a decade of experienceâfrom discovering the problem in 2013 to understanding the science, studying industry leaders, and working inside the best systemâfounded Pacem Health in 2025. Our mission: bring world-class pharmaceutical supply chains, medical equipment distribution, and healthcare infrastructure to every country in Africa as sustainable business built on partnership, accountability, excellence, equity, and mutual respect. Today serving 15+ African countries with the same reliability and quality standards witnessed at McKesson.
               </p>
             </motion.div>
           </div>
@@ -312,8 +312,8 @@ export default function History() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
-              Leadership and Vision: 2024 - Present
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
+              Leadership and Vision: 2025 - Present
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               From discovering the problem to building the solution
@@ -325,7 +325,7 @@ export default function History() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-white rounded-2xl shadow-xl overflow-hidden"
+            className="bg-white rounded-2xl border-t-4 border-green shadow-xl overflow-hidden"
           >
             <div className="relative overflow-hidden">
               <img
@@ -336,7 +336,7 @@ export default function History() {
             </div>
             <div className="p-8 md:p-12">
               <p className="text-lg text-gray-700 leading-relaxed">
-                <span className="font-bold text-navy">Pacem Health's founder</span> is named President and Chief Executive Officer in late 2024, bringing over a decade of dedication to African healthcare transformation.
+                <span className="font-bold text-navy">Pacem Health's founder</span> is named President and Chief Executive Officer in 2025, bringing over a decade of dedication to African healthcare transformation.
               </p>
             </div>
           </motion.div>
@@ -353,7 +353,7 @@ export default function History() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
               A Decade of Preparation
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -398,7 +398,7 @@ export default function History() {
                 className="flex gap-6 items-start"
               >
                 <div className="flex-shrink-0 w-40 text-right">
-                  <span className="text-3xl font-bold text-orange whitespace-nowrap inline-block">{milestone.year}</span>
+                  <span className="text-3xl font-heading font-bold text-orange whitespace-nowrap inline-block">{milestone.year}</span>
                 </div>
                 <div className="flex-shrink-0 relative">
                   <div className="w-4 h-4 bg-orange rounded-full mt-2"></div>
@@ -407,7 +407,7 @@ export default function History() {
                   )}
                 </div>
                 <div className="flex-1 pb-12">
-                  <h3 className="text-xl font-serif text-navy mb-2">{milestone.title}</h3>
+                  <h3 className="text-xl font-heading font-semibold text-navy mb-2">{milestone.title}</h3>
                   <p className="text-gray-700">{milestone.description}</p>
                 </div>
               </motion.div>
@@ -425,17 +425,17 @@ export default function History() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif mb-6">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">
               Join Our Story
             </h2>
             <p className="text-xl mb-8 text-white/90">
               We're just getting started. Partner with us to write the next chapter in African healthcare transformation.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/contact" className="inline-flex items-center gap-2 bg-white text-navy px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
+              <Link href="/contact" className="inline-flex items-center gap-2 bg-white text-navy px-8 py-4 rounded-lg font-heading font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
                 Get in Touch
               </Link>
-              <Link href="/about/company" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/20 transition-all duration-300 border border-white/20">
+              <Link href="/about/company" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur text-white px-8 py-4 rounded-lg font-heading font-semibold hover:bg-white/20 transition-all duration-300 border border-white/20">
                 Learn More About Us
               </Link>
             </div>
