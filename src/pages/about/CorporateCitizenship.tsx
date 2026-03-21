@@ -227,7 +227,7 @@ export default function CorporateCitizenship() {
                   <div className="space-y-2">
                     {pillar.initiatives.map((initiative, idx) => (
                       <div key={idx} className="flex items-start gap-3">
-                        <span className="text-orange font-medium">â¢</span>
+                        <span className="text-orange font-medium">•</span>
                         <span className="text-gray-700">{initiative}</span>
                       </div>
                     ))}
