@@ -151,7 +151,7 @@ export default function History() {
             >
               <h3 className="text-5xl font-heading font-extrabold text-navy mb-6">2019-2022</h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Continued education in Biochemistry with a focus on Pharmaceuticals at The University of Texas at Tyler. Immersed in pharmaceutical science, quality assurance, drug stability, and regulatory standardsâstudying WHO guidelines, good manufacturing practices, and the chemistry behind safe and effective medicines. Graduated in 2022 with the scientific knowledge and conviction that Africa deserved better healthcare logistics.
+                Continued education in Biochemistry with a focus on Pharmaceuticals at The University of Texas at Tyler. Immersed in pharmaceutical science, quality assurance, drug stability, and regulatory standards—studying WHO guidelines, good manufacturing practices, and the chemistry behind safe and effective medicines. Graduated in 2022 with the scientific knowledge and conviction that Africa deserved better healthcare logistics.
               </p>
             </motion.div>
           </div>
@@ -199,7 +199,7 @@ export default function History() {
             >
               <h3 className="text-5xl font-heading font-extrabold text-navy mb-6">2023</h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Studied healthcare logistics giants Medline, Cencora, and McKessonâanalyzing their procurement strategies, distribution networks, inventory management systems, and customer relationships. Learned how these companies achieved 98%+ on-time delivery rates, maintained cold chains for temperature-sensitive products, and became strategic partners in healthcare delivery. Recognized the gap: these best practices and operational excellence weren't reaching Africa at scale.
+                Studied healthcare logistics giants Medline, Cencora, and McKesson—analyzing their procurement strategies, distribution networks, inventory management systems, and customer relationships. Learned how these companies achieved 98%+ on-time delivery rates, maintained cold chains for temperature-sensitive products, and became strategic partners in healthcare delivery. Recognized the gap: these best practices and operational excellence weren't reaching Africa at scale.
               </p>
             </motion.div>
           </div>
@@ -247,7 +247,7 @@ export default function History() {
             >
               <h3 className="text-5xl font-heading font-extrabold text-navy mb-6">2024</h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Joined McKesson, one of the world's largest healthcare companies, gaining firsthand experience with world-class pharmaceutical distribution. Witnessed how systematic processes, technology integration, quality controls, and customer-centric service created seamless supply chains with 24-hour delivery and full quality assurance. The stark contrast with Africaâwhere hospitals might wait months for suppliesâreinforced the mission to bring this operational excellence to African healthcare facilities.
+                Joined McKesson, one of the world's largest healthcare companies, gaining firsthand experience with world-class pharmaceutical distribution. Witnessed how systematic processes, technology integration, quality controls, and customer-centric service created seamless supply chains with 24-hour delivery and full quality assurance. The stark contrast with Africa—where hospitals might wait months for supplies—reinforced the mission to bring this operational excellence to African healthcare facilities.
               </p>
             </motion.div>
           </div>
@@ -293,9 +293,9 @@ export default function History() {
               transition={{ duration: 0.6 }}
               className="flex-1"
             >
-              <h3 className="text-5xl font-heading font-extrabold text-navy mb-6">2024-Present</h3>
+              <h3 className="text-5xl font-heading font-extrabold text-navy mb-6">2025-Present</h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                With a decade of experienceâfrom discovering the problem in 2013 to understanding the science, studying industry leaders, and working inside the best systemâfounded Pacem Health in 2025. Our mission: bring world-class pharmaceutical supply chains, medical equipment distribution, and healthcare infrastructure to every country in Africa as sustainable business built on partnership, accountability, excellence, equity, and mutual respect. Today serving 15+ African countries with the same reliability and quality standards witnessed at McKesson.
+                With a decade of experience—from discovering the problem in 2013 to understanding the science, studying industry leaders, and working inside the best system—founded Pacem Health in 2025. Our mission: bring world-class pharmaceutical supply chains, medical equipment distribution, and healthcare infrastructure to every country in Africa—as a sustainable business built on partnership, accountability, excellence, equity, and mutual respect. With an active pipeline spanning 15+ African countries, we are bringing the same reliability and quality standards witnessed at McKesson to the continent.
               </p>
             </motion.div>
           </div>
@@ -325,7 +325,7 @@ export default function History() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-white rounded-2xl border-t-4 border-green shadow-xl overflow-hidden"
+            className="bg-white rounded-2xl border-t-4 border-blue shadow-xl overflow-hidden"
           >
             <div className="relative overflow-hidden">
               <img
@@ -336,7 +336,7 @@ export default function History() {
             </div>
             <div className="p-8 md:p-12">
               <p className="text-lg text-gray-700 leading-relaxed">
-                <span className="font-bold text-navy">Pacem Health's founder</span> is named President and Chief Executive Officer in 2025, bringing over a decade of dedication to African healthcare transformation.
+                <span className="font-bold text-navy">David Seyaker</span>, Pacem Health's founder, serves as President and Chief Executive Officer—bringing over a decade of dedication to accelerating Africa's healthcare transformation.
               </p>
             </div>
           </motion.div>
