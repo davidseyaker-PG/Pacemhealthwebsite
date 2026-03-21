@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
+import { ArrowRight } from 'lucide-react';
 import heroStudentsImage from 'figma:asset/09b8771a02d610843b420a905cf063c2d9690401.png';
 import discoveryImage from 'figma:asset/09b8771a02d610843b420a905cf063c2d9690401.png';
 import universityImage from 'figma:asset/01e48fa181569f4541cceb857bc9d96e8ffe9261.png';
