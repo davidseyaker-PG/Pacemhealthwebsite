@@ -6,39 +6,39 @@ export default function CommunityImpact() {
   const impactAreas = [
     {
       title: 'Healthcare Workforce Development',
-      description: 'Training 5,000+ healthcare workers annually in pharmaceutical management, equipment maintenance, quality assurance, and clinical best practices across 15+ African countries.',
-      stat: '5,000+',
-      statLabel: 'Workers Trained Annually'
+      description: 'Building training programs in pharmaceutical management, equipment maintenance, quality assurance, and clinical best practices to strengthen the healthcare workforce across Africa.',
+      stat: 'Training',
+      statLabel: 'Healthcare Workers'
     },
     {
       title: 'Local Job Creation',
-      description: 'Creating sustainable employment opportunities in healthcare logistics, pharmacy operations, and medical equipment services, prioritizing local hiring and capacity building.',
-      stat: '15+',
-      statLabel: 'Countries Served'
+      description: 'Developing sustainable employment pathways in healthcare logistics, pharmacy operations, and medical equipment services, with a commitment to local hiring and capacity building.',
+      stat: 'Pan-African',
+      statLabel: 'Reach'
     },
     {
       title: 'Community Health Programs',
-      description: 'Supporting maternal health, pediatric care, chronic disease management, and preventive health initiatives in communities with limited healthcare access.',
-      stat: '1M+',
-      statLabel: 'Lives Impacted'
+      description: 'Designing programs to support maternal health, pediatric care, chronic disease management, and preventive health in communities with limited healthcare access.',
+      stat: 'Community',
+      statLabel: 'Centered'
     },
     {
       title: 'Rural Healthcare Access',
-      description: 'Establishing pharmaceutical supply chains and pharmacy services in remote areas, ensuring essential medicines reach communities regardless of location.',
-      stat: '200+',
-      statLabel: 'Rural Facilities Supported'
+      description: 'Building pharmaceutical supply chains and pharmacy services designed to reach remote areas, so essential medicines are accessible to communities regardless of location.',
+      stat: 'Last-Mile',
+      statLabel: 'Delivery Focus'
     },
     {
       title: 'Economic Development',
-      description: 'Partnering with local suppliers, manufacturers, and businesses to strengthen local economies and build sustainable healthcare value chains.',
-      stat: '500+',
-      statLabel: 'Local Partners'
+      description: 'Committed to partnering with local suppliers, manufacturers, and businesses to strengthen local economies and build sustainable healthcare value chains.',
+      stat: 'Locally',
+      statLabel: 'Led Growth'
     },
     {
       title: 'Quality & Safety Standards',
-      description: 'Raising healthcare quality standards through training, certification programs, and quality assurance systems that protect patient safety.',
-      stat: '100%',
-      statLabel: 'Quality-Assured Products'
+      description: 'Advancing healthcare quality through training, certification programs, and quality assurance systems designed to protect patient safety across every market we enter.',
+      stat: 'Quality',
+      statLabel: 'First Approach'
     }
   ];
 
@@ -107,12 +107,12 @@ export default function CommunityImpact() {
   ];
 
   const impactStats = [
-    { number: '15+', label: 'African Countries Served' },
-    { number: '5,000+', label: 'Healthcare Workers Trained' },
-    { number: '1M+', label: 'Lives Impacted Annually' },
-    { number: '500+', label: 'Local Business Partners' },
-    { number: '200+', label: 'Rural Facilities Supported' },
-    { number: '100%', label: 'Quality-Assured Products' }
+    { number: 'Pan-African', label: 'Market Reach' },
+    { number: 'Thousands', label: 'Workers to Train' },
+    { number: 'Millions', label: 'Lives to Reach' },
+    { number: 'Hundreds', label: 'Local Partnerships' },
+    { number: 'Expanding', label: 'Rural Access Network' },
+    { number: '100%', label: 'Quality Standard' }
   ];
 
   return (
@@ -153,10 +153,10 @@ export default function CommunityImpact() {
             transition={{ duration: 0.6 }}
           >
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              At Pacem Health, community impact is at the heart of everything we do. We're not just delivering medicines and medical equipment—we're investing in people, building local capacity, creating jobs, and strengthening the healthcare infrastructure that communities depend on.
+              At Pacem Health, community impact is at the heart of everything we do. We're committed to more than delivering medicines and medical equipment. Our vision is to invest in people, build local capacity, create jobs, and strengthen the healthcare infrastructure that communities depend on.
             </p>
             <p className="text-xl text-gray-700 leading-relaxed">
-              From training thousands of healthcare workers to ensuring rural communities have access to quality-assured pharmaceuticals, our work creates lasting change that benefits families, strengthens economies, and supports healthier futures across Africa.
+              From workforce training to ensuring rural communities can access quality-assured pharmaceuticals, our approach is designed to benefit families, strengthen economies, and support healthier futures across Africa.
             </p>
           </motion.div>
         </div>
@@ -176,7 +176,7 @@ export default function CommunityImpact() {
               Our Community Impact Areas
             </h2>
             <p className="text-xl text-gray-500 max-w-3xl mx-auto">
-              Six key ways we're building stronger healthcare systems across Africa
+              Six pillars of our commitment to healthcare communities across Africa
             </p>
           </motion.div>
 
@@ -314,10 +314,10 @@ export default function CommunityImpact() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-heading font-extrabold mb-6">
-              Our Impact by the Numbers
+              What We're Building Toward
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              Measurable results creating lasting change across Africa
+              The goals driving our work across Africa
             </p>
           </motion.div>
 
