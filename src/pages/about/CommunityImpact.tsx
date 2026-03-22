@@ -1,47 +1,40 @@
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
-import { Users, GraduationCap, Heart, Briefcase, Home, TrendingUp, Award, Building2, Stethoscope, Baby, Pill, Activity } from 'lucide-react';
 import heroImage from 'figma:asset/7dad1dbe8ca44f21e82d5cbb1aedd31a67a52fc7.png';
 
 export default function CommunityImpact() {
   const impactAreas = [
     {
-      icon: GraduationCap,
       title: 'Healthcare Workforce Development',
       description: 'Training 5,000+ healthcare workers annually in pharmaceutical management, equipment maintenance, quality assurance, and clinical best practices across 15+ African countries.',
       stat: '5,000+',
       statLabel: 'Workers Trained Annually'
     },
     {
-      icon: Briefcase,
       title: 'Local Job Creation',
       description: 'Creating sustainable employment opportunities in healthcare logistics, pharmacy operations, and medical equipment services, prioritizing local hiring and capacity building.',
       stat: '15+',
       statLabel: 'Countries Served'
     },
     {
-      icon: Heart,
       title: 'Community Health Programs',
       description: 'Supporting maternal health, pediatric care, chronic disease management, and preventive health initiatives in underserved communities.',
       stat: '1M+',
       statLabel: 'Lives Impacted'
     },
     {
-      icon: Home,
       title: 'Rural Healthcare Access',
       description: 'Establishing pharmaceutical supply chains and pharmacy services in remote areas, ensuring essential medicines reach communities regardless of location.',
       stat: '200+',
       statLabel: 'Rural Facilities Supported'
     },
     {
-      icon: TrendingUp,
       title: 'Economic Development',
       description: 'Partnering with local suppliers, manufacturers, and businesses to strengthen local economies and build sustainable healthcare value chains.',
       stat: '500+',
       statLabel: 'Local Partners'
     },
     {
-      icon: Award,
       title: 'Quality & Safety Standards',
       description: 'Raising healthcare quality standards through training, certification programs, and quality assurance systems that protect patient safety.',
       stat: '100%',
@@ -72,7 +65,6 @@ export default function CommunityImpact() {
 
   const communityInitiatives = [
     {
-      icon: Stethoscope,
       title: 'Maternal & Child Health',
       description: 'Ensuring mothers and children have access to essential medicines, prenatal care supplies, and pediatric health products.',
       highlights: [
@@ -83,7 +75,6 @@ export default function CommunityImpact() {
       ]
     },
     {
-      icon: Pill,
       title: 'Chronic Disease Management',
       description: 'Supporting communities in managing diabetes, hypertension, and other chronic conditions through reliable medication access.',
       highlights: [
@@ -94,7 +85,6 @@ export default function CommunityImpact() {
       ]
     },
     {
-      icon: Activity,
       title: 'Preventive Health',
       description: 'Promoting wellness through vaccination programs, health screenings, and preventive care product distribution.',
       highlights: [
@@ -105,7 +95,6 @@ export default function CommunityImpact() {
       ]
     },
     {
-      icon: Building2,
       title: 'Healthcare Infrastructure',
       description: 'Investing in pharmacy facilities, medical equipment, and diagnostic capabilities in underserved areas.',
       highlights: [
@@ -118,12 +107,12 @@ export default function CommunityImpact() {
   ];
 
   const impactStats = [
-    { number: '15+', label: 'African Countries Served', icon: Users },
-    { number: '5,000+', label: 'Healthcare Workers Trained', icon: GraduationCap },
-    { number: '1M+', label: 'Lives Impacted Annually', icon: Heart },
-    { number: '500+', label: 'Local Business Partners', icon: Briefcase },
-    { number: '200+', label: 'Rural Facilities Supported', icon: Home },
-    { number: '100%', label: 'Quality-Assured Products', icon: Award }
+    { number: '15+', label: 'African Countries Served' },
+    { number: '5,000+', label: 'Healthcare Workers Trained' },
+    { number: '1M+', label: 'Lives Impacted Annually' },
+    { number: '500+', label: 'Local Business Partners' },
+    { number: '200+', label: 'Rural Facilities Supported' },
+    { number: '100%', label: 'Quality-Assured Products' }
   ];
 
   return (
@@ -193,7 +182,6 @@ export default function CommunityImpact() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {impactAreas.map((area, index) => {
-              const Icon = area.icon;
               return (
                 <motion.div
                   key={index}
@@ -203,10 +191,7 @@ export default function CommunityImpact() {
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                   className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-blue/30 hover:shadow-lg transition-all duration-300"
                 >
-                  <div className="w-14 h-14 bg-blue/10 rounded-xl flex items-center justify-center mb-6">
-                    <Icon className="w-7 h-7 text-blue" />
-                  </div>
-                  <h3 className="text-xl font-heading font-semibold text-navy mb-4">{area.title}</h3>
+                                    <h3 className="text-xl font-heading font-semibold text-navy mb-4">{area.title}</h3>
                   <p className="text-gray-700 leading-relaxed mb-6">{area.description}</p>
                   <div className="border-t border-gray-200 pt-4">
                     <div className="text-3xl font-bold text-orange mb-1">{area.stat}</div>
@@ -288,7 +273,6 @@ export default function CommunityImpact() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {communityInitiatives.map((initiative, index) => {
-              const Icon = initiative.icon;
               return (
                 <motion.div
                   key={index}
@@ -299,10 +283,7 @@ export default function CommunityImpact() {
                   className="bg-white p-8 rounded-2xl border border-blue/20 hover:border-blue/40 hover:shadow-lg transition-all duration-300"
                 >
                   <div className="flex items-start gap-4 mb-6">
-                    <div className="w-12 h-12 bg-blue/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                      <Icon className="w-6 h-6 text-blue" />
-                    </div>
-                    <div>
+                                        <div>
                       <h3 className="text-xl font-heading font-semibold text-navy mb-2">{initiative.title}</h3>
                       <p className="text-gray-700">{initiative.description}</p>
                     </div>
