@@ -174,7 +174,7 @@ export default function CommunityImpact() {
       </section>
 
       {/* Impact Areas Grid */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -186,7 +186,7 @@ export default function CommunityImpact() {
             <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-6">
               Our Community Impact Areas
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-500 max-w-3xl mx-auto">
               Six key ways we're creating positive change in African communities
             </p>
           </motion.div>
@@ -210,7 +210,7 @@ export default function CommunityImpact() {
                   <p className="text-gray-700 leading-relaxed mb-6">{area.description}</p>
                   <div className="border-t border-gray-200 pt-4">
                     <div className="text-3xl font-bold text-orange mb-1">{area.stat}</div>
-                    <div className="text-sm text-gray-600">{area.statLabel}</div>
+                    <div className="text-sm text-gray-500">{area.statLabel}</div>
                   </div>
                 </motion.div>
               );
@@ -232,7 +232,7 @@ export default function CommunityImpact() {
             <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-6">
               Our Community Programs
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-500 max-w-3xl mx-auto">
               Flagship initiatives strengthening healthcare delivery and building stronger communities
             </p>
           </motion.div>
@@ -258,7 +258,7 @@ export default function CommunityImpact() {
                 <div className="p-8">
                   <h3 className="text-xl font-heading font-semibold text-navy mb-4">{program.title}</h3>
                   <p className="text-gray-700 leading-relaxed mb-6">{program.description}</p>
-                  <Link href={program.link} className="text-blue hover:text-blue/80 font-semibold inline-flex items-center gap-2 transition-colors">
+                  <Link href={program.link} className="text-blue hover:text-orange font-semibold inline-flex items-center gap-2 transition-colors">
                     Learn more →
                   </Link>
                 </div>
@@ -269,7 +269,7 @@ export default function CommunityImpact() {
       </section>
 
       {/* Community Health Initiatives */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -281,7 +281,7 @@ export default function CommunityImpact() {
             <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-6">
               Community Health Initiatives
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-500 max-w-3xl mx-auto">
               Targeted programs addressing critical health needs in communities we serve
             </p>
           </motion.div>
@@ -425,7 +425,7 @@ export default function CommunityImpact() {
       </section>
 
       {/* Bottom Cards Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-3 gap-8">
             <motion.div
@@ -447,7 +447,7 @@ export default function CommunityImpact() {
                 <p className="text-gray-700 mb-6">
                   Explore our flagship programs strengthening healthcare delivery, building pharmacy excellence, and improving pediatric care.
                 </p>
-                <Link href="/programs" className="text-blue hover:text-blue/80 font-semibold inline-flex items-center gap-2 transition-colors">
+                <Link href="/programs" className="text-blue hover:text-orange font-semibold inline-flex items-center gap-2 transition-colors">
                   View Programs →
                 </Link>
               </div>
@@ -472,7 +472,7 @@ export default function CommunityImpact() {
                 <p className="text-gray-700 mb-6">
                   Discover how we're building sustainable healthcare systems that benefit communities, economies, and the environment.
                 </p>
-                <Link href="/about/sustainability" className="text-blue hover:text-blue/80 font-semibold inline-flex items-center gap-2 transition-colors">
+                <Link href="/about/sustainability" className="text-blue hover:text-orange font-semibold inline-flex items-center gap-2 transition-colors">
                   Learn More →
                 </Link>
               </div>
@@ -497,7 +497,7 @@ export default function CommunityImpact() {
                 <p className="text-gray-700 mb-6">
                   Learn about our systematic approach to strengthening health systems, ensuring quality, and building local capacity.
                 </p>
-                <Link href="/our-approach" className="text-blue hover:text-blue/80 font-semibold inline-flex items-center gap-2 transition-colors">
+                <Link href="/our-approach" className="text-blue hover:text-orange font-semibold inline-flex items-center gap-2 transition-colors">
                   Discover How →
                 </Link>
               </div>
