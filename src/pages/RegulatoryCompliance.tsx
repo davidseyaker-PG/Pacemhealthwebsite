@@ -17,22 +17,22 @@ export default function RegulatoryCompliance() {
 
   const heroStats = [
     { 
-      value: "15+", 
+      value: "Multiple", 
       label: "African Regulatory Bodies",
-      description: "Deep expertise navigating regulatory requirements across East, West, and Southern Africa including TMDA, PPB, NDA, FDA Ghana, and SAHPRA."
+      description: "Deep expertise navigating regulatory requirements across East, West, and Southern Africa including national medicines regulatory authorities across the continent."
     },
     { 
-      value: "98%", 
+      value: "High", 
       label: "First-Time Approval Rate",
       description: "Successful pharmaceutical registration through comprehensive documentation, regulatory intelligence, and proven submission strategies."
     },
     { 
-      value: "500+", 
+      value: "Growing", 
       label: "Products Registered",
       description: "Extensive portfolio of successfully registered pharmaceuticals, medical devices, and biologics across multiple African markets."
     },
     { 
-      value: "2,000+", 
+      value: "Thousands", 
       label: "Professionals Trained",
       description: "Internationally recognized GDP, GMP, and pharmacovigilance training equipping teams with regulatory compliance competencies."
     }
@@ -60,7 +60,7 @@ export default function RegulatoryCompliance() {
     {
       number: "04",
       title: "Professional Development & Certification Programs",
-      description: "WHO-certified training in GDP, GMP, pharmacovigilance, and regulatory affairs for healthcare teams.",
+      description: "WHO-aligned training in GDP, GMP, pharmacovigilance, and regulatory affairs for healthcare teams.",
       image: pillar4Image
     }
   ];
@@ -83,7 +83,7 @@ export default function RegulatoryCompliance() {
           },
           {
             heading: "Regulatory Intelligence & Monitoring",
-            description: "Continuous tracking of regulatory landscape changes, guideline updates, fee revisions, and policy developments across African markets. Our intelligence reports keep clients informed of regulatory shifts affecting registration timelines, compliance obligations, and market opportunities. We leverage established relationships with regulatory authorities for strategic liaison, pre-submission consultations, and policy dialogue to clarify requirements and facilitate efficient regulatory processes."
+            description: "Continuous tracking of regulatory landscape changes, guideline updates, fee revisions, and policy developments across African markets. Our intelligence reports keep clients informed of regulatory shifts affecting registration timelines, compliance obligations, and market opportunities. We use established relationships with regulatory authorities for strategic liaison, pre-submission consultations, and policy dialogue to clarify requirements and facilitate efficient regulatory processes."
           },
           {
             heading: "Regulatory Submissions & Agency Liaison",
@@ -99,8 +99,8 @@ export default function RegulatoryCompliance() {
           }
         ],
         highlights: [
-          "98% first-time approval success rate",
-          "15+ African regulatory authorities",
+          "High first-time approval success rate",
+          "Multiple African regulatory authorities",
           "CTD and country-specific formats",
           "EAC/ECOWAS harmonization expertise",
           "Established regulator relationships",
@@ -185,7 +185,7 @@ export default function RegulatoryCompliance() {
       subtitle: "Internationally Recognized Pharmaceutical Training Programs",
       image: pillar4Image,
       content: {
-        intro: "Regulatory compliance depends on competent, trained personnel. Our WHO-certified training programs deliver internationally recognized competency-based education in pharmaceutical quality, regulatory affairs, and compliance management—equipping African healthcare teams with skills to meet global standards.",
+        intro: "Regulatory compliance depends on competent, trained personnel. Our WHO-aligned training programs deliver internationally recognized competency-based education in pharmaceutical quality, regulatory affairs, and compliance management—equipping African healthcare teams with skills to meet global standards.",
         sections: [
           {
             heading: "GDP Training & Certification",
@@ -209,7 +209,7 @@ export default function RegulatoryCompliance() {
           }
         ],
         highlights: [
-          "WHO-certified programs",
+          "WHO-aligned programs",
           "Competency-based assessments",
           "Practical case studies included",
           "On-site and virtual delivery",
@@ -221,8 +221,8 @@ export default function RegulatoryCompliance() {
   ];
 
   const benefits = [
-    { title: "98% Approval Rate", description: "First-time registration success" },
-    { title: "15+ Regulators", description: "Pan-African expertise" },
+    { title: "High Approval Rate", description: "First-time registration success" },
+    { title: "Multiple Regulators", description: "Pan-African expertise" },
     { title: "WHO-Certified", description: "International training standards" },
     { title: "Fast-Track", description: "Accelerated market entry" },
     { title: "Full Compliance", description: "GDP/GMP adherence" },
@@ -251,7 +251,7 @@ export default function RegulatoryCompliance() {
   const faqs = [
     {
       question: "How long does pharmaceutical registration take in Africa?",
-      answer: "Registration timelines vary by country and product complexity. Kenya (PPB) averages 12-18 months, Tanzania (TMDA) 9-12 months, Ghana (FDA) 12-24 months, and South Africa (SAHPRA) 18-36 months. We optimize timelines through quality dossiers, pre-submission consultations, and responsive deficiency management."
+      answer: "Registration timelines vary by country and product complexity. Timelines typically range from 9 to 36 months depending on the regulatory authority and product type. We optimize timelines through quality dossiers, pre-submission consultations, and responsive deficiency management."
     },
     {
       question: "What is the Common Technical Document (CTD) and is it required in Africa?",
@@ -270,7 +270,7 @@ export default function RegulatoryCompliance() {
       answer: "Yes. We prepare organizations for regulatory authority inspections through mock inspections, documentation review, staff training, facility readiness assessments, and post-inspection CAPA support. Our inspection readiness programs significantly improve inspection outcomes."
     },
     {
-      question: "What makes your training WHO-certified?",
+      question: "What makes your training WHO-aligned?",
       answer: "Our training programs follow WHO curriculum standards, incorporate WHO guidelines and technical documents, and are delivered by WHO-qualified trainers. Participants receive certificates recognized by regulatory authorities and international organizations for demonstrating competency in pharmaceutical quality standards."
     }
   ];
@@ -280,8 +280,8 @@ export default function RegulatoryCompliance() {
       <ServiceBreadcrumb serviceName="Regulatory & Compliance Services" />
       
       {/* Hero Section */}
-      <section className="relative h-[700px] flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-navy/80 via-navy/60 to-navy/40 z-10" />
+      <section className="relative h-[600px] overflow-hidden">
+        <div className="absolute inset-0 bg-navy/80 z-10" />
         <motion.img
           src={heroImage}
           alt="Regulatory compliance and legal frameworks"
@@ -291,18 +291,18 @@ export default function RegulatoryCompliance() {
           transition={{ duration: 10, ease: "easeOut" }}
         />
         
-        <div className="relative z-20 max-w-7xl mx-auto px-6 lg:px-8 w-full">
+        <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-4xl"
+            className="max-w-2xl"
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-serif font-extrabold text-white mb-6 leading-tight">
               Regulatory & Compliance Services
             </h1>
-            <p className="text-2xl text-white/90 mb-10 leading-relaxed">
-              Navigate regulatory complexity with confidence through expert guidance, WHO-certified training, and comprehensive compliance solutions
+            <p className="text-xl text-white/90 mb-10 leading-relaxed">
+              Navigate regulatory complexity with confidence through expert guidance, internationally recognized training, and comprehensive compliance solutions
             </p>
 
             {/* CTA */}
@@ -320,18 +320,18 @@ export default function RegulatoryCompliance() {
 
       {/* Value Proposition */}
       <section className="py-20 bg-white">
-        <div className="max-w-5xl mx-auto px-6 lg:px-8 text-center">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
             <div className="h-1 w-20 bg-orange mb-6 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
               We Navigate Complexity—You Focus on Healthcare Delivery
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              Africa's regulatory landscape is diverse and evolving. With expertise across 15+ regulatory authorities, WHO-certified training programs, and comprehensive pharmacovigilance systems, we provide the regulatory confidence to bring safe, effective healthcare products to African markets—empowering pharmaceutical companies, healthcare organizations, and professionals to focus on what matters most: patient care.
+              Africa's regulatory landscape is diverse and evolving. With expertise across multiple regulatory authorities, WHO-aligned training programs, and comprehensive pharmacovigilance systems, we provide the regulatory confidence to bring safe, effective healthcare products to African markets—empowering pharmaceutical companies, healthcare organizations, and professionals to focus on what matters most: patient care.
             </p>
           </motion.div>
         </div>
@@ -341,7 +341,7 @@ export default function RegulatoryCompliance() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -368,7 +368,7 @@ export default function RegulatoryCompliance() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">
@@ -397,7 +397,7 @@ export default function RegulatoryCompliance() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
               Regulatory Expertise at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -415,7 +415,7 @@ export default function RegulatoryCompliance() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center"
               >
-                <div className="text-5xl font-bold text-navy mb-3">
+                <div className="text-5xl font-bold text-blue mb-3">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 font-semibold mb-2">
@@ -434,7 +434,7 @@ export default function RegulatoryCompliance() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-serif text-navy mb-4">
+            <h2 className="text-4xl font-serif font-bold text-blue mb-4 leading-tight">
               Why Partner With Pacem Health
             </h2>
             <p className="text-xl text-gray-600">
@@ -452,7 +452,7 @@ export default function RegulatoryCompliance() {
                 transition={{ delay: index * 0.05 }}
                 className="bg-white rounded-lg p-8 hover:shadow-xl transition-all duration-300 border-t-4 border-navy"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">
+                <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
                   {benefit.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -468,7 +468,7 @@ export default function RegulatoryCompliance() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-serif text-navy mb-4">
+            <h2 className="text-4xl font-serif font-bold text-blue mb-4 leading-tight">
               Who We Serve
             </h2>
             <p className="text-lg text-gray-600">
@@ -488,7 +488,7 @@ export default function RegulatoryCompliance() {
               >
                 <div className="h-1 bg-orange" />
                 <div className="p-6 text-center">
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
                     {sector.category}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
@@ -506,7 +506,7 @@ export default function RegulatoryCompliance() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="h-1 w-20 bg-orange mb-6 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
               Our Regulatory & Compliance Process
             </h2>
             <p className="text-lg text-gray-600">
@@ -554,7 +554,7 @@ export default function RegulatoryCompliance() {
                   <div className="text-6xl font-bold text-orange/20 mb-3">
                     {step.number}
                   </div>
-                  <h3 className="text-xl font-serif text-navy mb-2">
+                  <h3 className="text-xl font-serif font-semibold text-blue mb-2 leading-tight">
                     {step.title}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
@@ -571,11 +571,11 @@ export default function RegulatoryCompliance() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
               We Work With Leading African Regulatory Authorities
             </h2>
             <p className="text-lg text-gray-600">
-              Established relationships with national regulatory authorities across 15+ African countries
+              Established relationships with national regulatory authorities across multiple African countries
             </p>
           </div>
 
@@ -583,18 +583,18 @@ export default function RegulatoryCompliance() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             {[
               {
-                name: "Pharmacy and Poisons Board Kenya",
-                abbreviation: "Kenya PPB",
+                name: "East African Regulatory Authority",
+                abbreviation: "East Africa",
                 logo: kenyaPPBLogo
               },
               {
-                name: "Ghana Food and Drugs Authority",
-                abbreviation: "Ghana FDA",
+                name: "West African Regulatory Authority",
+                abbreviation: "West Africa",
                 logo: ghanaFDALogo
               },
               {
-                name: "National Agency for Food and Drug Administration and Control",
-                abbreviation: "Nigeria NAFDAC",
+                name: "Central & Southern African Regulatory Authority",
+                abbreviation: "Central & Southern Africa",
                 logo: nafdacLogo
               }
             ].map((authority, index) => (
@@ -625,7 +625,7 @@ export default function RegulatoryCompliance() {
                     )}
                   </div>
                   {/* Authority Name */}
-                  <h3 className="text-xl font-serif text-navy mb-2">
+                  <h3 className="text-xl font-serif font-semibold text-blue mb-2 leading-tight">
                     {authority.name}
                   </h3>
                   <p className="text-gray-600 text-sm font-medium">
@@ -666,7 +666,7 @@ export default function RegulatoryCompliance() {
                   transition={{ delay: index * 0.05 }}
                   className="bg-white rounded-lg px-4 py-3 shadow-sm hover:shadow-md transition-shadow duration-200"
                 >
-                  <p className="text-navy font-medium">{country}</p>
+                  <p className="text-blue font-medium">{country}</p>
                 </motion.div>
               ))}
             </div>
@@ -689,7 +689,7 @@ export default function RegulatoryCompliance() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-5xl font-bold text-white mb-6">
+            <h2 className="text-5xl font-bold text-white mb-6 leading-tight">
               Ready to Navigate African Regulatory Markets?
             </h2>
             <p className="text-xl text-white/90 mb-10 leading-relaxed">
@@ -743,7 +743,7 @@ export default function RegulatoryCompliance() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/50 to-transparent flex items-end">
                 <div className="p-8 w-full">
-                  <h2 className="text-4xl font-serif text-white mb-2">
+                  <h2 className="text-4xl font-serif font-bold text-white mb-2 leading-tight">
                     {pillarDetails[selectedPillar].title}
                   </h2>
                   <p className="text-xl text-white/90">
@@ -773,7 +773,7 @@ export default function RegulatoryCompliance() {
                 <div className="space-y-6 mb-8">
                   {pillarDetails[selectedPillar].content.sections.map((section, idx) => (
                     <div key={idx} className="border-l-4 border-orange pl-6">
-                      <h3 className="text-xl font-serif text-navy mb-2">
+                      <h3 className="text-xl font-serif font-semibold text-blue mb-2 leading-tight">
                         {section.heading}
                       </h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -787,7 +787,7 @@ export default function RegulatoryCompliance() {
               {/* Highlights */}
               {pillarDetails[selectedPillar].content.highlights.length > 0 && (
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="text-xl font-serif text-navy mb-4">Key Highlights</h3>
+                  <h3 className="text-xl font-serif font-semibold text-blue mb-4 leading-tight">Key Highlights</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {pillarDetails[selectedPillar].content.highlights.map((highlight, idx) => (
                       <li key={idx} className="flex items-start gap-2">
