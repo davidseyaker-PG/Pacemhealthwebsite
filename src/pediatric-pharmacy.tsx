@@ -77,7 +77,7 @@ export default function PediatricPharmacy() {
               Pacem Health Pediatric Pharmacy Program
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl leading-relaxed">
-              Comprehensive maternal-child health services combining state-of-the-art pediatric pharmacies, 
+              Comprehensive maternal-child health services combining purpose-built pediatric pharmacies, 
               home visitation, economic empowerment, and multi-agency partnerships
             </p>
             <Link href="/contact">
@@ -128,7 +128,7 @@ export default function PediatricPharmacy() {
               
               <p>
                 <strong>Knowledge gaps:</strong> Limited prenatal education. Misinformation about infant feeding 
-                and care. No support systems for new mothers. Lack of understanding about childhood development 
+                and care. Limited support systems for new mothers. Limited access to information about childhood development 
                 milestones and immunization schedules.
               </p>
               
@@ -146,7 +146,7 @@ export default function PediatricPharmacy() {
               
               <p>
                 <strong>The Pacem Health Pediatric Pharmacy Program addresses these interconnected challenges with 
-                an integrated ecosystem approach</strong>: state-of-the-art pediatric pharmacies providing specialized 
+                an integrated ecosystem approach</strong>: purpose-built pediatric pharmacies providing specialized 
                 pharmaceutical care, nurse home visitation ensuring continuity, economic empowerment breaking poverty 
                 cycles, and multi-agency partnerships creating seamless support systems.
               </p>
@@ -189,7 +189,7 @@ export default function PediatricPharmacy() {
                 Comprehensive pharmaceutical care for mothers and children
               </p>
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                State-of-the-art pediatric pharmacy centers providing specialized formulations, 
+                Purpose-built pediatric pharmacy centers providing specialized formulations, 
                 immunization services, growth monitoring, medication therapy management, and 
                 prenatal/parenting education classes. Child-friendly environments with play areas.
               </p>
