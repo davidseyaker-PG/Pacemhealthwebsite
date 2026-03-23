@@ -75,26 +75,26 @@ export default function QualityStandards() {
 
   const qualityStandards = [
     {
-      title: 'ISO 9001:2015 Quality Management',
-      description: 'International standard for quality management systems ensuring consistent delivery of products and services.',
+      title: 'Aligned with ISO 9001:2015 Principles',
+      description: 'Our quality management system is designed around ISO 9001:2015 principles for consistent delivery of products and services.',
       icon: Award,
       color: 'blue'
     },
     {
-      title: 'WHO Good Distribution Practices',
-      description: 'Global standards for pharmaceutical distribution, storage, and cold chain management.',
+      title: 'Aligned with WHO Good Distribution Practices',
+      description: 'Our distribution processes are designed to meet WHO Good Distribution Practice guidelines for pharmaceutical storage and cold chain management.',
       icon: CheckCircle2,
       color: 'orange'
     },
     {
-      title: 'ICH Quality Guidelines',
-      description: 'International Conference on Harmonisation guidelines for pharmaceutical quality.',
+      title: 'Aligned with ICH Quality Guidelines',
+      description: 'Our quality approach follows International Conference on Harmonisation guidelines for pharmaceutical quality.',
       icon: BookOpen,
       color: 'teal'
     },
     {
-      title: 'GMP (Good Manufacturing Practices)',
-      description: 'Quality standards ensuring pharmaceutical products are consistently produced and controlled.',
+      title: 'Aligned with GMP Principles',
+      description: 'We source from manufacturers who follow Good Manufacturing Practice standards for consistent production and control.',
       icon: Settings,
       color: 'navy'
     }
@@ -201,7 +201,7 @@ export default function QualityStandards() {
               Our Quality Management System (QMS) provides the framework, policies, and standards that govern all quality-critical activities at Pacem Health. Built on international best practices and continuous improvement principles, our QMS ensures consistent quality performance across the organization.
             </p>
             <p className="text-xl text-gray-700 leading-relaxed">
-              From ISO 9001 quality management to WHO Good Distribution Practices, our comprehensive quality standards create the foundation for excellence in pharmaceutical supply chain management.
+              Guided by ISO 9001 quality management principles and WHO Good Distribution Practices, our quality standards are designed to build a strong foundation for pharmaceutical supply chain management.
             </p>
           </motion.div>
         </div>
@@ -315,7 +315,7 @@ export default function QualityStandards() {
                 "Pacem Health is committed to delivering pharmaceutical products and services that consistently meet or exceed international quality standards, regulatory requirements, and customer expectations."
               </p>
               <p className="text-lg text-gray-800 leading-relaxed mb-6">
-                We achieve this through a robust Quality Management System built on WHO Good Distribution Practices, ISO 9001 principles, and continuous improvement. Every employee is responsible for maintaining quality standards, and we invest in training, technology, and processes that ensure product integrity from manufacturer to patient.
+                We are building this through a Quality Management System guided by WHO Good Distribution Practices, ISO 9001 principles, and continuous improvement. Every employee is responsible for maintaining quality standards, and we invest in training, technology, and processes that ensure product integrity from manufacturer to patient.
               </p>
               <p className="text-lg text-gray-800 leading-relaxed">
                 Our quality commitment extends beyond compliance—we strive for excellence in every transaction, building trust with healthcare providers and contributing to better health outcomes across Africa.
