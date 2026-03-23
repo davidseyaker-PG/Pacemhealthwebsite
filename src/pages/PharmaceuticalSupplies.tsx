@@ -309,67 +309,47 @@ export default function PharmaceuticalSupplies() {
     <div className="min-h-screen bg-white">
       <ServiceBreadcrumb serviceName="Pharmaceutical & Medical Supplies Distribution" />
       
-      {/* Hero Section - New White Background Style */}
-      <section className="relative bg-white py-20 lg:py-32">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Left Side - Text and CTA */}
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-              className="relative z-10"
-            >
-              <h1 className="text-6xl lg:text-7xl font-serif font-extrabold text-navy mb-6 leading-tight">
-                Pharmaceutical & Medical Supplies Distribution
-              </h1>
-              <p className="text-2xl text-gray-700 mb-10 leading-relaxed">
-                Reliable access to quality medications and medical supplies for healthcare facilities across Africa
-              </p>
-
-              {/* CTAs */}
-              <div className="flex flex-wrap gap-4">
-                <motion.button
-                  whileHover={{ scale: 1.05, x: 5 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="bg-blue text-white px-8 py-4 rounded-lg font-semibold flex items-center gap-2 hover:bg-blue/90 transition-colors shadow-lg"
-                >
-                  Request Product Catalog
-                  <ArrowRight className="w-5 h-5" />
-                </motion.button>
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="bg-white border-2 border-navy text-navy px-8 py-4 rounded-lg font-semibold hover:bg-navy hover:text-white transition-colors"
-                >
-                  Contact Distribution Team
-                </motion.button>
-              </div>
-            </motion.div>
-
-            {/* Right Side - Image with Blue Pattern Background */}
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative"
-            >
-              {/* Blue Diagonal Pattern Background */}
-              <div className="absolute -right-12 -top-12 w-[120%] h-[120%] bg-blue transform rotate-12 rounded-3xl -z-10" />
-              
-              {/* Image Container */}
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-                <motion.img
-                  src={heroImage}
-                  alt="Medical supplies and pharmaceutical equipment"
-                  className="w-full h-[500px] object-cover"
-                  initial={{ scale: 1.1 }}
-                  animate={{ scale: 1 }}
-                  transition={{ duration: 1.5, ease: "easeOut" }}
-                />
-              </div>
-            </motion.div>
-          </div>
+      {/* Hero Section - Standard 600px Dark Hero */}
+      <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
+        <motion.img
+          src={heroImage}
+          alt="Pharmaceutical distribution and medical supplies"
+          className="absolute inset-0 w-full h-full object-cover"
+          initial={{ scale: 1.1 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
+        />
+        <div className="absolute inset-0 bg-navy/80" />
+        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <h1 className="text-5xl md:text-6xl font-serif font-extrabold text-white mb-6 leading-tight">
+              Pharmaceutical & Medical Supplies Distribution
+            </h1>
+            <p className="text-xl text-white/90 mb-10 leading-relaxed max-w-3xl mx-auto">
+              Reliable access to quality medications and medical supplies for healthcare facilities across Africa
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <motion.button
+                whileHover={{ scale: 1.05, x: 5 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-blue text-white px-8 py-4 rounded-lg font-semibold flex items-center gap-2 hover:bg-blue/90 transition-colors shadow-lg"
+              >
+                Request Product Catalog
+                <ArrowRight className="w-5 h-5" />
+              </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/20 transition-colors"
+              >
+                Contact Distribution Team
+              </motion.button>
+            </div>
+          </motion.div>
         </div>
       </section>
 
@@ -418,7 +398,7 @@ export default function PharmaceuticalSupplies() {
               transition={{ duration: 0.6 }}
               className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
             >
-              <div className="relative h-64 overflow-hidden">
+              <div className="relative h-48 overflow-hidden">
                 <img
                   src={pharmaDistImage}
                   alt="Pharmaceutical distribution"
@@ -453,7 +433,7 @@ export default function PharmaceuticalSupplies() {
               transition={{ duration: 0.6 }}
               className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
             >
-              <div className="relative h-64 overflow-hidden">
+              <div className="relative h-48 overflow-hidden">
                 <img
                   src={medicalSuppliesImage}
                   alt="Medical supplies and equipment"
@@ -506,9 +486,9 @@ export default function PharmaceuticalSupplies() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-xl p-8 border-l-4 border-orange shadow-md hover:shadow-xl transition-all duration-300"
+                className="bg-white rounded-xl p-6 border-l-4 border-orange shadow-md hover:shadow-xl transition-all duration-300"
               >
-                <div className="text-5xl font-bold text-navy mb-2">
+                <div className="text-4xl font-bold text-navy mb-2">
                   {stat.value}
                 </div>
                 <div className="text-lg font-semibold text-gray-800 mb-3">
@@ -552,7 +532,7 @@ export default function PharmaceuticalSupplies() {
                 onClick={() => setSelectedPillar(index)}
               >
                 {/* Image Container */}
-                <div className="relative h-64 overflow-hidden">
+                <div className="relative h-48 overflow-hidden">
                   <img
                     src={pillar.image}
                     alt={pillar.title}
@@ -615,7 +595,7 @@ export default function PharmaceuticalSupplies() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100"
+                className="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100"
               >
                 <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                   {category.category}
@@ -690,7 +670,7 @@ export default function PharmaceuticalSupplies() {
               transition={{ duration: 0.6 }}
               className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300"
             >
-              <div className="relative h-56 overflow-hidden">
+              <div className="relative h-48 overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
                   alt="Cold chain expansion"
@@ -722,7 +702,7 @@ export default function PharmaceuticalSupplies() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300"
             >
-              <div className="relative h-56 overflow-hidden">
+              <div className="relative h-48 overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
                   alt="Quality certification"
@@ -754,7 +734,7 @@ export default function PharmaceuticalSupplies() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300"
             >
-              <div className="relative h-56 overflow-hidden">
+              <div className="relative h-48 overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
                   alt="Partnership announcement"
@@ -858,7 +838,7 @@ export default function PharmaceuticalSupplies() {
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Header with Image */}
-            <div className="relative h-64 overflow-hidden">
+            <div className="relative h-48 overflow-hidden">
               <img
                 src={pillarDetails[selectedPillar].image}
                 alt={pillarDetails[selectedPillar].title}
