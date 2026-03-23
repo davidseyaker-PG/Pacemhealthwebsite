@@ -18,8 +18,8 @@ export default function LaboratoryDiagnostics() {
       description: "Processing a growing volume of diagnostic tests guided by international quality standards, advanced analyzers, and comprehensive result validation for accurate patient diagnosis and treatment decisions."
     },
     { 
-      value: "50+", 
-      label: "International Partners",
+      value: "Global", 
+      label: "Partner Network",
       description: "Healthcare facilities, hospitals, and clinics partnering with our laboratory network for comprehensive diagnostic testing, clinical chemistry, molecular diagnostics, and specialized pathology services."
     },
     { 
@@ -718,11 +718,11 @@ export default function LaboratoryDiagnostics() {
             <div className="flex flex-wrap justify-center gap-8 text-white/90">
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-blue" />
-                <span>CAP/ISO Accredited</span>
+                <span>Quality Focused</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-blue" />
-                <span>24hr Results</span>
+                <span>Rapid Results</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-blue" />
