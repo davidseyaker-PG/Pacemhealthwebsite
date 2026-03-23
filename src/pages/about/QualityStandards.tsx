@@ -68,7 +68,7 @@ export default function QualityStandards() {
         'PDCA cycle implementation',
         'Kaizen methodology',
         'Process optimization programs',
-        'Innovation & best practices'
+        'Adoption of best practices'
       ]
     }
   ];
@@ -318,7 +318,7 @@ export default function QualityStandards() {
                 We achieve this through a robust Quality Management System built on WHO Good Distribution Practices, ISO 9001 principles, and continuous improvement. Every employee is responsible for maintaining quality standards, and we invest in training, technology, and processes that ensure product integrity from manufacturer to patient.
               </p>
               <p className="text-lg text-gray-800 leading-relaxed">
-                Our quality commitment extends beyond compliance—we strive for excellence in every transaction, building trust with healthcare providers and contributing to better health outcomes across Africa.
+                Our quality commitment extends beyond complianceâwe strive for excellence in every transaction, building trust with healthcare providers and contributing to better health outcomes across Africa.
               </p>
             </div>
           </motion.div>
