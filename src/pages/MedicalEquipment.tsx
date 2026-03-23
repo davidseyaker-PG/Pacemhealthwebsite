@@ -13,19 +13,19 @@ export default function MedicalEquipment() {
 
   const heroStats = [
     { 
-      value: "500+", 
-      label: "Equipment Installations by 2026",
+      value: "Growing", 
+      label: "Equipment Portfolio",
       description: "Installing and maintaining advanced medical equipment including diagnostic imaging, surgical systems, patient monitoring, laboratory analyzers, and life support technology across healthcare facilities."
     },
     { 
-      value: "50+", 
-      label: "International Partners",
-      description: "Healthcare facilities, hospitals, and clinics equipped with world-class medical technology from leading manufacturers, supported by expert installation, training, and comprehensive maintenance services."
+      value: "Global", 
+      label: "Partner Network",
+      description: "Healthcare facilities, hospitals, and clinics equipped with quality medical technology from leading manufacturers, supported by expert installation, training, and comprehensive maintenance services."
     },
     { 
-      value: "95%", 
-      label: "Uptime Guarantee",
-      description: "Industry-leading equipment reliability maintained through preventive maintenance programs, 24/7 technical support, rapid response repair services, and comprehensive spare parts inventory management."
+      value: "Reliable", 
+      label: "Service Commitment",
+      description: "Industry-leading equipment reliability maintained through preventive maintenance programs, dedicated technical support, rapid response repair services, and comprehensive spare parts inventory management."
     }
   ];
 
@@ -45,7 +45,7 @@ export default function MedicalEquipment() {
     {
       number: "03",
       title: "Maintenance & Service Excellence",
-      description: "Preventive maintenance programs, rapid repair services, 24/7 technical support, spare parts inventory management, and equipment lifecycle optimization to maximize uptime and protect your investment.",
+      description: "Preventive maintenance programs, rapid repair services, dedicated technical support, spare parts inventory management, and equipment lifecycle optimization to maximize uptime and protect your investment.",
       image: pillar3Image
     },
     {
@@ -96,24 +96,24 @@ export default function MedicalEquipment() {
 
   const benefits = [
     { title: "OEM Partnerships", description: "Authorized distributor for top brands" },
-    { title: "95% Uptime", description: "Service excellence & rapid response" },
+    { title: "reliable uptime", description: "Service excellence & rapid response" },
     { title: "Turnkey Solutions", description: "Design to commissioning" },
     { title: "Flexible Financing", description: "Leasing & payment plans available" },
-    { title: "24/7 Support", description: "Technical assistance anytime" },
+    { title: "dedicated Support", description: "Technical assistance anytime" },
     { title: "Staff Training", description: "Comprehensive equipment training" }
   ];
 
   const pillarDetails = [
     {
       title: "Advanced Medical Equipment Supply",
-      subtitle: "World-Class Technology from Leading Global Manufacturers",
+      subtitle: "quality Technology from Leading Global Manufacturers",
       image: pillar1Image,
       content: {
-        intro: "Our comprehensive medical equipment portfolio brings the latest diagnostic, surgical, and patient care technology to healthcare facilities across Africa. As authorized distributors for GE Healthcare, Philips, Siemens Healthineers, and Medtronic, we supply advanced medical equipment backed by full warranties, factory training, and OEM support.",
+        intro: "Our comprehensive medical equipment portfolio brings the latest diagnostic, surgical, and patient care technology to healthcare facilities across Africa. As authorized distributors for leading equipment manufacturers, Philips, Siemens Healthineers, and Medtronic, we supply advanced medical equipment backed by full warranties, factory training, and OEM support.",
         sections: [
           {
             heading: "Diagnostic Imaging Equipment",
-            description: "State-of-the-art CT scanners, MRI systems, digital X-Ray, ultrasound machines, mammography equipment, and fluoroscopy systems for accurate diagnosis and patient monitoring. All imaging equipment includes PACS integration, RIS connectivity, and DICOM compliance for seamless workflow integration with hospital information systems."
+            description: "Advanced CT scanners, MRI systems, digital X-Ray, ultrasound machines, mammography equipment, and fluoroscopy systems for accurate diagnosis and patient monitoring. All imaging equipment includes PACS integration, RIS connectivity, and DICOM compliance for seamless workflow integration with hospital information systems."
           },
           {
             heading: "Surgical & Operating Room Equipment",
@@ -129,14 +129,14 @@ export default function MedicalEquipment() {
           },
           {
             heading: "OEM Partnerships & Warranty Support",
-            description: "Direct partnerships with leading manufacturers ensure authentic equipment, competitive pricing, full manufacturer warranties, and access to the latest technology innovations. Factory-certified engineers provide installation, calibration, and ongoing technical support backed by OEM standards and protocols."
+            description: "Direct partnerships with leading manufacturers ensure authentic equipment, competitive pricing, full manufacturer warranties, and access to the latest technology advancements. Factory-certified engineers provide installation, calibration, and ongoing technical support backed by OEM standards and protocols."
           }
         ],
         highlights: [
           "Authorized distributor for GE, Philips, Siemens, Medtronic",
           "Full manufacturer warranties on all equipment",
           "Comprehensive portfolio across all clinical specialties",
-          "Latest technology innovations and upgrades",
+          "Latest technology options and upgrades",
           "Competitive pricing with volume discounts",
           "Factory-certified installation & commissioning"
         ]
@@ -155,7 +155,7 @@ export default function MedicalEquipment() {
           },
           {
             heading: "Equipment Selection & Procurement",
-            description: "Needs assessment and equipment recommendations tailored to your clinical services, patient volumes, and budget constraints. Master equipment planning ensures compatibility between systems, appropriate capacity for current and future needs, and alignment with regulatory requirements. Centralized procurement leverages our OEM relationships for competitive pricing."
+            description: "Needs assessment and equipment recommendations tailored to your clinical services, patient volumes, and budget constraints. Master equipment planning ensures compatibility between systems, appropriate capacity for current and future needs, and alignment with regulatory requirements. Centralized procurement uses our OEM relationships for competitive pricing."
           },
           {
             heading: "Project Management & Installation",
@@ -182,10 +182,10 @@ export default function MedicalEquipment() {
     },
     {
       title: "Maintenance & Service Excellence",
-      subtitle: "Preventive Maintenance & 24/7 Technical Support",
+      subtitle: "Preventive Maintenance & dedicated Technical Support",
       image: pillar3Image,
       content: {
-        intro: "Medical equipment uptime is critical for patient care and operational revenue. Our comprehensive service programs include preventive maintenance, rapid repair response, 24/7 technical support, spare parts inventory management, and remote diagnostics to maximize equipment availability and extend operational life. We guarantee 95% uptime for all equipment under service contract.",
+        intro: "Medical equipment uptime is critical for patient care and operational revenue. Our comprehensive service programs include preventive maintenance, rapid repair response, dedicated technical support, spare parts inventory management, and remote diagnostics to maximize equipment availability and extend operational life. We guarantee reliable uptime for all equipment under service contract.",
         sections: [
           {
             heading: "Preventive Maintenance Programs",
@@ -193,7 +193,7 @@ export default function MedicalEquipment() {
           },
           {
             heading: "Rapid Repair & Emergency Response",
-            description: "24/7 technical support hotline with 4-hour response time for critical equipment failures including imaging systems, operating room equipment, and life support devices. Factory-trained biomedical engineers diagnose issues remotely or dispatch on-site for repairs. Emergency parts available from local inventory for rapid restoration of equipment operation."
+            description: "dedicated technical support hotline with 4-hour response time for critical equipment failures including imaging systems, operating room equipment, and life support devices. Factory-trained biomedical engineers diagnose issues remotely or dispatch on-site for repairs. Emergency parts available from local inventory for rapid restoration of equipment operation."
           },
           {
             heading: "Spare Parts Inventory & Management",
@@ -205,12 +205,12 @@ export default function MedicalEquipment() {
           },
           {
             heading: "Equipment Lifecycle Management",
-            description: "Long-term partnership managing equipment from installation through end-of-life including performance tracking, upgrade recommendations, technology refresh planning, and trade-in programs. Lifecycle management optimizes capital investments, ensures access to latest innovations, and maintains competitive clinical capabilities."
+            description: "Long-term partnership managing equipment from installation through end-of-life including performance tracking, upgrade recommendations, technology refresh planning, and trade-in programs. Lifecycle management optimizes capital investments, ensures access to latest advancements, and maintains competitive clinical capabilities."
           }
         ],
         highlights: [
-          "95% uptime guarantee under service contract",
-          "24/7 technical support with 4-hour response",
+          "reliable uptime guarantee under service contract",
+          "dedicated technical support with 4-hour response",
           "Factory-trained biomedical engineers",
           "Genuine OEM spare parts inventory",
           "Remote diagnostics & proactive monitoring",
@@ -223,7 +223,7 @@ export default function MedicalEquipment() {
       subtitle: "Making Advanced Medical Technology Accessible & Affordable",
       image: pillar4Image,
       content: {
-        intro: "Advanced medical equipment represents significant capital investment. Our flexible financing solutions, equipment leasing programs, and asset management services make cutting-edge technology accessible to healthcare facilities of all sizes while optimizing cash flow, preserving capital, and ensuring equipment remains current throughout its operational life.",
+        intro: "Advanced medical equipment represents significant capital investment. Our flexible financing solutions, equipment leasing programs, and asset management services make purpose-built technology accessible to healthcare facilities of all sizes while optimizing cash flow, preserving capital, and ensuring equipment remains current throughout its operational life.",
         sections: [
           {
             heading: "Equipment Financing Options",
@@ -263,29 +263,29 @@ export default function MedicalEquipment() {
       <ServiceBreadcrumb serviceName="Medical Equipment & Infrastructure" />
       
       {/* Hero Section */}
-      <section className="relative h-[700px] flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-navy/70 via-navy/50 to-navy/40 z-10" />
+      <section className="relative h-[600px] overflow-hidden">
+        <div className="absolute inset-0 bg-navy/80" />
         <motion.img
           src={heroImage}
           alt="Medical equipment and hospital technology"
           className="absolute inset-0 w-full h-full object-cover"
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
-          transition={{ duration: 10, ease: "easeOut" }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
         />
         
-        <div className="relative z-20 max-w-7xl mx-auto px-6 lg:px-8 w-full">
+        <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-4xl"
+            className="max-w-2xl"
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-serif font-extrabold text-white mb-6 leading-tight">
               Medical Equipment & Infrastructure
             </h1>
-            <p className="text-2xl text-white/90 mb-10 leading-relaxed">
-              Advanced medical technology and turnkey facility solutions to power world-class healthcare delivery
+            <p className="text-xl text-white/90 mb-10 leading-relaxed">
+              Advanced medical technology and turnkey facility solutions to power quality healthcare delivery
             </p>
 
             {/* CTAs */}
@@ -319,11 +319,11 @@ export default function MedicalEquipment() {
             viewport={{ once: true }}
           >
             <div className="h-1 w-20 bg-orange mb-6 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Equipping Africa's Healthcare Facilities with Excellence
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              From cutting-edge diagnostic imaging to complete hospital infrastructure, we deliver <strong>world-class medical equipment</strong>, <strong>turnkey facility solutions</strong>, and <strong>lifetime support</strong> to healthcare providers across Africa. Our end-to-end approach ensures your facility has the technology and infrastructure to deliver exceptional patient care.
+              From purpose-built diagnostic imaging to complete hospital infrastructure, we deliver <strong>quality medical equipment</strong>, <strong>turnkey facility solutions</strong>, and <strong>lifetime support</strong> to healthcare providers across Africa. Our end-to-end approach ensures your facility has the technology and infrastructure to deliver exceptional patient care.
             </p>
           </motion.div>
         </div>
@@ -338,7 +338,7 @@ export default function MedicalEquipment() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -364,7 +364,7 @@ export default function MedicalEquipment() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">
@@ -394,11 +394,11 @@ export default function MedicalEquipment() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Equipment Operations at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              As a medical equipment and infrastructure expert, we not only supply advanced technology, but we also provide turnkey facility solutions, comprehensive training, preventive maintenance, and 24/7 support to ensure your healthcare facility operates at peak performance.
+              As a medical equipment and infrastructure expert, we not only supply advanced technology, but we also provide turnkey facility solutions, comprehensive training, preventive maintenance, and dedicated support to ensure your healthcare facility operates at peak performance.
             </p>
           </motion.div>
 
@@ -412,7 +412,7 @@ export default function MedicalEquipment() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center"
               >
-                <div className="text-5xl font-bold text-navy mb-3">
+                <div className="text-5xl font-bold text-blue mb-3">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 leading-relaxed">
@@ -432,7 +432,7 @@ export default function MedicalEquipment() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Comprehensive Equipment Portfolio
             </h2>
             <p className="text-xl text-gray-600">
@@ -450,7 +450,7 @@ export default function MedicalEquipment() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-gray-50 rounded-lg p-8 border-t-4 border-teal hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-serif text-navy mb-4">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">
                   {category.category}
                 </h3>
                 <ul className="space-y-2 list-disc list-inside">
@@ -471,7 +471,7 @@ export default function MedicalEquipment() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Turnkey Facility Solutions
             </h2>
             <p className="text-xl text-gray-600">
@@ -489,7 +489,7 @@ export default function MedicalEquipment() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-6 border-t-4 border-orange shadow-md hover:shadow-xl transition-all duration-300 text-center"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                   {solution.title}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -506,7 +506,7 @@ export default function MedicalEquipment() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Why Choose Pacem Health
             </h2>
             <p className="text-xl text-gray-600">
@@ -524,7 +524,7 @@ export default function MedicalEquipment() {
                 transition={{ delay: index * 0.05 }}
                 className="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-bold text-navy mb-2">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
                   {benefit.title}
                 </h3>
                 <p className="text-gray-600">{benefit.description}</p>
@@ -544,7 +544,7 @@ export default function MedicalEquipment() {
             className="text-center mb-12"
           >
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               News & Stories
             </h2>
             <p className="text-xl text-gray-600">
@@ -569,11 +569,11 @@ export default function MedicalEquipment() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">December 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
-                  Installing East Africa's First AI-Powered CT Scanner
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  Expanding Diagnostic Imaging Capabilities
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Groundbreaking installation of GE Healthcare's latest AI-enhanced CT technology at Nairobi Teaching Hospital, reducing scan times by 40% and improving diagnostic accuracy.
+                  We are investing in advanced diagnostic imaging technology to improve scan efficiency and diagnostic support for healthcare facilities in our service areas.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -601,11 +601,11 @@ export default function MedicalEquipment() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">November 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
-                  Completing Ghana's Largest Turnkey Hospital Project
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  Building Turnkey Healthcare Infrastructure
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Successfully commissioned a 250-bed tertiary hospital in Accra with complete diagnostic imaging suite, 8 operating theaters, ICU, and laboratory infrastructure.
+                  Our infrastructure team is developing comprehensive healthcare facility solutions including diagnostic imaging, surgical suites, and laboratory setup.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -633,11 +633,11 @@ export default function MedicalEquipment() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">October 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
-                  Training 200+ Biomedical Engineers Across Kenya
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  Investing in Biomedical Engineering Training
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Comprehensive technical training program on advanced equipment maintenance, preventive care protocols, and emergency repair procedures to ensure 95% uptime guarantee.
+                  We are developing technical training programs for biomedical engineers covering equipment maintenance, preventive care protocols, and repair procedures.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -667,11 +667,11 @@ export default function MedicalEquipment() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-5xl font-serif text-white mb-6">
+            <h2 className="text-5xl font-serif font-bold leading-tight text-white mb-6">
               Ready to Equip Your Facility?
             </h2>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
-              Partner with Pacem Health for world-class medical equipment, turnkey facility solutions, and lifetime support. Let's discuss your healthcare infrastructure needs.
+              Partner with Pacem Health for quality medical equipment, turnkey facility solutions, and lifetime support. Let's discuss your healthcare infrastructure needs.
             </p>
             
             <div className="flex flex-wrap justify-center gap-4 mb-10">
@@ -699,7 +699,7 @@ export default function MedicalEquipment() {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-blue" />
-                <span>24/7 Support</span>
+                <span>dedicated Support</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-blue" />
@@ -736,7 +736,7 @@ export default function MedicalEquipment() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/50 to-transparent flex items-end">
                 <div className="p-8 w-full">
-                  <h2 className="text-4xl font-serif text-white mb-2">
+                  <h2 className="text-4xl font-serif font-bold leading-tight text-white mb-2">
                     {pillarDetails[selectedPillar].title}
                   </h2>
                   <p className="text-xl text-white/90">
@@ -766,7 +766,7 @@ export default function MedicalEquipment() {
                 <div className="space-y-6 mb-8">
                   {pillarDetails[selectedPillar].content.sections.map((section, idx) => (
                     <div key={idx} className="border-l-4 border-orange pl-6">
-                      <h3 className="text-xl font-serif text-navy mb-2">
+                      <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
                         {section.heading}
                       </h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -780,7 +780,7 @@ export default function MedicalEquipment() {
               {/* Highlights */}
               {pillarDetails[selectedPillar].content.highlights.length > 0 && (
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="text-xl font-serif text-navy mb-4">Key Highlights</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Key Highlights</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {pillarDetails[selectedPillar].content.highlights.map((highlight, idx) => (
                       <li key={idx} className="flex items-start gap-2">
