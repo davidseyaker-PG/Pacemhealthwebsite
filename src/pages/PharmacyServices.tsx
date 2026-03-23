@@ -13,19 +13,19 @@ export default function PharmacyServices() {
 
   const heroStats = [
     { 
-      value: "50+", 
-      label: "Retail Pharmacies",
+      value: "Growing", 
+      label: "Pharmacy Network",
       projection: "Projected by 2026",
       description: "Strategically located community pharmacies across Kenya and Ghana providing convenient access to medications, health services, and professional pharmaceutical care."
     },
     { 
-      value: "100K+", 
+      value: "Thousands", 
       label: "Patients Served",
       projection: "Projected by 2026",
       description: "Annual patient visits for prescription services, medication counseling, health screenings, immunizations, and chronic disease management programs."
     },
     { 
-      value: "98%", 
+      value: "High", 
       label: "Customer Satisfaction",
       description: "Patient satisfaction rating reflecting our commitment to personalized service, expert counseling, and quality care that improves health outcomes."
     }
@@ -98,10 +98,10 @@ export default function PharmacyServices() {
 
   const benefits = [
     { title: "Licensed Pharmacists", description: "Professional medication expertise & counseling" },
-    { title: "50+ Locations", description: "Convenient community access" },
+    { title: "Growing Network", description: "Convenient community access" },
     { title: "Digital Platform", description: "Online ordering & delivery" },
     { title: "Insurance Accepted", description: "Major health plans & cash pay" },
-    { title: "24/7 Support", description: "Emergency pharmacy access" },
+    { title: "Extended Hours", description: "Pharmacy access when you need it" },
     { title: "Specialty Programs", description: "HIV, diabetes, chronic disease care" }
   ];
 
@@ -131,7 +131,7 @@ export default function PharmacyServices() {
   const pillarDetails = [
     {
       title: "Community Pharmacy Network",
-      subtitle: "50+ Locations Across Urban and Peri-Urban Communities",
+      subtitle: "Pharmacy Locations Across Urban and Peri-Urban Communities",
       image: pillar1Image,
       content: {
         intro: "Our growing network of community pharmacies brings professional medication access and clinical services directly to neighborhoods across Kenya and Ghana. Each location is staffed with licensed pharmacists committed to personalized care, health education, and community wellness.",
@@ -158,7 +158,7 @@ export default function PharmacyServices() {
           }
         ],
         highlights: [
-          "50+ pharmacy locations across Kenya and Ghana",
+          "Pharmacy locations across our service areas",
           "Licensed pharmacists at every location",
           "Extended hours including evenings & weekends",
           "Major insurance plans accepted",
@@ -288,28 +288,28 @@ export default function PharmacyServices() {
       <ServiceBreadcrumb serviceName="Pharmacy Services" />
       
       {/* Hero Section */}
-      <section className="relative h-[700px] flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-navy/70 via-navy/50 to-navy/40 z-10" />
+      <section className="relative h-[600px] overflow-hidden">
+        <div className="absolute inset-0 bg-navy/80" />
         <motion.img
           src={heroImage}
           alt="Modern pharmacy interior"
           className="absolute inset-0 w-full h-full object-cover"
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
-          transition={{ duration: 10, ease: "easeOut" }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
         />
         
-        <div className="relative z-20 max-w-7xl mx-auto px-6 lg:px-8 w-full">
+        <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-4xl"
+            className="max-w-2xl"
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-serif font-extrabold text-white mb-6 leading-tight">
               Pharmacy Services
             </h1>
-            <p className="text-2xl text-white/90 mb-10 leading-relaxed">
+            <p className="text-xl text-white/90 mb-10 leading-relaxed">
               Your trusted community pharmacy partner for medications, clinical services, and personalized health support
             </p>
 
@@ -344,7 +344,7 @@ export default function PharmacyServices() {
             viewport={{ once: true }}
           >
             <div className="h-1 w-20 bg-orange mb-6 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               More Than Just a Pharmacy—Your Healthcare Partner
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
@@ -363,11 +363,11 @@ export default function PharmacyServices() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto mt-8">
-              Comprehensive pharmacy services from community access to digital innovation
+              Comprehensive pharmacy services from community access to digital solutions
             </p>
           </motion.div>
 
@@ -389,7 +389,7 @@ export default function PharmacyServices() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">
@@ -419,7 +419,7 @@ export default function PharmacyServices() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Pharmacy Operations at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -437,7 +437,7 @@ export default function PharmacyServices() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center"
               >
-                <div className="text-5xl font-bold text-navy mb-3">
+                <div className="text-5xl font-bold text-blue mb-3">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 leading-relaxed">
@@ -462,7 +462,7 @@ export default function PharmacyServices() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Comprehensive Pharmacy Services
             </h2>
             <p className="text-xl text-gray-600">
@@ -480,7 +480,7 @@ export default function PharmacyServices() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-gray-50 rounded-lg p-8 border-t-4 border-teal hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-serif text-navy mb-4">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">
                   {category.category}
                 </h3>
                 <ul className="space-y-2 list-disc list-inside">
@@ -501,7 +501,7 @@ export default function PharmacyServices() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Who We Serve
             </h2>
             <p className="text-xl text-gray-600">
@@ -519,7 +519,7 @@ export default function PharmacyServices() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-6 border-t-4 border-orange shadow-md hover:shadow-xl transition-all duration-300 text-center"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                   {sector.title}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -536,7 +536,7 @@ export default function PharmacyServices() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Why Choose Pacem Health Pharmacy
             </h2>
             <p className="text-xl text-gray-600">
@@ -554,7 +554,7 @@ export default function PharmacyServices() {
                 transition={{ delay: index * 0.05 }}
                 className="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-bold text-navy mb-2">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
                   {benefit.title}
                 </h3>
                 <p className="text-gray-600">{benefit.description}</p>
@@ -574,7 +574,7 @@ export default function PharmacyServices() {
             className="text-center mb-12"
           >
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               News & Stories
             </h2>
             <p className="text-xl text-gray-600">
@@ -599,11 +599,11 @@ export default function PharmacyServices() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">December 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
-                  Opening 15 New Community Pharmacies Across Kenya
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  Growing Our Community Pharmacy Network
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Expanding our retail pharmacy network to bring medication access and clinical services to underserved neighborhoods in Nairobi, Kisumu, and Mombasa.
+                  We are expanding our retail pharmacy network to bring medication access and clinical services to more communities.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -631,11 +631,11 @@ export default function PharmacyServices() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">November 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
-                  Launching Enhanced Digital Pharmacy Platform
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  Developing Digital Pharmacy Capabilities
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  New mobile app features enable same-day medication delivery, virtual pharmacist consultations, and automated refill reminders for improved patient convenience.
+                  We are building digital tools to support medication access, pharmacist consultations, and convenient refill options for our patients.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -663,11 +663,11 @@ export default function PharmacyServices() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">October 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
-                  Expanding HIV/AIDS Medication Management Programs
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  Strengthening Medication Adherence Support
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Specialized pharmacist training and dedicated counseling services help 5,000+ patients achieve better adherence and viral suppression outcomes.
+                  Specialized pharmacist training and dedicated counseling services support patients in achieving better adherence and viral suppression outcomes.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -697,7 +697,7 @@ export default function PharmacyServices() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-5xl font-serif text-white mb-6">
+            <h2 className="text-5xl font-serif font-bold leading-tight text-white mb-6">
               Visit Your Neighborhood Pharmacy
             </h2>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
@@ -725,7 +725,7 @@ export default function PharmacyServices() {
             <div className="flex flex-wrap justify-center gap-8 text-white/90">
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-blue" />
-                <span>50+ Locations</span>
+                <span>Growing Network</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-blue" />
@@ -766,7 +766,7 @@ export default function PharmacyServices() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/50 to-transparent flex items-end">
                 <div className="p-8 w-full">
-                  <h2 className="text-4xl font-serif text-white mb-2">
+                  <h2 className="text-4xl font-serif font-bold leading-tight text-white mb-2">
                     {pillarDetails[selectedPillar].title}
                   </h2>
                   <p className="text-xl text-white/90">
@@ -796,7 +796,7 @@ export default function PharmacyServices() {
                 <div className="space-y-6 mb-8">
                   {pillarDetails[selectedPillar].content.sections.map((section, idx) => (
                     <div key={idx} className="border-l-4 border-orange pl-6">
-                      <h3 className="text-xl font-serif text-navy mb-2">
+                      <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
                         {section.heading}
                       </h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -810,7 +810,7 @@ export default function PharmacyServices() {
               {/* Highlights */}
               {pillarDetails[selectedPillar].content.highlights.length > 0 && (
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="text-xl font-serif text-navy mb-4">Key Highlights</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Key Highlights</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {pillarDetails[selectedPillar].content.highlights.map((highlight, idx) => (
                       <li key={idx} className="flex items-start gap-2">
