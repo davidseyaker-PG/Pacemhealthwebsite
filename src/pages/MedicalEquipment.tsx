@@ -33,7 +33,7 @@ export default function MedicalEquipment() {
     {
       number: "01",
       title: "Advanced Medical Equipment Supply",
-      description: "Comprehensive portfolio of diagnostic imaging (CT, MRI, X-Ray, ultrasound), surgical equipment, patient monitoring systems, laboratory analyzers, and life support systems from world-leading manufacturers.",
+      description: "Comprehensive portfolio of diagnostic imaging (CT, MRI, X-Ray, ultrasound), surgical equipment, patient monitoring systems, laboratory analyzers, and life support systems from leading manufacturers.",
       image: pillar1Image
     },
     {
@@ -109,7 +109,7 @@ export default function MedicalEquipment() {
       subtitle: "quality Technology from Leading Global Manufacturers",
       image: pillar1Image,
       content: {
-        intro: "Our comprehensive medical equipment portfolio brings the latest diagnostic, surgical, and patient care technology to healthcare facilities across Africa. As authorized distributors for leading equipment manufacturers, Philips, Siemens Healthineers, and Medtronic, we supply advanced medical equipment backed by full warranties, factory training, and OEM support.",
+        intro: "Our comprehensive medical equipment portfolio brings the latest diagnostic, surgical, and patient care technology to healthcare facilities across Africa. As authorized distributors for leading equipment manufacturers, we supply advanced medical equipment backed by full warranties, factory training, and OEM support.",
         sections: [
           {
             heading: "Diagnostic Imaging Equipment",
@@ -133,7 +133,7 @@ export default function MedicalEquipment() {
           }
         ],
         highlights: [
-          "Authorized distributor for GE, Philips, Siemens, Medtronic",
+          "Partnerships with leading global manufacturers",
           "Full manufacturer warranties on all equipment",
           "Comprehensive portfolio across all clinical specialties",
           "Latest technology options and upgrades",
@@ -185,7 +185,7 @@ export default function MedicalEquipment() {
       subtitle: "Preventive Maintenance & dedicated Technical Support",
       image: pillar3Image,
       content: {
-        intro: "Medical equipment uptime is critical for patient care and operational revenue. Our comprehensive service programs include preventive maintenance, rapid repair response, dedicated technical support, spare parts inventory management, and remote diagnostics to maximize equipment availability and extend operational life. We guarantee reliable uptime for all equipment under service contract.",
+        intro: "Medical equipment uptime is critical for patient care and operational revenue. Our comprehensive service programs include preventive maintenance, rapid repair response, dedicated technical support, spare parts inventory management, and remote diagnostics to maximize equipment availability and extend operational life. We are committed to reliable uptime for all equipment under service contract.",
         sections: [
           {
             heading: "Preventive Maintenance Programs",
@@ -193,7 +193,7 @@ export default function MedicalEquipment() {
           },
           {
             heading: "Rapid Repair & Emergency Response",
-            description: "dedicated technical support hotline with 4-hour response time for critical equipment failures including imaging systems, operating room equipment, and life support devices. Factory-trained biomedical engineers diagnose issues remotely or dispatch on-site for repairs. Emergency parts available from local inventory for rapid restoration of equipment operation."
+            description: "dedicated technical support hotline with rapid response time for critical equipment failures including imaging systems, operating room equipment, and life support devices. Factory-trained biomedical engineers diagnose issues remotely or dispatch on-site for repairs. Emergency parts available from local inventory for rapid restoration of equipment operation."
           },
           {
             heading: "Spare Parts Inventory & Management",
@@ -209,8 +209,8 @@ export default function MedicalEquipment() {
           }
         ],
         highlights: [
-          "reliable uptime guarantee under service contract",
-          "dedicated technical support with 4-hour response",
+          "Reliable uptime commitment under service contract",
+          "dedicated technical support with rapid response",
           "Factory-trained biomedical engineers",
           "Genuine OEM spare parts inventory",
           "Remote diagnostics & proactive monitoring",
@@ -227,7 +227,7 @@ export default function MedicalEquipment() {
         sections: [
           {
             heading: "Equipment Financing Options",
-            description: "Flexible payment plans including equipment leasing, installment purchase agreements, and rental programs tailored to your financial constraints and operational needs. Partnerships with healthcare financing institutions provide competitive interest rates and terms up to 7 years. Financing packages bundle equipment purchase with service contracts for comprehensive cost predictability."
+            description: "Flexible payment plans including equipment leasing, installment purchase agreements, and rental programs tailored to your financial constraints and operational needs. Partnerships with healthcare financing institutions provide competitive interest rates and flexible terms. Financing packages bundle equipment purchase with service contracts for comprehensive cost predictability."
           },
           {
             heading: "Operating Leases & Capital Leases",
@@ -247,7 +247,7 @@ export default function MedicalEquipment() {
           }
         ],
         highlights: [
-          "Flexible financing with terms up to 7 years",
+          "Flexible financing with flexible terms",
           "Operating & capital lease options available",
           "Trade-in programs for equipment upgrades",
           "Comprehensive asset tracking systems",
