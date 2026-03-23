@@ -95,7 +95,7 @@ export default function QualityAssurance() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative min-h-[50vh] flex items-center bg-white overflow-hidden">
+      <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
             src={heroImage}
@@ -111,7 +111,7 @@ export default function QualityAssurance() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6">
+            <h1 className="text-6xl lg:text-7xl font-serif font-extrabold leading-tight text-white mb-6">
               Quality Assurance
             </h1>
             <p className="text-2xl text-white/90 max-w-2xl">
@@ -130,11 +130,11 @@ export default function QualityAssurance() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-8">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-8">
               Embedded Excellence
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              Quality is not just a commitment at Pacem Healthâit's embedded in every step of our process. Our triple-verified quality system combines supplier certification, independent laboratory testing, and complete documentation to ensure every product meets the highest international pharmaceutical standards.
+              Quality is not just a commitment at Pacem HealthÃ¢ÂÂit's embedded in every step of our process. Our triple-verified quality system combines supplier certification, independent laboratory testing, and complete documentation to ensure every product meets the highest international pharmaceutical standards.
             </p>
             <p className="text-xl text-gray-700 leading-relaxed">
               From WHO-prequalified manufacturers to ISO 17025 accredited testing and ongoing pharmacovigilance, we provide complete quality confidence for healthcare providers and patients across Africa.
@@ -153,7 +153,7 @@ export default function QualityAssurance() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Triple-Verified Quality System
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -173,7 +173,7 @@ export default function QualityAssurance() {
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                   className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-blue/30 hover:shadow-lg transition-all duration-300"
                 >
-                  <h3 className="text-xl font-serif text-navy mb-4 font-bold">{component.title}</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">{component.title}</h3>
                   <p className="text-gray-700 leading-relaxed mb-6">{component.description}</p>
                   <ul className="space-y-2">
                     {component.details.map((detail, idx) => (
@@ -200,7 +200,7 @@ export default function QualityAssurance() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Trusted Across All Sectors
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -216,7 +216,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.6 }}
               className="bg-white p-10 rounded-2xl border border-gray-200 hover:border-orange hover:shadow-lg transition-all duration-300"
             >
-              <h3 className="text-3xl font-serif text-navy mb-6 font-bold">Public Sector</h3>
+              <h3 className="text-3xl font-serif font-semibold leading-tight text-blue mb-6">Public Sector</h3>
               <ul className="space-y-4">
                 {publicSectorClients.map((client, idx) => (
                   <li key={idx} className="flex items-start gap-3">
@@ -234,7 +234,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.6 }}
               className="bg-white p-10 rounded-2xl border border-gray-200 hover:border-orange hover:shadow-lg transition-all duration-300"
             >
-              <h3 className="text-3xl font-serif text-navy mb-6 font-bold">Private Sector</h3>
+              <h3 className="text-3xl font-serif font-semibold leading-tight text-blue mb-6">Private Sector</h3>
               <ul className="space-y-4">
                 {privateSectorClients.map((client, idx) => (
                   <li key={idx} className="flex items-start gap-3">
@@ -258,7 +258,7 @@ export default function QualityAssurance() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Six Steps of Quality Verification
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -278,7 +278,7 @@ export default function QualityAssurance() {
               >
                 <div className="flex items-start gap-4 mb-4">
                   <span className="text-5xl font-bold text-navy">{step.number}</span>
-                  <h3 className="text-xl font-serif text-navy font-bold pt-2">{step.title}</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue pt-2">{step.title}</h3>
                 </div>
                 <p className="text-gray-700 leading-relaxed">{step.description}</p>
               </motion.div>
@@ -297,7 +297,7 @@ export default function QualityAssurance() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               International Quality Standards
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -313,7 +313,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4 }}
               className="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-all duration-300 text-center"
             >
-              <h3 className="text-xl font-serif text-navy mb-4 font-bold">WHO Good Distribution Practices</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">WHO Good Distribution Practices</h3>
               <p className="text-gray-700 leading-relaxed">
                 Guidelines for proper distribution, storage, and transportation of pharmaceutical products.
               </p>
@@ -326,7 +326,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4, delay: 0.1 }}
               className="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-all duration-300 text-center"
             >
-              <h3 className="text-xl font-serif text-navy mb-4 font-bold">ISO 17025 Accredited Testing</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">ISO 17025 Accredited Testing</h3>
               <p className="text-gray-700 leading-relaxed">
                 Independent laboratory testing by internationally-accredited facilities ensuring objective quality verification.
               </p>
@@ -339,7 +339,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4, delay: 0.2 }}
               className="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-all duration-300 text-center"
             >
-              <h3 className="text-xl font-serif text-navy mb-4 font-bold">WHO Prequalification Program</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">WHO Prequalification Program</h3>
               <p className="text-gray-700 leading-relaxed">
                 Products sourced by WHO-prequalified manufacturers meeting the highest international quality standards.
               </p>
@@ -352,7 +352,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4, delay: 0.3 }}
               className="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-all duration-300 text-center"
             >
-              <h3 className="text-xl font-serif text-navy mb-4 font-bold">Stringent Regulatory Authority Approval</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Stringent Regulatory Authority Approval</h3>
               <p className="text-gray-700 leading-relaxed">
                 Products approved by US FDA, European EMA, or equivalent stringent regulatory authorities.
               </p>
@@ -371,7 +371,7 @@ export default function QualityAssurance() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Our Quality Partners
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -387,7 +387,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.6 }}
               className="bg-white p-10 rounded-2xl border border-gray-200 hover:border-orange hover:shadow-lg transition-all duration-300"
             >
-              <h3 className="text-3xl font-serif text-navy mb-6 font-bold">Supplier Partners</h3>
+              <h3 className="text-3xl font-serif font-semibold leading-tight text-blue mb-6">Supplier Partners</h3>
               
               <div className="space-y-6">
                 <div>
@@ -429,7 +429,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.6 }}
               className="bg-white p-10 rounded-2xl border border-gray-200 hover:border-orange hover:shadow-lg transition-all duration-300"
             >
-              <h3 className="text-3xl font-serif text-navy mb-6 font-bold">Testing Partners</h3>
+              <h3 className="text-3xl font-serif font-semibold leading-tight text-blue mb-6">Testing Partners</h3>
               
               <div className="space-y-6">
                 <div>
@@ -473,7 +473,7 @@ export default function QualityAssurance() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Key Benefits
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -489,7 +489,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4 }}
               className="bg-white p-10 rounded-2xl border border-gray-200 hover:border-orange hover:shadow-lg transition-all duration-300"
             >
-              <h3 className="text-2xl font-serif text-navy mb-6 font-bold">Complete Quality Confidence</h3>
+              <h3 className="text-2xl font-serif font-semibold leading-tight text-blue mb-6">Complete Quality Confidence</h3>
               
               <div className="mb-4">
                 <h4 className="font-bold text-navy mb-2 flex items-start gap-3">
@@ -525,7 +525,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4, delay: 0.1 }}
               className="bg-white p-10 rounded-2xl border border-gray-200 hover:border-orange hover:shadow-lg transition-all duration-300"
             >
-              <h3 className="text-2xl font-serif text-navy mb-6 font-bold">Regulatory Compliance</h3>
+              <h3 className="text-2xl font-serif font-semibold leading-tight text-blue mb-6">Regulatory Compliance</h3>
               
               <div className="mb-4">
                 <h4 className="font-bold text-navy mb-2 flex items-start gap-3">
@@ -561,7 +561,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4, delay: 0.2 }}
               className="bg-white p-10 rounded-2xl border border-gray-200 hover:border-orange hover:shadow-lg transition-all duration-300"
             >
-              <h3 className="text-2xl font-serif text-navy mb-6 font-bold">LC-Compliant Documentation</h3>
+              <h3 className="text-2xl font-serif font-semibold leading-tight text-blue mb-6">LC-Compliant Documentation</h3>
               
               <div className="mb-4">
                 <h4 className="font-bold text-navy mb-2 flex items-start gap-3">
@@ -597,7 +597,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4, delay: 0.3 }}
               className="bg-white p-10 rounded-2xl border border-gray-200 hover:border-orange hover:shadow-lg transition-all duration-300"
             >
-              <h3 className="text-2xl font-serif text-navy mb-6 font-bold">Ongoing Quality Assurance</h3>
+              <h3 className="text-2xl font-serif font-semibold leading-tight text-blue mb-6">Ongoing Quality Assurance</h3>
               
               <div className="mb-4">
                 <h4 className="font-bold text-navy mb-2 flex items-start gap-3">
@@ -639,7 +639,7 @@ export default function QualityAssurance() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-white mb-6">
               Quality Documentation Package
             </h2>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
@@ -648,7 +648,7 @@ export default function QualityAssurance() {
           </motion.div>
 
           <div className="backdrop-blur-lg rounded-2xl p-12 border" style={{ backgroundColor: '#0068AC' }}>
-            <h3 className="text-2xl font-serif text-white mb-8 text-center">
+            <h3 className="text-2xl font-serif font-semibold leading-tight text-white mb-8 text-center">
               What You Receive with Every Shipment:
             </h3>
             
@@ -745,7 +745,7 @@ export default function QualityAssurance() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Why Choose Pacem Quality Assurance
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -761,7 +761,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4 }}
               className="text-center"
             >
-              <h3 className="text-xl font-serif text-navy mb-4 font-bold">Triple-Verified Quality</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Triple-Verified Quality</h3>
               <p className="text-gray-700 leading-relaxed">
                 Three independent layers of quality verification ensure supplier certification, laboratory testing, and complete documentation.
               </p>
@@ -774,7 +774,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4, delay: 0.1 }}
               className="text-center"
             >
-              <h3 className="text-xl font-serif text-navy mb-4 font-bold">ISO-Accredited Testing</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">ISO-Accredited Testing</h3>
               <p className="text-gray-700 leading-relaxed">
                 Independent testing by ISO 17025 accredited laboratories (Ghana FDA, Kenya KEBS) provides objective quality verification.
               </p>
@@ -787,7 +787,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4, delay: 0.2 }}
               className="text-center"
             >
-              <h3 className="text-xl font-serif text-navy mb-4 font-bold">Complete Documentation</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Complete Documentation</h3>
               <p className="text-gray-700 leading-relaxed">
                 Comprehensive quality documentation packages ensure regulatory compliance and facilitate LC processing.
               </p>
@@ -800,7 +800,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4, delay: 0.3 }}
               className="text-center"
             >
-              <h3 className="text-xl font-serif text-navy mb-4 font-bold">Continuous Monitoring</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Continuous Monitoring</h3>
               <p className="text-gray-700 leading-relaxed">
                 Post-distribution monitoring, pharmacovigilance, and market surveillance provide ongoing quality assurance.
               </p>
@@ -813,7 +813,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4, delay: 0.4 }}
               className="text-center"
             >
-              <h3 className="text-xl font-serif text-navy mb-4 font-bold">Integrated Services</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Integrated Services</h3>
               <p className="text-gray-700 leading-relaxed">
                 Quality Assurance supports all services: Procurement, Supply Chain, Regulatory, and Medical Services.
               </p>
@@ -832,7 +832,7 @@ export default function QualityAssurance() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+              <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
                 Quality Affairs Team
               </h2>
               <p className="text-xl text-gray-700 leading-relaxed mb-6">
@@ -895,7 +895,7 @@ export default function QualityAssurance() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-white mb-6">
               Experience Triple-Verified Quality
             </h2>
             <p className="text-xl mb-8 text-white/90">
