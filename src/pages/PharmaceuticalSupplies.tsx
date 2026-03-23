@@ -541,12 +541,6 @@ export default function PharmaceuticalSupplies() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/50 to-transparent" />
                   
-                  {/* Pillar Number Badge */}
-                  <div className="absolute top-4 left-4">
-                    <div className="bg-orange text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg">
-                      {pillar.number}
-                    </div>
-                  </div>
 
                   {/* Title Overlay */}
                   <div className="absolute bottom-0 left-0 right-0 p-6">
