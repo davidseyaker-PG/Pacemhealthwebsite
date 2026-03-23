@@ -73,7 +73,7 @@ export default function PediatricPharmacy() {
             transition={{ duration: 0.6 }}
             className="max-w-4xl"
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6">
+            <h1 className="text-6xl lg:text-7xl font-serif font-extrabold leading-tight text-white mb-6">
               Pacem Health Pediatric Pharmacy Program
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl leading-relaxed">
@@ -102,7 +102,7 @@ export default function PediatricPharmacy() {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy text-center mb-8 sm:mb-12 px-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue text-center mb-8 sm:mb-12 px-4">
               Africa's Maternal-Child Health Crisis
             </h2>
             
@@ -182,7 +182,7 @@ export default function PediatricPharmacy() {
               variants={fadeInUp}
             >
               <div className="h-1 w-16 sm:w-20 bg-blue mb-4 sm:mb-6" />
-              <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4 sm:mb-6">
+              <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4 sm:mb-6">
                 Pediatric Pharmacies
               </h2>
               <p className="text-xl md:text-2xl text-blue mb-4 sm:mb-6 font-medium">
@@ -206,7 +206,7 @@ export default function PediatricPharmacy() {
             whileInView="visible"
             viewport={{ once: true }}
             variants={fadeInUp}
-            className="text-4xl md:text-5xl font-serif text-navy text-center mb-10 sm:mb-16 px-4"
+            className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue text-center mb-10 sm:mb-16 px-4"
           >
             Pediatric Pharmacy Center Services
           </motion.h2>
@@ -222,7 +222,7 @@ export default function PediatricPharmacy() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-gray-50 rounded-2xl p-6 sm:p-8 hover:bg-white hover:shadow-lg transition-all border-2 border-gray-100"
               >
-                <h3 className="text-xl font-serif text-navy font-bold mb-4">{service.title}</h3>
+                <h3 className="text-xl font-serif text-blue font-semibold leading-tight mb-4">{service.title}</h3>
                 <ul className="space-y-3 list-disc list-inside">
                   {service.items.map((item, itemIndex) => (
                     <li key={itemIndex} className="text-sm sm:text-base text-gray-600">
@@ -259,7 +259,7 @@ export default function PediatricPharmacy() {
               </div>
             </div>
             
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-white mb-6">
               Find a Pediatric Pharmacy Near You
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
