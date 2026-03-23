@@ -195,7 +195,50 @@ export default function CommunityImpact() {
         </div>
       </section>
 
-      {/* Local Partnerships Section */}
+      {/* Impact Goals */}
+        <section className="py-20 bg-navy text-white">
+          <div className="max-w-7xl mx-auto px-6">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="text-center mb-16"
+            >
+              <h2 className="text-4xl md:text-5xl font-heading font-extrabold mb-6">
+                What We're Building Toward
+              </h2>
+              <p className="text-xl text-white/80 max-w-3xl mx-auto">
+                The goals driving our work across Africa
+              </p>
+            </motion.div>
+
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              {[
+                { number: 'Pan-African', label: 'Market Reach' },
+                { number: 'Thousands', label: 'Workers to Train' },
+                { number: 'Millions', label: 'Lives to Reach' },
+                { number: 'Hundreds', label: 'Local Partnerships' },
+                { number: 'Expanding', label: 'Rural Access Network' },
+                { number: '100%', label: 'Quality Standard' }
+              ].map((stat, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.4, delay: index * 0.1 }}
+                  className="bg-white/5 backdrop-blur p-8 rounded-2xl border border-white/10 hover:border-white/20 transition-all duration-300 text-center"
+                >
+                  <div className="text-4xl font-bold text-orange mb-2">{stat.number}</div>
+                  <div className="text-lg text-white/90">{stat.label}</div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Local Partnerships Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
