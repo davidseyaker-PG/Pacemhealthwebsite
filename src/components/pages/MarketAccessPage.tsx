@@ -25,13 +25,13 @@ import partnershipImage from 'figma:asset/a47215a7d43e5093e47d924ef76070cc562f2c
 
 const keyStats = [
   { 
-    value: '15+', 
-    label: 'African Countries by 2026',
-    description: 'Regional market access across East, West, and Southern Africa through our Kenya and Ghana hubs with established distribution networks and regulatory expertise.'
+    value: 'Growing', 
+    label: 'Regional Reach',
+    description: 'Regional market access across East, West, and Southern Africa through our regional hubs with established distribution networks and regulatory expertise.'
   },
   { 
-    value: '500+', 
-    label: 'Healthcare Facilities by 2026',
+    value: 'Expanding', 
+    label: 'Healthcare Network',
     description: 'Hospitals, clinics, and pharmacies served through our market access partnerships, representing comprehensive coverage across public and private healthcare sectors.'
   },
   { 
@@ -91,7 +91,7 @@ const pillarDetails = [
         },
         {
           heading: 'Competitive Positioning & Differentiation',
-          description: 'Analysis of existing competitors, their market positions, pricing strategies, and distribution channels. We identify opportunities for differentiation, recommend positioning strategies, estimate potential market share, and develop go-to-market approaches that leverage your unique value proposition against established and emerging competitors.'
+          description: 'Analysis of existing competitors, their market positions, pricing strategies, and distribution channels. We identify opportunities for differentiation, recommend positioning strategies, estimate potential market share, and develop go-to-market approaches that use your unique value proposition against established and emerging competitors.'
         },
         {
           heading: 'Commercial Model & Partnership Structure',
@@ -103,7 +103,7 @@ const pillarDetails = [
         }
       ],
       highlights: [
-        'Market assessment covering 15+ African countries',
+        'Market assessment covering multiple African countries',
         'Regulatory feasibility analysis with success probability',
         'Competitive intelligence from in-market experience',
         'Partnership model recommendation tailored to your goals',
@@ -117,7 +117,7 @@ const pillarDetails = [
     subtitle: 'Complete Regulatory Support from Submission to Approval',
     image: pillar02Image,
     content: {
-      intro: 'Product registration is often the most challenging barrier to African market entry. Our regulatory team has deep relationships with national regulatory authorities, proven track record of successful registrations, and expertise navigating complex regulatory requirements across East and West African markets. We handle the entire registration process from dossier preparation to approval, ensuring compliance while minimizing timelines.',
+      intro: 'Product registration is often the most challenging barrier to African market entry. Our regulatory team has deep relationships with national regulatory authorities, strong experience in successful registrations, and expertise navigating complex regulatory requirements across East and West African markets. We handle the entire registration process from dossier preparation to approval, ensuring compliance while minimizing timelines.',
       sections: [
         {
           heading: 'Dossier Preparation & Compilation',
@@ -141,7 +141,7 @@ const pillarDetails = [
         }
       ],
       highlights: [
-        'Proven track record across Kenya, Ghana, and regional bodies',
+        'Experience across multiple regulatory bodies',
         'Direct relationships with regulatory authorities',
         'Dossier preparation meeting CTD/ACTD standards',
         'Active timeline management reducing approval time',
@@ -159,7 +159,7 @@ const pillarDetails = [
       sections: [
         {
           heading: 'GDP-Compliant Distribution Network',
-          description: 'WHO Good Distribution Practices certified warehousing and distribution across Kenya and Ghana. Our facilities maintain proper storage conditions, implement first-expiry-first-out (FEFO) systems, track batches and serial numbers, and ensure product integrity from receipt to delivery. Cold chain capability for temperature-sensitive products with 24/7 monitoring.'
+          description: 'Warehousing guided by WHO Good Distribution Practices and distribution across our regional network. Our facilities maintain proper storage conditions, implement first-expiry-first-out (FEFO) systems, track batches and serial numbers, and ensure product integrity from receipt to delivery. Cold chain capability for temperature-sensitive products with dedicated monitoring.'
         },
         {
           heading: 'Dedicated Sales Team',
@@ -180,7 +180,7 @@ const pillarDetails = [
       ],
       highlights: [
         'Experienced sales team with established customer relationships',
-        'WHO GDP-certified distribution infrastructure',
+        'Distribution infrastructure guided by WHO GDP standards',
         'Coverage across public & private healthcare sectors',
         'Inventory management optimizing availability & capital',
         'Same-day delivery in major cities with regional coverage',
@@ -209,7 +209,7 @@ const pillarDetails = [
         },
         {
           heading: 'Formulary & Guideline Inclusion',
-          description: 'Targeted efforts to achieve formulary status at major hospital systems and inclusion in national treatment guidelines. We prepare dossiers demonstrating clinical and economic value, engage with pharmacy and therapeutics committees, provide health economic analyses, and leverage clinical evidence to secure preferred product status and institutional commitments.'
+          description: 'Targeted efforts to achieve formulary status at major hospital systems and inclusion in national treatment guidelines. We prepare dossiers demonstrating clinical and economic value, engage with pharmacy and therapeutics committees, provide health economic analyses, and use clinical evidence to secure preferred product status and institutional commitments.'
         },
         {
           heading: 'Market Expansion Initiatives',
@@ -262,7 +262,7 @@ const partnershipModels = [
 const benefits = [
   {
     title: 'Regional Coverage',
-    description: 'Access 15+ African markets through our Kenya and Ghana hubs with established networks.',
+    description: 'Access multiple African markets through our regional hubs with established networks.',
   },
   {
     title: 'Local Expertise',
@@ -274,7 +274,7 @@ const benefits = [
   },
   {
     title: 'Quality Standards',
-    description: 'WHO GDP-certified with ISO 9001:2015 quality management across all operations.',
+    description: 'Guided by WHO GDP and ISO 9001:2015 quality management standards across all operations.',
   },
   {
     title: 'Market Development',
@@ -310,7 +310,7 @@ export function MarketAccessPage() {
             alt="Market Access Services"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-navy/70 via-navy/50 to-navy/40" />
+          <div className="absolute inset-0 bg-navy/80" />
         </div>
 
         <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center">
@@ -318,12 +318,12 @@ export function MarketAccessPage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-3xl"
+            className="max-w-2xl"
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-serif font-extrabold text-white mb-6 leading-tight">
               Market Access Services
             </h1>
-            <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
+            <p className="text-xl text-gray-200 mb-8 leading-relaxed">
               Your strategic partner for entering and growing across African healthcare markets
             </p>
             
@@ -337,7 +337,7 @@ export function MarketAccessPage() {
                 <ArrowRight className="w-5 h-5" />
               </motion.button>
               <motion.button
-                className="px-8 py-4 border-2 border-white text-white rounded-md hover:bg-white hover:text-navy transition-all duration-300"
+                className="px-8 py-4 border-2 border-white text-white rounded-md hover:bg-white hover:text-blue transition-all duration-300"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setShowPartnershipModels(!showPartnershipModels)}
@@ -359,7 +359,7 @@ export function MarketAccessPage() {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue leading-tight">
               We Don't Just Move Product.<br />We Build Markets.
             </h2>
           </motion.div>
@@ -377,14 +377,14 @@ export function MarketAccessPage() {
 
             <div className="bg-gray-50 rounded-lg p-8 border-l-4 border-orange">
               <p className="text-gray-700 text-lg leading-relaxed">
-                Pacem Health offers <span className="font-bold text-navy">strategic partnerships</span> that combine your innovative products with our deep market knowledge, established infrastructure, and proven track record. We build sustainable market presence, develop customer relationships, ensure regulatory compliance, and drive long-term growth.
+                Pacem Health offers <span className="font-bold text-blue">strategic partnerships</span> that combine your effective products with our deep market knowledge, established infrastructure, and deep experience. We build sustainable market presence, develop customer relationships, ensure regulatory compliance, and drive long-term growth.
               </p>
             </div>
           </motion.div>
         </div>
       </section>
 
-      {/* Market Access Operations at a Glance - McKesson Style */}
+      {/* Market Access Operations at a Glance - Stats Style */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
@@ -393,7 +393,7 @@ export function MarketAccessPage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
               Market Access Operations at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -411,7 +411,7 @@ export function MarketAccessPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center"
               >
-                <div className="text-5xl font-bold text-navy mb-3">
+                <div className="text-5xl font-bold text-blue mb-3">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 font-semibold mb-2">
@@ -436,7 +436,7 @@ export function MarketAccessPage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -462,7 +462,7 @@ export function MarketAccessPage() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-2xl font-serif text-navy mb-3">
+                  <h3 className="text-2xl font-serif font-semibold text-blue mb-3 leading-tight">
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">
@@ -495,7 +495,7 @@ export function MarketAccessPage() {
               className="text-center mb-16"
             >
               <div className="inline-block relative mb-4">
-                <h2 className="text-4xl md:text-5xl font-serif text-navy">
+                <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue leading-tight">
                   Partnership Models
                 </h2>
                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-32 h-1 bg-orange" />
@@ -523,7 +523,7 @@ export function MarketAccessPage() {
                       {model.commitment}
                     </div>
                   </div>
-                  <h3 className="text-2xl font-serif text-navy mb-2">
+                  <h3 className="text-2xl font-serif font-semibold text-blue mb-2 leading-tight">
                     {model.title}
                   </h3>
                   <p className="text-orange text-sm font-semibold uppercase tracking-wide mb-4">
@@ -562,7 +562,7 @@ export function MarketAccessPage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
               Why Partner With Us
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -580,7 +580,7 @@ export function MarketAccessPage() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="bg-white rounded-lg p-8 hover:shadow-xl transition-all duration-300 border-t-4 border-navy"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">
+                <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
                   {benefit.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -619,7 +619,7 @@ export function MarketAccessPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+              <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
                 Strategic Partnership Program
               </h2>
 
@@ -641,7 +641,7 @@ export function MarketAccessPage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-4 leading-tight">
               Quality & Compliance
             </h2>
             <p className="text-gray-300 text-lg max-w-3xl mx-auto">
@@ -718,7 +718,7 @@ export function MarketAccessPage() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
               >
-                <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
+                <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6 leading-tight">
                   Ready to Enter African Markets?
                 </h2>
                 <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
@@ -734,7 +734,7 @@ export function MarketAccessPage() {
                     <ArrowRight className="w-5 h-5" />
                   </motion.button>
                   <motion.button
-                    className="px-8 py-4 border-2 border-white text-white rounded-md hover:bg-white hover:text-navy transition-all duration-300"
+                    className="px-8 py-4 border-2 border-white text-white rounded-md hover:bg-white hover:text-blue transition-all duration-300"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                   >
@@ -773,7 +773,7 @@ export function MarketAccessPage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/50 to-transparent flex items-end">
                 <div className="p-8 w-full">
-                  <h2 className="text-4xl font-serif text-white mb-2">
+                  <h2 className="text-4xl font-serif font-bold text-white mb-2 leading-tight">
                     {pillarDetails[selectedPillar].title}
                   </h2>
                   <p className="text-xl text-white/90">
@@ -802,7 +802,7 @@ export function MarketAccessPage() {
               <div className="space-y-6 mb-8">
                 {pillarDetails[selectedPillar].content.sections.map((section, index) => (
                   <div key={index} className="border-l-4 border-orange pl-6">
-                    <h3 className="text-xl font-serif text-navy mb-3">
+                    <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
                       {section.heading}
                     </h3>
                     <p className="text-gray-700 leading-relaxed">
@@ -814,7 +814,7 @@ export function MarketAccessPage() {
 
               {/* Highlights */}
               <div className="bg-teal/5 rounded-lg p-6 mb-8">
-                <h3 className="text-xl font-serif text-navy mb-4">Key Highlights</h3>
+                <h3 className="text-xl font-serif font-semibold text-blue mb-4">Key Highlights</h3>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   {pillarDetails[selectedPillar].content.highlights.map((highlight, index) => (
                     <li key={index} className="flex items-start gap-2">
