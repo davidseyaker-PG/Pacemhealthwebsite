@@ -120,7 +120,7 @@ export default function PacemExcellence() {
             transition={{ duration: 0.6 }}
             className="max-w-4xl"
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6">
+            <h1 className="text-6xl lg:text-7xl font-serif font-extrabold leading-tight text-white mb-6">
               Pacem Excellence
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4">
@@ -153,7 +153,7 @@ export default function PacemExcellence() {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-navy text-center mb-8 sm:mb-12 px-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold leading-tight text-blue text-center mb-8 sm:mb-12 px-4">
               Africa's Pharmaceutical Quality Crisis
             </h2>
             
@@ -196,7 +196,7 @@ export default function PacemExcellence() {
             whileInView="visible"
             viewport={{ once: true }}
             variants={fadeInUp}
-            className="text-3xl sm:text-4xl md:text-5xl font-serif text-navy text-center mb-10 sm:mb-16 px-4"
+            className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold leading-tight text-blue text-center mb-10 sm:mb-16 px-4"
           >
             Three Pillars of Excellence
           </motion.h2>
@@ -212,7 +212,7 @@ export default function PacemExcellence() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-xl transition-all group"
               >
-                <h3 className="text-lg sm:text-xl font-serif text-navy font-bold mb-3 sm:mb-4">{pillar.title}</h3>
+                <h3 className="text-lg sm:text-xl font-serif text-blue font-semibold leading-tight mb-3 sm:mb-4">{pillar.title}</h3>
                 <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{pillar.description}</p>
               </motion.div>
             ))}
@@ -248,7 +248,7 @@ export default function PacemExcellence() {
               className="order-1 lg:order-2"
             >
               <div className="h-1 w-16 sm:w-20 bg-orange mb-4 sm:mb-6" />
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-navy mb-4 sm:mb-6">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4 sm:mb-6">
                 Independent Quality Surveillance
               </h2>
               <div className="space-y-3 sm:space-y-4 text-sm sm:text-base text-gray-700 leading-relaxed">
@@ -282,7 +282,7 @@ export default function PacemExcellence() {
             variants={fadeInUp}
             className="text-center mb-10 sm:mb-16"
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-navy mb-4 sm:mb-6 px-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4 sm:mb-6 px-4">
               University Partnership Model
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
@@ -309,7 +309,7 @@ export default function PacemExcellence() {
                 </div>
 
                 <div className="mt-4 sm:mt-6">
-                  <h3 className="text-lg sm:text-xl font-serif text-navy font-bold mb-2 sm:mb-3">{tier.title}</h3>
+                  <h3 className="text-lg sm:text-xl font-serif text-blue font-semibold leading-tight mb-2 sm:mb-3">{tier.title}</h3>
                   <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{tier.description}</p>
                 </div>
               </motion.div>
@@ -326,7 +326,7 @@ export default function PacemExcellence() {
             whileInView="visible"
             viewport={{ once: true }}
             variants={fadeInUp}
-            className="text-3xl sm:text-4xl md:text-5xl font-serif text-navy text-center mb-4 sm:mb-6 px-4"
+            className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold leading-tight text-blue text-center mb-4 sm:mb-6 px-4"
           >
             Quality Surveillance Services
           </motion.h2>
@@ -352,7 +352,7 @@ export default function PacemExcellence() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-gray-50 rounded-2xl p-6 sm:p-8 hover:bg-white hover:shadow-lg transition-all border-2 border-gray-100"
               >
-                <h3 className="text-lg sm:text-xl font-serif text-navy font-bold mb-2 sm:mb-3">{service.title}</h3>
+                <h3 className="text-lg sm:text-xl font-serif text-blue font-semibold leading-tight mb-2 sm:mb-3">{service.title}</h3>
                 <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{service.description}</p>
               </motion.div>
             ))}
@@ -368,7 +368,7 @@ export default function PacemExcellence() {
             whileInView="visible"
             viewport={{ once: true }}
             variants={fadeInUp}
-            className="text-3xl sm:text-4xl md:text-5xl font-serif text-navy text-center mb-10 sm:mb-16 px-4"
+            className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold leading-tight text-blue text-center mb-10 sm:mb-16 px-4"
           >
             STEM Education & Science Fair Programs
           </motion.h2>
@@ -393,7 +393,7 @@ export default function PacemExcellence() {
                   <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent"></div>
                 </div>
                 <div className="p-5 sm:p-6">
-                  <h3 className="text-lg sm:text-xl font-serif text-navy font-bold mb-2 sm:mb-3">{program.title}</h3>
+                  <h3 className="text-lg sm:text-xl font-serif text-blue font-semibold leading-tight mb-2 sm:mb-3">{program.title}</h3>
                   <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{program.description}</p>
                 </div>
               </motion.div>
