@@ -63,7 +63,7 @@ export default function HealthcareDevelopment() {
     {
       icon: Megaphone,
       title: 'Public Health Campaigns',
-      description: 'Multi-channel approach using radio spots, community health fairs, and door-to-door education. Focus on disease prevention, early treatment seeking, and dispelling health myths in local languages.'
+      description: 'Multi-channel approach using radio spots, community health fairs, and door-to-door education. Focus on disease prevention, early treatment seeking, and addressing health misinformation in local languages.'
     },
     {
       icon: BarChart3,
@@ -178,20 +178,20 @@ export default function HealthcareDevelopment() {
             
             <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
               <p>
-                Africa faces a unique healthcare challenge: managing both infectious diseases that have plagued 
-                the continent for generations and a rising tide of non-communicable diseases driven by urbanization 
+                Africa faces a unique healthcare challenge: managing both infectious diseases that have affected 
+                communities for generations and a rising tide of non-communicable diseases driven by urbanization 
                 and lifestyle changes. This dual disease burden strains already limited healthcare resources.
               </p>
               
               <p>
                 The WHO estimates Africa needs an additional 1.8 million healthcare workers to meet basic health 
-                needs. Rural areas are particularly underserved, with many communities having no access to trained 
+                needs. Rural areas are particularly under-resourced, with many communities having no access to trained 
                 medical professionals. Community health workers can bridge this gap, bringing essential health 
                 knowledge and basic services directly to communities.
               </p>
               
               <p>
-                However, CHW programs often fail due to inadequate training, lack of ongoing support, and absence 
+                However, CHW programs often fail due to inadequate training, limited ongoing support, and absence 
                 of integration with formal health systems. Our program addresses these challenges through comprehensive 
                 training, digital support systems, and partnership with governments and NGOs to ensure sustainability.
               </p>
@@ -320,9 +320,8 @@ export default function HealthcareDevelopment() {
               Build Healthcare Capacity With Us
             </h2>
             <p className="text-xl text-white/90 mb-10">
-              Partner with healthcare development experts who understand Africa's unique challenges to 
-              train community health workers, educate communities, and strengthen clinical capacity across 
-              the continent.
+              Partner with us to train community health workers, support community health education, and strengthen clinical capacity across 
+            the continent.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
