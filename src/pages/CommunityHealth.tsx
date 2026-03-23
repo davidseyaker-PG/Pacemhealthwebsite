@@ -12,19 +12,19 @@ export default function CommunityHealth() {
 
   const heroStats = [
     { 
-      value: "200+", 
-      label: "Communities Served (Projected by 2026)",
-      description: "Reaching rural villages and urban informal settlements across East and West Africa with mobile clinics, trained community health workers, and culturally-sensitive health programs."
+      value: "Growing", 
+      label: "Community Reach",
+      description: "Reaching rural villages and urban informal settlements across our service areas with mobile clinics, trained community health workers, and culturally-sensitive health programs."
     },
     { 
-      value: "500K+", 
-      label: "People Reached (Projected by 2026)",
-      description: "Delivering essential primary care, preventive services, maternal health, immunizations, and chronic disease management to underserved populations through community-based approaches."
+      value: "Expanding", 
+      label: "People Served",
+      description: "Delivering essential primary care, preventive services, maternal health, immunizations, and chronic disease management through community-based approaches."
     },
     { 
-      value: "1,000+", 
-      label: "Health Workers Trained (Projected by 2026)",
-      description: "Building local capacity through comprehensive training, supervision, and ongoing support for frontline community health workers delivering quality healthcare at the last mile."
+      value: "Building", 
+      label: "Health Worker Network",
+      description: "Building local capacity through comprehensive training, supervision, and ongoing support for frontline community health workers delivering quality healthcare in their communities."
     }
   ];
 
@@ -32,7 +32,7 @@ export default function CommunityHealth() {
     {
       number: "01",
       title: "Mobile Health Clinics",
-      description: "Fully-equipped mobile units bringing primary care, preventive services, maternal health, immunizations, and chronic disease management to underserved rural and peri-urban communities.",
+      description: "Fully-equipped mobile units bringing primary care, preventive services, maternal health, immunizations, and chronic disease management to rural and peri-urban communities.",
       image: mobileClinicImage
     },
     {
@@ -81,7 +81,7 @@ export default function CommunityHealth() {
     },
     {
       title: "Urban Informal Settlements",
-      description: "Community-based health services, health education, and disease prevention programs in underserved peri-urban areas."
+      description: "Community-based health services, health education, and disease prevention programs in peri-urban areas with limited access."
     },
     {
       title: "Government Health Programs",
@@ -94,9 +94,9 @@ export default function CommunityHealth() {
   ];
 
   const benefits = [
-    { title: "200+ Communities", description: "Extensive rural & urban reach" },
+    { title: "Growing Reach", description: "Expanding rural & urban presence" },
     { title: "Mobile Clinics", description: "Healthcare where you are" },
-    { title: "Trained CHWs", description: "1,000+ community health workers" },
+    { title: "Trained CHWs", description: "Growing health worker network" },
     { title: "Culturally Sensitive", description: "Community-tailored approaches" },
     { title: "Integrated Care", description: "Primary care to specialist referral" },
     { title: "Data-Driven", description: "Health outcomes tracking" }
@@ -131,7 +131,7 @@ export default function CommunityHealth() {
       subtitle: "Bringing Healthcare Directly to Underserved Communities",
       image: mobileClinicImage,
       content: {
-        intro: "Our fleet of mobile health clinics delivers comprehensive primary care directly to rural villages, informal settlements, and underserved communities across Africa. Each fully-equipped unit serves as a traveling health facility, bringing licensed healthcare professionals, diagnostic equipment, essential medications, and preventive services to populations with limited access to formal healthcare infrastructure.",
+        intro: "Our fleet of mobile health clinics delivers comprehensive primary care directly to rural villages, informal settlements, and communities with limited access across Africa. Each fully-equipped unit serves as a traveling health facility, bringing licensed healthcare professionals, diagnostic equipment, essential medications, and preventive services to populations with limited access to formal healthcare infrastructure.",
         sections: [
           {
             heading: "Primary Care & Health Screenings",
@@ -159,7 +159,7 @@ export default function CommunityHealth() {
           "Licensed nurses & clinical officers on staff",
           "Essential medications & diagnostics on-board",
           "Telemedicine for specialist consultation",
-          "Reaching 200+ rural communities",
+          "Reaching rural communities across our service areas",
           "Preventive care & chronic disease management"
         ]
       }
@@ -193,7 +193,7 @@ export default function CommunityHealth() {
           }
         ],
         highlights: [
-          "1,000+ trained community health workers",
+          "Growing team of trained community health workers",
           "Comprehensive initial & ongoing training",
           "Digital health tools for patient tracking",
           "Regular clinical supervision & mentorship",
@@ -245,7 +245,7 @@ export default function CommunityHealth() {
       subtitle: "Building Sustainable Community Health Systems",
       image: ruralInfrastructureImage,
       content: {
-        intro: "Sustainable healthcare access requires permanent infrastructure, reliable supply chains, functional referral systems, and local capacity. Our rural healthcare infrastructure development program establishes community health posts, supports rural clinics, implements telemedicine capabilities, strengthens medicine supply chains, and builds referral networks that create lasting improvements in healthcare delivery to underserved populations.",
+        intro: "Sustainable healthcare access requires permanent infrastructure, reliable supply chains, functional referral systems, and local capacity. Our rural healthcare infrastructure development program establishes community health posts, supports rural clinics, implements telemedicine capabilities, strengthens medicine supply chains, and builds referral networks that create lasting improvements in healthcare delivery to communities with limited healthcare access.",
         sections: [
           {
             heading: "Community Health Posts & Rural Clinics",
@@ -285,29 +285,29 @@ export default function CommunityHealth() {
       <ServiceBreadcrumb serviceName="Community Health Solutions" />
       
       {/* Hero Section */}
-      <section className="relative h-[700px] flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-navy/70 via-navy/50 to-navy/40 z-10" />
+      <section className="relative h-[600px] overflow-hidden">
+        <div className="absolute inset-0 bg-navy/80" />
         <motion.img
           src="https://images.unsplash.com/photo-1634710664586-fe890319a9fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBoZWFsdGglMjB3b3JrZXIlMjBhZnJpY2F8ZW58MXx8fHwxNzY3ODkxNTY4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
           alt="Community health worker in Africa"
           className="absolute inset-0 w-full h-full object-cover"
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
-          transition={{ duration: 10, ease: "easeOut" }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
         />
         
-        <div className="relative z-20 max-w-7xl mx-auto px-6 lg:px-8 w-full">
+        <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-4xl"
+            className="max-w-2xl"
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-serif font-extrabold text-white mb-6 leading-tight">
               Community Health Solutions
             </h1>
-            <p className="text-2xl text-white/90 mb-10 leading-relaxed">
-              Bringing quality healthcare to underserved communities through mobile clinics, trained health workers, and sustainable programs
+            <p className="text-xl text-white/90 mb-10 leading-relaxed">
+              Bringing quality healthcare to communities with limited access through mobile clinics, trained health workers, and sustainable programs
             </p>
 
             {/* CTAs */}
@@ -341,11 +341,11 @@ export default function CommunityHealth() {
             viewport={{ once: true }}
           >
             <div className="h-1 w-20 bg-orange mb-6 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Healthcare Access for Every Community
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              Millions across Africa lack access to basic healthcare. Our community health solutions bridge this gap through <strong>mobile health clinics</strong>, <strong>trained community health workers</strong>, and <strong>culturally-sensitive programs</strong> that deliver essential services directly to rural villages, informal settlements, and underserved populations.
+              Many communities across Africa have limited access to basic healthcare. Our community health solutions address this need through <strong>mobile health clinics</strong>, <strong>trained community health workers</strong>, and <strong>culturally-sensitive programs</strong> that deliver essential services directly to rural villages, informal settlements, and communities with limited healthcare access.
             </p>
           </motion.div>
         </div>
@@ -360,7 +360,7 @@ export default function CommunityHealth() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -386,7 +386,7 @@ export default function CommunityHealth() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">
@@ -407,7 +407,7 @@ export default function CommunityHealth() {
         </div>
       </section>
 
-      {/* Community Health Operations at a Glance - McKesson Style */}
+      {/* Community Health Operations at a Glance - Stats Style */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
@@ -416,11 +416,11 @@ export default function CommunityHealth() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Community Health Operations at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              As a community health leader, we not only provide mobile clinics and health services, but we also train community health workers, implement public health campaigns, and build sustainable rural healthcare infrastructure that brings quality care to underserved populations across Africa.
+              As a community health provider, we not only provide mobile clinics and health services, but we also train community health workers, implement public health campaigns, and build sustainable rural healthcare infrastructure that brings quality care to communities with limited healthcare access across Africa.
             </p>
           </motion.div>
 
@@ -434,7 +434,7 @@ export default function CommunityHealth() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center"
               >
-                <div className="text-5xl font-bold text-navy mb-3">
+                <div className="text-5xl font-bold text-blue mb-3">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 leading-relaxed">
@@ -454,7 +454,7 @@ export default function CommunityHealth() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Our Program Areas
             </h2>
             <p className="text-xl text-gray-600">
@@ -472,7 +472,7 @@ export default function CommunityHealth() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-gray-50 rounded-lg p-8 border-t-4 border-teal hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-serif text-navy mb-4">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">
                   {category.category}
                 </h3>
                 <ul className="space-y-2 list-disc list-inside">
@@ -493,7 +493,7 @@ export default function CommunityHealth() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Who We Serve
             </h2>
             <p className="text-xl text-gray-600">
@@ -511,7 +511,7 @@ export default function CommunityHealth() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-6 border-t-4 border-orange shadow-md hover:shadow-xl transition-all duration-300 text-center"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                   {sector.title}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -528,11 +528,11 @@ export default function CommunityHealth() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Why Choose Pacem Health
             </h2>
             <p className="text-xl text-gray-600">
-              Proven community health impact across Africa
+              Community health impact across Africa
             </p>
           </div>
 
@@ -546,7 +546,7 @@ export default function CommunityHealth() {
                 transition={{ delay: index * 0.05 }}
                 className="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-bold text-navy mb-2">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
                   {benefit.title}
                 </h3>
                 <p className="text-gray-600">{benefit.description}</p>
@@ -566,7 +566,7 @@ export default function CommunityHealth() {
             className="text-center mb-12"
           >
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               News & Stories
             </h2>
             <p className="text-xl text-gray-600">
@@ -591,11 +591,11 @@ export default function CommunityHealth() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">December 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
-                  Expanding Mobile Clinic Network to 50 New Rural Communities
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  Expanding Our Mobile Clinic Network
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  New mobile health units deployed across remote regions in Kenya and Ghana, bringing essential primary care services to 75,000 additional people in underserved areas.
+                  We are deploying new mobile health units across remote regions, bringing essential primary care services to more communities with limited healthcare access.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -623,11 +623,11 @@ export default function CommunityHealth() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">November 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
-                  Training 200 New Community Health Workers in Digital Health Tools
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  Investing in Community Health Worker Training
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Comprehensive training program equips frontline health workers with digital platforms for patient tracking, clinical decision support, and real-time health data collection.
+                  Our training programs equip frontline health workers with digital tools for patient tracking, clinical decision support, and health data collection.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -655,11 +655,11 @@ export default function CommunityHealth() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">October 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
-                  Successful Maternal Health Campaign Reaches 10,000 Women
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  Strengthening Maternal Health Outreach
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Multi-month public health initiative delivers antenatal care, health education, and safe delivery services to expectant mothers in rural communities across three regions.
+                  Our maternal health programs deliver antenatal care, health education, and safe delivery services to expectant mothers in rural communities across our service areas.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -689,11 +689,11 @@ export default function CommunityHealth() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-5xl font-serif text-white mb-6">
+            <h2 className="text-5xl font-serif font-bold leading-tight text-white mb-6">
               Join Our Community Health Mission
             </h2>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
-              Partner with Pacem Health to expand healthcare access in underserved communities. Together, we can bring quality healthcare to every corner of Africa.
+              Partner with Pacem Health to expand healthcare access in communities with limited access. Together, we can bring quality healthcare to communities across Africa.
             </p>
             
             <div className="flex flex-wrap justify-center gap-4 mb-10">
@@ -717,7 +717,7 @@ export default function CommunityHealth() {
             <div className="flex flex-wrap justify-center gap-8 text-white/90">
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-blue" />
-                <span>200+ Communities</span>
+                <span>Growing Reach</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-blue" />
@@ -758,7 +758,7 @@ export default function CommunityHealth() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/50 to-transparent flex items-end">
                 <div className="p-8 w-full">
-                  <h2 className="text-4xl font-serif text-white mb-2">
+                  <h2 className="text-4xl font-serif font-bold leading-tight text-white mb-2">
                     {pillarDetails[selectedPillar].title}
                   </h2>
                   <p className="text-xl text-white/90">
@@ -788,7 +788,7 @@ export default function CommunityHealth() {
                 <div className="space-y-6 mb-8">
                   {pillarDetails[selectedPillar].content.sections.map((section, idx) => (
                     <div key={idx} className="border-l-4 border-orange pl-6">
-                      <h3 className="text-xl font-serif text-navy mb-2">
+                      <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
                         {section.heading}
                       </h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -802,7 +802,7 @@ export default function CommunityHealth() {
               {/* Highlights */}
               {pillarDetails[selectedPillar].content.highlights.length > 0 && (
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="text-xl font-serif text-navy mb-4">Key Highlights</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Key Highlights</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {pillarDetails[selectedPillar].content.highlights.map((highlight, idx) => (
                       <li key={idx} className="flex items-start gap-2">
