@@ -255,7 +255,7 @@ export default function DigitalHealth() {
           },
           {
             heading: "Predictive Analytics & Early Detection",
-            description: "Machine learning models analyze patient data to predict disease onset, hospital readmissions, treatment complications, and adverse events before they occur. Early warning systems alert providers to deteriorating patient conditions. Predictive models support clinical decision-making for diagnosis, treatment selection, and prognosis estimation, improving patient outcomes through earlier intervention."
+            description: "clinical decision support models analyze patient data to predict disease onset, hospital readmissions, treatment complications, and adverse events before they occur. Early warning systems alert providers to deteriorating patient conditions. Predictive models support clinical decision-making for diagnosis, treatment selection, and prognosis estimation, improving patient outcomes through earlier intervention."
           },
           {
             heading: "Disease Surveillance & Outbreak Detection",
@@ -271,7 +271,7 @@ export default function DigitalHealth() {
           }
         ],
         highlights: [
-          "Machine learning & predictive analytics",
+          "clinical decision support & predictive analytics",
           "Population health dashboards",
           "Disease surveillance & outbreak detection",
           "Clinical quality metrics tracking",
