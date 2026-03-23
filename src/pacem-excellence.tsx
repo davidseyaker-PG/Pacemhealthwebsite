@@ -44,13 +44,13 @@ export default function PacemExcellence() {
     {
       number: '2',
       title: 'Research Collaboration',
-      description: 'Joint research projects on pharmaceutical quality, drug stability studies, and counterfeit detection methods. Co-authored publications and thought leadership. WHO partnership opportunities.',
+      description: 'Joint research projects on pharmaceutical quality, drug stability studies, and counterfeit detection methods. Co-authored publications advancing scientific knowledge. WHO partnership opportunities.',
       icon: BookOpen
     },
     {
       number: '3',
-      title: 'Talent Pipeline',
-      description: 'Student internships in pharmaceutical quality. Graduate research projects. Pacem Science Scholars Program creates future pharmaceutical scientists while building brand recognition.',
+      title: 'Developing Future Scientists',
+      description: 'Student internships in pharmaceutical quality. Graduate research projects. Pacem Science Scholars Program supports the next generation of pharmaceutical scientists across Africa.',
       icon: Users
     }
   ];
@@ -82,7 +82,7 @@ export default function PacemExcellence() {
     {
       icon: Award,
       title: 'Pacem Science Scholars',
-      description: 'Annual scholarship program for top African science students. Full university tuition plus mentorship. Creates pipeline of future pharmaceutical scientists.',
+      description: 'Annual scholarship program for top African science students. Full university tuition plus mentorship. Supporting the next generation of pharmaceutical scientists.',
       image: scholarImage
     },
     {
@@ -172,7 +172,7 @@ export default function PacemExcellence() {
               </p>
               
               <p>
-                Most African countries lack sufficient pharmaceutical testing laboratories. University 
+                Pharmaceutical testing capacity across Africa remains limited. University 
                 facilities exist but are underutilized due to lack of funding and government contracts going 
                 to international labs. Meanwhile, there's a critical shortage of pharmaceutical scientists—few 
                 African students pursue these careers due to lack of exposure and role models.
@@ -412,7 +412,7 @@ export default function PacemExcellence() {
             variants={fadeInUp}
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-white mb-4 sm:mb-6 px-4">
-              Join the Fight Against Counterfeit Medicines
+              Strengthening Pharmaceutical Quality Together
             </h2>
             <p className="text-base sm:text-lg lg:text-xl text-white/90 mb-8 sm:mb-10 max-w-3xl mx-auto px-4 leading-relaxed">
               Partner with pharmaceutical quality experts to ensure medicine safety, advance scientific 
