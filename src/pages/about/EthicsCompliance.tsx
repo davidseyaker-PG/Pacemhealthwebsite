@@ -157,7 +157,7 @@ export default function EthicsCompliance() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative min-h-[50vh] flex items-center bg-white overflow-hidden">
+      <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
             src={heroImage}
@@ -173,7 +173,7 @@ export default function EthicsCompliance() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6">
+            <h1 className="text-6xl lg:text-7xl font-serif font-extrabold leading-tight text-white mb-6">
               Ethics & Compliance
             </h1>
             <p className="text-2xl text-white/90 max-w-2xl">
@@ -192,7 +192,7 @@ export default function EthicsCompliance() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-8">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-8">
               Building Trust Through Integrity
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
@@ -215,7 +215,7 @@ export default function EthicsCompliance() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Our Core Values
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -234,7 +234,7 @@ export default function EthicsCompliance() {
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                   className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-orange transition-all duration-300"
                 >
-                  <h3 className="text-xl font-bold text-navy mb-4 text-center">{value.title}</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4 text-center">{value.title}</h3>
                   <p className="text-gray-700 leading-relaxed">{value.description}</p>
                 </motion.div>
               );
@@ -253,7 +253,7 @@ export default function EthicsCompliance() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Compliance Framework
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -272,12 +272,12 @@ export default function EthicsCompliance() {
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                   className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-orange transition-all duration-300"
                 >
-                  <h3 className="text-xl font-bold text-navy mb-4 text-center">{area.title}</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4 text-center">{area.title}</h3>
                   <p className="text-gray-700 leading-relaxed mb-6">{area.description}</p>
                   <div className="space-y-2">
                     {area.details.map((detail, idx) => (
                       <div key={idx} className="flex items-start gap-3">
-                        <span className="text-black font-medium">•</span>
+                        <span className="text-black font-medium">â¢</span>
                         <span className="text-gray-700">{detail}</span>
                       </div>
                     ))}
@@ -298,7 +298,7 @@ export default function EthicsCompliance() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-white mb-6">
               Our Commitment
             </h2>
             <p className="text-xl text-white/90 leading-relaxed mb-6">
@@ -321,7 +321,7 @@ export default function EthicsCompliance() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Compliance Programs
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -340,7 +340,7 @@ export default function EthicsCompliance() {
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                   className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-orange transition-all duration-300"
                 >
-                  <h3 className="text-xl font-bold text-navy mb-4">{program.title}</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">{program.title}</h3>
                   <p className="text-gray-700 leading-relaxed">{program.description}</p>
                 </motion.div>
               );
@@ -359,7 +359,7 @@ export default function EthicsCompliance() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Speak Up: Report Concerns
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -369,7 +369,7 @@ export default function EthicsCompliance() {
 
           <div className="bg-white p-10 rounded-2xl border border-gray-200 shadow-lg mb-12">
             <div>
-              <h3 className="text-2xl font-serif font-bold text-navy mb-4">Non-Retaliation Policy</h3>
+              <h3 className="text-2xl font-serif font-semibold leading-tight text-blue mb-4">Non-Retaliation Policy</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Pacem Health strictly prohibits retaliation against anyone who reports a concern in good faith. All reports are treated confidentially and investigated thoroughly by our independent Ethics & Compliance Committee.
               </p>
@@ -389,7 +389,7 @@ export default function EthicsCompliance() {
                 transition={{ duration: 0.4, delay: index * 0.1 }}
                 className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-orange transition-all duration-300"
               >
-                <h3 className="text-xl font-bold text-navy mb-3">{channel.title}</h3>
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">{channel.title}</h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">{channel.description}</p>
                 <div className="inline-block bg-orange/10 text-orange px-4 py-2 rounded-lg font-mono text-sm">
                   {channel.contact}
@@ -410,7 +410,7 @@ export default function EthicsCompliance() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Regulatory Standards & Certifications
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -426,7 +426,7 @@ export default function EthicsCompliance() {
               transition={{ duration: 0.4 }}
               className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-orange transition-all duration-300"
             >
-              <h3 className="text-xl font-bold text-navy mb-3">International Anti-Corruption</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">International Anti-Corruption</h3>
               <p className="text-gray-700 leading-relaxed">
                 Compliance with US Foreign Corrupt Practices Act (FCPA), UK Bribery Act, and OECD Anti-Bribery Convention.
               </p>
@@ -439,7 +439,7 @@ export default function EthicsCompliance() {
               transition={{ duration: 0.4, delay: 0.1 }}
               className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-orange transition-all duration-300"
             >
-              <h3 className="text-xl font-bold text-navy mb-3">Data Protection & Privacy</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">Data Protection & Privacy</h3>
               <p className="text-gray-700 leading-relaxed">
                 GDPR compliance, HIPAA-aligned practices, and adherence to African data protection regulations.
               </p>
@@ -452,7 +452,7 @@ export default function EthicsCompliance() {
               transition={{ duration: 0.4, delay: 0.2 }}
               className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-orange transition-all duration-300"
             >
-              <h3 className="text-xl font-bold text-navy mb-3">Pharmaceutical Regulations</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">Pharmaceutical Regulations</h3>
               <p className="text-gray-700 leading-relaxed">
                 WHO guidelines, national pharmacy regulations, and international pharmaceutical standards compliance.
               </p>
@@ -465,7 +465,7 @@ export default function EthicsCompliance() {
               transition={{ duration: 0.4, delay: 0.3 }}
               className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-orange transition-all duration-300"
             >
-              <h3 className="text-xl font-bold text-navy mb-3">Labor & Human Rights</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">Labor & Human Rights</h3>
               <p className="text-gray-700 leading-relaxed">
                 ILO conventions, UN Guiding Principles on Business and Human Rights, and fair labor standards.
               </p>
@@ -478,7 +478,7 @@ export default function EthicsCompliance() {
               transition={{ duration: 0.4, delay: 0.4 }}
               className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-orange transition-all duration-300"
             >
-              <h3 className="text-xl font-bold text-navy mb-3">Environmental Standards</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">Environmental Standards</h3>
               <p className="text-gray-700 leading-relaxed">
                 ISO 14001 environmental management principles and sustainable business practices.
               </p>
@@ -491,7 +491,7 @@ export default function EthicsCompliance() {
               transition={{ duration: 0.4, delay: 0.5 }}
               className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-orange transition-all duration-300"
             >
-              <h3 className="text-xl font-bold text-navy mb-3">Corporate Governance</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">Corporate Governance</h3>
               <p className="text-gray-700 leading-relaxed">
                 International corporate governance standards and transparent financial reporting practices.
               </p>
@@ -509,7 +509,7 @@ export default function EthicsCompliance() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-white mb-6">
               Questions About Ethics & Compliance?
             </h2>
             <p className="text-xl mb-8 text-white/90">
