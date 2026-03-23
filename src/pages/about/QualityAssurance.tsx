@@ -38,8 +38,8 @@ export default function QualityAssurance() {
     {
       icon: Eye,
       title: 'Ongoing Monitoring',
-      description: 'Post-delivery pharmacovigilance and market surveillance ensure continuous quality assurance.',
-      details: ['Pharmacovigilance programs', 'Market surveillance systems', 'Adverse event monitoring', 'Supplier performance tracking']
+      description: 'Post-delivery monitoring and quality tracking ensure continuous product integrity.',
+      details: ['Post-delivery quality monitoring', 'Product quality tracking', 'Adverse event monitoring', 'Supplier performance tracking']
     }
   ];
 
@@ -72,7 +72,7 @@ export default function QualityAssurance() {
     {
       number: '6',
       title: 'Post-Release Monitoring',
-      description: 'Continuous pharmacovigilance and market surveillance provide ongoing quality assurance beyond delivery.'
+      description: 'Continuous post-delivery monitoring provides ongoing quality assurance beyond delivery.'
     }
   ];
 
@@ -137,7 +137,7 @@ export default function QualityAssurance() {
               Quality is not just a commitment at Pacem Health—it's embedded in every step of our process. Our triple-verified quality system combines supplier certification, independent laboratory testing, and complete documentation to ensure every product meets the highest international pharmaceutical standards.
             </p>
             <p className="text-xl text-gray-700 leading-relaxed">
-              From WHO-prequalified manufacturers to ISO 17025 accredited testing and ongoing pharmacovigilance, we provide complete quality confidence for healthcare providers and patients across Africa.
+              From WHO-prequalified manufacturers to ISO 17025 accredited testing and ongoing quality monitoring, we provide complete quality confidence for healthcare providers and patients across Africa.
             </p>
           </motion.div>
         </div>
@@ -313,9 +313,9 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4 }}
               className="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-all duration-300 text-center"
             >
-              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">WHO Good Distribution Practices</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Aligned with WHO Good Distribution Practices</h3>
               <p className="text-gray-700 leading-relaxed">
-                Guidelines for proper distribution, storage, and transportation of pharmaceutical products.
+                Our processes are designed around WHO guidelines for proper distribution, storage, and transportation of pharmaceutical products.
               </p>
             </motion.div>
 
@@ -326,7 +326,7 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4, delay: 0.1 }}
               className="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-all duration-300 text-center"
             >
-              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">ISO 17025 Accredited Testing</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">ISO 17025 Accredited Testing Partners</h3>
               <p className="text-gray-700 leading-relaxed">
                 Independent laboratory testing by internationally-accredited facilities ensuring objective quality verification.
               </p>
@@ -339,9 +339,9 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4, delay: 0.2 }}
               className="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-all duration-300 text-center"
             >
-              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">WHO Prequalification Program</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Sourcing from WHO-Prequalified Manufacturers</h3>
               <p className="text-gray-700 leading-relaxed">
-                Products sourced by WHO-prequalified manufacturers meeting the highest international quality standards.
+                We source from WHO-prequalified manufacturers committed to meeting international quality standards.
               </p>
             </motion.div>
 
@@ -352,9 +352,9 @@ export default function QualityAssurance() {
               transition={{ duration: 0.4, delay: 0.3 }}
               className="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-all duration-300 text-center"
             >
-              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Stringent Regulatory Authority Approval</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Stringent Regulatory Authority Standards</h3>
               <p className="text-gray-700 leading-relaxed">
-                Products approved by US FDA, European EMA, or equivalent stringent regulatory authorities.
+                We source products from manufacturers approved by US FDA, European EMA, or equivalent stringent regulatory authorities.
               </p>
             </motion.div>
           </div>
@@ -605,7 +605,7 @@ export default function QualityAssurance() {
                   Challenge:
                 </h4>
                 <p className="text-gray-700 mb-4 ml-5">
-                  Quality assurance must continue after delivery, with monitoring for safety signals, recalls, and emerging quality concerns.
+                  Quality assurance must continue after delivery, with monitoring for recalls and emerging quality concerns.
                 </p>
                 
                 <h4 className="font-bold text-navy mb-2 flex items-start gap-3">
@@ -613,7 +613,7 @@ export default function QualityAssurance() {
                   Our Solution:
                 </h4>
                 <p className="text-gray-700 mb-4 ml-5">
-                  Post-distribution monitoring, pharmacovigilance, supplier performance tracking, and market surveillance provide continuous quality assurance.
+                  Post-distribution monitoring, supplier performance tracking, and ongoing quality checks provide continuous quality assurance.
                 </p>
                 
                 <h4 className="font-bold text-navy mb-2 flex items-start gap-3">
@@ -802,7 +802,7 @@ export default function QualityAssurance() {
             >
               <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Continuous Monitoring</h3>
               <p className="text-gray-700 leading-relaxed">
-                Post-distribution monitoring, pharmacovigilance, and market surveillance provide ongoing quality assurance.
+                Post-distribution monitoring and ongoing quality checks provide continuous quality assurance.
               </p>
             </motion.div>
 
@@ -859,8 +859,8 @@ export default function QualityAssurance() {
                 <div className="flex items-start gap-4">
                   <div className="w-2 h-2 bg-orange rounded-full mt-2"></div>
                   <div>
-                    <h4 className="font-semibold text-navy mb-2">Pharmacovigilance & Post-Market Surveillance</h4>
-                    <p className="text-gray-700">Continuous monitoring ensuring ongoing product quality and safety.</p>
+                    <h4 className="font-semibold text-navy mb-2">Post-Delivery Quality Monitoring</h4>
+                    <p className="text-gray-700">Continuous monitoring ensuring ongoing product quality.</p>
                   </div>
                 </div>
               </div>
