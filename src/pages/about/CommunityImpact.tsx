@@ -6,37 +6,37 @@ export default function CommunityImpact() {
   const impactAreas = [
     {
       title: 'Healthcare Workforce Development',
-      description: 'Building training programs in pharmaceutical management, equipment maintenance, quality assurance, and clinical best practices to strengthen the healthcare workforce across Africa.',
+      description: 'Training healthcare professionals in pharmaceutical management, equipment maintenance, and clinical best practices across Africa.',
       stat: 'Training',
       statLabel: 'Healthcare Workers'
     },
     {
       title: 'Local Job Creation',
-      description: 'Developing sustainable employment pathways in healthcare logistics, pharmacy operations, and medical equipment services, with a commitment to local hiring and capacity building.',
+      description: 'Creating employment pathways in healthcare logistics, pharmacy operations, and medical equipment services through local hiring.',
       stat: 'Pan-African',
       statLabel: 'Reach'
     },
     {
       title: 'Community Health Programs',
-      description: 'Designing programs to support maternal health, pediatric care, chronic disease management, and preventive health in communities with limited healthcare access.',
+      description: 'Supporting maternal health, pediatric care, chronic disease management, and preventive health where access is limited.',
       stat: 'Community',
       statLabel: 'Centered'
     },
     {
       title: 'Rural Healthcare Access',
-      description: 'Building pharmaceutical supply chains and pharmacy services designed to reach remote areas, so essential medicines are accessible to communities regardless of location.',
+      description: 'Delivering pharmaceutical supply chains and pharmacy services to remote areas where essential medicines are needed most.',
       stat: 'Last-Mile',
       statLabel: 'Delivery Focus'
     },
     {
       title: 'Economic Development',
-      description: 'Committed to partnering with local suppliers, manufacturers, and businesses to strengthen local economies and build sustainable healthcare value chains.',
+      description: 'Partnering with local suppliers and manufacturers to strengthen economies and build sustainable healthcare value chains.',
       stat: 'Locally',
       statLabel: 'Led Growth'
     },
     {
       title: 'Quality & Safety Standards',
-      description: 'Advancing healthcare quality through training, certification programs, and quality assurance systems designed to protect patient safety across every market we enter.',
+      description: 'Raising standards through training, certification, and quality assurance systems that protect patient safety.',
       stat: 'Quality',
       statLabel: 'First Approach'
     }
@@ -61,58 +61,6 @@ export default function CommunityImpact() {
       description: 'Building resilient health infrastructure, supply chain systems, and governance frameworks that serve communities for generations.',
       link: '/programs/healthcare-development'
     }
-  ];
-
-  const communityInitiatives = [
-    {
-      title: 'Maternal & Child Health',
-      description: 'Ensuring mothers and children have access to essential medicines, prenatal care supplies, and pediatric health products.',
-      highlights: [
-        'Prenatal vitamin distribution programs',
-        'Pediatric medication safety initiatives',
-        'Maternal health product access',
-        'Family planning support'
-      ]
-    },
-    {
-      title: 'Chronic Disease Management',
-      description: 'Supporting communities in managing diabetes, hypertension, and other chronic conditions through reliable medication access.',
-      highlights: [
-        'Diabetes medication programs',
-        'Hypertension treatment access',
-        'Patient education initiatives',
-        'Medication adherence support'
-      ]
-    },
-    {
-      title: 'Preventive Health',
-      description: 'Promoting wellness through vaccination programs, health screenings, and preventive care product distribution.',
-      highlights: [
-        'Immunization support programs',
-        'Health screening initiatives',
-        'Preventive care education',
-        'Community health campaigns'
-      ]
-    },
-    {
-      title: 'Healthcare Infrastructure',
-      description: 'Investing in pharmacy facilities, medical equipment, and diagnostic capabilities in areas with limited healthcare access.',
-      highlights: [
-        'Community pharmacy development',
-        'Medical equipment installation',
-        'Diagnostic laboratory support',
-        'Facility upgrade programs'
-      ]
-    }
-  ];
-
-  const impactStats = [
-    { number: 'Pan-African', label: 'Market Reach' },
-    { number: 'Thousands', label: 'Workers to Train' },
-    { number: 'Millions', label: 'Lives to Reach' },
-    { number: 'Hundreds', label: 'Local Partnerships' },
-    { number: 'Expanding', label: 'Rural Access Network' },
-    { number: '100%', label: 'Quality Standard' }
   ];
 
   return (
@@ -152,11 +100,8 @@ export default function CommunityImpact() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              At Pacem Health, community impact is at the heart of everything we do. We're committed to more than delivering medicines and medical equipment. Our vision is to invest in people, build local capacity, create jobs, and strengthen the healthcare infrastructure that communities depend on.
-            </p>
             <p className="text-xl text-gray-700 leading-relaxed">
-              From workforce training to ensuring rural communities can access quality-assured pharmaceuticals, our approach is designed to benefit families, strengthen economies, and support healthier futures across Africa.
+              At Pacem Health, community impact is at the heart of everything we do. We invest in people, build local capacity, create jobs, and strengthen the healthcare systems that communities across Africa depend on.
             </p>
           </motion.div>
         </div>
@@ -176,7 +121,7 @@ export default function CommunityImpact() {
               Our Community Impact Areas
             </h2>
             <p className="text-xl text-gray-500 max-w-3xl mx-auto">
-              Six pillars of our commitment to healthcare communities across Africa
+              How we are strengthening healthcare systems across Africa
             </p>
           </motion.div>
 
@@ -193,10 +138,7 @@ export default function CommunityImpact() {
                 >
                                     <h3 className="text-xl font-heading font-semibold text-navy mb-4">{area.title}</h3>
                   <p className="text-gray-700 leading-relaxed mb-6">{area.description}</p>
-                  <div className="border-t border-gray-200 pt-4">
-                    <div className="text-3xl font-bold text-orange mb-1">{area.stat}</div>
-                    <div className="text-sm text-gray-500">{area.statLabel}</div>
-                  </div>
+                  
                 </motion.div>
               );
             })}
@@ -253,94 +195,6 @@ export default function CommunityImpact() {
         </div>
       </section>
 
-      {/* Community Health Initiatives */}
-      <section className="py-20 bg-gray-100">
-        <div className="max-w-7xl mx-auto px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-6">
-              Community Health Initiatives
-            </h2>
-            <p className="text-xl text-gray-500 max-w-3xl mx-auto">
-              Targeted programs addressing critical health needs in communities we serve
-            </p>
-          </motion.div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {communityInitiatives.map((initiative, index) => {
-              return (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: index * 0.1 }}
-                  className="bg-white p-8 rounded-2xl border border-blue/20 hover:border-blue/40 hover:shadow-lg transition-all duration-300"
-                >
-                  <div className="flex items-start gap-4 mb-6">
-                                        <div>
-                      <h3 className="text-xl font-heading font-semibold text-navy mb-2">{initiative.title}</h3>
-                      <p className="text-gray-700">{initiative.description}</p>
-                    </div>
-                  </div>
-                  <ul className="space-y-2">
-                    {initiative.highlights.map((highlight, idx) => (
-                      <li key={idx} className="flex items-start gap-3 text-gray-700">
-                        <div className="w-1.5 h-1.5 bg-orange rounded-full mt-2 flex-shrink-0"></div>
-                        <span>{highlight}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </motion.div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Impact Statistics */}
-      <section className="py-20 bg-navy text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-heading font-extrabold mb-6">
-              What We're Building Toward
-            </h2>
-            <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              The goals driving our work across Africa
-            </p>
-          </motion.div>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {impactStats.map((stat, index) => {
-              return (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: index * 0.1 }}
-                  className="bg-white/5 backdrop-blur p-8 rounded-2xl border border-white/10 hover:border-white/20 transition-all duration-300 text-center"
-                >
-                  <div className="text-5xl font-bold text-orange mb-4">{stat.number}</div>
-                  <div className="text-lg text-white/90">{stat.label}</div>
-                </motion.div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
       {/* Local Partnerships Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
@@ -354,32 +208,29 @@ export default function CommunityImpact() {
               <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-navy mb-6">
                 Building Partnerships That Last
               </h2>
-              <p className="text-xl text-gray-700 leading-relaxed mb-6">
-                We work hand-in-hand with local governments, community health organizations, NGOs, and businesses to create sustainable healthcare solutions tailored to each community's unique needs.
-              </p>
               <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                Our partnership approach ensures programs are culturally appropriate, economically sustainable, and designed to strengthen local capacity rather than create dependency.
+                We work hand-in-hand with local governments, community health organizations, NGOs, and businesses to create sustainable, culturally appropriate healthcare solutions that strengthen local capacity.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
                   <div className="w-2 h-2 bg-orange rounded-full mt-2"></div>
                   <div>
                     <h4 className="font-semibold text-navy mb-2">Local Government Collaboration</h4>
-                    <p className="text-gray-700">Working with health ministries to strengthen public health systems and ensure alignment with national priorities.</p>
+                    <p className="text-gray-700">Strengthening public health systems in alignment with national priorities.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="w-2 h-2 bg-orange rounded-full mt-2"></div>
                   <div>
                     <h4 className="font-semibold text-navy mb-2">Community Health Organizations</h4>
-                    <p className="text-gray-700">Partnering with local NGOs and health groups who understand community needs and cultural contexts.</p>
+                    <p className="text-gray-700">Working with local NGOs and health groups who understand community needs.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="w-2 h-2 bg-orange rounded-full mt-2"></div>
                   <div>
                     <h4 className="font-semibold text-navy mb-2">Local Business Development</h4>
-                    <p className="text-gray-700">Supporting local suppliers, distributors, and service providers to build sustainable healthcare value chains.</p>
+                    <p className="text-gray-700">Building sustainable healthcare value chains with local suppliers and service providers.</p>
                   </div>
                 </div>
               </div>
