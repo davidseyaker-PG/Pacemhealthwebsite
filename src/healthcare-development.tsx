@@ -143,7 +143,7 @@ export default function HealthcareDevelopment() {
             transition={{ duration: 0.6 }}
             className="max-w-4xl"
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6">
+            <h1 className="text-6xl lg:text-7xl font-serif font-extrabold leading-tight text-white mb-6">
               Healthcare Development Program
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8">
@@ -172,7 +172,7 @@ export default function HealthcareDevelopment() {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue text-center mb-12">
               Africa's Dual Disease Burden and Workforce Crisis
             </h2>
             
@@ -208,7 +208,7 @@ export default function HealthcareDevelopment() {
             whileInView="visible"
             viewport={{ once: true }}
             variants={fadeInUp}
-            className="text-4xl md:text-5xl font-serif text-navy text-center mb-16"
+            className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue text-center mb-16"
           >
             Program Components
           </motion.h2>
@@ -233,7 +233,7 @@ export default function HealthcareDevelopment() {
                   <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent"></div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-serif text-navy mb-3">{component.title}</h3>
+                  <h3 className="text-xl font-serif font-bold leading-tight text-blue mb-3">{component.title}</h3>
                   <p className="text-gray-600">{component.description}</p>
                 </div>
               </motion.div>
@@ -250,7 +250,7 @@ export default function HealthcareDevelopment() {
             whileInView="visible"
             viewport={{ once: true }}
             variants={fadeInUp}
-            className="text-4xl md:text-5xl font-serif text-navy text-center mb-16"
+            className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue text-center mb-16"
           >
             Priority Disease Focus Areas
           </motion.h2>
@@ -266,7 +266,7 @@ export default function HealthcareDevelopment() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white border-2 border-gray-100 rounded-2xl p-8 hover:border-blue hover:shadow-lg transition-all group"
               >
-                <h3 className="text-xl font-serif font-bold text-navy mb-4">{disease.title}</h3>
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">{disease.title}</h3>
                 <p className="text-gray-600">{disease.description}</p>
               </motion.div>
             ))}
@@ -282,7 +282,7 @@ export default function HealthcareDevelopment() {
             whileInView="visible"
             viewport={{ once: true }}
             variants={fadeInUp}
-            className="text-4xl md:text-5xl font-serif text-navy text-center mb-16"
+            className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue text-center mb-16"
           >
             How the Program Works
           </motion.h2>
@@ -298,7 +298,7 @@ export default function HealthcareDevelopment() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all"
               >
-                <h3 className="text-xl font-serif font-bold text-navy mb-3">{step.title}</h3>
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">{step.title}</h3>
                 <p className="text-gray-600 leading-relaxed">{step.description}</p>
               </motion.div>
             ))}
@@ -316,7 +316,7 @@ export default function HealthcareDevelopment() {
             variants={fadeInUp}
             className="max-w-3xl"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-white mb-6">
               Build Healthcare Capacity With Us
             </h2>
             <p className="text-xl text-white/90 mb-10">
