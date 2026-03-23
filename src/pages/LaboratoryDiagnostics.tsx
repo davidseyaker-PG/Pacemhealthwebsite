@@ -13,9 +13,9 @@ export default function LaboratoryDiagnostics() {
 
   const heroStats = [
     { 
-      value: "500K+", 
-      label: "Tests Annually",
-      description: "Processing over half a million diagnostic tests each year with CAP/ISO accredited quality standards, advanced analyzers, and comprehensive result validation for accurate patient diagnosis and treatment decisions."
+      value: "Growing", 
+      label: "Test Volume",
+      description: "Processing a growing volume of diagnostic tests guided by international quality standards, advanced analyzers, and comprehensive result validation for accurate patient diagnosis and treatment decisions."
     },
     { 
       value: "50+", 
@@ -23,9 +23,9 @@ export default function LaboratoryDiagnostics() {
       description: "Healthcare facilities, hospitals, and clinics partnering with our laboratory network for comprehensive diagnostic testing, clinical chemistry, molecular diagnostics, and specialized pathology services."
     },
     { 
-      value: "99.5%", 
+      value: "high", 
       label: "Accuracy Rate",
-      description: "Industry-leading diagnostic accuracy maintained through rigorous quality control, proficiency testing, continuous staff training, automated systems, and comprehensive result verification protocols."
+      description: "Diagnostic accuracy maintained through rigorous quality control, proficiency testing, continuous staff training, automated systems, and comprehensive result verification protocols."
     }
   ];
 
@@ -33,25 +33,25 @@ export default function LaboratoryDiagnostics() {
     {
       number: "01",
       title: "Comprehensive Testing Services",
-      description: "Full spectrum of diagnostic testing including clinical chemistry, hematology, microbiology, immunology, molecular diagnostics, and specialized testing with CAP/ISO accredited quality standards.",
+      description: "Full spectrum of diagnostic testing including clinical chemistry, hematology, microbiology, immunology, molecular diagnostics, and specialized testing with internationally recognized quality standards.",
       image: testingServicesImage
     },
     {
       number: "02",
       title: "Advanced Technology Platform",
-      description: "State-of-the-art analyzers, automated systems, molecular diagnostics, digital pathology, and laboratory information systems ensuring accuracy, efficiency, and rapid results delivery.",
+      description: "Advanced analyzers, automated systems, molecular diagnostics, digital pathology, and laboratory information systems ensuring accuracy, efficiency, and rapid results delivery.",
       image: techPlatformImage
     },
     {
       number: "03",
       title: "Quality Assurance Excellence",
-      description: "Rigorous quality control, proficiency testing, CAP/ISO certification, continuous staff training, and comprehensive result validation to ensure diagnostic accuracy and patient safety.",
+      description: "Rigorous quality control, proficiency testing, quality certification goals, continuous staff training, and comprehensive result validation to ensure diagnostic accuracy and patient safety.",
       image: qualityAssuranceImage
     },
     {
       number: "04",
       title: "Accessible Service Network",
-      description: "Network of collection centers, mobile phlebotomy services, online result access, physician portal integration, and 24/7 emergency testing for convenient and timely diagnostics.",
+      description: "Network of collection centers, mobile phlebotomy services, online result access, physician portal integration, and dedicated emergency testing for convenient and timely diagnostics.",
       image: serviceNetworkImage
     }
   ];
@@ -78,7 +78,7 @@ export default function LaboratoryDiagnostics() {
   const whoWeServe = [
     {
       title: "Hospitals & Clinics",
-      description: "Comprehensive laboratory services supporting inpatient, outpatient, and emergency care with rapid turnaround times and 24/7 availability."
+      description: "Comprehensive laboratory services supporting inpatient, outpatient, and emergency care with rapid turnaround times and extended-hours availability."
     },
     {
       title: "Individual Patients",
@@ -95,22 +95,22 @@ export default function LaboratoryDiagnostics() {
   ];
 
   const benefits = [
-    { title: "CAP/ISO Accredited", description: "International quality standards" },
-    { title: "150+ Tests", description: "Comprehensive diagnostic menu" },
-    { title: "24hr Results", description: "Rapid turnaround for most tests" },
+    { title: "Quality Focused", description: "Guided by international quality standards" },
+    { title: "Broad Test Menu", description: "Comprehensive testing across specialties" },
+    { title: "Rapid Results", description: "Fast turnaround for routine tests" },
     { title: "Online Access", description: "Digital result portal" },
     { title: "Home Collection", description: "Mobile phlebotomy services" },
-    { title: "99.5% Accuracy", description: "Rigorous quality control" }
+    { title: "High Accuracy", description: "Rigorous quality control" }
   ];
 
   const faqs = [
     {
       question: "What types of diagnostic tests do you offer?",
-      answer: "We offer over 150 diagnostic tests including routine tests (CBC, metabolic panels, lipid profiles), specialized chemistry (cardiac markers, hormones, tumor markers), microbiology (cultures, infectious disease screening), molecular diagnostics (PCR, genetic testing), and pathology services. Our CAP/ISO accredited laboratories ensure the highest quality standards for all testing."
+      answer: "We offer a comprehensive range of diagnostic tests including routine tests (CBC, metabolic panels, lipid profiles), specialized chemistry (cardiac markers, hormones, tumor markers), microbiology (cultures, infectious disease screening), molecular diagnostics (PCR, genetic testing), and pathology services. Our laboratories guided by CAP/ISO standards ensure the highest quality standards for all testing."
     },
     {
       question: "How long does it take to get test results?",
-      answer: "Turnaround times vary by test complexity. Routine tests (CBC, basic chemistry) are typically available within 2-4 hours. Most standard tests are completed within 24 hours. Specialized tests like cultures, molecular diagnostics, or send-out tests may take 2-7 days. STAT/emergency testing is available 24/7 with results in 1-2 hours."
+      answer: "Turnaround times vary by test complexity. Routine tests (CBC, basic chemistry) are typically available within a few hours. Most standard tests are completed within the same day. Specialized tests like cultures, molecular diagnostics, or send-out tests may take several days. STAT/emergency testing is available during extended hours with results as quickly as possible."
     },
     {
       question: "Do I need a doctor's prescription to get tested?",
@@ -118,21 +118,21 @@ export default function LaboratoryDiagnostics() {
     },
     {
       question: "How can I access my test results?",
-      answer: "Test results are available through multiple channels: secure online patient portal accessible 24/7, email delivery (with your consent), SMS notification when results are ready, direct delivery to your ordering physician's portal, and printed copies available at our collection centers. All result delivery complies with patient privacy and confidentiality regulations."
+      answer: "Test results are available through multiple channels: secure online patient portal accessible anytime, email delivery (with your consent), SMS notification when results are ready, direct delivery to your ordering physician's portal, and printed copies available at our collection centers. All result delivery complies with patient privacy and confidentiality regulations."
     },
     {
       question: "Do you offer home sample collection services?",
-      answer: "Yes. We provide mobile phlebotomy services where trained technicians come to your home or office to collect samples. This service is ideal for elderly patients, those with mobility challenges, corporate wellness programs, or anyone preferring the convenience of home collection. Same-day or scheduled appointments are available in major cities."
+      answer: "Yes. We provide mobile phlebotomy services where trained technicians come to your home or office to collect samples. This service is ideal for elderly patients, those with mobility challenges, corporate wellness programs, or anyone preferring the convenience of home collection. Same-day or scheduled appointments are available across our service areas."
     }
   ];
 
   const pillarDetails = [
     {
       title: "Comprehensive Testing Services",
-      subtitle: "150+ Diagnostic Tests with CAP/ISO Accreditation",
+      subtitle: "Comprehensive Diagnostic Testing with CAP/ISO Accreditation",
       image: testingServicesImage,
       content: {
-        intro: "Our CAP/ISO accredited laboratories provide comprehensive diagnostic testing across all clinical specialties. From routine health screenings to specialized molecular diagnostics, we deliver accurate results that support informed medical decisions, early disease detection, and effective treatment monitoring for better patient outcomes.",
+        intro: "Our laboratories guided by CAP/ISO standards provide comprehensive diagnostic testing across all clinical specialties. From routine health screenings to specialized molecular diagnostics, we deliver accurate results that support informed medical decisions, early disease detection, and effective treatment monitoring for better patient outcomes.",
         sections: [
           {
             heading: "Clinical Chemistry & Metabolic Testing",
@@ -148,7 +148,7 @@ export default function LaboratoryDiagnostics() {
           },
           {
             heading: "Molecular Diagnostics & Genetics",
-            description: "PCR-based testing for infectious diseases, cancer biomarker detection, prenatal genetic screening, pharmacogenomics for personalized medicine, HPV and cervical cancer screening, and therapeutic drug monitoring. State-of-the-art molecular platforms enable precise genetic analysis and targeted treatment strategies."
+            description: "PCR-based testing for infectious diseases, cancer biomarker detection, prenatal genetic screening, pharmacogenomics for personalized medicine, HPV and cervical cancer screening, and therapeutic drug monitoring. Advanced molecular platforms enable precise genetic analysis and targeted treatment strategies."
           },
           {
             heading: "Specialized & Reference Testing",
@@ -156,9 +156,9 @@ export default function LaboratoryDiagnostics() {
           }
         ],
         highlights: [
-          "150+ diagnostic tests across all specialties",
-          "CAP/ISO certified for quality excellence",
-          "Routine results within 24 hours",
+          "Comprehensive diagnostic tests across all specialties",
+          "Guided by international quality standards",
+          "Routine results within the same day",
           "Specialized molecular diagnostics available",
           "Expert pathologist interpretation",
           "Comprehensive test ordering and result reporting"
@@ -170,11 +170,11 @@ export default function LaboratoryDiagnostics() {
       subtitle: "Automated Systems for Accuracy & Efficiency",
       image: techPlatformImage,
       content: {
-        intro: "Investment in cutting-edge laboratory technology enables us to deliver faster results, greater accuracy, and expanded diagnostic capabilities. Our automated platforms, molecular diagnostics equipment, digital pathology systems, and integrated laboratory information systems represent the latest innovations in diagnostic testing technology.",
+        intro: "Investment in advanced laboratory technology enables us to deliver faster results, greater accuracy, and expanded diagnostic capabilities. Our automated platforms, molecular diagnostics equipment, digital pathology systems, and integrated laboratory information systems represent the latest advancements in diagnostic testing technology.",
         sections: [
           {
             heading: "High-Throughput Automated Analyzers",
-            description: "Fully automated chemistry and hematology analyzers process hundreds of samples per hour with exceptional precision and reproducibility. Automated sample handling, barcode tracking, quality control verification, and result validation minimize manual steps, reduce errors, and accelerate turnaround times for urgent patient care needs."
+            description: "Fully automated chemistry and hematology analyzers process high volumes of samples with exceptional precision and reproducibility. Automated sample handling, barcode tracking, quality control verification, and result validation minimize manual steps, reduce errors, and accelerate turnaround times for urgent patient care needs."
           },
           {
             heading: "Molecular Diagnostics Platforms",
@@ -205,13 +205,13 @@ export default function LaboratoryDiagnostics() {
     },
     {
       title: "Quality Assurance Excellence",
-      subtitle: "99.5% Accuracy Through Rigorous Quality Control",
+      subtitle: "high accuracy Through Rigorous Quality Control",
       image: qualityAssuranceImage,
       content: {
-        intro: "Diagnostic accuracy is paramount for patient safety and effective medical care. Our comprehensive quality assurance program encompasses CAP/ISO accreditation, daily internal quality control, external proficiency testing, continuous staff training, comprehensive result validation, and robust quality management systems to maintain 99.5% accuracy across all testing.",
+        intro: "Diagnostic accuracy is paramount for patient safety and effective medical care. Our comprehensive quality assurance program encompasses CAP/ISO accreditation, daily internal quality control, external proficiency testing, continuous staff training, comprehensive result validation, and robust quality management systems to maintain high accuracy across all testing.",
         sections: [
           {
-            heading: "CAP/ISO Accreditation & Compliance",
+            heading: "Quality Standards & Compliance",
             description: "Accreditation by the College of American Pathologists (CAP) and ISO 15189 certification confirms our laboratories meet the highest international standards for quality and competence. Rigorous inspection processes verify compliance with strict requirements for personnel qualifications, equipment maintenance, quality control, proficiency testing, and safety protocols."
           },
           {
@@ -232,12 +232,12 @@ export default function LaboratoryDiagnostics() {
           }
         ],
         highlights: [
-          "CAP/ISO 15189 accredited laboratories",
+          "Laboratories guided by CAP/ISO 15189 standards",
           "Daily internal quality control testing",
           "External proficiency testing participation",
           "Comprehensive result validation protocols",
           "Continuous staff training & competency assessment",
-          "99.5% accuracy rate across all testing"
+          "high accuracy rate across all testing"
         ]
       }
     },
@@ -246,7 +246,7 @@ export default function LaboratoryDiagnostics() {
       subtitle: "Convenient Testing with Digital Results Delivery",
       image: serviceNetworkImage,
       content: {
-        intro: "Access to diagnostic testing should be convenient, timely, and efficient. Our network of collection centers, mobile phlebotomy services, online test booking, digital result portals, and 24/7 emergency testing ensures patients and healthcare providers can access laboratory services when and where needed with minimal barriers.",
+        intro: "Access to diagnostic testing should be convenient, timely, and efficient. Our network of collection centers, mobile phlebotomy services, online test booking, digital result portals, and dedicated emergency testing ensures patients and healthcare providers can access laboratory services when and where needed with minimal barriers.",
         sections: [
           {
             heading: "Collection Center Network",
@@ -265,8 +265,8 @@ export default function LaboratoryDiagnostics() {
             description: "Bidirectional integration with electronic health record systems enables physicians to order tests electronically, track specimen status in real-time, receive automatic result notifications, and view current and historical results within their workflow. Seamless integration reduces administrative burden and accelerates clinical decision-making."
           },
           {
-            heading: "24/7 Emergency & STAT Testing",
-            description: "Round-the-clock availability for urgent diagnostic testing supporting emergency departments, intensive care units, and hospitalized patients. STAT priority processing delivers critical results in 1-2 hours for time-sensitive clinical situations. Emergency pathologist on-call provides consultation for complex cases requiring expert interpretation."
+            heading: "Emergency & STAT Testing",
+            description: "Extended-hours availability for urgent diagnostic testing supporting emergency departments, intensive care units, and hospitalized patients. STAT priority processing delivers critical results as quickly as possible for time-sensitive clinical situations. Emergency pathologist on-call provides consultation for complex cases requiring expert interpretation."
           }
         ],
         highlights: [
@@ -275,7 +275,7 @@ export default function LaboratoryDiagnostics() {
           "Online test booking and payment",
           "Secure digital result delivery portal",
           "Physician EHR integration",
-          "24/7 emergency STAT testing available"
+          "dedicated emergency STAT testing available"
         ]
       }
     }
@@ -286,28 +286,28 @@ export default function LaboratoryDiagnostics() {
       <ServiceBreadcrumb serviceName="Laboratory & Diagnostics" />
       
       {/* Hero Section */}
-      <section className="relative h-[700px] flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-navy/70 via-navy/50 to-navy/40 z-10" />
+      <section className="relative h-[600px] overflow-hidden">
+        <div className="absolute inset-0 bg-navy/80" />
         <motion.img
           src={heroImage}
           alt="Laboratory technician handling blood samples"
           className="absolute inset-0 w-full h-full object-cover"
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
-          transition={{ duration: 10, ease: "easeOut" }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
         />
         
-        <div className="relative z-20 max-w-7xl mx-auto px-6 lg:px-8 w-full">
+        <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-4xl"
+            className="max-w-2xl"
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-serif font-extrabold text-white mb-6 leading-tight">
               Laboratory & Diagnostics
             </h1>
-            <p className="text-2xl text-white/90 mb-10 leading-relaxed">
+            <p className="text-xl text-white/90 mb-10 leading-relaxed">
               Accurate diagnostic testing powered by advanced technology and internationally accredited quality standards
             </p>
 
@@ -342,11 +342,11 @@ export default function LaboratoryDiagnostics() {
             viewport={{ once: true }}
           >
             <div className="h-1 w-20 bg-orange mb-6 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Precision Diagnostics You Can Trust
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              From routine health screenings to specialized molecular diagnostics, our <strong>CAP/ISO accredited laboratories</strong> deliver <strong>accurate results</strong>, <strong>rapid turnaround</strong>, and <strong>convenient access</strong>. With advanced technology, rigorous quality control, and expert pathologists, we support informed medical decisions and better patient outcomes.
+              From routine health screenings to specialized molecular diagnostics, our <strong>laboratories guided by CAP/ISO standards</strong> deliver <strong>accurate results</strong>, <strong>rapid turnaround</strong>, and <strong>convenient access</strong>. With advanced technology, rigorous quality control, and expert pathologists, we support informed medical decisions and better patient outcomes.
             </p>
           </motion.div>
         </div>
@@ -361,7 +361,7 @@ export default function LaboratoryDiagnostics() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -387,7 +387,7 @@ export default function LaboratoryDiagnostics() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">
@@ -408,7 +408,7 @@ export default function LaboratoryDiagnostics() {
         </div>
       </section>
 
-      {/* Laboratory Operations at a Glance - McKesson Style */}
+      {/* Laboratory Operations at a Glance - Stats Style */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
@@ -417,11 +417,11 @@ export default function LaboratoryDiagnostics() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Laboratory Operations at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              As a diagnostic testing leader, we not only perform accurate laboratory tests, but we also provide advanced technology platforms, rigorous quality assurance, home collection services, and digital result delivery to ensure precision diagnostics and better health outcomes.
+              As a diagnostic testing provider, we not only perform accurate laboratory tests, but we also provide advanced technology platforms, rigorous quality assurance, home collection services, and digital result delivery to ensure precision diagnostics and better health outcomes.
             </p>
           </motion.div>
 
@@ -435,7 +435,7 @@ export default function LaboratoryDiagnostics() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center"
               >
-                <div className="text-5xl font-bold text-navy mb-3">
+                <div className="text-5xl font-bold text-blue mb-3">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 leading-relaxed">
@@ -455,11 +455,11 @@ export default function LaboratoryDiagnostics() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Comprehensive Testing Services
             </h2>
             <p className="text-xl text-gray-600">
-              Over 150 diagnostic tests across all clinical specialties
+              A comprehensive range of diagnostic tests across all clinical specialties
             </p>
           </div>
 
@@ -473,7 +473,7 @@ export default function LaboratoryDiagnostics() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-gray-50 rounded-lg p-8 border-t-4 border-teal hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-serif text-navy mb-4">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">
                   {category.category}
                 </h3>
                 <ul className="space-y-2 list-disc list-inside">
@@ -494,7 +494,7 @@ export default function LaboratoryDiagnostics() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Who We Serve
             </h2>
             <p className="text-xl text-gray-600">
@@ -512,7 +512,7 @@ export default function LaboratoryDiagnostics() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-6 border-t-4 border-orange shadow-md hover:shadow-xl transition-all duration-300 text-center"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                   {sector.title}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -529,7 +529,7 @@ export default function LaboratoryDiagnostics() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Why Choose Pacem Health Laboratory
             </h2>
             <p className="text-xl text-gray-600">
@@ -547,7 +547,7 @@ export default function LaboratoryDiagnostics() {
                 transition={{ delay: index * 0.05 }}
                 className="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-bold text-navy mb-2">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
                   {benefit.title}
                 </h3>
                 <p className="text-gray-600">{benefit.description}</p>
@@ -567,7 +567,7 @@ export default function LaboratoryDiagnostics() {
             className="text-center mb-12"
           >
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               News & Stories
             </h2>
             <p className="text-xl text-gray-600">
@@ -592,11 +592,11 @@ export default function LaboratoryDiagnostics() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">December 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
-                  Laboratory Achieves CAP/ISO Accreditation for Quality Excellence
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  Working Toward International Laboratory Accreditation
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Pacem Health Laboratory receives prestigious international accreditation confirming compliance with rigorous quality standards, proficiency testing, and continuous quality improvement in diagnostic testing.
+                  We are investing in quality systems and processes as we work toward international laboratory accreditation standards, including proficiency testing and continuous improvement in diagnostic testing.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -624,11 +624,11 @@ export default function LaboratoryDiagnostics() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">November 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
-                  New Molecular Diagnostics Platform Launched for Advanced Testing
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  Expanding Molecular Diagnostics Capabilities
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  State-of-the-art PCR and genetic testing equipment expands our diagnostic capabilities, enabling rapid COVID-19 testing, cancer biomarkers, and pharmacogenomic analysis with industry-leading accuracy.
+                  We are developing molecular diagnostics capabilities including PCR-based testing to support a broader range of diagnostic needs across our service areas.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -656,11 +656,11 @@ export default function LaboratoryDiagnostics() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">October 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
-                  Home Collection Service Expands to 15 Additional Cities
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  Growing Our Home Collection Service Network
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Mobile phlebotomy services now available across major urban centers, bringing convenient at-home sample collection to patients, corporate health programs, and elderly care facilities.
+                  We are expanding our mobile phlebotomy services to bring convenient at-home sample collection to more patients, corporate health programs, and care facilities.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -690,7 +690,7 @@ export default function LaboratoryDiagnostics() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-5xl font-serif text-white mb-6">
+            <h2 className="text-5xl font-serif font-bold leading-tight text-white mb-6">
               Get Tested Today
             </h2>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
@@ -759,7 +759,7 @@ export default function LaboratoryDiagnostics() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/50 to-transparent flex items-end">
                 <div className="p-8 w-full">
-                  <h2 className="text-4xl font-serif text-white mb-2">
+                  <h2 className="text-4xl font-serif font-bold leading-tight text-white mb-2">
                     {pillarDetails[selectedPillar].title}
                   </h2>
                   <p className="text-xl text-white/90">
@@ -789,7 +789,7 @@ export default function LaboratoryDiagnostics() {
                 <div className="space-y-6 mb-8">
                   {pillarDetails[selectedPillar].content.sections.map((section, idx) => (
                     <div key={idx} className="border-l-4 border-orange pl-6">
-                      <h3 className="text-xl font-serif text-navy mb-2">
+                      <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
                         {section.heading}
                       </h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -803,7 +803,7 @@ export default function LaboratoryDiagnostics() {
               {/* Highlights */}
               {pillarDetails[selectedPillar].content.highlights.length > 0 && (
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="text-xl font-serif text-navy mb-4">Key Highlights</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Key Highlights</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {pillarDetails[selectedPillar].content.highlights.map((highlight, idx) => (
                       <li key={idx} className="flex items-start gap-2">
