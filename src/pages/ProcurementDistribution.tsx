@@ -568,7 +568,7 @@ export default function ProcurementDistribution() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4" leading-tight">Our Process</h2>
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">Our Process</h2>
             <p className="text-xl text-gray-600">
               Excellence at every stage
             </p>
@@ -585,7 +585,7 @@ export default function ProcurementDistribution() {
                 className="relative bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-t-4 border-[#FF6B35] group"
               >
                 <div className="text-5xl font-bold text-[#FF6B35]/20 group-hover:text-[#FF6B35]/30 transition-colors mb-3">{step.number}</div>
-                <h3 className="text-lg font-bold text-[#002855] mb-3">{step.title}</h3>
+                <h3 className="text-lg font-bold text-blue mb-3">{step.title}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{step.description}</p>
               </motion.div>
             ))}
@@ -640,7 +640,7 @@ export default function ProcurementDistribution() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-[#002855] mb-2" leading-tight">Why Partner With Us</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-blue mb-2 leading-tight">Why Partner With Us</h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -672,7 +672,7 @@ export default function ProcurementDistribution() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-2" leading-tight">Product Categories</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-2 leading-tight">Product Categories</h2>
             <p className="text-xl text-white/80 mt-6">
               Comprehensive sourcing across all essential health product categories
             </p>
@@ -722,7 +722,7 @@ export default function ProcurementDistribution() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-white text-[#002855] px-10 py-5 rounded-lg font-semibold inline-flex items-center gap-2 hover:bg-gray-100 transition-colors text-lg mb-8"
+              className="bg-white text-blue px-10 py-5 rounded-lg font-semibold inline-flex items-center gap-2 hover:bg-gray-100 transition-colors text-lg mb-8"
             >
               Request Procurement Consultation
               <ArrowRight className="w-6 h-6" />
