@@ -247,7 +247,7 @@ export default function DigitalHealth() {
       subtitle: "Data-Driven Insights for Better Health Outcomes",
       image: analyticsAIImage,
       content: {
-        intro: "Our health analytics and artificial intelligence platform transforms healthcare data into actionable insights. By applying machine learning algorithms, predictive modeling, and advanced analytics to clinical and operational data, we enable healthcare organizations to improve population health, detect disease outbreaks early, optimize resource allocation, and deliver personalized, evidence-based care.",
+        intro: "Our health analytics and artificial intelligence platform transforms healthcare data into actionable insights. By applying clinical decision support tools, predictive modeling, and advanced analytics to clinical and operational data, we enable healthcare organizations to improve population health, detect disease outbreaks early, optimize resource allocation, and deliver personalized, evidence-based care.",
         sections: [
           {
             heading: "Population Health Management & Risk Stratification",
@@ -422,7 +422,7 @@ export default function DigitalHealth() {
               Digital Health Operations at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              As a digital health innovator, we not only provide telemedicine platforms, but we also deliver comprehensive electronic health records, patient engagement apps, and AI-powered analytics that transform healthcare delivery and improve patient outcomes through technology.
+              As a digital health provider, we not only provide telemedicine platforms, but we also deliver comprehensive electronic health records, patient engagement apps, and AI-powered analytics that transform healthcare delivery and improve patient outcomes through technology.
             </p>
           </motion.div>
 
@@ -597,7 +597,7 @@ export default function DigitalHealth() {
                   Growing Our Telemedicine Platform
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Major milestone as patients in 12 African countries access quality healthcare through virtual consultations, connecting with licensed physicians for diagnosis, prescriptions, and follow-up care.
+                  Major milestone as patients across our service areas access quality healthcare through virtual consultations, connecting with licensed physicians for diagnosis, prescriptions, and follow-up care.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -629,7 +629,7 @@ export default function DigitalHealth() {
                   Developing Clinical Decision Support Tools
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  New machine learning algorithms integrated into our electronic health records system provide real-time diagnostic suggestions, drug interaction alerts, and evidence-based treatment recommendations.
+                  Clinical decision support tools integrated into our electronic health records system provide real-time diagnostic suggestions, drug interaction alerts, and evidence-based treatment recommendations.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
