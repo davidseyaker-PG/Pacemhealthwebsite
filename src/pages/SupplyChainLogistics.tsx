@@ -24,20 +24,20 @@ export default function SupplyChainLogistics() {
     { 
       value: "2", 
       label: "Regional Hubs",
-      description: "Strategic distribution centers in Nairobi (Kenya) and Accra (Ghana) enabling 2-7 day delivery to major cities and 7-14 days to remote locations across East, West, and Southern Africa."
+      description: "Strategic distribution centers in our regional hubs enabling 2-7 day delivery to major cities and 7-14 days to remote locations across East, West, and Southern Africa."
     },
     { 
-      value: "99.8%", 
+      value: "High", 
       label: "Cold Chain Compliance",
       description: "Temperature-controlled storage and refrigerated transport with continuous monitoring, validated containers, and GDP-compliant procedures ensuring vaccine and biologics integrity."
     },
     { 
-      value: "500+", 
+      value: "Growing", 
       label: "Products in Stock",
       description: "Comprehensive pharmaceutical inventory with buffer stock management, no minimum order quantities, and same-day dispatch capabilities for emergency and routine needs."
     },
     { 
-      value: "24/7", 
+      value: "Always-On", 
       label: "Real-Time Tracking",
       description: "Advanced warehouse management system with real-time inventory visibility, shipment tracking, proof of delivery, and continuous supply chain monitoring and reporting."
     }
@@ -53,7 +53,7 @@ export default function SupplyChainLogistics() {
     {
       number: "02",
       title: "Regional Hub Management & Real-Time Inventory",
-      description: "Regional hubs in Nairobi & Accra with real-time WMS, no minimum orders, and same-day dispatch capabilities.",
+      description: "Regional hubs in our regional hubs with real-time WMS, no minimum orders, and same-day dispatch capabilities.",
       image: regionalHubImage
     },
     {
@@ -114,15 +114,15 @@ export default function SupplyChainLogistics() {
       subtitle: "Strategic Distribution Hubs with Advanced Warehouse Management",
       image: regionalHubImage,
       content: {
-        intro: "Our regional distribution hubs in Nairobi, Kenya and Accra, Ghana serve as strategic pharmaceutical stockpoints enabling rapid delivery across East, West, and Southern Africa. Advanced warehouse management systems provide real-time inventory visibility and same-day dispatch capabilities.",
+        intro: "Our regional distribution hubs in our regional hub locations serve as strategic pharmaceutical stockpoints enabling rapid delivery across East, West, and Southern Africa. Advanced warehouse management systems provide real-time inventory visibility and same-day dispatch capabilities.",
         sections: [
           {
             heading: "Strategic Hub Locations",
-            description: "Regional hubs positioned in Nairobi (serving East and Southern Africa) and Accra (serving West Africa) enable 2-7 day delivery to major cities compared to 4-6 week international shipping. Hub locations selected based on transport infrastructure, regulatory environment, and market access."
+            description: "Regional hubs positioned in strategic locations serving East, West, and Southern Africa enable 2-7 day delivery to major cities compared to 4-6 week international shipping. Hub locations selected based on transport infrastructure, regulatory environment, and market access."
           },
           {
             heading: "Real-Time Warehouse Management System (WMS)",
-            description: "Cloud-based WMS provides real-time inventory visibility, automated stock tracking, FEFO rotation, lot traceability, and proof of receipt/dispatch documentation. Customers access live stock levels, place orders, and track shipments through our online portal 24/7."
+            description: "Cloud-based WMS provides real-time inventory visibility, automated stock tracking, FEFO rotation, lot traceability, and proof of receipt/dispatch documentation. Customers access live stock levels, place orders, and track shipments through our online portal dedicated."
           },
           {
             heading: "No Minimum Order Quantities",
@@ -138,7 +138,7 @@ export default function SupplyChainLogistics() {
           }
         ],
         highlights: [
-          "2 regional hubs: Nairobi & Accra",
+          "2 regional hubs: our regional hubs",
           "2-7 day delivery to major cities",
           "Real-time inventory visibility",
           "No minimum order requirements",
@@ -152,14 +152,14 @@ export default function SupplyChainLogistics() {
       subtitle: "GDP-Compliant Cold Chain from Hub to Healthcare Facility",
       image: coldChainImage,
       content: {
-        intro: "Vaccines, biologics, and temperature-sensitive medications require uncompromising cold chain integrity. Our GDP-certified cold chain infrastructure and validated processes ensure pharmaceutical products maintain potency from our hubs through last-mile delivery.",
+        intro: "Vaccines, biologics, and temperature-sensitive medications require uncompromising cold chain integrity. Our GDP-compliant cold chain infrastructure and validated processes ensure pharmaceutical products maintain potency from our hubs through last-mile delivery.",
         sections: [
           {
             heading: "Temperature-Controlled Storage (2-8°C)",
             description: "Dedicated cold rooms with industrial refrigeration systems maintaining 2-8°C for vaccines and biologics. Backup generators, redundant cooling systems, and alarm monitoring prevent temperature excursions. All equipment calibrated and validated according to WHO PQS standards."
           },
           {
-            heading: "24/7 Temperature Monitoring",
+            heading: "Continuous Temperature Monitoring",
             description: "Automated temperature monitoring systems with wireless sensors, cloud-based data logging, and instant SMS/email alerts for deviations. Continuous temperature records maintained for regulatory compliance and quality assurance audits. Temperature mapping performed annually to identify hot/cold spots."
           },
           {
@@ -176,9 +176,9 @@ export default function SupplyChainLogistics() {
           }
         ],
         highlights: [
-          "99.8% cold chain compliance rate",
-          "24/7 automated temperature monitoring",
-          "WHO PQS-certified equipment",
+          "high cold chain compliance rate",
+          "continuous automated temperature monitoring",
+          "equipment guided by WHO PQS standards",
           "Refrigerated vehicle fleet",
           "GDP-compliant processes",
           "Complete temperature documentation"
@@ -210,7 +210,7 @@ export default function SupplyChainLogistics() {
           },
           {
             heading: "Emergency & Expedited Services",
-            description: "24/7 emergency response capability for critical medication needs. Expedited processing, priority routing, and dedicated transport available for urgent orders. 2-4 hour emergency delivery in urban areas. Coordination with client emergency preparedness plans."
+            description: "rapid emergency response capability for critical medication needs. Expedited processing, priority routing, and dedicated transport available for urgent orders. 2-4 hour emergency delivery in urban areas. Coordination with client emergency preparedness plans."
           }
         ],
         highlights: [
@@ -218,7 +218,7 @@ export default function SupplyChainLogistics() {
           "7-14 days to remote locations",
           "GPS-tracked deliveries",
           "Expert customs clearance",
-          "24/7 emergency response",
+          "rapid emergency response",
           "Electronic proof of delivery"
         ]
       }
@@ -235,7 +235,7 @@ export default function SupplyChainLogistics() {
 
   const benefits = [
     { title: "95%+ Availability", description: "Eliminate stock-outs" },
-    { title: "99.8% Compliance", description: "Cold chain integrity" },
+    { title: "high Compliance", description: "Cold chain integrity" },
     { title: "Rapid Delivery", description: "Regional hub speed" },
     { title: "Remote Access", description: "Reach any location" },
     { title: "GDP Standards", description: "Quality assurance" },
@@ -264,23 +264,23 @@ export default function SupplyChainLogistics() {
   const faqs = [
     {
       question: "How does Pacem Health improve supply chain resilience?",
-      answer: "We build resilience through predictive demand forecasting, buffer stock management, regional distribution hubs in Kenya and Ghana, and diversified supplier networks. Our approach ensures continuous product availability even during supply disruptions."
+      answer: "We build resilience through predictive demand forecasting, buffer stock management, regional distribution hubs in East and West Africa, and diversified supplier networks. Our approach ensures continuous product availability even during supply disruptions."
     },
     {
       question: "What are your delivery timelines from the regional hubs?",
-      answer: "Delivery timelines vary by location, but our regional hubs in Nairobi and Accra enable 2-7 day delivery to most major cities and 7-14 days to remote locations—significantly faster than 4-6 week international shipping times."
+      answer: "Delivery timelines vary by location, but our regional hubs at our regional hubs enable 2-7 day delivery to most major cities and 7-14 days to remote locations—significantly faster than 4-6 week international shipping times."
     },
     {
       question: "Do you have a minimum order quantity (MOQ)?",
       answer: "No. Unlike traditional distributors, we do not impose minimum order quantities. Whether you need a single carton or a container load, we process your order with the same efficiency and care."
     },
     {
-      question: "How do you guarantee the integrity of cold chain products?",
-      answer: "We maintain 99.8% cold chain compliance through temperature-controlled storage facilities (2-8°C), refrigerated vehicles, validated passive containers, continuous temperature monitoring with data loggers, and GDP-compliant standard operating procedures."
+      question: "How do you ensure the integrity of cold chain products?",
+      answer: "We maintain high cold chain compliance through temperature-controlled storage facilities (2-8°C), refrigerated vehicles, validated passive containers, continuous temperature monitoring with data loggers, and GDP-compliant standard operating procedures."
     },
     {
       question: "Can you deliver to remote and hard-to-reach locations?",
-      answer: "Yes. Our last-mile delivery network leverages local knowledge and partnerships to reach even the most remote health facilities, including hard-to-reach rural areas and conflict-affected regions."
+      answer: "Yes. Our last-mile delivery network uses local knowledge and partnerships to reach even the most remote health facilities, including hard-to-reach rural areas and conflict-affected regions."
     },
     {
       question: "How can your supply chain services give my private hospital a competitive advantage?",
@@ -293,8 +293,8 @@ export default function SupplyChainLogistics() {
       <ServiceBreadcrumb serviceName="Supply Chain & Logistics" />
       
       {/* Enhanced Hero Section with Integrated Stats */}
-      <section className="relative h-[700px] flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#003d7a]/60 via-[#003d7a]/50 to-[#003d7a]/40 z-10" />
+      <section className="relative h-[600px] flex items-center overflow-hidden">
+        <div className="absolute inset-0 bg-navy/80 z-10" />
         <motion.img
           src={heroImage}
           alt="Aerial view of shipping port"
@@ -309,9 +309,9 @@ export default function SupplyChainLogistics() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-4xl"
+            className="max-w-2xl"
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-serif font-extrabold text-white mb-6 leading-tight">
               Supply Chain & Logistics
             </h1>
             <p className="text-2xl text-white/90 mb-8 leading-relaxed">
@@ -348,11 +348,11 @@ export default function SupplyChainLogistics() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl lg:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl lg:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
               Regional Hubs. Local Expertise. Global Standards.
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              In Africa's dynamic healthcare landscape, supply chain reliability is a <strong>strategic enabler</strong> of healthcare delivery. Through regional distribution hubs in Kenya and Ghana, GDP-compliant cold chain facilities, and optimized last-mile networks, we ensure continuous product availability for government ministries, development partners, private hospitals, and pharmaceutical companies.
+              In Africa's dynamic healthcare landscape, supply chain reliability is a <strong>strategic enabler</strong> of healthcare delivery. Through regional distribution hubs in East and West Africa, GDP-compliant cold chain facilities, and optimized last-mile networks, we ensure continuous product availability for government ministries, development partners, private hospitals, and pharmaceutical companies.
             </p>
           </motion.div>
         </div>
@@ -362,7 +362,7 @@ export default function SupplyChainLogistics() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -389,7 +389,7 @@ export default function SupplyChainLogistics() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">
@@ -418,7 +418,7 @@ export default function SupplyChainLogistics() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
               Supply Chain Operations at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -436,7 +436,7 @@ export default function SupplyChainLogistics() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center"
               >
-                <div className="text-5xl font-bold text-navy mb-3">
+                <div className="text-5xl font-bold text-blue mb-3">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 font-semibold mb-2 font-bold">
@@ -455,7 +455,7 @@ export default function SupplyChainLogistics() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-serif text-navy mb-4">
+            <h2 className="text-4xl font-serif font-bold text-blue mb-4 leading-tight">
               Why Partner With Pacem Health
             </h2>
             <p className="text-xl text-gray-600">
@@ -473,7 +473,7 @@ export default function SupplyChainLogistics() {
                 transition={{ delay: index * 0.05 }}
                 className="bg-white rounded-lg p-8 hover:shadow-xl transition-all duration-300 border-t-4 border-navy"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">
+                <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
                   {benefit.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -489,7 +489,7 @@ export default function SupplyChainLogistics() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-serif text-navy mb-4">
+            <h2 className="text-4xl font-serif font-bold text-blue mb-4 leading-tight">
               Who We Serve
             </h2>
             <p className="text-lg text-gray-600">
@@ -509,7 +509,7 @@ export default function SupplyChainLogistics() {
               >
                 <div className="h-1 bg-[#ff6b35]" />
                 <div className="p-6 text-center">
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
                     {sector.category}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
@@ -526,7 +526,7 @@ export default function SupplyChainLogistics() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
               Our Supply Chain Process
             </h2>
             <p className="text-lg text-gray-600">
@@ -549,7 +549,7 @@ export default function SupplyChainLogistics() {
                   <div className="text-6xl font-bold text-[#ff6b35]/20 mb-3">
                     0{step.number}
                   </div>
-                  <h3 className="text-lg font-bold text-navy mb-2">
+                  <h3 className="text-lg font-bold text-blue mb-2 leading-tight">
                     {step.title}
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed">
@@ -584,7 +584,7 @@ export default function SupplyChainLogistics() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+              <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
                 One Integrated Supply Chain Partner
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
@@ -592,7 +592,7 @@ export default function SupplyChainLogistics() {
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                Operating from regional distribution hubs in Nairobi, Kenya and Accra, Ghana, we maintain 99.8% compliance with GDP standards for cold chain excellence. Our flexible ordering system eliminates minimum order quantity requirements, while our optimized last-mile delivery network ensures reliable access to remote and hard-to-reach locations across Africa.
+                Operating from regional distribution hubs in our regional hub locations, we maintain high compliance with GDP standards for cold chain excellence. Our flexible ordering system eliminates minimum order quantity requirements, while our optimized last-mile delivery network ensures reliable access to remote and hard-to-reach locations across Africa.
               </p>
             </motion.div>
           </div>
@@ -614,7 +614,7 @@ export default function SupplyChainLogistics() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-5xl font-bold text-white mb-6">
+            <h2 className="text-5xl font-bold text-white mb-6 leading-tight">
               Ready to Strengthen Your Supply Chain?
             </h2>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
@@ -668,7 +668,7 @@ export default function SupplyChainLogistics() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/50 to-transparent flex items-end">
                 <div className="p-8 w-full">
-                  <h2 className="text-4xl font-serif text-white mb-2">
+                  <h2 className="text-4xl font-serif font-bold text-white mb-2 leading-tight">
                     {pillarDetails[selectedPillar].title}
                   </h2>
                   <p className="text-xl text-white/90">
@@ -698,7 +698,7 @@ export default function SupplyChainLogistics() {
                 <div className="space-y-6 mb-8">
                   {pillarDetails[selectedPillar].content.sections.map((section, idx) => (
                     <div key={idx} className="border-l-4 border-orange pl-6">
-                      <h3 className="text-xl font-serif text-navy mb-2">
+                      <h3 className="text-xl font-serif font-semibold text-blue mb-2 leading-tight">
                         {section.heading}
                       </h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -712,7 +712,7 @@ export default function SupplyChainLogistics() {
               {/* Highlights */}
               {pillarDetails[selectedPillar].content.highlights.length > 0 && (
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="text-xl font-serif text-navy mb-4">Key Highlights</h3>
+                  <h3 className="text-xl font-serif font-semibold text-blue mb-4 leading-tight">Key Highlights</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {pillarDetails[selectedPillar].content.highlights.map((highlight, idx) => (
                       <li key={idx} className="flex items-start gap-2">
