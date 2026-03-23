@@ -134,7 +134,7 @@ export default function QualityAssurance() {
               Embedded Excellence
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              Quality is not just a commitment at Pacem Health—it's embedded in every step of our process. Our triple-verified quality system combines supplier certification, independent laboratory testing, and complete documentation to ensure every product meets the highest international pharmaceutical standards.
+              Quality is not just a commitment at Pacem Healthâit's embedded in every step of our process. Our triple-verified quality system combines supplier certification, independent laboratory testing, and complete documentation to ensure every product meets the highest international pharmaceutical standards.
             </p>
             <p className="text-xl text-gray-700 leading-relaxed">
               From WHO-prequalified manufacturers to ISO 17025 accredited testing and ongoing pharmacovigilance, we provide complete quality confidence for healthcare providers and patients across Africa.
@@ -497,7 +497,7 @@ export default function QualityAssurance() {
                   Challenge:
                 </h4>
                 <p className="text-gray-700 mb-4 ml-5">
-                  Healthcare providers need absolute confidence in pharmaceutical quality. Many suppliers lack robust quality verification, risking patient safety.
+                  Healthcare providers need absolute confidence in pharmaceutical quality. Many suppliers have limited quality verification processes, which can put patient safety at risk.
                 </p>
                 
                 <h4 className="font-bold text-navy mb-2 flex items-start gap-3">
