@@ -55,7 +55,7 @@ export default function PediatricPharmacy() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative min-h-[500px] sm:h-[600px] lg:h-[650px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
