@@ -167,15 +167,15 @@ export default function PacemExcellence() {
               
               <p>
                 The problem extends beyond criminal counterfeiters. Poor storage conditions, inadequate 
-                quality control in legitimate supply chains, and lack of testing capacity mean even genuine 
+                quality control in legitimate supply chains, and limited testing capacity mean even genuine 
                 medicines often fail to meet quality standards by the time they reach patients.
               </p>
               
               <p>
                 Pharmaceutical testing capacity across Africa remains limited. University 
-                facilities exist but are underutilized due to lack of funding and government contracts going 
+                facilities exist but are underutilized due to limited funding and government contracts going 
                 to international labs. Meanwhile, there's a critical shortage of pharmaceutical scientists—few 
-                African students pursue these careers due to lack of exposure and role models.
+                African students pursue these careers due to limited access to mentorship and role models.
               </p>
               
               <p>
