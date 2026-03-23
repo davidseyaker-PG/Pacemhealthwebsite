@@ -102,7 +102,7 @@ export default function PacemExcellence() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative min-h-[500px] sm:h-[600px] lg:h-[650px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
             src={heroImage}
@@ -411,7 +411,7 @@ export default function PacemExcellence() {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-white mb-4 sm:mb-6 px-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold leading-tight text-white mb-4 sm:mb-6 px-4">
               Strengthening Pharmaceutical Quality Together
             </h2>
             <p className="text-base sm:text-lg lg:text-xl text-white/90 mb-8 sm:mb-10 max-w-3xl mx-auto px-4 leading-relaxed">
