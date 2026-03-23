@@ -385,7 +385,7 @@ export default function MedicalEquipment() {
         </div>
       </section>
 
-      {/* Equipment Operations at a Glance - McKesson Style */}
+      {/* Equipment Operations at a Glance - Stats Style */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
