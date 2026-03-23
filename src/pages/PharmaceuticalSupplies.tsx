@@ -320,7 +320,7 @@ export default function PharmaceuticalSupplies() {
               transition={{ duration: 0.8 }}
               className="relative z-10"
             >
-              <h1 className="text-6xl lg:text-7xl font-serif text-navy mb-6 leading-tight">
+              <h1 className="text-6xl lg:text-7xl font-serif font-extrabold text-navy mb-6 leading-tight">
                 Pharmaceutical & Medical Supplies Distribution
               </h1>
               <p className="text-2xl text-gray-700 mb-10 leading-relaxed">
@@ -382,7 +382,7 @@ export default function PharmaceuticalSupplies() {
             viewport={{ once: true }}
           >
             <div className="h-1 w-20 bg-orange mb-6 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Your Trusted Pharmaceutical Distribution Partner
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
@@ -401,7 +401,7 @@ export default function PharmaceuticalSupplies() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Two Core Distribution Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -426,7 +426,7 @@ export default function PharmaceuticalSupplies() {
                 />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-serif text-navy mb-4">
+                <h3 className="text-2xl font-serif font-semibold leading-tight text-blue mb-4">
                   Pharmaceutical Distribution
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
@@ -461,7 +461,7 @@ export default function PharmaceuticalSupplies() {
                 />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-serif text-navy mb-4">
+                <h3 className="text-2xl font-serif font-semibold leading-tight text-blue mb-4">
                   Medical Supplies Distribution
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
@@ -490,7 +490,7 @@ export default function PharmaceuticalSupplies() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Distribution Operations at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -532,7 +532,7 @@ export default function PharmaceuticalSupplies() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto mt-4">
@@ -569,7 +569,7 @@ export default function PharmaceuticalSupplies() {
 
                   {/* Title Overlay */}
                   <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <h3 className="text-2xl font-serif text-white mb-2">
+                    <h3 className="text-2xl font-serif font-semibold leading-tight text-white mb-2">
                       {pillar.title}
                     </h3>
                   </div>
@@ -599,7 +599,7 @@ export default function PharmaceuticalSupplies() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Our Product Portfolio
             </h2>
             <p className="text-xl text-gray-600">
@@ -617,7 +617,7 @@ export default function PharmaceuticalSupplies() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                   {category.category}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -634,7 +634,7 @@ export default function PharmaceuticalSupplies() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Who We Serve
             </h2>
             <p className="text-xl text-gray-600">
@@ -652,7 +652,7 @@ export default function PharmaceuticalSupplies() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-6 border-t-4 border-orange shadow-md hover:shadow-xl transition-all duration-300 text-center"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                   {sector.title}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -674,7 +674,7 @@ export default function PharmaceuticalSupplies() {
             className="text-center mb-12"
           >
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               News & Stories
             </h2>
             <p className="text-xl text-gray-600">
@@ -699,7 +699,7 @@ export default function PharmaceuticalSupplies() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">December 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                   Expanding Cold Chain Infrastructure Across East Africa
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
@@ -731,7 +731,7 @@ export default function PharmaceuticalSupplies() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">November 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                   Achieving WHO PQS Certification for Quality Standards
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
@@ -763,7 +763,7 @@ export default function PharmaceuticalSupplies() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">October 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                   New Partnerships with Leading Global Manufacturers
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
@@ -797,7 +797,7 @@ export default function PharmaceuticalSupplies() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-5xl font-serif text-white mb-6">
+            <h2 className="text-5xl font-serif font-bold leading-tight text-white mb-6">
               Ready to Partner With Us?
             </h2>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
@@ -866,7 +866,7 @@ export default function PharmaceuticalSupplies() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/50 to-transparent flex items-end">
                 <div className="p-8 w-full">
-                  <h2 className="text-4xl font-serif text-white mb-2">
+                  <h2 className="text-4xl font-serif font-bold leading-tight text-white mb-2">
                     {pillarDetails[selectedPillar].title}
                   </h2>
                   <p className="text-xl text-white/90">
@@ -896,7 +896,7 @@ export default function PharmaceuticalSupplies() {
                 <div className="space-y-6 mb-8">
                   {pillarDetails[selectedPillar].content.sections.map((section, idx) => (
                     <div key={idx} className="border-l-4 border-orange pl-6">
-                      <h3 className="text-xl font-serif text-navy mb-2">
+                      <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
                         {section.heading}
                       </h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -910,7 +910,7 @@ export default function PharmaceuticalSupplies() {
               {/* Highlights */}
               {pillarDetails[selectedPillar].content.highlights.length > 0 && (
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="text-xl font-serif text-navy mb-4">Key Highlights</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Key Highlights</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {pillarDetails[selectedPillar].content.highlights.map((highlight, idx) => (
                       <li key={idx} className="flex items-start gap-2">
