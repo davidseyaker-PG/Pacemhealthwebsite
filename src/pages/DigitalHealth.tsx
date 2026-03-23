@@ -14,18 +14,18 @@ export default function DigitalHealth() {
 
   const heroStats = [
     { 
-      value: "100K+", 
-      label: "Active Users by 2027",
+      value: "Growing", 
+      label: "Platform Users",
       description: "Projected community of patients, healthcare providers, and facilities using our digital health platform for telemedicine, EHR, and mobile health applications across Africa."
     },
     { 
-      value: "50+", 
-      label: "International Partners by 2027",
+      value: "Growing", 
+      label: "Partner Network",
       description: "Projected healthcare facilities, hospitals, and clinics implementing our cloud-based EHR, telemedicine, and patient engagement solutions to modernize care delivery and clinical workflows."
     },
     { 
-      value: "10K+", 
-      label: "Teleconsultations Monthly by 2027",
+      value: "Expanding", 
+      label: "Digital Interactions",
       description: "Projected virtual doctor consultations connecting patients with licensed physicians, specialists, and mental health professionals through secure video and chat for accessible, convenient healthcare."
     }
   ];
@@ -60,7 +60,7 @@ export default function DigitalHealth() {
   const digitalSolutions = [
     {
       category: "For Patients",
-      items: ["Virtual doctor consultations", "24/7 health assistance", "Digital prescriptions", "Appointment scheduling", "Medication reminders", "Health records access"]
+      items: ["Virtual doctor consultations", "on-demand health assistance", "Digital prescriptions", "Appointment scheduling", "Medication reminders", "Health records access"]
     },
     {
       category: "For Healthcare Providers",
@@ -96,9 +96,9 @@ export default function DigitalHealth() {
   ];
 
   const benefits = [
-    { title: "100K+ Users", description: "Growing digital health community" },
-    { title: "24/7 Access", description: "Healthcare anytime, anywhere" },
-    { title: "Secure & Compliant", description: "HIPAA & GDPR standards" },
+    { title: "Growing Users", description: "Growing digital health community" },
+    { title: "Always Available", description: "Healthcare when you need it" },
+    { title: "Secure & Compliant", description: "Designed for healthcare data security" },
     { title: "AI-Powered", description: "Clinical decision support" },
     { title: "Cloud-Based", description: "Scalable infrastructure" },
     { title: "Interoperable", description: "HL7/FHIR integration standards" }
@@ -111,7 +111,7 @@ export default function DigitalHealth() {
     },
     {
       question: "Is my health data secure and private?",
-      answer: "Yes. We implement bank-level security with end-to-end encryption, secure cloud storage, multi-factor authentication, and regular security audits. Our systems comply with international healthcare data standards including HIPAA and GDPR. Patient data is only accessible to authorized healthcare providers involved in your care. We never share your personal health information without your explicit consent."
+      answer: "Yes. We implement bank-level security with end-to-end encryption, secure cloud storage, multi-factor authentication, and regular security audits. Our systems comply with international healthcare data standards including healthcare data protection and GDPR. Patient data is only accessible to authorized healthcare providers involved in your care. We never share your personal health information without your explicit consent."
     },
     {
       question: "Can healthcare facilities integrate your EHR system with existing systems?",
@@ -137,7 +137,7 @@ export default function DigitalHealth() {
         sections: [
           {
             heading: "Virtual Consultations with Licensed Physicians",
-            description: "Connect with board-certified doctors, specialists, and healthcare providers through HD video calls. Patients can schedule appointments or request immediate consultations for urgent non-emergency conditions. Physicians review medical history, conduct virtual examinations, diagnose conditions, and recommend treatments—all through secure, HIPAA-compliant video technology."
+            description: "Connect with board-certified doctors, specialists, and healthcare providers through HD video calls. Patients can schedule appointments or request immediate consultations for urgent non-emergency conditions. Physicians review medical history, conduct virtual examinations, diagnose conditions, and recommend treatments—all through secure, healthcare data protection-compliant video technology."
           },
           {
             heading: "Specialty Care & Expert Consultations",
@@ -157,12 +157,12 @@ export default function DigitalHealth() {
           }
         ],
         highlights: [
-          "10,000+ teleconsultations monthly",
+          "Growing teleconsultation volume",
           "Board-certified physicians & specialists",
           "Secure HD video consultations",
           "Digital prescriptions to pharmacy",
           "Mental health & counseling services",
-          "24/7 medical advice availability"
+          "On-demand medical advice access"
         ]
       }
     },
@@ -195,7 +195,7 @@ export default function DigitalHealth() {
           }
         ],
         highlights: [
-          "50+ healthcare facilities deployed",
+          "Healthcare facilities across our network",
           "Cloud-based with offline capabilities",
           "Clinical decision support & safety alerts",
           "E-prescribing with pharmacy integration",
@@ -229,11 +229,11 @@ export default function DigitalHealth() {
           },
           {
             heading: "Secure Messaging with Providers",
-            description: "Direct communication with healthcare team through secure, encrypted messaging. Ask non-urgent medical questions, request prescription refills, share health updates, and receive care instructions. Providers can send educational materials, appointment reminders, test result notifications, and follow-up care instructions. All communications HIPAA-compliant and stored in patient record."
+            description: "Direct communication with healthcare team through secure, encrypted messaging. Ask non-urgent medical questions, request prescription refills, share health updates, and receive care instructions. Providers can send educational materials, appointment reminders, test result notifications, and follow-up care instructions. All communications healthcare data protection-compliant and stored in patient record."
           }
         ],
         highlights: [
-          "100,000+ app downloads & active users",
+          "Growing app downloads and active users",
           "Appointment booking & reminders",
           "Personal health records access",
           "Medication tracking & refill reminders",
@@ -287,28 +287,28 @@ export default function DigitalHealth() {
       <ServiceBreadcrumb serviceName="Digital Health & Technology" />
       
       {/* Hero Section */}
-      <section className="relative h-[700px] flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-navy/70 via-navy/50 to-navy/40 z-10" />
+      <section className="relative h-[600px] overflow-hidden">
+        <div className="absolute inset-0 bg-navy/80" />
         <motion.img
           src={heroImage}
-          alt="Digital health technology innovation"
+          alt="Digital health technology technology"
           className="absolute inset-0 w-full h-full object-cover"
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
-          transition={{ duration: 10, ease: "easeOut" }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
         />
         
-        <div className="relative z-20 max-w-7xl mx-auto px-6 lg:px-8 w-full">
+        <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-4xl"
+            className="max-w-2xl"
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-serif font-extrabold text-white mb-6 leading-tight">
               Digital Health & Technology
             </h1>
-            <p className="text-2xl text-white/90 mb-10 leading-relaxed">
+            <p className="text-xl text-white/90 mb-10 leading-relaxed">
               Transforming healthcare delivery through telemedicine, electronic health records, and AI-powered digital solutions
             </p>
 
@@ -343,8 +343,8 @@ export default function DigitalHealth() {
             viewport={{ once: true }}
           >
             <div className="h-1 w-20 bg-orange mb-6 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
-              Healthcare Meets Innovation
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
+              Healthcare Meets technology
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
               Digital health technology is revolutionizing African healthcare. Our comprehensive platform combines <strong>telemedicine</strong>, <strong>electronic health records</strong>, <strong>patient engagement apps</strong>, and <strong>AI-powered analytics</strong> to make quality healthcare more accessible, efficient, and data-driven than ever before.
@@ -362,7 +362,7 @@ export default function DigitalHealth() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -388,7 +388,7 @@ export default function DigitalHealth() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">
@@ -409,7 +409,7 @@ export default function DigitalHealth() {
         </div>
       </section>
 
-      {/* Digital Health Operations at a Glance - McKesson Style */}
+      {/* Digital Health Operations at a Glance - Stats Style */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
@@ -418,7 +418,7 @@ export default function DigitalHealth() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Digital Health Operations at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -436,7 +436,7 @@ export default function DigitalHealth() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center"
               >
-                <div className="text-5xl font-bold text-navy mb-3">
+                <div className="text-5xl font-bold text-blue mb-3">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 leading-relaxed">
@@ -456,7 +456,7 @@ export default function DigitalHealth() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Digital Solutions for Every Stakeholder
             </h2>
             <p className="text-xl text-gray-600">
@@ -474,7 +474,7 @@ export default function DigitalHealth() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-gray-50 rounded-lg p-8 border-t-4 border-teal hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-serif text-navy mb-4">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">
                   {category.category}
                 </h3>
                 <ul className="space-y-2 list-disc list-inside">
@@ -495,7 +495,7 @@ export default function DigitalHealth() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Who We Serve
             </h2>
             <p className="text-xl text-gray-600">
@@ -513,7 +513,7 @@ export default function DigitalHealth() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-6 border-t-4 border-orange shadow-md hover:shadow-xl transition-all duration-300 text-center"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
                   {sector.title}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -530,7 +530,7 @@ export default function DigitalHealth() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               Why Choose Pacem Health Digital
             </h2>
             <p className="text-xl text-gray-600">
@@ -548,7 +548,7 @@ export default function DigitalHealth() {
                 transition={{ delay: index * 0.05 }}
                 className="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-bold text-navy mb-2">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
                   {benefit.title}
                 </h3>
                 <p className="text-gray-600">{benefit.description}</p>
@@ -568,11 +568,11 @@ export default function DigitalHealth() {
             className="text-center mb-12"
           >
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
               News & Stories
             </h2>
             <p className="text-xl text-gray-600">
-              Latest updates from our digital health innovations
+              Latest updates from our digital health solutions
             </p>
           </motion.div>
 
@@ -593,8 +593,8 @@ export default function DigitalHealth() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">December 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
-                  Telemedicine Platform Reaches 100,000 Active Users Across Africa
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  Growing Our Telemedicine Platform
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
                   Major milestone as patients in 12 African countries access quality healthcare through virtual consultations, connecting with licensed physicians for diagnosis, prescriptions, and follow-up care.
@@ -625,8 +625,8 @@ export default function DigitalHealth() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">November 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
-                  AI-Powered Clinical Decision Support Launched in EHR Platform
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  Developing Clinical Decision Support Tools
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
                   New machine learning algorithms integrated into our electronic health records system provide real-time diagnostic suggestions, drug interaction alerts, and evidence-based treatment recommendations.
@@ -657,8 +657,8 @@ export default function DigitalHealth() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">October 2025</div>
-                <h3 className="text-xl font-serif text-navy mb-3">
-                  Patient Engagement App Wins Best Healthcare Innovation Award
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  Advancing Patient Engagement Through Digital Tools
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
                   Our mobile health application recognized for exceptional user experience, featuring appointment booking, medication reminders, digital prescriptions, and secure messaging with healthcare providers.
@@ -691,11 +691,11 @@ export default function DigitalHealth() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-5xl font-serif text-white mb-6">
+            <h2 className="text-5xl font-serif font-bold leading-tight text-white mb-6">
               Experience the Future of Healthcare
             </h2>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
-              Join 100,000+ users accessing healthcare through our digital platform. Download our app for patients or request a demo for healthcare facilities.
+              Access healthcare through our growing digital platform. Download our app for patients or request a demo for healthcare facilities.
             </p>
             
             <div className="flex flex-wrap justify-center gap-4 mb-10">
@@ -719,7 +719,7 @@ export default function DigitalHealth() {
             <div className="flex flex-wrap justify-center gap-8 text-white/90">
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-blue" />
-                <span>Secure & HIPAA Compliant</span>
+                <span>Security Focused</span>
               </div>
             </div>
           </motion.div>
@@ -752,7 +752,7 @@ export default function DigitalHealth() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/50 to-transparent flex items-end">
                 <div className="p-8 w-full">
-                  <h2 className="text-4xl font-serif text-white mb-2">
+                  <h2 className="text-4xl font-serif font-bold leading-tight text-white mb-2">
                     {pillarDetails[selectedPillar].title}
                   </h2>
                   <p className="text-xl text-white/90">
@@ -782,7 +782,7 @@ export default function DigitalHealth() {
                 <div className="space-y-6 mb-8">
                   {pillarDetails[selectedPillar].content.sections.map((section, idx) => (
                     <div key={idx} className="border-l-4 border-orange pl-6">
-                      <h3 className="text-xl font-serif text-navy mb-2">
+                      <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
                         {section.heading}
                       </h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -796,7 +796,7 @@ export default function DigitalHealth() {
               {/* Highlights */}
               {pillarDetails[selectedPillar].content.highlights.length > 0 && (
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="text-xl font-serif text-navy mb-4">Key Highlights</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Key Highlights</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {pillarDetails[selectedPillar].content.highlights.map((highlight, idx) => (
                       <li key={idx} className="flex items-start gap-2">
