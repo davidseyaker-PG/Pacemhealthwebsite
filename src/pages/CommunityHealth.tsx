@@ -128,7 +128,7 @@ export default function CommunityHealth() {
   const pillarDetails = [
     {
       title: "Mobile Health Clinics",
-      subtitle: "Bringing Healthcare Directly to Underserved Communities",
+      subtitle: "Bringing Healthcare Directly to Communities in Need",
       image: mobileClinicImage,
       content: {
         intro: "Our fleet of mobile health clinics delivers comprehensive primary care directly to rural villages, informal settlements, and communities with limited access across Africa. Each fully-equipped unit serves as a traveling health facility, bringing licensed healthcare professionals, diagnostic equipment, essential medications, and preventive services to populations with limited access to formal healthcare infrastructure.",
