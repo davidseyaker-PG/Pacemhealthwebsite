@@ -159,7 +159,7 @@ export default function QualityStandards() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative min-h-[50vh] flex items-center bg-white overflow-hidden">
+      <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
             src={heroImage}
@@ -175,7 +175,7 @@ export default function QualityStandards() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6">
+            <h1 className="text-6xl lg:text-7xl font-serif font-extrabold leading-tight text-white mb-6">
               Quality Standards
             </h1>
             <p className="text-2xl text-white/90 max-w-2xl">
@@ -194,7 +194,7 @@ export default function QualityStandards() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-8">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-8">
               Excellence in Every Process
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
@@ -217,7 +217,7 @@ export default function QualityStandards() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Quality Management System
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -236,7 +236,7 @@ export default function QualityStandards() {
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                   className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-blue/30 hover:shadow-lg transition-all duration-300"
                 >
-                  <h3 className="text-xl font-serif text-navy mb-4 font-bold">{component.title}</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">{component.title}</h3>
                   <p className="text-gray-700 leading-relaxed mb-6">{component.description}</p>
                   <ul className="space-y-2">
                     {component.details.map((detail, idx) => (
@@ -263,7 +263,7 @@ export default function QualityStandards() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               International Quality Standards
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -288,7 +288,7 @@ export default function QualityStandards() {
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                   className={`bg-white p-8 rounded-2xl border border-gray-200 ${borderColors[standard.color]} border-t-4 hover:shadow-lg transition-all duration-300`}
                 >
-                  <h3 className="text-2xl font-serif text-navy mb-4 font-bold">{standard.title}</h3>
+                  <h3 className="text-2xl font-serif font-semibold leading-tight text-blue mb-4">{standard.title}</h3>
                   <p className="text-gray-700 leading-relaxed">{standard.description}</p>
                 </motion.div>
               );
@@ -307,7 +307,7 @@ export default function QualityStandards() {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-8">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-white mb-8">
               Our Quality Policy
             </h2>
             <div className="bg-white rounded-2xl p-10 shadow-lg">
@@ -318,7 +318,7 @@ export default function QualityStandards() {
                 We achieve this through a robust Quality Management System built on WHO Good Distribution Practices, ISO 9001 principles, and continuous improvement. Every employee is responsible for maintaining quality standards, and we invest in training, technology, and processes that ensure product integrity from manufacturer to patient.
               </p>
               <p className="text-lg text-gray-800 leading-relaxed">
-                Our quality commitment extends beyond complianceâwe strive for excellence in every transaction, building trust with healthcare providers and contributing to better health outcomes across Africa.
+                Our quality commitment extends beyond complianceÃ¢ÂÂwe strive for excellence in every transaction, building trust with healthcare providers and contributing to better health outcomes across Africa.
               </p>
             </div>
           </motion.div>
@@ -335,7 +335,7 @@ export default function QualityStandards() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               CAPA: Corrective & Preventive Action
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -355,7 +355,7 @@ export default function QualityStandards() {
               >
                 <div className="flex items-start gap-4 mb-4">
                   <span className="text-4xl font-bold text-gray-900">{item.step}</span>
-                  <h3 className="text-xl font-serif text-navy font-bold pt-1">{item.title}</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue pt-1">{item.title}</h3>
                 </div>
                 <p className="text-gray-700 leading-relaxed">{item.description}</p>
               </motion.div>
@@ -374,7 +374,7 @@ export default function QualityStandards() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Quality Risk Management
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -392,7 +392,7 @@ export default function QualityStandards() {
                 transition={{ duration: 0.4, delay: index * 0.1 }}
                 className="bg-white p-8 rounded-2xl border border-blue/20 hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-serif text-navy font-bold mb-4">{item.title}</h3>
+                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">{item.title}</h3>
                 <p className="text-gray-700 leading-relaxed">{item.description}</p>
               </motion.div>
             ))}
@@ -410,7 +410,7 @@ export default function QualityStandards() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
               Supplier Quality Standards
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -426,7 +426,7 @@ export default function QualityStandards() {
               transition={{ duration: 0.6 }}
               className="bg-white p-10 rounded-2xl border border-blue/20 hover:shadow-lg transition-all duration-300"
             >
-              <h3 className="text-2xl font-serif text-navy mb-6 font-bold">Supplier Qualification Requirements</h3>
+              <h3 className="text-2xl font-serif font-semibold leading-tight text-blue mb-6">Supplier Qualification Requirements</h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 bg-navy rounded-full mt-2 flex-shrink-0"></div>
@@ -473,7 +473,7 @@ export default function QualityStandards() {
               transition={{ duration: 0.6 }}
               className="bg-white p-10 rounded-2xl border border-orange/20 hover:shadow-lg transition-all duration-300"
             >
-              <h3 className="text-2xl font-serif text-navy mb-6 font-bold">Ongoing Supplier Monitoring</h3>
+              <h3 className="text-2xl font-serif font-semibold leading-tight text-blue mb-6">Ongoing Supplier Monitoring</h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 bg-navy rounded-full mt-2 flex-shrink-0"></div>
@@ -525,7 +525,7 @@ export default function QualityStandards() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-white mb-6">
               Learn More About Our Quality Standards
             </h2>
             <p className="text-xl mb-8 text-white/90">
