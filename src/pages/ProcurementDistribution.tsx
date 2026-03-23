@@ -21,22 +21,22 @@ export default function ProcurementDistribution() {
 
   const heroStats = [
     { 
-      value: "500+", 
-      label: "Global Suppliers",
-      description: "Pre-qualified pharmaceutical manufacturers and WHO-approved suppliers across 50+ countries providing quality-assured health products with complete regulatory compliance."
+      value: "Growing", 
+      label: "Supplier Network",
+      description: "Pre-qualified pharmaceutical manufacturers and quality-approved suppliers across multiple countries providing quality-assured health products with complete regulatory compliance."
     },
     { 
-      value: "30%", 
+      value: "Significant", 
       label: "Cost Savings",
       description: "Average cost reductions achieved through competitive tendering, volume aggregation, direct manufacturer relationships, and strategic sourcing while maintaining quality standards."
     },
     { 
-      value: "95%", 
+      value: "High", 
       label: "On-Time Delivery",
       description: "Consistent delivery performance through end-to-end logistics coordination, customs clearance expertise, and multi-year supplier agreements preventing stockouts."
     },
     { 
-      value: "$50M+", 
+      value: "Strong", 
       label: "Annual Volume",
       description: "Total procurement volume managed annually for government health programs, international NGOs, donors, and private healthcare providers across African markets."
     }
@@ -49,7 +49,7 @@ export default function ProcurementDistribution() {
     },
     {
       title: "International NGOs & Donors",
-      description: "Global health organizations like USAID, GFATM, and PEPFAR requiring compliant procurement and quality assurance."
+      description: "Global health organizations requiring compliant procurement and quality assurance."
     },
     {
       title: "Private Healthcare Providers",
@@ -61,14 +61,14 @@ export default function ProcurementDistribution() {
     {
       number: "01",
       title: "Global Supplier Network & Pre-Qualification",
-      description: "Direct relationships with 500+ pre-qualified manufacturers and WHO-approved suppliers across 50+ countries.",
+      description: "Direct relationships with a broad network of pre-qualified manufacturers and quality-approved suppliers across multiple countries.",
       image: supplierNetworkImage,
       modalContent: {
         subtitle: "Building Quality Through Strategic Supplier Relationships",
-        overview: "Market entry means nothing without reliable suppliers. Our global supplier network provides access to 500+ pre-qualified pharmaceutical manufacturers and WHO-approved suppliers across 50+ countries. Through rigorous pre-qualification processes and ongoing relationship management, we ensure your supply chain is built on quality, compliance, and reliability.",
+        overview: "Market entry means nothing without reliable suppliers. Our global supplier network provides access to a broad network of pre-qualified pharmaceutical manufacturers and quality-approved suppliers across multiple countries. Through rigorous pre-qualification processes and ongoing relationship management, we ensure your supply chain is built on quality, compliance, and reliability.",
         highlights: [
-          "WHO-prequalified manufacturers meeting GMP standards",
-          "Direct relationships with 500+ manufacturers across India, Europe, China & Africa",
+          "quality-verified manufacturers meeting GMP standards",
+          "Direct relationships with manufacturers across multiple regions across multiple regions",
           "Continuous supplier performance monitoring with quarterly reviews",
           "Multi-source strategy preventing single-source dependencies",
           "Rigorous site audits & quality system verification",
@@ -81,7 +81,7 @@ export default function ProcurementDistribution() {
           },
           {
             title: "Direct Manufacturer Relationships",
-            description: "We eliminate middlemen by establishing direct relationships with 500+ manufacturers across India, Europe, China, and Africa. This approach reduces costs, improves communication, and ensures faster response times for urgent orders."
+            description: "We eliminate middlemen by establishing direct relationships with manufacturers across multiple regions across multiple regions. This approach reduces costs, improves communication, and ensures faster response times for urgent orders."
           },
           {
             title: "Continuous Performance Monitoring",
@@ -97,15 +97,15 @@ export default function ProcurementDistribution() {
     {
       number: "02",
       title: "Competitive Sourcing & Cost Optimization",
-      description: "Competitive tendering, volume aggregation, and manufacturer negotiations delivering 20-40% cost reductions.",
+      description: "Competitive tendering, volume aggregation, and manufacturer negotiations delivering meaningful cost reductions.",
       image: costOptimizationImage,
       modalContent: {
         subtitle: "Strategic Procurement Delivering Measurable Savings",
-        overview: "Cost optimization isn't about cutting corners—it's about strategic sourcing. Through competitive tendering, volume aggregation, and direct manufacturer negotiations, we consistently deliver 20-40% cost reductions while maintaining quality standards. Our procurement expertise transforms health budgets into maximum impact.",
+        overview: "Cost optimization isn't about cutting corners—it's about strategic sourcing. Through competitive tendering, volume aggregation, and direct manufacturer negotiations, we consistently deliver meaningful cost reductions while maintaining quality standards. Our procurement expertise transforms health budgets into maximum impact.",
         highlights: [
           "Transparent RFQ processes with 3-5 pre-qualified suppliers",
-          "20-40% average cost reductions through competitive bidding",
-          "$50M+ annual volume providing negotiating leverage",
+          "meaningful cost reductions through competitive bidding",
+          "significant annual volume providing negotiating strength",
           "Direct manufacturer negotiations eliminating middlemen",
           "Total cost of ownership analysis including all landed costs",
           "Full audit trails for donor compliance"
@@ -117,7 +117,7 @@ export default function ProcurementDistribution() {
           },
           {
             title: "Volume Aggregation Advantage",
-            description: "By consolidating demand across multiple clients and programs, we achieve economies of scale that individual buyers cannot access. $50M+ in annual volume provides significant negotiating leverage with manufacturers."
+            description: "By consolidating demand across multiple clients and programs, we achieve economies of scale that individual buyers cannot access. significant in annual volume provides significant negotiating strength with manufacturers."
           },
           {
             title: "Direct Manufacturer Negotiations",
@@ -137,11 +137,11 @@ export default function ProcurementDistribution() {
       image: qualityVerificationImage,
       modalContent: {
         subtitle: "Triple-Layer Quality Assurance for Patient Safety",
-        overview: "Quality cannot be compromised in healthcare. Our triple-layer verification system—supplier pre-qualification, batch testing, and pre-shipment inspection—ensures that every product meets WHO quality standards before reaching patients. With a 99.8% quality pass rate, we've built our reputation on uncompromising quality assurance.",
+        overview: "Quality cannot be compromised in healthcare. Our triple-layer verification system—supplier pre-qualification, batch testing, and pre-shipment inspection—ensures that every product meets WHO quality standards before reaching patients. With a high quality pass rate, we've built our reputation on uncompromising quality assurance.",
         highlights: [
-          "99.8% quality pass rate across all shipments",
+          "high quality pass rate across all shipments",
           "Triple verification: pre-qualification, batch testing & pre-shipment inspection",
-          "WHO-approved laboratory testing for high-risk products",
+          "quality-approved laboratory testing for high-risk products",
           "Complete Certificate of Analysis (CoA) documentation",
           "Physical packaging & labeling integrity verification",
           "Digital documentation archives for complete traceability"
@@ -153,7 +153,7 @@ export default function ProcurementDistribution() {
           },
           {
             title: "Batch Testing & Certification",
-            description: "Every batch undergoes testing for authenticity, potency, and contamination. We require Certificates of Analysis (CoA) from manufacturers and conduct independent testing for high-risk products through WHO-approved laboratories."
+            description: "Every batch undergoes testing for authenticity, potency, and contamination. We require Certificates of Analysis (CoA) from manufacturers and conduct independent testing for high-risk products through quality-approved laboratories."
           },
           {
             title: "Pre-Shipment Inspection",
@@ -173,11 +173,11 @@ export default function ProcurementDistribution() {
       image: logisticsImage,
       modalContent: {
         subtitle: "End-to-End Supply Chain Coordination",
-        overview: "The most competitively priced, quality-assured products mean nothing if they don't arrive on time. Our international logistics and customs coordination services provide complete supply chain visibility from manufacturer to final destination. With 95% on-time delivery performance, we ensure your health programs never face stockouts.",
+        overview: "The most competitively priced, quality-assured products mean nothing if they don't arrive on time. Our international logistics and customs coordination services provide complete supply chain visibility from manufacturer to final destination. With strong on-time delivery performance, we ensure your health programs never face stockouts.",
         highlights: [
-          "95% on-time delivery performance",
+          "strong on-time delivery performance",
           "Air & sea freight coordination with cold chain integrity",
-          "Expert customs clearance across 50+ countries",
+          "Expert customs clearance across multiple countries",
           "Tax exemption handling for donor-funded programs",
           "Last-mile delivery to warehouses & healthcare facilities",
           "Real-time tracking with exception alerts"
@@ -189,7 +189,7 @@ export default function ProcurementDistribution() {
           },
           {
             title: "Customs Clearance Expertise",
-            description: "Navigate complex regulatory requirements across 50+ countries. Our customs brokers handle all documentation including import permits, tax exemptions for donor-funded programs, and regulatory approvals, preventing costly delays."
+            description: "Navigate complex regulatory requirements across multiple countries. Our customs brokers handle all documentation including import permits, tax exemptions for donor-funded programs, and regulatory approvals, preventing costly delays."
           },
           {
             title: "Last-Mile Delivery Coordination",
@@ -235,11 +235,11 @@ export default function ProcurementDistribution() {
   const benefits = [
     {
       title: "Quality Confidence",
-      description: "WHO-prequalified manufacturers with 99.8% quality pass rate"
+      description: "quality-verified manufacturers with high quality pass rate"
     },
     {
       title: "Cost Savings",
-      description: "20-40% reductions through competitive bidding"
+      description: "meaningful reductions through competitive bidding"
     },
     {
       title: "Regulatory Compliance",
@@ -251,11 +251,11 @@ export default function ProcurementDistribution() {
     },
     {
       title: "Global Network",
-      description: "500+ suppliers across 50+ countries"
+      description: "a broad network of suppliers across multiple countries"
     },
     {
-      title: "Proven Track Record",
-      description: "$50M+ annual volume, 95% on-time delivery"
+      title: "Strong Track Record",
+      description: "significant annual volume, strong on-time delivery"
     }
   ];
 
@@ -278,7 +278,7 @@ export default function ProcurementDistribution() {
             alt="Procurement and Distribution"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-navy/50 via-navy/30 to-navy/20" />
+          <div className="absolute inset-0 bg-navy/80" />
         </div>
 
         <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center">
@@ -286,13 +286,13 @@ export default function ProcurementDistribution() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-3xl"
+            className="max-w-2xl"
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-serif font-extrabold text-white mb-6 leading-tight">
               Procurement & Distribution
             </h1>
-            <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
-              Quality-assured health products from 500+ pre-qualified suppliers. Delivered with full regulatory compliance at optimal costs.
+            <p className="text-xl text-gray-200 mb-8 leading-relaxed">
+              Quality-assured health products from a broad network of pre-qualified suppliers. Delivered with full regulatory compliance at optimal costs.
             </p>
             
             <div className="flex flex-wrap gap-4">
@@ -305,7 +305,7 @@ export default function ProcurementDistribution() {
                 <ArrowRight className="w-5 h-5" />
               </motion.button>
               <motion.button
-                className="px-8 py-4 border-2 border-white text-white rounded-md hover:bg-white hover:text-navy transition-all duration-300"
+                className="px-8 py-4 border-2 border-white text-white rounded-md hover:bg-white hover:text-blue transition-all duration-300"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -324,7 +324,7 @@ export default function ProcurementDistribution() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-serif text-navy mb-6">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-blue mb-6 leading-tight">
               We Don't Just Source Products—We Build Supply Resilience
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
@@ -343,7 +343,7 @@ export default function ProcurementDistribution() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto mt-8">
@@ -369,7 +369,7 @@ export default function ProcurementDistribution() {
                   />
                 </div>
                 <div className="p-8">
-                  <h3 className="text-2xl font-serif text-navy mb-4">
+                  <h3 className="text-2xl font-serif font-semibold text-blue mb-4 leading-tight">
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-6">
@@ -414,7 +414,7 @@ export default function ProcurementDistribution() {
                 <X className="w-6 h-6" />
               </button>
               <div className="absolute bottom-0 left-0 right-0 p-8">
-                <h2 className="text-4xl font-serif text-white mb-2">
+                <h2 className="text-4xl font-serif font-bold text-white mb-2 leading-tight">
                   {pillars[selectedPillar].title}
                 </h2>
                 <p className="text-white/90 text-lg">
@@ -430,7 +430,7 @@ export default function ProcurementDistribution() {
               </p>
 
               {/* Key Highlights Section */}
-              <h3 className="text-2xl font-serif text-navy mb-6">Key Highlights</h3>
+              <h3 className="text-2xl font-serif font-semibold text-blue mb-6">Key Highlights</h3>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 {pillars[selectedPillar].modalContent.highlights.map((highlight, idx) => (
@@ -446,12 +446,12 @@ export default function ProcurementDistribution() {
               </div>
 
               {/* Features Section */}
-              <h3 className="text-2xl font-serif text-navy mb-6">Features</h3>
+              <h3 className="text-2xl font-serif font-semibold text-blue mb-6">Features</h3>
               
               <div className="space-y-6 mb-8">
                 {pillars[selectedPillar].modalContent.features.map((feature, idx) => (
                   <div key={idx} className="border-l-4 border-orange pl-6">
-                    <h4 className="text-xl font-serif text-navy mb-2">
+                    <h4 className="text-xl font-serif text-blue mb-2">
                       {feature.title}
                     </h4>
                     <p className="text-gray-600 leading-relaxed">
@@ -492,7 +492,7 @@ export default function ProcurementDistribution() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
               Procurement Operations at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -510,7 +510,7 @@ export default function ProcurementDistribution() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center"
               >
-                <div className="text-5xl font-bold text-navy mb-3">
+                <div className="text-5xl font-bold text-blue mb-3">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 font-semibold mb-2">
@@ -529,7 +529,7 @@ export default function ProcurementDistribution() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
               Who We Serve
             </h2>
             <p className="text-xl text-gray-600">
@@ -547,7 +547,7 @@ export default function ProcurementDistribution() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-6 border-t-4 border-orange shadow-md hover:shadow-xl transition-all duration-300 text-center"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">
+                <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
                   {sector.title}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -568,7 +568,7 @@ export default function ProcurementDistribution() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">Our Process</h2>
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4" leading-tight">Our Process</h2>
             <p className="text-xl text-gray-600">
               Excellence at every stage
             </p>
@@ -615,7 +615,7 @@ export default function ProcurementDistribution() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+              <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
                 Strategic Partnerships That Deliver
               </h2>
               
@@ -624,7 +624,7 @@ export default function ProcurementDistribution() {
               </p>
 
               <p className="text-gray-700 text-lg leading-relaxed">
-                Trusted by global health leaders including USAID, GFATM, PEPFAR, and 30+ Ministries of Health across Africa, we maintain full audit trails, competitive tendering processes, and complete regulatory documentation to ensure transparent and compliant operations. Our results-driven approach has delivered $50M+ in annual procurement volume with 95% on-time delivery and a 99.8% quality pass rate.
+                Trusted by global health leaders including global health organizations and ministries of health across Africa, we maintain full audit trails, competitive tendering processes, and complete regulatory documentation to ensure transparent and compliant operations. Our results-driven approach has delivered significant in annual procurement volume with strong on-time delivery and a high quality pass rate.
               </p>
             </motion.div>
           </div>
@@ -640,7 +640,7 @@ export default function ProcurementDistribution() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-[#002855] mb-2">Why Partner With Us</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-[#002855] mb-2" leading-tight">Why Partner With Us</h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -654,7 +654,7 @@ export default function ProcurementDistribution() {
                   transition={{ delay: index * 0.05 }}
                   className="bg-white rounded-lg p-8 hover:shadow-xl transition-all duration-300 border-t-4 border-navy"
                 >
-                  <h3 className="text-xl font-serif text-navy mb-3">{benefit.title}</h3>
+                  <h3 className="text-xl font-serif font-semibold text-blue mb-3">{benefit.title}</h3>
                   <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
                 </motion.div>
               );
@@ -672,7 +672,7 @@ export default function ProcurementDistribution() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-2">Product Categories</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-2" leading-tight">Product Categories</h2>
             <p className="text-xl text-white/80 mt-6">
               Comprehensive sourcing across all essential health product categories
             </p>
@@ -713,7 +713,7 @@ export default function ProcurementDistribution() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
               Ready to Optimize Your Supply Chain?
             </h2>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
