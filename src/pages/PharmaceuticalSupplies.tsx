@@ -108,7 +108,7 @@ export default function PharmaceuticalSupplies() {
         sections: [
           {
             heading: "Temperature-Controlled Storage Facilities",
-            description: "State-of-the-art cold storage facilities with multi-zone temperature control for 2-8°C (vaccines), 15-25°C (ambient), and -20°C (frozen biologics). All facilities equipped with backup generators, redundant cooling systems, and 24/7 monitoring to prevent temperature excursions."
+            description: "Purpose-built cold storage facilities with multi-zone temperature control for 2-8°C (vaccines), 15-25°C (ambient), and -20°C (frozen biologics). All facilities equipped with backup generators, redundant cooling systems, and 24/7 monitoring to prevent temperature excursions."
           },
           {
             heading: "Real-Time Temperature Monitoring",
@@ -218,7 +218,7 @@ export default function PharmaceuticalSupplies() {
   const productCategories = [
     {
       category: "Brand Drugs",
-      description: "Innovative and patented medications from leading pharmaceutical companies"
+      description: "Original patented medications from leading pharmaceutical companies"
     },
     {
       category: "Generic Drugs",
