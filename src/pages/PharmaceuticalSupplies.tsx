@@ -320,19 +320,20 @@ export default function PharmaceuticalSupplies() {
           transition={{ duration: 1.5, ease: "easeOut" }}
         />
         <div className="absolute inset-0 bg-navy/80" />
-        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+        <div className="relative z-10 h-full max-w-7xl mx-auto px-6 flex items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
+            className="max-w-2xl"
           >
             <h1 className="text-5xl md:text-6xl font-serif font-extrabold text-white mb-6 leading-tight">
               Pharmaceutical & Medical Supplies Distribution
             </h1>
-            <p className="text-xl text-white/90 mb-10 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-xl text-white/90 mb-10 leading-relaxed">
               Reliable access to quality medications and medical supplies for healthcare facilities across Africa
             </p>
-            <div className="flex flex-wrap justify-center gap-4">
+            <div className="flex flex-wrap gap-4">
               <motion.button
                 whileHover={{ scale: 1.05, x: 5 }}
                 whileTap={{ scale: 0.95 }}
