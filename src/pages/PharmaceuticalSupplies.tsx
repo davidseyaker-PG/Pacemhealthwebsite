@@ -462,7 +462,7 @@ export default function PharmaceuticalSupplies() {
         </div>
       </section>
 
-      {/* Distribution Operations at a Glance - McKesson Style */}
+      {/* Distribution Operations at a Glance - Stats Style */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <motion.div
