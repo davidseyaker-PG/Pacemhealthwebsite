@@ -410,7 +410,7 @@ export default function PharmacyServices() {
         </div>
       </section>
 
-      {/* Pharmacy Operations at a Glance - McKesson Style */}
+      {/* Pharmacy Operations at a Glance - Stats Style */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
