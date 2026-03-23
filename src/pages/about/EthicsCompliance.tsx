@@ -277,7 +277,7 @@ export default function EthicsCompliance() {
                   <div className="space-y-2">
                     {area.details.map((detail, idx) => (
                       <div key={idx} className="flex items-start gap-3">
-                        <span className="text-black font-medium">â¢</span>
+                        <span className="text-black font-medium">•</span>
                         <span className="text-gray-700">{detail}</span>
                       </div>
                     ))}
