@@ -77,16 +77,16 @@ export default function QualityAssurance() {
   ];
 
   const publicSectorClients = [
-    'Ministries of Health',
-    'UN Agencies (WHO, UNICEF, UNFPA)',
-    'Donor Organizations (USAID, GAVI, Global Fund)',
-    'Development Banks (AfDB, World Bank)',
+    'Government Health Ministries',
+    'Multilateral and UN Agencies',
+    'International Donor Organizations',
+    'Development Finance Institutions',
     'National Regulatory Authorities'
   ];
 
   const privateSectorClients = [
-    'Hospital Groups & Health Systems',
-    'Private Pharmacies & Distributors',
+    'Hospital Groups and Health Systems',
+    'Private Pharmacies and Distributors',
     'Corporate Health Programs',
     'Insurance Providers',
     'NGO Health Partners'
@@ -115,7 +115,7 @@ export default function QualityAssurance() {
               Quality Assurance
             </h1>
             <p className="text-2xl text-white/90 max-w-2xl">
-              Triple-Verified Quality. Every Product. Every Time.
+              Triple-Verified Quality for Confident Healthcare Delivery
             </p>
           </motion.div>
         </div>
@@ -435,10 +435,10 @@ export default function QualityAssurance() {
                 <div>
                   <h4 className="font-bold text-navy mb-2 flex items-start gap-3">
                     <div className="w-1.5 h-1.5 bg-gray-800 rounded-full mt-2 flex-shrink-0"></div>
-                    Ghana Food & Drugs Authority Laboratory
+                    National Regulatory Authority Laboratories
                   </h4>
                   <p className="text-gray-700 leading-relaxed mb-2 ml-5">
-                    ISO 17025 accredited testing facility providing independent quality verification for pharmaceutical products.
+                    ISO 17025 accredited national testing facilities providing independent quality verification for pharmaceutical products.
                   </p>
                   <span className="inline-block bg-blue/10 text-blue text-sm px-3 py-1 rounded-full font-semibold ml-5">
                     ISO 17025 Accredited
@@ -448,10 +448,10 @@ export default function QualityAssurance() {
                 <div>
                   <h4 className="font-bold text-navy mb-2 flex items-start gap-3">
                     <div className="w-1.5 h-1.5 bg-gray-800 rounded-full mt-2 flex-shrink-0"></div>
-                    Kenya Bureau of Standards (KEBS)
+                    Regional Standards Bureau Laboratories
                   </h4>
                   <p className="text-gray-700 leading-relaxed mb-2 ml-5">
-                    ISO 17025 accredited laboratory conducting comprehensive pharmaceutical quality testing and analysis.
+                    ISO 17025 accredited laboratories conducting comprehensive pharmaceutical quality testing and analysis.
                   </p>
                   <span className="inline-block bg-blue/10 text-blue text-sm px-3 py-1 rounded-full font-semibold ml-5">
                     ISO 17025 Accredited
@@ -675,7 +675,7 @@ export default function QualityAssurance() {
               >
                 <h4 className="font-bold text-navy mb-2">2. Laboratory Test Results</h4>
                 <p className="text-gray-700 text-sm">
-                  Independent testing results from ISO 17025 accredited laboratory (Ghana FDA or Kenya KEBS).
+                  Independent testing results from ISO 17025 accredited laboratories.
                 </p>
               </motion.div>
 
@@ -776,7 +776,7 @@ export default function QualityAssurance() {
             >
               <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">ISO-Accredited Testing</h3>
               <p className="text-gray-700 leading-relaxed">
-                Independent testing by ISO 17025 accredited laboratories (Ghana FDA, Kenya KEBS) provides objective quality verification.
+                Independent testing by ISO 17025 accredited laboratories provides objective quality verification.
               </p>
             </motion.div>
 
