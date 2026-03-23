@@ -21,7 +21,7 @@ export default function QualityStandards() {
       title: 'Standard Operating Procedures',
       description: 'Comprehensive SOPs governing all quality-critical operations and processes.',
       details: [
-        '150+ documented procedures',
+        'Comprehensive documented procedures',
         'Regular SOP review & updates',
         'Version control systems',
         'Employee training on SOPs'
