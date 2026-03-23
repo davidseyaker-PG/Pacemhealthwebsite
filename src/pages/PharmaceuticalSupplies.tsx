@@ -521,7 +521,7 @@ export default function PharmaceuticalSupplies() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {pillars.map((pillar, index) => (
               <motion.div
                 key={index}
@@ -551,7 +551,7 @@ export default function PharmaceuticalSupplies() {
                 </div>
 
                 {/* Description */}
-                <div className="p-6">
+                <div className="p-8">
                   <p className="text-gray-600 leading-relaxed mb-4">
                     {pillar.description}
                   </p>
