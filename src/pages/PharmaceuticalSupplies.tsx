@@ -310,7 +310,7 @@ export default function PharmaceuticalSupplies() {
       <ServiceBreadcrumb serviceName="Pharmaceutical & Medical Supplies Distribution" />
       
       {/* Hero Section - Standard 600px Dark Hero */}
-      <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[600px] overflow-hidden">
         <motion.img
           src={heroImage}
           alt="Pharmaceutical distribution and medical supplies"
@@ -320,7 +320,7 @@ export default function PharmaceuticalSupplies() {
           transition={{ duration: 1.5, ease: "easeOut" }}
         />
         <div className="absolute inset-0 bg-navy/80" />
-        <div className="relative z-10 h-full max-w-7xl mx-auto px-6 flex items-center">
+        <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
