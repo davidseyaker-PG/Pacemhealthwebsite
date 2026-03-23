@@ -430,7 +430,7 @@ export default function ProcurementDistribution() {
               </p>
 
               {/* Key Highlights Section */}
-              <h3 className="text-2xl font-serif font-semibold text-blue mb-6">Key Highlights</h3>
+              <h3 className="text-2xl font-serif font-semibold text-blue mb-6 leading-tight">Key Highlights</h3>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 {pillars[selectedPillar].modalContent.highlights.map((highlight, idx) => (
@@ -446,7 +446,7 @@ export default function ProcurementDistribution() {
               </div>
 
               {/* Features Section */}
-              <h3 className="text-2xl font-serif font-semibold text-blue mb-6">Features</h3>
+              <h3 className="text-2xl font-serif font-semibold text-blue mb-6 leading-tight">Features</h3>
               
               <div className="space-y-6 mb-8">
                 {pillars[selectedPillar].modalContent.features.map((feature, idx) => (
@@ -585,7 +585,7 @@ export default function ProcurementDistribution() {
                 className="relative bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-t-4 border-[#FF6B35] group"
               >
                 <div className="text-5xl font-bold text-[#FF6B35]/20 group-hover:text-[#FF6B35]/30 transition-colors mb-3">{step.number}</div>
-                <h3 className="text-lg font-bold text-blue mb-3">{step.title}</h3>
+                <h3 className="text-lg font-semibold text-blue mb-3 leading-tight">{step.title}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{step.description}</p>
               </motion.div>
             ))}
@@ -654,7 +654,7 @@ export default function ProcurementDistribution() {
                   transition={{ delay: index * 0.05 }}
                   className="bg-white rounded-lg p-8 hover:shadow-xl transition-all duration-300 border-t-4 border-navy"
                 >
-                  <h3 className="text-xl font-serif font-semibold text-blue mb-3">{benefit.title}</h3>
+                  <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">{benefit.title}</h3>
                   <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
                 </motion.div>
               );
@@ -688,7 +688,7 @@ export default function ProcurementDistribution() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-xl hover:bg-white/20 transition-all duration-300"
               >
-                <h3 className="text-xl font-serif font-bold text-white mb-2">{category.title}</h3>
+                <h3 className="text-xl font-serif font-semibold text-white mb-2 leading-tight">{category.title}</h3>
                 <p className="text-white/70 text-sm">{category.description}</p>
               </motion.div>
             ))}
