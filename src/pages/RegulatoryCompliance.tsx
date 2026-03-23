@@ -79,7 +79,7 @@ export default function RegulatoryCompliance() {
           },
           {
             heading: "Multi-Country Registration Strategy",
-            description: "Strategic approach to regional registration leveraging harmonization initiatives (EAC, ZAZIBONA) while managing country-specific requirements. We optimize submission sequencing, identify reference markets, and coordinate parallel applications to accelerate market access across priority countries."
+            description: "Strategic approach to regional registration using harmonization initiatives (EAC, ZAZIBONA) while managing country-specific requirements. We optimize submission sequencing, identify reference markets, and coordinate parallel applications to accelerate market access across priority countries."
           },
           {
             heading: "Regulatory Intelligence & Monitoring",

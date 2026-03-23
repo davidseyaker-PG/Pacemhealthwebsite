@@ -80,7 +80,7 @@ export default function SupplyChainLogistics() {
         sections: [
           {
             heading: "Predictive Demand Forecasting",
-            description: "Advanced analytics combining historical consumption data, epidemiological trends, seasonal patterns, and program scale-up projections to predict future demand with 85%+ accuracy. Our forecasting models account for disease burden shifts, policy changes, and donor funding cycles to prevent both stock-outs and excess inventory."
+            description: "Advanced analytics combining historical consumption data, epidemiological trends, seasonal patterns, and program scale-up projections to predict future demand with high accuracy. Our forecasting models account for disease burden shifts, policy changes, and donor funding cycles to prevent both stock-outs and excess inventory."
           },
           {
             heading: "Buffer Stock Strategy & Management",
@@ -88,7 +88,7 @@ export default function SupplyChainLogistics() {
           },
           {
             heading: "Stock-Out Prevention Systems",
-            description: "Early warning systems with automated alerts for low stock levels, approaching expiries, and order triggers. Proactive procurement recommendations ensure continuous product availability. Our clients achieve 95%+ service levels with optimized inventory investment."
+            description: "Early warning systems with automated alerts for low stock levels, approaching expiries, and order triggers. Proactive procurement recommendations ensure continuous product availability. Our clients achieve strong service levels with optimized inventory investment."
           },
           {
             heading: "Supply Chain Resilience Audits",
@@ -100,8 +100,8 @@ export default function SupplyChainLogistics() {
           }
         ],
         highlights: [
-          "85%+ demand forecasting accuracy",
-          "95%+ service level achievement",
+          "High demand forecasting accuracy",
+          "Reliable service level achievement",
           "3-6 months strategic buffer stock",
           "Automated low-stock alerts",
           "Supply chain risk assessments",
@@ -234,7 +234,7 @@ export default function SupplyChainLogistics() {
   ];
 
   const benefits = [
-    { title: "95%+ Availability", description: "Eliminate stock-outs" },
+    { title: "High Availability", description: "Eliminate stock-outs" },
     { title: "high Compliance", description: "Cold chain integrity" },
     { title: "Rapid Delivery", description: "Regional hub speed" },
     { title: "Remote Access", description: "Reach any location" },
@@ -293,7 +293,7 @@ export default function SupplyChainLogistics() {
       <ServiceBreadcrumb serviceName="Supply Chain & Logistics" />
       
       {/* Enhanced Hero Section with Integrated Stats */}
-      <section className="relative h-[600px] flex items-center overflow-hidden">
+      <section className="relative h-[600px] overflow-hidden">
         <div className="absolute inset-0 bg-navy/80 z-10" />
         <motion.img
           src={heroImage}
@@ -314,7 +314,7 @@ export default function SupplyChainLogistics() {
             <h1 className="text-5xl md:text-6xl font-serif font-extrabold text-white mb-6 leading-tight">
               Supply Chain & Logistics
             </h1>
-            <p className="text-2xl text-white/90 mb-8 leading-relaxed">
+            <p className="text-xl text-white/90 mb-8 leading-relaxed">
               Building resilient healthcare delivery systems through reliable, GDP-compliant supply chain solutions
             </p>
 
@@ -549,7 +549,7 @@ export default function SupplyChainLogistics() {
                   <div className="text-6xl font-bold text-[#ff6b35]/20 mb-3">
                     0{step.number}
                   </div>
-                  <h3 className="text-lg font-bold text-blue mb-2 leading-tight">
+                  <h3 className="text-lg font-semibold text-blue mb-2 leading-tight">
                     {step.title}
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed">

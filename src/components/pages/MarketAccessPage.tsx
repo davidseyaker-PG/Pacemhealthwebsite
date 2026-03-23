@@ -129,7 +129,7 @@ const pillarDetails = [
         },
         {
           heading: 'Registration Timeline Management',
-          description: 'Active management of registration timelines to minimize delays and accelerate approval. We track application status, anticipate potential issues, prepare responses in advance, and escalate when appropriate. While we cannot control regulatory authority timelines, our proactive approach typically reduces total registration time by 20-30% compared to unmanaged submissions.'
+          description: 'Active management of registration timelines to minimize delays and accelerate approval. We track application status, anticipate potential issues, prepare responses in advance, and escalate when appropriate. While we cannot control regulatory authority timelines, our proactive approach is designed to reduce total registration time compared to unmanaged submissions.'
         },
         {
           heading: 'Post-Registration Compliance',
@@ -814,7 +814,7 @@ export function MarketAccessPage() {
 
               {/* Highlights */}
               <div className="bg-teal/5 rounded-lg p-6 mb-8">
-                <h3 className="text-xl font-serif font-semibold text-blue mb-4">Key Highlights</h3>
+                <h3 className="text-xl font-serif font-semibold text-blue mb-4 leading-tight">Key Highlights</h3>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   {pillarDetails[selectedPillar].content.highlights.map((highlight, index) => (
                     <li key={index} className="flex items-start gap-2">
