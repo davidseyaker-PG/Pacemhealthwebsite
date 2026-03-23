@@ -17,19 +17,19 @@ export default function PharmaceuticalSupplies() {
 
   const heroStats = [
     { 
-      value: "3,500+", 
-      label: "Product SKUs",
+      value: "Broad", 
+      label: "Product Range",
       description: "Comprehensive portfolio of prescription medications, vaccines, and specialty pharmaceuticals from trusted manufacturers."
     },
     { 
-      value: "50+", 
-      label: "International Partners",
-      description: "Strategic partnerships with WHO-approved manufacturers across Europe, Asia, and North America."
+      value: "Global", 
+      label: "Partner Network",
+      description: "Strategic partnerships with qualified manufacturers across multiple continents, guided by WHO prequalification standards."
     },
     { 
-      value: "99.8%", 
-      label: "Quality Compliance",
-      description: "Rigorous quality assurance with GDP-compliant facilities, batch tracking, and full traceability."
+      value: "Rigorous", 
+      label: "Quality Standards",
+      description: "Rigorous quality assurance with facilities designed around GDP guidelines, batch tracking, and full traceability."
     }
   ];
 
@@ -37,13 +37,13 @@ export default function PharmaceuticalSupplies() {
     {
       number: "01",
       title: "Comprehensive Product Portfolio",
-      description: "Over 10,000 SKUs including prescription medications, OTC products, vaccines, controlled substances, and specialty pharmaceuticals from trusted global manufacturers.",
+      description: "A comprehensive range of prescription medications, OTC products, vaccines, and specialty pharmaceuticals from qualified global manufacturers.",
       image: pillar1Image
     },
     {
       number: "02",
       title: "Cold Chain Excellence",
-      description: "Temperature-controlled storage and distribution for vaccines and biologics with 24/7 monitoring, GDP compliance, and validated cold chain integrity.",
+      description: "Temperature-controlled storage and distribution for vaccines and biologics with continuous monitoring, designed to meet GDP guidelines, and validated cold chain integrity.",
       image: pillar2Image
     },
     {
@@ -63,18 +63,18 @@ export default function PharmaceuticalSupplies() {
   const pillarDetails = [
     {
       title: "Comprehensive Product Portfolio",
-      subtitle: "Over 10,000 SKUs from Trusted Global Manufacturers",
+      subtitle: "Quality Pharmaceuticals from Qualified Global Manufacturers",
       image: pillar1Image,
       content: {
         intro: "Our extensive pharmaceutical portfolio ensures healthcare facilities have access to essential medications, specialty pharmaceuticals, and medical supplies needed to deliver quality patient care across all therapeutic areas.",
         sections: [
           {
             heading: "Prescription Medications",
-            description: "Complete range of prescription pharmaceuticals across all major therapeutic categories including antibiotics, cardiovascular agents, diabetes management, pain management, oncology medications, and respiratory treatments. All sourced from WHO-approved manufacturers with full regulatory compliance."
+            description: "Complete range of prescription pharmaceuticals across all major therapeutic categories including antibiotics, cardiovascular agents, diabetes management, pain management, oncology medications, and respiratory treatments. Sourced from qualified manufacturers, guided by WHO prequalification standards."
           },
           {
             heading: "Vaccines & Biologics",
-            description: "Comprehensive vaccine portfolio including routine immunizations, travel vaccines, and specialty biologics. Our GDP-compliant cold chain ensures vaccine efficacy from manufacturer to patient, with 24/7 temperature monitoring and validated storage protocols."
+            description: "Comprehensive vaccine portfolio including routine immunizations, travel vaccines, and specialty biologics. Our temperature-managed cold chain ensures vaccine efficacy from manufacturer to patient, with continuous temperature monitoring and validated storage protocols."
           },
           {
             heading: "Specialty Pharmaceuticals",
@@ -90,8 +90,8 @@ export default function PharmaceuticalSupplies() {
           }
         ],
         highlights: [
-          "10,000+ SKUs across all therapeutic categories",
-          "100% WHO-approved manufacturer sourcing",
+          "Growing portfolio across all major therapeutic categories",
+          "Sourcing guided by WHO prequalification standards",
           "Regular portfolio expansion with new products",
           "Custom procurement for specialty items",
           "Competitive pricing with volume discounts",
@@ -101,14 +101,14 @@ export default function PharmaceuticalSupplies() {
     },
     {
       title: "Cold Chain Excellence",
-      subtitle: "GDP-Compliant Temperature Control from Manufacturer to Patient",
+      subtitle: "Temperature Control Designed to Meet GDP Guidelines, from Manufacturer to Patient",
       image: pillar2Image,
       content: {
-        intro: "Vaccines, biologics, and temperature-sensitive medications require uncompromising cold chain integrity. Our GDP-certified facilities and validated processes ensure pharmaceutical products maintain potency and safety throughout the distribution journey.",
+        intro: "Vaccines, biologics, and temperature-sensitive medications require uncompromising cold chain integrity. Our facilities and validated processes, designed around GDP standards, ensure pharmaceutical products maintain potency and safety throughout the distribution journey.",
         sections: [
           {
             heading: "Temperature-Controlled Storage Facilities",
-            description: "Purpose-built cold storage facilities with multi-zone temperature control for 2-8°C (vaccines), 15-25°C (ambient), and -20°C (frozen biologics). All facilities equipped with backup generators, redundant cooling systems, and 24/7 monitoring to prevent temperature excursions."
+            description: "Purpose-built cold storage facilities with multi-zone temperature control for 2-8°C (vaccines), 15-25°C (ambient), and -20°C (frozen biologics). All facilities equipped with backup generators, redundant cooling systems, and continuous monitoring to prevent temperature excursions."
           },
           {
             heading: "Real-Time Temperature Monitoring",
@@ -128,9 +128,9 @@ export default function PharmaceuticalSupplies() {
           }
         ],
         highlights: [
-          "WHO PQS-certified cold chain equipment",
-          "24/7 temperature monitoring with instant alerts",
-          "99.9% cold chain integrity rate",
+          "Cold chain equipment selected to meet WHO PQS standards",
+          "Continuous temperature monitoring with instant alerts",
+          "Dedicated cold chain integrity monitoring",
           "Backup power systems at all facilities",
           "GDP-trained cold chain specialists",
           "Complete temperature documentation & traceability"
@@ -166,8 +166,8 @@ export default function PharmaceuticalSupplies() {
           }
         ],
         highlights: [
-          "100% WHO-approved manufacturer sourcing",
-          "Certificate of analysis for every batch",
+          "Sourcing guided by WHO prequalification standards",
+          "Batch-level quality documentation and certificates of analysis",
           "Advanced batch tracking systems",
           "FEFO inventory rotation protocols",
           "Secure controlled substance storage",
@@ -184,7 +184,7 @@ export default function PharmaceuticalSupplies() {
         sections: [
           {
             heading: "Same-Day Delivery in Major Cities",
-            description: "Express delivery service for Nairobi, Mombasa, Kisumu, Accra, and other major urban centers with orders placed before noon delivered the same business day. Multiple daily delivery runs ensure rapid fulfillment for urgent medication needs and emergency orders."
+            description: "Express delivery service for major urban centers in our service areas, with flexible same-day options for urgent medication needs. Regular delivery runs ensure timely fulfillment for urgent medication needs."
           },
           {
             heading: "Scheduled Distribution to Regional Areas",
@@ -192,7 +192,7 @@ export default function PharmaceuticalSupplies() {
           },
           {
             heading: "Emergency Supply Services",
-            description: "24/7 emergency response capability for critical medication shortages, unexpected patient needs, or urgent treatment requirements. Dedicated emergency hotline with 2-4 hour response time in urban areas and expedited processing for life-saving medications."
+            description: "Emergency supply support for critical medication shortages, unexpected patient needs, or urgent treatment requirements. Dedicated emergency contact support with 2-4 hour response time in urban areas and expedited processing for life-saving medications."
           },
           {
             heading: "Flexible Order Management",
@@ -204,9 +204,9 @@ export default function PharmaceuticalSupplies() {
           }
         ],
         highlights: [
-          "Same-day delivery to major cities",
+          "Flexible delivery options including same-day service",
           "Weekly/bi-weekly routes to regional areas",
-          "24/7 emergency response capability",
+          "Emergency supply support for critical needs",
           "No minimum order requirements",
           "Real-time delivery tracking",
           "Multiple ordering channels available"
@@ -274,10 +274,10 @@ export default function PharmaceuticalSupplies() {
   ];
 
   const benefits = [
-    { title: "99.8% Quality Rate", description: "Rigorous quality control & authentic products" },
+    { title: "Rigorous Quality Controls", description: "Rigorous quality control & authentic products" },
     { title: "24hr Emergency Service", description: "Critical medication urgent response" },
-    { title: "Cold Chain Certified", description: "WHO GDP-compliant temperature control" },
-    { title: "3,500+ SKUs", description: "Comprehensive pharmaceutical portfolio" },
+    { title: "Cold Chain Managed", description: "Temperature-controlled distribution designed to meet WHO GDP guidelines" },
+    { title: "Growing Portfolio", description: "Comprehensive pharmaceutical product range" },
     { title: "Same-Day Delivery", description: "Rapid fulfillment in major cities" },
     { title: "No Minimums", description: "Flexible ordering for all facility sizes" }
   ];
@@ -285,11 +285,11 @@ export default function PharmaceuticalSupplies() {
   const faqs = [
     {
       question: "What is your product quality assurance process?",
-      answer: "We source exclusively from WHO-approved manufacturers and conduct rigorous quality checks at every stage. Our quality assurance includes supplier pre-qualification, certificate of analysis verification, physical inspection upon receipt, proper storage conditions, batch tracking, and expiry management. Every product is traceable from manufacturer to end user."
+      answer: "We prioritize sourcing from WHO-prequalified manufacturers and conduct rigorous quality checks at every stage. Our quality assurance includes supplier pre-qualification, certificate of analysis verification, physical inspection upon receipt, proper storage conditions, batch tracking, and expiry management. Every product is traceable from manufacturer to end user."
     },
     {
       question: "Do you provide cold chain distribution for vaccines?",
-      answer: "Yes. We operate GDP-compliant cold chain facilities with 24/7 temperature monitoring, backup power systems, validated refrigerated transport, and documented temperature logs. Our cold chain covers vaccines, biologics, insulin, and other temperature-sensitive medications requiring 2-8°C storage."
+      answer: "Yes. We operate temperature-managed cold chain facilities with continuous temperature monitoring, backup power systems, validated refrigerated transport, and documented temperature logs. Our cold chain covers vaccines, biologics, insulin, and other temperature-sensitive medications requiring 2-8°C storage."
     },
     {
       question: "What are your delivery times and service areas?",
@@ -301,7 +301,7 @@ export default function PharmaceuticalSupplies() {
     },
     {
       question: "How do you handle emergency medication requests?",
-      answer: "We maintain 24/7 emergency response capability for critical medications. Contact our emergency hotline, and we'll prioritize your order for same-day delivery in urban areas. We keep safety stock of essential emergency medications and have protocols for rapid sourcing of specialty items."
+      answer: "We offer emergency supply support for critical medications. Contact our team, and we'll prioritize your order for same-day delivery in urban areas. We keep safety stock of essential emergency medications and have protocols for rapid sourcing of specialty items."
     }
   ];
 
@@ -367,7 +367,7 @@ export default function PharmaceuticalSupplies() {
               Your Trusted Pharmaceutical Distribution Partner
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              From essential generics to specialty medications, we ensure healthcare facilities have reliable access to quality pharmaceutical products. Our end-to-end distribution combines <strong>rigorous quality control</strong>, <strong>GDP-compliant cold chain</strong>, and <strong>flexible delivery options</strong> to keep your pharmacy stocked and your patients served.
+              From essential generics to specialty medications, we ensure healthcare facilities have reliable access to quality pharmaceutical products. Our end-to-end distribution combines <strong>rigorous quality control</strong>, <strong>temperature-managed cold chain</strong>, and <strong>flexible delivery options</strong> to keep your pharmacy stocked and your patients served.
             </p>
           </motion.div>
         </div>
@@ -411,7 +411,7 @@ export default function PharmaceuticalSupplies() {
                   Pharmaceutical Distribution
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  Distribution of branded, generic, and specialty medications with GDP-compliant operations ensuring product integrity.
+                  Distribution of branded, generic, and specialty medications with operations designed to meet GDP guidelines, ensuring product integrity.
                 </p>
                 <Link href="/solutions/pharmaceutical-distribution">
                   <motion.button
@@ -675,10 +675,10 @@ export default function PharmaceuticalSupplies() {
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">December 2025</div>
                 <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
-                  Expanding Cold Chain Infrastructure Across East Africa
+                  Building Our Cold Chain Capabilities
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  New GDP-compliant cold storage facilities in Nairobi and Mombasa enhance our vaccine distribution capacity to serve 200+ additional healthcare facilities.
+                  New cold storage facilities designed to meet GDP guidelines to strengthen pharmaceutical distribution capacity across our service areas.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -707,10 +707,10 @@ export default function PharmaceuticalSupplies() {
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">November 2025</div>
                 <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
-                  Achieving WHO PQS Certification for Quality Standards
+                  Working Toward International Quality Benchmarks
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Our distribution facilities receive WHO Pre-Qualification System certification, reinforcing our commitment to pharmaceutical quality and safety.
+                  Our quality systems are being developed with WHO and GDP guidelines as benchmarks, as part of our commitment to pharmaceutical safety and integrity.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -739,10 +739,10 @@ export default function PharmaceuticalSupplies() {
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">October 2025</div>
                 <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
-                  New Partnerships with Leading Global Manufacturers
+                  Growing Our Manufacturer Partnerships
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Strategic agreements with 15 new pharmaceutical manufacturers expand our product portfolio to over 3,500 SKUs across therapeutic categories.
+                  We are building relationships with qualified pharmaceutical manufacturers to expand access to essential medications across therapeutic categories.
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
@@ -776,7 +776,7 @@ export default function PharmaceuticalSupplies() {
               Ready to Partner With Us?
             </h2>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
-              Join 500+ healthcare facilities trusting Pacem Health for reliable pharmaceutical distribution. Request a product catalog or speak with our team today.
+              Partner with Pacem Health for reliable pharmaceutical distribution. Request a product catalog or speak with our team today.
             </p>
             
             <div className="flex flex-wrap justify-center gap-4 mb-10">
@@ -800,7 +800,7 @@ export default function PharmaceuticalSupplies() {
             <div className="flex flex-wrap justify-center gap-8 text-white/90">
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-blue" />
-                <span>10,000+ Products</span>
+                <span>Comprehensive Product Range</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-blue" />
