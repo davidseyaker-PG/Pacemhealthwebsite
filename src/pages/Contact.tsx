@@ -134,10 +134,10 @@ export default function Contact() {
                 <div>
                   <h3 className="text-sm font-semibold text-navy uppercase tracking-wider mb-2 leading-tight">Business Hours</h3>
                   <p className="text-lg text-gray-700">
-                    Monday â Friday, 8:00 AM â 6:00 PM EST
+                    Monday – Friday, 8:00 AM – 6:00 PM EST
                   </p>
                   <p className="text-sm text-gray-500 mt-1">
-                    We typically respond within 24â48 hours.
+                    We typically respond within 24–48 hours.
                   </p>
                 </div>
               </div>
