@@ -84,7 +84,7 @@ export default function Programs() {
       <section id="programs" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold leading-tight text-navy mb-4">
               Our Strategic Programs
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -115,7 +115,7 @@ export default function Programs() {
 
                     {/* Content */}
                     <div className="p-8">
-                      <h3 className="text-xl font-heading font-bold text-navy mb-3">
+                      <h3 className="text-xl font-heading font-semibold leading-tight text-navy mb-3">
                         {program.title}
                       </h3>
                       <p className="text-gray-700 leading-relaxed mb-6">
@@ -153,7 +153,7 @@ export default function Programs() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-5xl font-heading font-bold text-white mb-6">
+            <h2 className="text-5xl font-heading font-bold leading-tight text-white mb-6">
               Partner With Our Programs
             </h2>
             <p className="text-xl text-white/90 mb-10 leading-relaxed">
