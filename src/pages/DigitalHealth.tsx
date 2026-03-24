@@ -107,7 +107,7 @@ export default function DigitalHealth() {
   const faqs = [
     {
       question: "How does the telemedicine platform work?",
-      answer: "Our telemedicine platform connects patients with licensed physicians through secure video consultations. Simply download our app, create an account, book an appointment or request an immediate consultation, and connect with a doctor via video call. The doctor can review your medical history, diagnose conditions, prescribe medications, and order tests—all digitally. Prescriptions are sent directly to your preferred pharmacy."
+      answer: "Our telemedicine platform connects patients with licensed physicians through secure video consultations. Simply download our app, create an account, book an appointment or request an immediate consultation, and connect with a doctor via video call. The doctor can review your medical history, diagnose conditions, prescribe medications, and order testsâall digitally. Prescriptions are sent directly to your preferred pharmacy."
     },
     {
       question: "Is my health data secure and private?",
@@ -133,11 +133,11 @@ export default function DigitalHealth() {
       subtitle: "Virtual Healthcare Accessible Anytime, Anywhere",
       image: telemedicineImage,
       content: {
-        intro: "Our telemedicine platform revolutionizes healthcare access by connecting patients with licensed physicians through secure video consultations. Whether you need immediate medical advice, specialist consultation, mental health support, or prescription refills, our platform delivers quality healthcare directly to your smartphone or computer—eliminating travel time, reducing costs, and improving access to care.",
+        intro: "Our telemedicine platform revolutionizes healthcare access by connecting patients with licensed physicians through secure video consultations. Whether you need immediate medical advice, specialist consultation, mental health support, or prescription refills, our platform delivers quality healthcare directly to your smartphone or computerâeliminating travel time, reducing costs, and improving access to care.",
         sections: [
           {
             heading: "Virtual Consultations with Licensed Physicians",
-            description: "Connect with board-certified doctors, specialists, and healthcare providers through HD video calls. Patients can schedule appointments or request immediate consultations for urgent non-emergency conditions. Physicians review medical history, conduct virtual examinations, diagnose conditions, and recommend treatments—all through secure, healthcare data protection-compliant video technology."
+            description: "Connect with board-certified doctors, specialists, and healthcare providers through HD video calls. Patients can schedule appointments or request immediate consultations for urgent non-emergency conditions. Physicians review medical history, conduct virtual examinations, diagnose conditions, and recommend treatmentsâall through secure, healthcare data protection-compliant video technology."
           },
           {
             heading: "Specialty Care & Expert Consultations",
@@ -343,7 +343,7 @@ export default function DigitalHealth() {
             viewport={{ once: true }}
           >
             <div className="h-1 w-20 bg-orange mb-6 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-6">
               Healthcare Meets technology
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
@@ -362,7 +362,7 @@ export default function DigitalHealth() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -388,7 +388,7 @@ export default function DigitalHealth() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">
@@ -418,7 +418,7 @@ export default function DigitalHealth() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Digital Health Operations at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -436,7 +436,7 @@ export default function DigitalHealth() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center"
               >
-                <div className="text-5xl font-bold text-blue mb-3">
+                <div className="text-5xl font-bold text-navy mb-3">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 leading-relaxed">
@@ -456,7 +456,7 @@ export default function DigitalHealth() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Digital Solutions for Every Stakeholder
             </h2>
             <p className="text-xl text-gray-600">
@@ -474,7 +474,7 @@ export default function DigitalHealth() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-gray-50 rounded-lg p-8 border-t-4 border-teal hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-4">
                   {category.category}
                 </h3>
                 <ul className="space-y-2 list-disc list-inside">
@@ -495,7 +495,7 @@ export default function DigitalHealth() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Who We Serve
             </h2>
             <p className="text-xl text-gray-600">
@@ -513,7 +513,7 @@ export default function DigitalHealth() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-6 border-t-4 border-orange shadow-md hover:shadow-xl transition-all duration-300 text-center"
               >
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                   {sector.title}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -530,7 +530,7 @@ export default function DigitalHealth() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Why Choose Pacem Health Digital
             </h2>
             <p className="text-xl text-gray-600">
@@ -548,7 +548,7 @@ export default function DigitalHealth() {
                 transition={{ delay: index * 0.05 }}
                 className="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-2">
                   {benefit.title}
                 </h3>
                 <p className="text-gray-600">{benefit.description}</p>
@@ -568,7 +568,7 @@ export default function DigitalHealth() {
             className="text-center mb-12"
           >
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               News & Stories
             </h2>
             <p className="text-xl text-gray-600">
@@ -593,7 +593,7 @@ export default function DigitalHealth() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">December 2025</div>
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                   Growing Our Telemedicine Platform
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
@@ -601,7 +601,7 @@ export default function DigitalHealth() {
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
-                  className="text-blue font-semibold flex items-center gap-2"
+                  className="text-navy font-semibold flex items-center gap-2"
                 >
                   Read More
                   <ArrowRight className="w-4 h-4" />
@@ -625,7 +625,7 @@ export default function DigitalHealth() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">November 2025</div>
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                   Developing Clinical Decision Support Tools
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
@@ -633,7 +633,7 @@ export default function DigitalHealth() {
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
-                  className="text-blue font-semibold flex items-center gap-2"
+                  className="text-navy font-semibold flex items-center gap-2"
                 >
                   Read More
                   <ArrowRight className="w-4 h-4" />
@@ -657,7 +657,7 @@ export default function DigitalHealth() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">October 2025</div>
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                   Advancing Patient Engagement Through Digital Tools
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
@@ -665,7 +665,7 @@ export default function DigitalHealth() {
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
-                  className="text-blue font-semibold flex items-center gap-2"
+                  className="text-navy font-semibold flex items-center gap-2"
                 >
                   Read More
                   <ArrowRight className="w-4 h-4" />
@@ -718,7 +718,7 @@ export default function DigitalHealth() {
 
             <div className="flex flex-wrap justify-center gap-8 text-white/90">
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-blue" />
+                <CheckCircle className="w-5 h-5 text-navy" />
                 <span>Security Focused</span>
               </div>
             </div>
@@ -782,7 +782,7 @@ export default function DigitalHealth() {
                 <div className="space-y-6 mb-8">
                   {pillarDetails[selectedPillar].content.sections.map((section, idx) => (
                     <div key={idx} className="border-l-4 border-orange pl-6">
-                      <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
+                      <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-2">
                         {section.heading}
                       </h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -796,7 +796,7 @@ export default function DigitalHealth() {
               {/* Highlights */}
               {pillarDetails[selectedPillar].content.highlights.length > 0 && (
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Key Highlights</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-4">Key Highlights</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {pillarDetails[selectedPillar].content.highlights.map((highlight, idx) => (
                       <li key={idx} className="flex items-start gap-2">

@@ -39,7 +39,7 @@ function AccordionItem({ title, children, defaultOpen = false }: { title: string
       >
         <h3 className="text-xl font-serif text-navy">{title}</h3>
         <ChevronDown
-          className={`w-6 h-6 text-blue transition-transform duration-300 ${
+          className={`w-6 h-6 text-navy transition-transform duration-300 ${
             isOpen ? 'rotate-180' : ''
           }`}
         />
@@ -88,7 +88,7 @@ export default function CookieSettings() {
       name: 'Strictly Necessary',
       required: true,
       enabled: true,
-      description: 'These cookies are essential for core site functionality and security—such as maintaining sessions, preventing fraud, and enabling account access. Because they are essential, you cannot disable them.',
+      description: 'These cookies are essential for core site functionality and securityâsuch as maintaining sessions, preventing fraud, and enabling account access. Because they are essential, you cannot disable them.',
       examples: [
         'Authentication and session management',
         'Security and fraud prevention',
@@ -263,7 +263,7 @@ export default function CookieSettings() {
     switch (consentStatus) {
       case 'accepted': return 'text-green-600';
       case 'rejected': return 'text-red-600';
-      case 'customized': return 'text-blue';
+      case 'customized': return 'text-navy';
     }
   };
 
@@ -332,7 +332,7 @@ export default function CookieSettings() {
             </button>
             <button
               onClick={handleSavePreferences}
-              className="px-6 py-3 border-2 border-blue text-blue rounded-md hover:bg-blue hover:text-white transition-colors font-semibold"
+              className="px-6 py-3 border-2 border-blue text-navy rounded-md hover:bg-blue hover:text-white transition-colors font-semibold"
             >
               Save My Preferences
             </button>
@@ -396,7 +396,7 @@ export default function CookieSettings() {
                   {category.required && (
                     <div className="bg-blue/10 border-l-4 border-blue p-4 rounded-r-lg">
                       <div className="flex items-start gap-3">
-                        <Shield className="w-5 h-5 text-blue flex-shrink-0 mt-0.5" />
+                        <Shield className="w-5 h-5 text-navy flex-shrink-0 mt-0.5" />
                         <p className="text-sm text-gray-700">
                           <strong>Required for Core Functionality:</strong> These cookies cannot be disabled
                           as they are essential for security, authentication, and basic site operations.
@@ -455,7 +455,7 @@ export default function CookieSettings() {
                         <td className="px-6 py-4 text-gray-700">{cookie.type}</td>
                         <td className="px-6 py-4 text-gray-700">{cookie.duration}</td>
                         <td className="px-6 py-4">
-                          <span className="px-3 py-1 bg-blue/10 text-blue text-xs font-semibold rounded-full capitalize">
+                          <span className="px-3 py-1 bg-blue/10 text-navy text-xs font-semibold rounded-full capitalize">
                             {cookie.category}
                           </span>
                         </td>
@@ -496,7 +496,7 @@ export default function CookieSettings() {
                       href={vendor.privacyUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-blue hover:underline text-sm"
+                      className="inline-flex items-center gap-2 text-navy hover:underline text-sm"
                     >
                       <span>View Privacy Policy</span>
                       <ExternalLink className="w-4 h-4" />
@@ -550,16 +550,16 @@ export default function CookieSettings() {
               of our Platform. Learn more about cookie controls in your browser:
             </p>
             <div className="flex flex-wrap gap-4 mt-4">
-              <a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer" className="text-blue hover:underline text-sm">
+              <a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer" className="text-navy hover:underline text-sm">
                 Chrome
               </a>
-              <a href="https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer" target="_blank" rel="noopener noreferrer" className="text-blue hover:underline text-sm">
+              <a href="https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer" target="_blank" rel="noopener noreferrer" className="text-navy hover:underline text-sm">
                 Firefox
               </a>
-              <a href="https://support.apple.com/guide/safari/manage-cookies-sfri11471/mac" target="_blank" rel="noopener noreferrer" className="text-blue hover:underline text-sm">
+              <a href="https://support.apple.com/guide/safari/manage-cookies-sfri11471/mac" target="_blank" rel="noopener noreferrer" className="text-navy hover:underline text-sm">
                 Safari
               </a>
-              <a href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener noreferrer" className="text-blue hover:underline text-sm">
+              <a href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener noreferrer" className="text-navy hover:underline text-sm">
                 Edge
               </a>
             </div>
@@ -593,13 +593,13 @@ export default function CookieSettings() {
               className="p-6 border-2 border-blue hover:bg-blue hover:text-white rounded-lg transition-all group"
             >
               <div className="flex items-start gap-4">
-                <Shield className="w-8 h-8 text-blue group-hover:text-white flex-shrink-0" />
+                <Shield className="w-8 h-8 text-navy group-hover:text-white flex-shrink-0" />
                 <div>
                   <h4 className="font-bold text-navy group-hover:text-white mb-2">Privacy Notice</h4>
                   <p className="text-sm text-gray-700 group-hover:text-white">
                     Learn how we collect, use, and protect your personal information
                   </p>
-                  <div className="flex items-center gap-2 mt-3 text-blue group-hover:text-white">
+                  <div className="flex items-center gap-2 mt-3 text-navy group-hover:text-white">
                     <span className="text-sm font-semibold">Read Privacy Notice</span>
                     <ExternalLink className="w-4 h-4" />
                   </div>
@@ -612,13 +612,13 @@ export default function CookieSettings() {
               className="p-6 border-2 border-blue hover:bg-blue hover:text-white rounded-lg transition-all group"
             >
               <div className="flex items-start gap-4">
-                <Cookie className="w-8 h-8 text-blue group-hover:text-white flex-shrink-0" />
+                <Cookie className="w-8 h-8 text-navy group-hover:text-white flex-shrink-0" />
                 <div>
                   <h4 className="font-bold text-navy group-hover:text-white mb-2">Terms of Service</h4>
                   <p className="text-sm text-gray-700 group-hover:text-white">
                     Review the legal terms governing your use of our Platform
                   </p>
-                  <div className="flex items-center gap-2 mt-3 text-blue group-hover:text-white">
+                  <div className="flex items-center gap-2 mt-3 text-navy group-hover:text-white">
                     <span className="text-sm font-semibold">Read Terms</span>
                     <ExternalLink className="w-4 h-4" />
                   </div>

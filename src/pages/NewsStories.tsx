@@ -211,7 +211,7 @@ export default function NewsStories() {
                 <div className="lg:py-8">
                   <div className="text-orange text-sm font-bold tracking-wide mb-4">QUALITY ASSURANCE</div>
                   
-                  <h2 className="text-4xl lg:text-5xl font-serif text-navy mb-6 group-hover:text-blue transition-colors">
+                  <h2 className="text-4xl lg:text-5xl font-serif text-navy mb-6 group-hover:text-navy transition-colors">
                     Ensuring Quality: How Global Partners Are Combating Substandard Medications in Africa
                   </h2>
 
@@ -230,7 +230,7 @@ export default function NewsStories() {
                     </div>
                   </div>
 
-                  <div className="flex items-center gap-3 text-blue font-bold text-lg group-hover:gap-4 transition-all">
+                  <div className="flex items-center gap-3 text-navy font-bold text-lg group-hover:gap-4 transition-all">
                     Read Full Article
                     <ArrowRight className="w-6 h-6" />
                   </div>
@@ -297,7 +297,7 @@ export default function NewsStories() {
                         </div>
                       </div>
 
-                      <h3 className="text-2xl font-serif text-navy mb-3 group-hover:text-blue transition-colors">
+                      <h3 className="text-2xl font-serif text-navy mb-3 group-hover:text-navy transition-colors">
                         {story.title}
                       </h3>
 
@@ -305,7 +305,7 @@ export default function NewsStories() {
                         {story.excerpt}
                       </p>
 
-                      <div className="flex items-center gap-2 text-blue font-semibold group-hover:gap-3 transition-all">
+                      <div className="flex items-center gap-2 text-navy font-semibold group-hover:gap-3 transition-all">
                         Read More
                         <ArrowRight className="w-5 h-5" />
                       </div>
@@ -346,7 +346,7 @@ export default function NewsStories() {
                   {(activeFilter !== 'All News' || searchQuery !== '') && (
                     <button
                       onClick={clearFilters}
-                      className="text-sm text-blue hover:underline"
+                      className="text-sm text-navy hover:underline"
                     >
                       Clear filters
                     </button>
@@ -410,7 +410,7 @@ export default function NewsStories() {
                               <span className="text-sm text-gray-600">{story.category}</span>
                             </div>
 
-                            <h3 className="text-xl font-serif text-navy mb-3 group-hover:text-blue transition-colors">
+                            <h3 className="text-xl font-serif text-navy mb-3 group-hover:text-navy transition-colors">
                               {story.title}
                             </h3>
 
@@ -418,7 +418,7 @@ export default function NewsStories() {
                               {story.excerpt}
                             </p>
 
-                            <div className="flex items-center gap-2 text-blue font-semibold group-hover:gap-3 transition-all text-sm">
+                            <div className="flex items-center gap-2 text-navy font-semibold group-hover:gap-3 transition-all text-sm">
                               Read More
                               <ArrowRight className="w-4 h-4" />
                             </div>

@@ -342,7 +342,7 @@ export default function LaboratoryDiagnostics() {
             viewport={{ once: true }}
           >
             <div className="h-1 w-20 bg-orange mb-6 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-6">
               Precision Diagnostics You Can Trust
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
@@ -361,7 +361,7 @@ export default function LaboratoryDiagnostics() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -387,7 +387,7 @@ export default function LaboratoryDiagnostics() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">
@@ -417,7 +417,7 @@ export default function LaboratoryDiagnostics() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Laboratory Operations at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -435,7 +435,7 @@ export default function LaboratoryDiagnostics() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center"
               >
-                <div className="text-5xl font-bold text-blue mb-3">
+                <div className="text-5xl font-bold text-navy mb-3">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 leading-relaxed">
@@ -455,7 +455,7 @@ export default function LaboratoryDiagnostics() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Comprehensive Testing Services
             </h2>
             <p className="text-xl text-gray-600">
@@ -473,7 +473,7 @@ export default function LaboratoryDiagnostics() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-gray-50 rounded-lg p-8 border-t-4 border-teal hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-4">
                   {category.category}
                 </h3>
                 <ul className="space-y-2 list-disc list-inside">
@@ -494,7 +494,7 @@ export default function LaboratoryDiagnostics() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Who We Serve
             </h2>
             <p className="text-xl text-gray-600">
@@ -512,7 +512,7 @@ export default function LaboratoryDiagnostics() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-6 border-t-4 border-orange shadow-md hover:shadow-xl transition-all duration-300 text-center"
               >
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                   {sector.title}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -529,7 +529,7 @@ export default function LaboratoryDiagnostics() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Why Choose Pacem Health Laboratory
             </h2>
             <p className="text-xl text-gray-600">
@@ -547,7 +547,7 @@ export default function LaboratoryDiagnostics() {
                 transition={{ delay: index * 0.05 }}
                 className="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-2">
                   {benefit.title}
                 </h3>
                 <p className="text-gray-600">{benefit.description}</p>
@@ -567,7 +567,7 @@ export default function LaboratoryDiagnostics() {
             className="text-center mb-12"
           >
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               News & Stories
             </h2>
             <p className="text-xl text-gray-600">
@@ -592,7 +592,7 @@ export default function LaboratoryDiagnostics() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">December 2025</div>
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                   Working Toward International Laboratory Accreditation
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
@@ -600,7 +600,7 @@ export default function LaboratoryDiagnostics() {
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
-                  className="text-blue font-semibold flex items-center gap-2"
+                  className="text-navy font-semibold flex items-center gap-2"
                 >
                   Read More
                   <ArrowRight className="w-4 h-4" />
@@ -624,7 +624,7 @@ export default function LaboratoryDiagnostics() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">November 2025</div>
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                   Expanding Molecular Diagnostics Capabilities
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
@@ -632,7 +632,7 @@ export default function LaboratoryDiagnostics() {
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
-                  className="text-blue font-semibold flex items-center gap-2"
+                  className="text-navy font-semibold flex items-center gap-2"
                 >
                   Read More
                   <ArrowRight className="w-4 h-4" />
@@ -656,7 +656,7 @@ export default function LaboratoryDiagnostics() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">October 2025</div>
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                   Growing Our Home Collection Service Network
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
@@ -664,7 +664,7 @@ export default function LaboratoryDiagnostics() {
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
-                  className="text-blue font-semibold flex items-center gap-2"
+                  className="text-navy font-semibold flex items-center gap-2"
                 >
                   Read More
                   <ArrowRight className="w-4 h-4" />
@@ -717,15 +717,15 @@ export default function LaboratoryDiagnostics() {
 
             <div className="flex flex-wrap justify-center gap-8 text-white/90">
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-blue" />
+                <CheckCircle className="w-5 h-5 text-navy" />
                 <span>Quality Focused</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-blue" />
+                <CheckCircle className="w-5 h-5 text-navy" />
                 <span>Rapid Results</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-blue" />
+                <CheckCircle className="w-5 h-5 text-navy" />
                 <span>Home Collection</span>
               </div>
             </div>
@@ -789,7 +789,7 @@ export default function LaboratoryDiagnostics() {
                 <div className="space-y-6 mb-8">
                   {pillarDetails[selectedPillar].content.sections.map((section, idx) => (
                     <div key={idx} className="border-l-4 border-orange pl-6">
-                      <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
+                      <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-2">
                         {section.heading}
                       </h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -803,7 +803,7 @@ export default function LaboratoryDiagnostics() {
               {/* Highlights */}
               {pillarDetails[selectedPillar].content.highlights.length > 0 && (
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Key Highlights</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-4">Key Highlights</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {pillarDetails[selectedPillar].content.highlights.map((highlight, idx) => (
                       <li key={idx} className="flex items-start gap-2">

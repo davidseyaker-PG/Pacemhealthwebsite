@@ -118,22 +118,22 @@ export default function Support() {
   ];
 
   const quickActions = [
-    { icon: FileCheck, label: 'Request Equipment Quote', color: 'bg-blue/10 text-blue hover:bg-blue/20' },
-    { icon: FileCheck, label: 'Request Equipment Demo', color: 'bg-blue/10 text-blue hover:bg-blue/20' },
-    { icon: GraduationCap, label: 'Training & Education Support', color: 'bg-blue/10 text-blue hover:bg-blue/20' },
-    { icon: Server, label: 'Platform & Systems Support', color: 'bg-blue/10 text-blue hover:bg-blue/20' },
-    { icon: Wrench, label: 'Equipment Services & Maintenance', color: 'bg-blue/10 text-blue hover:bg-blue/20' },
-    { icon: FileText, label: 'Manuals & Documentation Request', color: 'bg-blue/10 text-blue hover:bg-blue/20' },
-    { icon: Wrench, label: 'Spare Parts or Repair Request', color: 'bg-blue/10 text-blue hover:bg-blue/20' },
-    { icon: Users, label: 'Career or Staffing Inquiry', color: 'bg-blue/10 text-blue hover:bg-blue/20' },
-    { icon: Briefcase, label: 'Procurement or Supply Chain Inquiry', color: 'bg-blue/10 text-blue hover:bg-blue/20' },
-    { icon: Briefcase, label: 'Donor, NGO, or Government Partnership', color: 'bg-blue/10 text-blue hover:bg-blue/20' },
-    { icon: DollarSign, label: 'Billing & Finance Assistance', color: 'bg-blue/10 text-blue hover:bg-blue/20' },
-    { icon: Smartphone, label: 'Digital Health Integration Request', color: 'bg-blue/10 text-blue hover:bg-blue/20' },
-    { icon: MapPin, label: 'Site Planning or Readiness Assessment', color: 'bg-blue/10 text-blue hover:bg-blue/20' },
-    { icon: Share2, label: 'Distributors, Agents, or Resellers', color: 'bg-blue/10 text-blue hover:bg-blue/20' },
-    { icon: ShieldCheck, label: 'Product Safety or Compliance Help', color: 'bg-blue/10 text-blue hover:bg-blue/20' },
-    { icon: HelpCircle, label: 'General Inquiry', color: 'bg-blue/10 text-blue hover:bg-blue/20' }
+    { icon: FileCheck, label: 'Request Equipment Quote', color: 'bg-blue/10 text-navy hover:bg-blue/20' },
+    { icon: FileCheck, label: 'Request Equipment Demo', color: 'bg-blue/10 text-navy hover:bg-blue/20' },
+    { icon: GraduationCap, label: 'Training & Education Support', color: 'bg-blue/10 text-navy hover:bg-blue/20' },
+    { icon: Server, label: 'Platform & Systems Support', color: 'bg-blue/10 text-navy hover:bg-blue/20' },
+    { icon: Wrench, label: 'Equipment Services & Maintenance', color: 'bg-blue/10 text-navy hover:bg-blue/20' },
+    { icon: FileText, label: 'Manuals & Documentation Request', color: 'bg-blue/10 text-navy hover:bg-blue/20' },
+    { icon: Wrench, label: 'Spare Parts or Repair Request', color: 'bg-blue/10 text-navy hover:bg-blue/20' },
+    { icon: Users, label: 'Career or Staffing Inquiry', color: 'bg-blue/10 text-navy hover:bg-blue/20' },
+    { icon: Briefcase, label: 'Procurement or Supply Chain Inquiry', color: 'bg-blue/10 text-navy hover:bg-blue/20' },
+    { icon: Briefcase, label: 'Donor, NGO, or Government Partnership', color: 'bg-blue/10 text-navy hover:bg-blue/20' },
+    { icon: DollarSign, label: 'Billing & Finance Assistance', color: 'bg-blue/10 text-navy hover:bg-blue/20' },
+    { icon: Smartphone, label: 'Digital Health Integration Request', color: 'bg-blue/10 text-navy hover:bg-blue/20' },
+    { icon: MapPin, label: 'Site Planning or Readiness Assessment', color: 'bg-blue/10 text-navy hover:bg-blue/20' },
+    { icon: Share2, label: 'Distributors, Agents, or Resellers', color: 'bg-blue/10 text-navy hover:bg-blue/20' },
+    { icon: ShieldCheck, label: 'Product Safety or Compliance Help', color: 'bg-blue/10 text-navy hover:bg-blue/20' },
+    { icon: HelpCircle, label: 'General Inquiry', color: 'bg-blue/10 text-navy hover:bg-blue/20' }
   ];
 
   const handleQuickActionClick = (category: string) => {
@@ -218,7 +218,7 @@ export default function Support() {
                 <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">
                   {method.description}
                 </p>
-                <p className="text-base sm:text-lg font-semibold text-blue">
+                <p className="text-base sm:text-lg font-semibold text-navy">
                   {method.detail}
                 </p>
               </motion.div>

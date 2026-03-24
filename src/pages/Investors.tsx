@@ -69,7 +69,7 @@ export default function Investors() {
               Corporate Overview
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto mb-8">
-              Pacem Health is a leading health systems integrator focused on strengthening healthcare delivery across sub-Saharan Africa. We partner with governments, development organizations, and healthcare institutions to build resilient, self-sustaining health infrastructure through integrated pharmaceutical supply chains, medical equipment provisioning, healthcare facility development, and digital health solutions—creating sustainable value while transforming health outcomes for millions.
+              Pacem Health is a leading health systems integrator focused on strengthening healthcare delivery across sub-Saharan Africa. We partner with governments, development organizations, and healthcare institutions to build resilient, self-sustaining health infrastructure through integrated pharmaceutical supply chains, medical equipment provisioning, healthcare facility development, and digital health solutionsâcreating sustainable value while transforming health outcomes for millions.
             </p>
             <Link
               href="/corporate-overview"
@@ -99,7 +99,7 @@ export default function Investors() {
               </div>
               <a 
                 href="/news" 
-                className="text-blue hover:text-navy font-semibold flex items-center gap-2 group"
+                className="text-navy hover:text-navy font-semibold flex items-center gap-2 group"
               >
                 View All News
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -153,19 +153,19 @@ export default function Investors() {
               >
                 <div className="flex-1">
                   <div className="mb-3">
-                    <span className="bg-blue/10 text-blue px-3 py-1 rounded-full text-xs font-bold tracking-wider">
+                    <span className="bg-blue/10 text-navy px-3 py-1 rounded-full text-xs font-bold tracking-wider">
                       MARKET EXPANSION
                     </span>
                   </div>
                   <div className="text-gray-500 text-sm mb-2 font-semibold">January 12, 2026</div>
-                  <h3 className="text-xl font-serif text-navy mb-3 leading-tight group-hover:text-blue transition-colors">
+                  <h3 className="text-xl font-serif text-navy mb-3 leading-tight group-hover:text-navy transition-colors">
                     Kenya Operations Launch: First 50 Healthcare Facilities Onboarded
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed line-clamp-3">
                     Successful deployment of integrated pharmaceutical supply and digital health solutions across 
                     Nairobi and surrounding counties, with plans to scale to 200+ facilities by Q2 2026.
                   </p>
-                  <div className="mt-4 flex items-center gap-2 text-blue font-semibold text-sm group-hover:gap-3 transition-all">
+                  <div className="mt-4 flex items-center gap-2 text-navy font-semibold text-sm group-hover:gap-3 transition-all">
                     Read More
                     <ArrowRight className="w-4 h-4" />
                   </div>
@@ -194,14 +194,14 @@ export default function Investors() {
                     </span>
                   </div>
                   <div className="text-gray-500 text-sm mb-2 font-semibold">January 8, 2026</div>
-                  <h3 className="text-xl font-serif text-navy mb-3 leading-tight group-hover:text-blue transition-colors">
+                  <h3 className="text-xl font-serif text-navy mb-3 leading-tight group-hover:text-navy transition-colors">
                     Q4 2025 Revenue Exceeds Projections by 40%, Signaling Strong Market Demand
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed line-clamp-3">
                     Fourth quarter results demonstrate accelerating growth trajectory with pharmaceutical distribution 
                     revenue reaching $8.2M, driven by government contracts and institutional partnerships.
                   </p>
-                  <div className="mt-4 flex items-center gap-2 text-blue font-semibold text-sm group-hover:gap-3 transition-all">
+                  <div className="mt-4 flex items-center gap-2 text-navy font-semibold text-sm group-hover:gap-3 transition-all">
                     Read More
                     <ArrowRight className="w-4 h-4" />
                   </div>
@@ -341,7 +341,7 @@ export default function Investors() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="flex flex-col items-center gap-3 p-6 bg-white rounded-xl hover:bg-blue/5 hover:shadow-lg transition-all duration-300 group border border-gray-200"
             >
-              <FileText className="w-12 h-12 text-blue group-hover:scale-110 transition-transform" />
+              <FileText className="w-12 h-12 text-navy group-hover:scale-110 transition-transform" />
               <span className="text-sm font-semibold text-navy text-center">Executive Summary</span>
             </motion.a>
 
@@ -353,7 +353,7 @@ export default function Investors() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="flex flex-col items-center gap-3 p-6 bg-white rounded-xl hover:bg-blue/5 hover:shadow-lg transition-all duration-300 group border border-gray-200"
             >
-              <FileText className="w-12 h-12 text-blue group-hover:scale-110 transition-transform" />
+              <FileText className="w-12 h-12 text-navy group-hover:scale-110 transition-transform" />
               <span className="text-sm font-semibold text-navy text-center">Operational Highlights</span>
             </motion.a>
 
@@ -365,7 +365,7 @@ export default function Investors() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="flex flex-col items-center gap-3 p-6 bg-white rounded-xl hover:bg-blue/5 hover:shadow-lg transition-all duration-300 group border border-gray-200"
             >
-              <ExternalLink className="w-12 h-12 text-blue group-hover:scale-110 transition-transform" />
+              <ExternalLink className="w-12 h-12 text-navy group-hover:scale-110 transition-transform" />
               <span className="text-sm font-semibold text-navy text-center">Partnership Updates</span>
             </motion.a>
 
@@ -377,7 +377,7 @@ export default function Investors() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="flex flex-col items-center gap-3 p-6 bg-white rounded-xl hover:bg-blue/5 hover:shadow-lg transition-all duration-300 group border border-gray-200"
             >
-              <FileText className="w-12 h-12 text-blue group-hover:scale-110 transition-transform" />
+              <FileText className="w-12 h-12 text-navy group-hover:scale-110 transition-transform" />
               <span className="text-sm font-semibold text-navy text-center">Market Progress</span>
             </motion.a>
 
@@ -389,7 +389,7 @@ export default function Investors() {
               transition={{ duration: 0.6, delay: 0.5 }}
               className="flex flex-col items-center gap-3 p-6 bg-white rounded-xl hover:bg-blue/5 hover:shadow-lg transition-all duration-300 group border border-gray-200"
             >
-              <FileText className="w-12 h-12 text-blue group-hover:scale-110 transition-transform" />
+              <FileText className="w-12 h-12 text-navy group-hover:scale-110 transition-transform" />
               <span className="text-sm font-semibold text-navy text-center">Impact Metrics</span>
             </motion.a>
           </div>
@@ -618,7 +618,7 @@ export default function Investors() {
             className="mt-12 bg-blue/5 border border-blue/20 rounded-xl p-8"
           >
             <div className="flex items-start gap-4">
-              <CheckCircle2 className="w-6 h-6 text-blue flex-shrink-0 mt-1" />
+              <CheckCircle2 className="w-6 h-6 text-navy flex-shrink-0 mt-1" />
               <div>
                 <div className="font-semibold text-navy mb-2">Early-Stage Growth Company</div>
                 <p className="text-gray-600">

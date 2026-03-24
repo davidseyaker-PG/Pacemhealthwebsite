@@ -59,7 +59,7 @@ export default function SupplyChainLogistics() {
     {
       number: "03",
       title: "Cold Chain Management & Temperature Monitoring",
-      description: "Temperature-controlled 2-8°C storage, refrigerated transport, continuous monitoring, and GDP compliance.",
+      description: "Temperature-controlled 2-8Â°C storage, refrigerated transport, continuous monitoring, and GDP compliance.",
       image: coldChainImage
     },
     {
@@ -134,7 +134,7 @@ export default function SupplyChainLogistics() {
           },
           {
             heading: "Quality Storage Conditions",
-            description: "Climate-controlled warehouses with ambient (15-25°C), cold chain (2-8°C), and frozen (-20°C) zones. Security measures, pest control, proper product segregation, and regular facility inspections ensure pharmaceutical quality standards throughout storage period."
+            description: "Climate-controlled warehouses with ambient (15-25Â°C), cold chain (2-8Â°C), and frozen (-20Â°C) zones. Security measures, pest control, proper product segregation, and regular facility inspections ensure pharmaceutical quality standards throughout storage period."
           }
         ],
         highlights: [
@@ -155,8 +155,8 @@ export default function SupplyChainLogistics() {
         intro: "Vaccines, biologics, and temperature-sensitive medications require uncompromising cold chain integrity. Our GDP-compliant cold chain infrastructure and validated processes ensure pharmaceutical products maintain potency from our hubs through last-mile delivery.",
         sections: [
           {
-            heading: "Temperature-Controlled Storage (2-8°C)",
-            description: "Dedicated cold rooms with industrial refrigeration systems maintaining 2-8°C for vaccines and biologics. Backup generators, redundant cooling systems, and alarm monitoring prevent temperature excursions. All equipment calibrated and validated according to WHO PQS standards."
+            heading: "Temperature-Controlled Storage (2-8Â°C)",
+            description: "Dedicated cold rooms with industrial refrigeration systems maintaining 2-8Â°C for vaccines and biologics. Backup generators, redundant cooling systems, and alarm monitoring prevent temperature excursions. All equipment calibrated and validated according to WHO PQS standards."
           },
           {
             heading: "Continuous Temperature Monitoring",
@@ -268,7 +268,7 @@ export default function SupplyChainLogistics() {
     },
     {
       question: "What are your delivery timelines from the regional hubs?",
-      answer: "Delivery timelines vary by location, but our regional hubs at our regional hubs enable 2-7 day delivery to most major cities and 7-14 days to remote locations—significantly faster than 4-6 week international shipping times."
+      answer: "Delivery timelines vary by location, but our regional hubs at our regional hubs enable 2-7 day delivery to most major cities and 7-14 days to remote locationsâsignificantly faster than 4-6 week international shipping times."
     },
     {
       question: "Do you have a minimum order quantity (MOQ)?",
@@ -276,7 +276,7 @@ export default function SupplyChainLogistics() {
     },
     {
       question: "How do you ensure the integrity of cold chain products?",
-      answer: "We maintain high cold chain compliance through temperature-controlled storage facilities (2-8°C), refrigerated vehicles, validated passive containers, continuous temperature monitoring with data loggers, and GDP-compliant standard operating procedures."
+      answer: "We maintain high cold chain compliance through temperature-controlled storage facilities (2-8Â°C), refrigerated vehicles, validated passive containers, continuous temperature monitoring with data loggers, and GDP-compliant standard operating procedures."
     },
     {
       question: "Can you deliver to remote and hard-to-reach locations?",
@@ -348,7 +348,7 @@ export default function SupplyChainLogistics() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl lg:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
+            <h2 className="text-4xl lg:text-5xl font-serif font-bold text-navy mb-6 leading-tight">
               Regional Hubs. Local Expertise. Global Standards.
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
@@ -362,7 +362,7 @@ export default function SupplyChainLogistics() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-4 leading-tight">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -389,7 +389,7 @@ export default function SupplyChainLogistics() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
+                  <h3 className="text-xl font-serif font-semibold text-navy mb-3 leading-tight">
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">
@@ -418,7 +418,7 @@ export default function SupplyChainLogistics() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-4 leading-tight">
               Supply Chain Operations at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -436,7 +436,7 @@ export default function SupplyChainLogistics() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center"
               >
-                <div className="text-5xl font-bold text-blue mb-3">
+                <div className="text-5xl font-bold text-navy mb-3">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 font-semibold mb-2 font-bold">
@@ -455,7 +455,7 @@ export default function SupplyChainLogistics() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-serif font-bold text-blue mb-4 leading-tight">
+            <h2 className="text-4xl font-serif font-bold text-navy mb-4 leading-tight">
               Why Partner With Pacem Health
             </h2>
             <p className="text-xl text-gray-600">
@@ -473,7 +473,7 @@ export default function SupplyChainLogistics() {
                 transition={{ delay: index * 0.05 }}
                 className="bg-white rounded-lg p-8 hover:shadow-xl transition-all duration-300 border-t-4 border-navy"
               >
-                <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
+                <h3 className="text-xl font-serif font-semibold text-navy mb-3 leading-tight">
                   {benefit.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -489,7 +489,7 @@ export default function SupplyChainLogistics() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-serif font-bold text-blue mb-4 leading-tight">
+            <h2 className="text-4xl font-serif font-bold text-navy mb-4 leading-tight">
               Who We Serve
             </h2>
             <p className="text-lg text-gray-600">
@@ -509,7 +509,7 @@ export default function SupplyChainLogistics() {
               >
                 <div className="h-1 bg-[#ff6b35]" />
                 <div className="p-6 text-center">
-                  <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
+                  <h3 className="text-xl font-serif font-semibold text-navy mb-3 leading-tight">
                     {sector.category}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
@@ -526,7 +526,7 @@ export default function SupplyChainLogistics() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-4 leading-tight">
               Our Supply Chain Process
             </h2>
             <p className="text-lg text-gray-600">
@@ -549,7 +549,7 @@ export default function SupplyChainLogistics() {
                   <div className="text-6xl font-bold text-[#ff6b35]/20 mb-3">
                     0{step.number}
                   </div>
-                  <h3 className="text-lg font-semibold text-blue mb-2 leading-tight">
+                  <h3 className="text-lg font-semibold text-navy mb-2 leading-tight">
                     {step.title}
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed">
@@ -584,7 +584,7 @@ export default function SupplyChainLogistics() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
+              <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-6 leading-tight">
                 One Integrated Supply Chain Partner
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
@@ -698,7 +698,7 @@ export default function SupplyChainLogistics() {
                 <div className="space-y-6 mb-8">
                   {pillarDetails[selectedPillar].content.sections.map((section, idx) => (
                     <div key={idx} className="border-l-4 border-orange pl-6">
-                      <h3 className="text-xl font-serif font-semibold text-blue mb-2 leading-tight">
+                      <h3 className="text-xl font-serif font-semibold text-navy mb-2 leading-tight">
                         {section.heading}
                       </h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -712,7 +712,7 @@ export default function SupplyChainLogistics() {
               {/* Highlights */}
               {pillarDetails[selectedPillar].content.highlights.length > 0 && (
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="text-xl font-serif font-semibold text-blue mb-4 leading-tight">Key Highlights</h3>
+                  <h3 className="text-xl font-serif font-semibold text-navy mb-4 leading-tight">Key Highlights</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {pillarDetails[selectedPillar].content.highlights.map((highlight, idx) => (
                       <li key={idx} className="flex items-start gap-2">

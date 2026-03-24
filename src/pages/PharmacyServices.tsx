@@ -169,7 +169,7 @@ export default function PharmacyServices() {
     },
     {
       title: "Clinical Pharmacy Services",
-      subtitle: "Beyond Dispensing—Professional Health Services",
+      subtitle: "Beyond DispensingâProfessional Health Services",
       image: pillar2Image,
       content: {
         intro: "Pacem Health pharmacies provide clinical services that extend far beyond traditional prescription dispensing. Our pharmacists are trained healthcare professionals who deliver immunizations, conduct health screenings, manage chronic diseases, and provide medication therapy management to optimize your health outcomes.",
@@ -196,7 +196,7 @@ export default function PharmacyServices() {
           }
         ],
         highlights: [
-          "Walk-in immunizations—no appointment needed",
+          "Walk-in immunizationsâno appointment needed",
           "Comprehensive health screening services",
           "Medication therapy management by pharmacists",
           "Chronic disease counseling & support",
@@ -248,7 +248,7 @@ export default function PharmacyServices() {
       subtitle: "Online Ordering, Delivery & Teleconsultation",
       image: pillar4Image,
       content: {
-        intro: "Convenient healthcare access meets modern technology. Our digital pharmacy platform allows patients to upload prescriptions, order medications online, schedule home delivery, access digital health records, receive automated refill reminders, and consult with licensed pharmacists via video or phone—all from the comfort of home or office.",
+        intro: "Convenient healthcare access meets modern technology. Our digital pharmacy platform allows patients to upload prescriptions, order medications online, schedule home delivery, access digital health records, receive automated refill reminders, and consult with licensed pharmacists via video or phoneâall from the comfort of home or office.",
         sections: [
           {
             heading: "Online Prescription Ordering",
@@ -344,8 +344,8 @@ export default function PharmacyServices() {
             viewport={{ once: true }}
           >
             <div className="h-1 w-20 bg-orange mb-6 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-6">
-              More Than Just a Pharmacy—Your Healthcare Partner
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-6">
+              More Than Just a PharmacyâYour Healthcare Partner
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
               Pacem Health pharmacies combine <strong>convenient medication access</strong> with <strong>clinical expertise</strong> and <strong>personalized care</strong>. From prescription dispensing to chronic disease management, immunizations to digital consultations, we're here to support your health journey every step of the way.
@@ -363,7 +363,7 @@ export default function PharmacyServices() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto mt-8">
@@ -389,7 +389,7 @@ export default function PharmacyServices() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">
@@ -419,7 +419,7 @@ export default function PharmacyServices() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Pharmacy Operations at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -437,7 +437,7 @@ export default function PharmacyServices() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center"
               >
-                <div className="text-5xl font-bold text-blue mb-3">
+                <div className="text-5xl font-bold text-navy mb-3">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 leading-relaxed">
@@ -462,7 +462,7 @@ export default function PharmacyServices() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Comprehensive Pharmacy Services
             </h2>
             <p className="text-xl text-gray-600">
@@ -480,7 +480,7 @@ export default function PharmacyServices() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-gray-50 rounded-lg p-8 border-t-4 border-teal hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-4">
                   {category.category}
                 </h3>
                 <ul className="space-y-2 list-disc list-inside">
@@ -501,7 +501,7 @@ export default function PharmacyServices() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Who We Serve
             </h2>
             <p className="text-xl text-gray-600">
@@ -519,7 +519,7 @@ export default function PharmacyServices() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-6 border-t-4 border-orange shadow-md hover:shadow-xl transition-all duration-300 text-center"
               >
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                   {sector.title}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -536,7 +536,7 @@ export default function PharmacyServices() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Why Choose Pacem Health Pharmacy
             </h2>
             <p className="text-xl text-gray-600">
@@ -554,7 +554,7 @@ export default function PharmacyServices() {
                 transition={{ delay: index * 0.05 }}
                 className="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-2">
                   {benefit.title}
                 </h3>
                 <p className="text-gray-600">{benefit.description}</p>
@@ -574,7 +574,7 @@ export default function PharmacyServices() {
             className="text-center mb-12"
           >
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-blue mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               News & Stories
             </h2>
             <p className="text-xl text-gray-600">
@@ -599,7 +599,7 @@ export default function PharmacyServices() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">December 2025</div>
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                   Growing Our Community Pharmacy Network
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
@@ -607,7 +607,7 @@ export default function PharmacyServices() {
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
-                  className="text-blue font-semibold flex items-center gap-2"
+                  className="text-navy font-semibold flex items-center gap-2"
                 >
                   Read More
                   <ArrowRight className="w-4 h-4" />
@@ -631,7 +631,7 @@ export default function PharmacyServices() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">November 2025</div>
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                   Developing Digital Pharmacy Capabilities
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
@@ -639,7 +639,7 @@ export default function PharmacyServices() {
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
-                  className="text-blue font-semibold flex items-center gap-2"
+                  className="text-navy font-semibold flex items-center gap-2"
                 >
                   Read More
                   <ArrowRight className="w-4 h-4" />
@@ -663,7 +663,7 @@ export default function PharmacyServices() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-teal font-semibold mb-2">October 2025</div>
-                <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-3">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                   Strengthening Medication Adherence Support
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
@@ -671,7 +671,7 @@ export default function PharmacyServices() {
                 </p>
                 <motion.button
                   whileHover={{ x: 5 }}
-                  className="text-blue font-semibold flex items-center gap-2"
+                  className="text-navy font-semibold flex items-center gap-2"
                 >
                   Read More
                   <ArrowRight className="w-4 h-4" />
@@ -724,15 +724,15 @@ export default function PharmacyServices() {
 
             <div className="flex flex-wrap justify-center gap-8 text-white/90">
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-blue" />
+                <CheckCircle className="w-5 h-5 text-navy" />
                 <span>Growing Network</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-blue" />
+                <CheckCircle className="w-5 h-5 text-navy" />
                 <span>Licensed Pharmacists</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-blue" />
+                <CheckCircle className="w-5 h-5 text-navy" />
                 <span>Insurance Accepted</span>
               </div>
             </div>
@@ -796,7 +796,7 @@ export default function PharmacyServices() {
                 <div className="space-y-6 mb-8">
                   {pillarDetails[selectedPillar].content.sections.map((section, idx) => (
                     <div key={idx} className="border-l-4 border-orange pl-6">
-                      <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-2">
+                      <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-2">
                         {section.heading}
                       </h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -810,7 +810,7 @@ export default function PharmacyServices() {
               {/* Highlights */}
               {pillarDetails[selectedPillar].content.highlights.length > 0 && (
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="text-xl font-serif font-semibold leading-tight text-blue mb-4">Key Highlights</h3>
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-4">Key Highlights</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {pillarDetails[selectedPillar].content.highlights.map((highlight, idx) => (
                       <li key={idx} className="flex items-start gap-2">

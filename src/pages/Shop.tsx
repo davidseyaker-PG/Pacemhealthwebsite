@@ -167,7 +167,7 @@ export default function Shop() {
                 transition={{ delay: index * 0.1 }}
                 className="text-center"
               >
-                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue mb-2">
+                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-navy mb-2">
                   {stat.number}
                 </div>
                 <div className="text-sm sm:text-base text-gray-600">
@@ -312,7 +312,7 @@ export default function Shop() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-flex items-center justify-center gap-2 bg-white text-blue border-2 border-blue px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium hover:bg-blue/5 transition-all shadow-lg"
+                className="inline-flex items-center justify-center gap-2 bg-white text-navy border-2 border-blue px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium hover:bg-blue/5 transition-all shadow-lg"
                 onClick={() => window.open(catalogUrl, '_blank')}
               >
                 Download Catalog
@@ -357,7 +357,7 @@ export default function Shop() {
               {/* Contact Information */}
               <div className="mb-8">
                 <h3 className="text-xl font-serif text-navy mb-4 flex items-center gap-2">
-                  <User className="w-5 h-5 text-blue" />
+                  <User className="w-5 h-5 text-navy" />
                   Contact Information
                 </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -466,7 +466,7 @@ export default function Shop() {
               {/* Project Details */}
               <div className="mb-8">
                 <h3 className="text-xl font-serif text-navy mb-4 flex items-center gap-2">
-                  <Package2 className="w-5 h-5 text-blue" />
+                  <Package2 className="w-5 h-5 text-navy" />
                   Project Details
                 </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -552,7 +552,7 @@ export default function Shop() {
               {/* Additional Details */}
               <div className="mb-8">
                 <h3 className="text-xl font-serif text-navy mb-4 flex items-center gap-2">
-                  <MessageSquare className="w-5 h-5 text-blue" />
+                  <MessageSquare className="w-5 h-5 text-navy" />
                   Additional Details
                 </h3>
                 <div>

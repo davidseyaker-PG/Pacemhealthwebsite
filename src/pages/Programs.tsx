@@ -34,7 +34,7 @@ export default function Programs() {
       {/* Breadcrumb */}
       <div className="max-w-7xl mx-auto px-6 pt-4">
         <nav className="flex items-center gap-2 text-sm text-gray-500">
-          <Link href="/" className="hover:text-blue transition-colors">Home</Link>
+          <Link href="/" className="hover:text-navy transition-colors">Home</Link>
           <span>/</span>
           <span className="text-navy font-medium">Programs</span>
         </nav>
@@ -124,7 +124,7 @@ export default function Programs() {
 
                       <motion.button
                         whileHover={{ x: 5 }}
-                        className="text-blue font-semibold flex items-center gap-2 group-hover:gap-3 transition-all"
+                        className="text-navy font-semibold flex items-center gap-2 group-hover:gap-3 transition-all"
                       >
                         Learn More
                         <ArrowRight className="w-5 h-5" />

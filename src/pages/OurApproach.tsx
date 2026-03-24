@@ -108,7 +108,7 @@ export default function OurApproach() {
       {/* Breadcrumb */}
       <div className="max-w-7xl mx-auto px-6 pt-4">
         <nav className="flex items-center gap-2 text-sm text-gray-500">
-          <Link href="/" className="hover:text-blue transition-colors">Home</Link>
+          <Link href="/" className="hover:text-navy transition-colors">Home</Link>
           <span>/</span>
           <span className="text-navy font-medium">Our Approach</span>
         </nav>
@@ -156,7 +156,7 @@ export default function OurApproach() {
               Strategy and Implementation, Seamlessly Integrated
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              We serve both <strong>global partners entering African markets</strong> and <strong>communities seeking quality healthcare</strong>. Our integrated approach delivers end-to-end solutions with unmatched efficiency and impact — combining unwavering quality standards, collaborative partnerships, purpose-built solutions, and deep local expertise.
+              We serve both <strong>global partners entering African markets</strong> and <strong>communities seeking quality healthcare</strong>. Our integrated approach delivers end-to-end solutions with unmatched efficiency and impact â combining unwavering quality standards, collaborative partnerships, purpose-built solutions, and deep local expertise.
             </p>
           </motion.div>
         </div>
@@ -286,7 +286,7 @@ export default function OurApproach() {
                   {type.examples.map((example, idx) => (
                     <span
                       key={idx}
-                      className="inline-block bg-white px-3 py-1.5 rounded-full text-sm text-gray-700 border border-gray-200 hover:border-blue hover:text-blue transition-colors"
+                      className="inline-block bg-white px-3 py-1.5 rounded-full text-sm text-gray-700 border border-gray-200 hover:border-blue hover:text-navy transition-colors"
                     >
                       {example}
                     </span>
@@ -403,15 +403,15 @@ export default function OurApproach() {
 
             <div className="flex flex-wrap justify-center gap-8 text-white/90">
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-blue" />
+                <CheckCircle className="w-5 h-5 text-navy" />
                 <span>Proven Methodology</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-blue" />
+                <CheckCircle className="w-5 h-5 text-navy" />
                 <span>Pan-African Expertise</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-blue" />
+                <CheckCircle className="w-5 h-5 text-navy" />
                 <span>Quality Certified</span>
               </div>
             </div>

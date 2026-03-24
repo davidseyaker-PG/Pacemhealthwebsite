@@ -101,7 +101,7 @@ export default function ProcurementDistribution() {
       image: costOptimizationImage,
       modalContent: {
         subtitle: "Strategic Procurement Delivering Measurable Savings",
-        overview: "Cost optimization isn't about cutting corners—it's about strategic sourcing. Through competitive tendering, volume aggregation, and direct manufacturer negotiations, we consistently deliver meaningful cost reductions while maintaining quality standards. Our procurement expertise transforms health budgets into maximum impact.",
+        overview: "Cost optimization isn't about cutting cornersâit's about strategic sourcing. Through competitive tendering, volume aggregation, and direct manufacturer negotiations, we consistently deliver meaningful cost reductions while maintaining quality standards. Our procurement expertise transforms health budgets into maximum impact.",
         highlights: [
           "Transparent RFQ processes with 3-5 pre-qualified suppliers",
           "meaningful cost reductions through competitive bidding",
@@ -137,7 +137,7 @@ export default function ProcurementDistribution() {
       image: qualityVerificationImage,
       modalContent: {
         subtitle: "Triple-Layer Quality Assurance for Patient Safety",
-        overview: "Quality cannot be compromised in healthcare. Our triple-layer verification system—supplier pre-qualification, batch testing, and pre-shipment inspection—ensures that every product meets WHO quality standards before reaching patients. With a high quality pass rate, we've built our reputation on uncompromising quality assurance.",
+        overview: "Quality cannot be compromised in healthcare. Our triple-layer verification systemâsupplier pre-qualification, batch testing, and pre-shipment inspectionâensures that every product meets WHO quality standards before reaching patients. With a high quality pass rate, we've built our reputation on uncompromising quality assurance.",
         highlights: [
           "high quality pass rate across all shipments",
           "Triple verification: pre-qualification, batch testing & pre-shipment inspection",
@@ -305,7 +305,7 @@ export default function ProcurementDistribution() {
                 <ArrowRight className="w-5 h-5" />
               </motion.button>
               <motion.button
-                className="px-8 py-4 border-2 border-white text-white rounded-md hover:bg-white hover:text-blue transition-all duration-300"
+                className="px-8 py-4 border-2 border-white text-white rounded-md hover:bg-white hover:text-navy transition-all duration-300"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -324,11 +324,11 @@ export default function ProcurementDistribution() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-blue mb-6 leading-tight">
-              We Don't Just Source Products—We Build Supply Resilience
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-navy mb-6 leading-tight">
+              We Don't Just Source ProductsâWe Build Supply Resilience
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              From needs assessment to final delivery, our integrated procurement and distribution services ensure quality-assured health products reach those who need them—on time, within budget, and fully compliant.
+              From needs assessment to final delivery, our integrated procurement and distribution services ensure quality-assured health products reach those who need themâon time, within budget, and fully compliant.
             </p>
           </motion.div>
         </div>
@@ -343,7 +343,7 @@ export default function ProcurementDistribution() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-4 leading-tight">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto mt-8">
@@ -369,7 +369,7 @@ export default function ProcurementDistribution() {
                   />
                 </div>
                 <div className="p-8">
-                  <h3 className="text-2xl font-serif font-semibold text-blue mb-4 leading-tight">
+                  <h3 className="text-2xl font-serif font-semibold text-navy mb-4 leading-tight">
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-6">
@@ -430,7 +430,7 @@ export default function ProcurementDistribution() {
               </p>
 
               {/* Key Highlights Section */}
-              <h3 className="text-2xl font-serif font-semibold text-blue mb-6 leading-tight">Key Highlights</h3>
+              <h3 className="text-2xl font-serif font-semibold text-navy mb-6 leading-tight">Key Highlights</h3>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 {pillars[selectedPillar].modalContent.highlights.map((highlight, idx) => (
@@ -446,12 +446,12 @@ export default function ProcurementDistribution() {
               </div>
 
               {/* Features Section */}
-              <h3 className="text-2xl font-serif font-semibold text-blue mb-6 leading-tight">Features</h3>
+              <h3 className="text-2xl font-serif font-semibold text-navy mb-6 leading-tight">Features</h3>
               
               <div className="space-y-6 mb-8">
                 {pillars[selectedPillar].modalContent.features.map((feature, idx) => (
                   <div key={idx} className="border-l-4 border-orange pl-6">
-                    <h4 className="text-xl font-serif text-blue mb-2">
+                    <h4 className="text-xl font-serif text-navy mb-2">
                       {feature.title}
                     </h4>
                     <p className="text-gray-600 leading-relaxed">
@@ -492,7 +492,7 @@ export default function ProcurementDistribution() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-4 leading-tight">
               Procurement Operations at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -510,7 +510,7 @@ export default function ProcurementDistribution() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center"
               >
-                <div className="text-5xl font-bold text-blue mb-3">
+                <div className="text-5xl font-bold text-navy mb-3">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 font-semibold mb-2">
@@ -529,7 +529,7 @@ export default function ProcurementDistribution() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-4 leading-tight">
               Who We Serve
             </h2>
             <p className="text-xl text-gray-600">
@@ -547,7 +547,7 @@ export default function ProcurementDistribution() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-6 border-t-4 border-orange shadow-md hover:shadow-xl transition-all duration-300 text-center"
               >
-                <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
+                <h3 className="text-xl font-serif font-semibold text-navy mb-3 leading-tight">
                   {sector.title}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -568,7 +568,7 @@ export default function ProcurementDistribution() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">Our Process</h2>
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-4 leading-tight">Our Process</h2>
             <p className="text-xl text-gray-600">
               Excellence at every stage
             </p>
@@ -585,7 +585,7 @@ export default function ProcurementDistribution() {
                 className="relative bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-t-4 border-[#FF6B35] group"
               >
                 <div className="text-5xl font-bold text-[#FF6B35]/20 group-hover:text-[#FF6B35]/30 transition-colors mb-3">{step.number}</div>
-                <h3 className="text-lg font-semibold text-blue mb-3 leading-tight">{step.title}</h3>
+                <h3 className="text-lg font-semibold text-navy mb-3 leading-tight">{step.title}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{step.description}</p>
               </motion.div>
             ))}
@@ -615,12 +615,12 @@ export default function ProcurementDistribution() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
+              <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-6 leading-tight">
                 Strategic Partnerships That Deliver
               </h2>
               
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                We've built our procurement and distribution network through years of partnership with leading global health organizations, ministries of health, and international NGOs. Our commitment goes beyond transactions—we're your long-term supply chain partner.
+                We've built our procurement and distribution network through years of partnership with leading global health organizations, ministries of health, and international NGOs. Our commitment goes beyond transactionsâwe're your long-term supply chain partner.
               </p>
 
               <p className="text-gray-700 text-lg leading-relaxed">
@@ -640,7 +640,7 @@ export default function ProcurementDistribution() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-blue mb-2 leading-tight">Why Partner With Us</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-navy mb-2 leading-tight">Why Partner With Us</h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -654,7 +654,7 @@ export default function ProcurementDistribution() {
                   transition={{ delay: index * 0.05 }}
                   className="bg-white rounded-lg p-8 hover:shadow-xl transition-all duration-300 border-t-4 border-navy"
                 >
-                  <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">{benefit.title}</h3>
+                  <h3 className="text-xl font-serif font-semibold text-navy mb-3 leading-tight">{benefit.title}</h3>
                   <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
                 </motion.div>
               );
@@ -722,7 +722,7 @@ export default function ProcurementDistribution() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-white text-blue px-10 py-5 rounded-lg font-semibold inline-flex items-center gap-2 hover:bg-gray-100 transition-colors text-lg mb-8"
+              className="bg-white text-navy px-10 py-5 rounded-lg font-semibold inline-flex items-center gap-2 hover:bg-gray-100 transition-colors text-lg mb-8"
             >
               Request Procurement Consultation
               <ArrowRight className="w-6 h-6" />

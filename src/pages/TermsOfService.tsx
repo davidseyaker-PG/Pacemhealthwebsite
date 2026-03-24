@@ -15,11 +15,11 @@ function AccordionItem({ title, children, defaultOpen = false }: AccordionItemPr
     <div className="border-b border-gray-200">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full py-6 flex items-center justify-between text-left hover:text-blue transition-colors"
+        className="w-full py-6 flex items-center justify-between text-left hover:text-navy transition-colors"
       >
         <h3 className="text-xl font-serif text-navy">{title}</h3>
         <ChevronDown
-          className={`w-6 h-6 text-blue transition-transform duration-300 ${
+          className={`w-6 h-6 text-navy transition-transform duration-300 ${
             isOpen ? 'rotate-180' : ''
           }`}
         />
@@ -199,7 +199,7 @@ export default function TermsOfService() {
                 <p>
                   By accessing, browsing, or using the Platform, you acknowledge that you have read, understood, and
                   agree to be bound by these Terms and our{' '}
-                  <a href="/privacy-policy" className="text-blue hover:underline">
+                  <a href="/privacy-policy" className="text-navy hover:underline">
                     Privacy Notice
                   </a>
                   .
@@ -473,7 +473,7 @@ export default function TermsOfService() {
                     You agree to comply with applicable data protection laws (including GDPR where applicable and local
                     African data protection laws). Where you provide personal data to Pacem, you represent that you have
                     obtained all necessary consents and have a lawful basis for such disclosure. See our{' '}
-                    <a href="/privacy-policy" className="text-blue hover:underline">
+                    <a href="/privacy-policy" className="text-navy hover:underline">
                       Privacy Notice
                     </a>{' '}
                     for details on how we process personal data.
@@ -721,7 +721,7 @@ export default function TermsOfService() {
                 <p>
                   <strong>Informal Dispute Resolution:</strong> Before initiating formal proceedings, you agree to first
                   contact Pacem at{' '}
-                  <a href="mailto:legal@pacemhealth.com" className="text-blue hover:underline">
+                  <a href="mailto:legal@pacemhealth.com" className="text-navy hover:underline">
                     legal@pacemhealth.com
                   </a>{' '}
                   to attempt to resolve the dispute informally.
@@ -803,13 +803,13 @@ export default function TermsOfService() {
                   className="p-6 border-2 border-blue hover:bg-blue hover:text-white rounded-lg transition-all group"
                 >
                   <div className="flex items-start gap-4">
-                    <Shield className="w-8 h-8 text-blue group-hover:text-white flex-shrink-0" />
+                    <Shield className="w-8 h-8 text-navy group-hover:text-white flex-shrink-0" />
                     <div>
                       <h4 className="font-bold text-navy group-hover:text-white mb-2">Privacy Notice</h4>
                       <p className="text-sm text-gray-700 group-hover:text-white">
                         Learn how we collect, use, and protect your personal information
                       </p>
-                      <div className="flex items-center gap-2 mt-3 text-blue group-hover:text-white">
+                      <div className="flex items-center gap-2 mt-3 text-navy group-hover:text-white">
                         <span className="text-sm font-semibold">Read Privacy Notice</span>
                         <ExternalLink className="w-4 h-4" />
                       </div>
@@ -857,7 +857,7 @@ export default function TermsOfService() {
                     onClick={() => scrollToSection(item.id)}
                     className={`block text-left text-sm py-1 transition-colors ${
                       activeSection === item.id
-                        ? 'text-blue font-semibold border-l-2 border-blue pl-3'
+                        ? 'text-navy font-semibold border-l-2 border-blue pl-3'
                         : 'text-gray-600 hover:text-navy pl-3'
                     }`}
                   >

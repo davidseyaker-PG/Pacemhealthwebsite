@@ -15,11 +15,11 @@ function AccordionItem({ title, children, defaultOpen = false }: AccordionItemPr
     <div className="border-b border-gray-200">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full py-6 flex items-center justify-between text-left hover:text-blue transition-colors"
+        className="w-full py-6 flex items-center justify-between text-left hover:text-navy transition-colors"
       >
         <h3 className="text-xl font-serif text-navy">{title}</h3>
         <ChevronDown
-          className={`w-6 h-6 text-blue transition-transform duration-300 ${
+          className={`w-6 h-6 text-navy transition-transform duration-300 ${
             isOpen ? 'rotate-180' : ''
           }`}
         />
@@ -44,7 +44,7 @@ function CalloutBox({ icon: Icon, title, children }: { icon: any; title: string;
     <div className="bg-blue/10 border-l-4 border-blue p-6 rounded-r-lg my-8">
       <div className="flex items-start gap-4">
         <div className="flex-shrink-0">
-          <Icon className="w-6 h-6 text-blue" />
+          <Icon className="w-6 h-6 text-navy" />
         </div>
         <div>
           <h4 className="font-bold text-navy mb-3">{title}</h4>
@@ -216,7 +216,7 @@ export default function PrivacyPolicy() {
               <ul className="list-disc pl-6 space-y-2">
                 <li><strong>Device information:</strong> IP address, browser type and version, device identifiers, operating system</li>
                 <li><strong>Usage data:</strong> Pages visited, clicks, time spent, referral URLs, search queries</li>
-                <li><strong>Cookies and trackers:</strong> See our <a href="/cookie-settings" className="text-blue hover:underline">Cookie Settings</a> page for detailed information</li>
+                <li><strong>Cookies and trackers:</strong> See our <a href="/cookie-settings" className="text-navy hover:underline">Cookie Settings</a> page for detailed information</li>
                 <li><strong>Location data:</strong> GPS data from mobile apps (with permission), approximate location from IP addresses</li>
               </ul>
             </AccordionItem>
@@ -588,13 +588,13 @@ export default function PrivacyPolicy() {
             <div className="mt-3 space-y-2">
               <p>
                 <strong>Email:</strong>{' '}
-                <a href="mailto:privacy@pacemhealth.com" className="text-blue hover:underline">
+                <a href="mailto:privacy@pacemhealth.com" className="text-navy hover:underline">
                   privacy@pacemhealth.com
                 </a>
               </p>
               <p>
                 <strong>Online Form:</strong>{' '}
-                <a href="/contact" className="text-blue hover:underline">
+                <a href="/contact" className="text-navy hover:underline">
                   Submit Privacy Request
                 </a>
               </p>
@@ -732,7 +732,7 @@ export default function PrivacyPolicy() {
               <p className="text-gray-700 leading-relaxed">
                 <strong>Data Protection Officer:</strong> For data protection inquiries specific to GDPR or other
                 regulatory frameworks, you may also contact our designated Data Protection Officer at{' '}
-                <a href="mailto:dpo@pacemhealth.com" className="text-blue hover:underline">
+                <a href="mailto:dpo@pacemhealth.com" className="text-navy hover:underline">
                   dpo@pacemhealth.com
                 </a>
               </p>

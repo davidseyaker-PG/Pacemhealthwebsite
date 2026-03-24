@@ -185,7 +185,7 @@ export default function RegulatoryCompliance() {
       subtitle: "Internationally Recognized Pharmaceutical Training Programs",
       image: pillar4Image,
       content: {
-        intro: "Regulatory compliance depends on competent, trained personnel. Our WHO-aligned training programs deliver internationally recognized competency-based education in pharmaceutical quality, regulatory affairs, and compliance management—equipping African healthcare teams with skills to meet global standards.",
+        intro: "Regulatory compliance depends on competent, trained personnel. Our WHO-aligned training programs deliver internationally recognized competency-based education in pharmaceutical quality, regulatory affairs, and compliance managementâequipping African healthcare teams with skills to meet global standards.",
         sections: [
           {
             heading: "GDP Training & Certification",
@@ -327,11 +327,11 @@ export default function RegulatoryCompliance() {
             viewport={{ once: true }}
           >
             <div className="h-1 w-20 bg-orange mb-6 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
-              We Navigate Complexity—You Focus on Healthcare Delivery
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-6 leading-tight">
+              We Navigate ComplexityâYou Focus on Healthcare Delivery
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              Africa's regulatory landscape is diverse and evolving. With expertise across multiple regulatory authorities, WHO-aligned training programs, and comprehensive pharmacovigilance systems, we provide the regulatory confidence to bring safe, effective healthcare products to African markets—empowering pharmaceutical companies, healthcare organizations, and professionals to focus on what matters most: patient care.
+              Africa's regulatory landscape is diverse and evolving. With expertise across multiple regulatory authorities, WHO-aligned training programs, and comprehensive pharmacovigilance systems, we provide the regulatory confidence to bring safe, effective healthcare products to African marketsâempowering pharmaceutical companies, healthcare organizations, and professionals to focus on what matters most: patient care.
             </p>
           </motion.div>
         </div>
@@ -341,7 +341,7 @@ export default function RegulatoryCompliance() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-4 leading-tight">
               Four Pillars of Excellence
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -368,7 +368,7 @@ export default function RegulatoryCompliance() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
+                  <h3 className="text-xl font-serif font-semibold text-navy mb-3 leading-tight">
                     {pillar.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">
@@ -397,7 +397,7 @@ export default function RegulatoryCompliance() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-4 leading-tight">
               Regulatory Expertise at a Glance
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -415,7 +415,7 @@ export default function RegulatoryCompliance() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 text-center"
               >
-                <div className="text-5xl font-bold text-blue mb-3">
+                <div className="text-5xl font-bold text-navy mb-3">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 font-semibold mb-2">
@@ -434,7 +434,7 @@ export default function RegulatoryCompliance() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-serif font-bold text-blue mb-4 leading-tight">
+            <h2 className="text-4xl font-serif font-bold text-navy mb-4 leading-tight">
               Why Partner With Pacem Health
             </h2>
             <p className="text-xl text-gray-600">
@@ -452,7 +452,7 @@ export default function RegulatoryCompliance() {
                 transition={{ delay: index * 0.05 }}
                 className="bg-white rounded-lg p-8 hover:shadow-xl transition-all duration-300 border-t-4 border-navy"
               >
-                <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
+                <h3 className="text-xl font-serif font-semibold text-navy mb-3 leading-tight">
                   {benefit.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -468,7 +468,7 @@ export default function RegulatoryCompliance() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-serif font-bold text-blue mb-4 leading-tight">
+            <h2 className="text-4xl font-serif font-bold text-navy mb-4 leading-tight">
               Who We Serve
             </h2>
             <p className="text-lg text-gray-600">
@@ -488,7 +488,7 @@ export default function RegulatoryCompliance() {
               >
                 <div className="h-1 bg-orange" />
                 <div className="p-6 text-center">
-                  <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
+                  <h3 className="text-xl font-serif font-semibold text-navy mb-3 leading-tight">
                     {sector.category}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
@@ -506,7 +506,7 @@ export default function RegulatoryCompliance() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="h-1 w-20 bg-orange mb-6 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-4 leading-tight">
               Our Regulatory & Compliance Process
             </h2>
             <p className="text-lg text-gray-600">
@@ -554,7 +554,7 @@ export default function RegulatoryCompliance() {
                   <div className="text-6xl font-bold text-orange/20 mb-3">
                     {step.number}
                   </div>
-                  <h3 className="text-xl font-serif font-semibold text-blue mb-2 leading-tight">
+                  <h3 className="text-xl font-serif font-semibold text-navy mb-2 leading-tight">
                     {step.title}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
@@ -571,7 +571,7 @@ export default function RegulatoryCompliance() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-4 leading-tight">
               We Work With Leading African Regulatory Authorities
             </h2>
             <p className="text-lg text-gray-600">
@@ -625,7 +625,7 @@ export default function RegulatoryCompliance() {
                     )}
                   </div>
                   {/* Authority Name */}
-                  <h3 className="text-xl font-serif font-semibold text-blue mb-2 leading-tight">
+                  <h3 className="text-xl font-serif font-semibold text-navy mb-2 leading-tight">
                     {authority.name}
                   </h3>
                   <p className="text-gray-600 text-sm font-medium">
@@ -666,7 +666,7 @@ export default function RegulatoryCompliance() {
                   transition={{ delay: index * 0.05 }}
                   className="bg-white rounded-lg px-4 py-3 shadow-sm hover:shadow-md transition-shadow duration-200"
                 >
-                  <p className="text-blue font-medium">{country}</p>
+                  <p className="text-navy font-medium">{country}</p>
                 </motion.div>
               ))}
             </div>
@@ -773,7 +773,7 @@ export default function RegulatoryCompliance() {
                 <div className="space-y-6 mb-8">
                   {pillarDetails[selectedPillar].content.sections.map((section, idx) => (
                     <div key={idx} className="border-l-4 border-orange pl-6">
-                      <h3 className="text-xl font-serif font-semibold text-blue mb-2 leading-tight">
+                      <h3 className="text-xl font-serif font-semibold text-navy mb-2 leading-tight">
                         {section.heading}
                       </h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -787,7 +787,7 @@ export default function RegulatoryCompliance() {
               {/* Highlights */}
               {pillarDetails[selectedPillar].content.highlights.length > 0 && (
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h3 className="text-xl font-serif font-semibold text-blue mb-4 leading-tight">Key Highlights</h3>
+                  <h3 className="text-xl font-serif font-semibold text-navy mb-4 leading-tight">Key Highlights</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {pillarDetails[selectedPillar].content.highlights.map((highlight, idx) => (
                       <li key={idx} className="flex items-start gap-2">

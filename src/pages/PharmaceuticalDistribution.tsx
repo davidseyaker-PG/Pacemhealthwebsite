@@ -109,7 +109,7 @@ export default function PharmaceuticalDistribution() {
             
             <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
               <p>
-                Access to quality pharmaceuticals remains one of Africa's greatest healthcare challenges. At Pacem Health, we've built a pharmaceutical distribution network specifically designed to overcome the unique obstacles of African healthcare markets—from fragmented supply chains and regulatory complexities to infrastructure limitations and counterfeit medication risks.
+                Access to quality pharmaceuticals remains one of Africa's greatest healthcare challenges. At Pacem Health, we've built a pharmaceutical distribution network specifically designed to overcome the unique obstacles of African healthcare marketsâfrom fragmented supply chains and regulatory complexities to infrastructure limitations and counterfeit medication risks.
               </p>
               
               <p>
@@ -117,7 +117,7 @@ export default function PharmaceuticalDistribution() {
               </p>
               
               <p>
-                Whether you're a government hospital managing thousands of patients, a rural clinic serving remote communities, or a private pharmacy expanding your product range, Pacem Health provides the pharmaceutical access, regulatory support, and supply chain reliability you need to focus on what matters most—delivering exceptional patient care.
+                Whether you're a government hospital managing thousands of patients, a rural clinic serving remote communities, or a private pharmacy expanding your product range, Pacem Health provides the pharmaceutical access, regulatory support, and supply chain reliability you need to focus on what matters mostâdelivering exceptional patient care.
               </p>
             </div>
           </motion.div>
@@ -382,15 +382,15 @@ export default function PharmaceuticalDistribution() {
 
             <div className="flex flex-wrap justify-center gap-8 text-white/90">
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-blue" />
+                <CheckCircle className="w-5 h-5 text-navy" />
                 <span>3,500+ Products Available</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-blue" />
+                <CheckCircle className="w-5 h-5 text-navy" />
                 <span>WHO-Approved Manufacturers</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-blue" />
+                <CheckCircle className="w-5 h-5 text-navy" />
                 <span>Same-Day Delivery Available</span>
               </div>
             </div>
