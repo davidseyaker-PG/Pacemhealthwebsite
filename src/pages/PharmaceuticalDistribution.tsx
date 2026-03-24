@@ -7,7 +7,7 @@ export default function PharmaceuticalDistribution() {
   const productCategories = [
     {
       title: "Brand Drugs",
-      description: "Innovative and patented medications from leading pharmaceutical companies"
+      description: "Original patented medications from leading pharmaceutical companies"
     },
     {
       title: "Generic Drugs",
@@ -31,7 +31,7 @@ export default function PharmaceuticalDistribution() {
     },
     {
       title: "Cell & Gene Therapies",
-      description: "Cutting-edge treatments targeting genetic disorders and other complex diseases through cellular and genetic modification"
+      description: "Advanced treatments targeting genetic disorders and other complex diseases through cellular and genetic modification"
     },
     {
       title: "Rare and Orphan Drugs",
@@ -57,7 +57,7 @@ export default function PharmaceuticalDistribution() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <h1 className="text-6xl lg:text-7xl font-serif text-navy leading-tight mb-8">
+              <h1 className="text-6xl lg:text-7xl font-serif font-extrabold text-navy leading-tight mb-8">
                 Pharmaceutical Distribution
               </h1>
               
@@ -103,7 +103,7 @@ export default function PharmaceuticalDistribution() {
             className="text-center"
           >
             <div className="h-1 w-20 bg-orange mb-8 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-12">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-12">
               Bridging the Pharmaceutical Access Gap in Africa
             </h2>
             
@@ -134,7 +134,7 @@ export default function PharmaceuticalDistribution() {
             className="text-center mb-16"
           >
             <div className="h-1 w-20 bg-orange mb-8 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-6">
               Comprehensive Pharmaceutical Portfolio
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -152,7 +152,7 @@ export default function PharmaceuticalDistribution() {
                 transition={{ delay: index * 0.05 }}
                 className="bg-white rounded-lg p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100"
               >
-                <h3 className="text-xl font-serif text-navy mb-4">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-4">
                   {category.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -173,7 +173,7 @@ export default function PharmaceuticalDistribution() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-6">
               Why Choose Pacem Health for Pharmaceutical Distribution
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -250,7 +250,7 @@ export default function PharmaceuticalDistribution() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-6">
               Our Distribution Capabilities
             </h2>
           </motion.div>
@@ -265,7 +265,7 @@ export default function PharmaceuticalDistribution() {
               <div className="flex items-start gap-4">
                 <CheckCircle className="w-6 h-6 text-teal mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                     GDP-Compliant Cold Chain
                   </h3>
                   <p className="text-gray-600 leading-relaxed">
@@ -284,7 +284,7 @@ export default function PharmaceuticalDistribution() {
               <div className="flex items-start gap-4">
                 <CheckCircle className="w-6 h-6 text-teal mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                     Quality Assurance & Traceability
                   </h3>
                   <p className="text-gray-600 leading-relaxed">
@@ -303,7 +303,7 @@ export default function PharmaceuticalDistribution() {
               <div className="flex items-start gap-4">
                 <CheckCircle className="w-6 h-6 text-teal mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                     Flexible Delivery Network
                   </h3>
                   <p className="text-gray-600 leading-relaxed">
@@ -322,7 +322,7 @@ export default function PharmaceuticalDistribution() {
               <div className="flex items-start gap-4">
                 <CheckCircle className="w-6 h-6 text-teal mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">
                     Regulatory Compliance Support
                   </h3>
                   <p className="text-gray-600 leading-relaxed">
@@ -355,7 +355,7 @@ export default function PharmaceuticalDistribution() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-5xl font-serif text-white mb-6">
+            <h2 className="text-5xl font-serif font-bold leading-tight text-white mb-6">
               Request Our Pharmaceutical Catalog
             </h2>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
