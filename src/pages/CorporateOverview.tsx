@@ -21,7 +21,7 @@ export default function CorporateOverview() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6">
+            <h1 className="text-6xl lg:text-7xl font-serif font-extrabold leading-tight text-white mb-6">
               Corporate Overview
             </h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
@@ -42,7 +42,7 @@ export default function CorporateOverview() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-6">
               Improving Health Outcomes<br />for a Better Tomorrow
             </h2>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
@@ -85,7 +85,7 @@ export default function CorporateOverview() {
             className="text-center mb-12"
           >
             <div className="h-1 w-16 bg-[#f37321] mx-auto mb-6"></div>
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Learn More About Pacem Health
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -112,7 +112,7 @@ export default function CorporateOverview() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-serif text-[#4a9fd8] mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-serif font-semibold leading-tight text-[#4a9fd8] mb-2 flex items-center gap-2">
                   Leadership
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
@@ -139,7 +139,7 @@ export default function CorporateOverview() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-serif text-[#4a9fd8] mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-serif font-semibold leading-tight text-[#4a9fd8] mb-2 flex items-center gap-2">
                   History
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
@@ -166,7 +166,7 @@ export default function CorporateOverview() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-serif text-[#4a9fd8] mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-serif font-semibold leading-tight text-[#4a9fd8] mb-2 flex items-center gap-2">
                   Corporate Governance
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
@@ -193,7 +193,7 @@ export default function CorporateOverview() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-serif text-[#4a9fd8] mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-serif font-semibold leading-tight text-[#4a9fd8] mb-2 flex items-center gap-2">
                   Sustainability
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
@@ -220,7 +220,7 @@ export default function CorporateOverview() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-serif text-[#4a9fd8] mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-serif font-semibold leading-tight text-[#4a9fd8] mb-2 flex items-center gap-2">
                   Business Segments
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
@@ -247,7 +247,7 @@ export default function CorporateOverview() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-serif text-[#4a9fd8] mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-serif font-semibold leading-tight text-[#4a9fd8] mb-2 flex items-center gap-2">
                   Quality Standards
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
@@ -274,7 +274,7 @@ export default function CorporateOverview() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-serif text-[#4a9fd8] mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-serif font-semibold leading-tight text-[#4a9fd8] mb-2 flex items-center gap-2">
                   Our Locations
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
@@ -301,7 +301,7 @@ export default function CorporateOverview() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-serif text-[#4a9fd8] mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-serif font-semibold leading-tight text-[#4a9fd8] mb-2 flex items-center gap-2">
                   Newsroom
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </h3>
@@ -323,7 +323,7 @@ export default function CorporateOverview() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl md:text-4xl font-serif mb-4">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold leading-tight mb-4">
               Ready to Partner With Us?
             </h2>
             <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
