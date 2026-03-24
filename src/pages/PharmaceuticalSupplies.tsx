@@ -108,7 +108,7 @@ export default function PharmaceuticalSupplies() {
         sections: [
           {
             heading: "Temperature-Controlled Storage Facilities",
-            description: "Purpose-built cold storage facilities with multi-zone temperature control for 2-8Â°C (vaccines), 15-25Â°C (ambient), and -20Â°C (frozen biologics). All facilities equipped with backup generators, redundant cooling systems, and continuous monitoring to prevent temperature excursions."
+            description: "Purpose-built cold storage facilities with multi-zone temperature control for 2-8°C (vaccines), 15-25°C (ambient), and -20°C (frozen biologics). All facilities equipped with backup generators, redundant cooling systems, and continuous monitoring to prevent temperature excursions."
           },
           {
             heading: "Real-Time Temperature Monitoring",
@@ -289,7 +289,7 @@ export default function PharmaceuticalSupplies() {
     },
     {
       question: "Do you provide cold chain distribution for vaccines?",
-      answer: "Yes. We operate temperature-managed cold chain facilities with continuous temperature monitoring, backup power systems, validated refrigerated transport, and documented temperature logs. Our cold chain covers vaccines, biologics, insulin, and other temperature-sensitive medications requiring 2-8Â°C storage."
+      answer: "Yes. We operate temperature-managed cold chain facilities with continuous temperature monitoring, backup power systems, validated refrigerated transport, and documented temperature logs. Our cold chain covers vaccines, biologics, insulin, and other temperature-sensitive medications requiring 2-8°C storage."
     },
     {
       question: "What are your delivery times and service areas?",

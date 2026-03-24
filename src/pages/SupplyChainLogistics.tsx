@@ -59,7 +59,7 @@ export default function SupplyChainLogistics() {
     {
       number: "03",
       title: "Cold Chain Management & Temperature Monitoring",
-      description: "Temperature-controlled 2-8Â°C storage, refrigerated transport, continuous monitoring, and GDP compliance.",
+      description: "Temperature-controlled 2-8°C storage, refrigerated transport, continuous monitoring, and GDP compliance.",
       image: coldChainImage
     },
     {
@@ -134,7 +134,7 @@ export default function SupplyChainLogistics() {
           },
           {
             heading: "Quality Storage Conditions",
-            description: "Climate-controlled warehouses with ambient (15-25Â°C), cold chain (2-8Â°C), and frozen (-20Â°C) zones. Security measures, pest control, proper product segregation, and regular facility inspections ensure pharmaceutical quality standards throughout storage period."
+            description: "Climate-controlled warehouses with ambient (15-25°C), cold chain (2-8°C), and frozen (-20°C) zones. Security measures, pest control, proper product segregation, and regular facility inspections ensure pharmaceutical quality standards throughout storage period."
           }
         ],
         highlights: [
@@ -155,8 +155,8 @@ export default function SupplyChainLogistics() {
         intro: "Vaccines, biologics, and temperature-sensitive medications require uncompromising cold chain integrity. Our GDP-compliant cold chain infrastructure and validated processes ensure pharmaceutical products maintain potency from our hubs through last-mile delivery.",
         sections: [
           {
-            heading: "Temperature-Controlled Storage (2-8Â°C)",
-            description: "Dedicated cold rooms with industrial refrigeration systems maintaining 2-8Â°C for vaccines and biologics. Backup generators, redundant cooling systems, and alarm monitoring prevent temperature excursions. All equipment calibrated and validated according to WHO PQS standards."
+            heading: "Temperature-Controlled Storage (2-8°C)",
+            description: "Dedicated cold rooms with industrial refrigeration systems maintaining 2-8°C for vaccines and biologics. Backup generators, redundant cooling systems, and alarm monitoring prevent temperature excursions. All equipment calibrated and validated according to WHO PQS standards."
           },
           {
             heading: "Continuous Temperature Monitoring",
@@ -268,7 +268,7 @@ export default function SupplyChainLogistics() {
     },
     {
       question: "What are your delivery timelines from the regional hubs?",
-      answer: "Delivery timelines vary by location, but our regional hubs at our regional hubs enable 2-7 day delivery to most major cities and 7-14 days to remote locationsâsignificantly faster than 4-6 week international shipping times."
+      answer: "Delivery timelines vary by location, but our regional hubs at our regional hubs enable 2-7 day delivery to most major cities and 7-14 days to remote locations—significantly faster than 4-6 week international shipping times."
     },
     {
       question: "Do you have a minimum order quantity (MOQ)?",
@@ -276,7 +276,7 @@ export default function SupplyChainLogistics() {
     },
     {
       question: "How do you ensure the integrity of cold chain products?",
-      answer: "We maintain high cold chain compliance through temperature-controlled storage facilities (2-8Â°C), refrigerated vehicles, validated passive containers, continuous temperature monitoring with data loggers, and GDP-compliant standard operating procedures."
+      answer: "We maintain high cold chain compliance through temperature-controlled storage facilities (2-8°C), refrigerated vehicles, validated passive containers, continuous temperature monitoring with data loggers, and GDP-compliant standard operating procedures."
     },
     {
       question: "Can you deliver to remote and hard-to-reach locations?",
