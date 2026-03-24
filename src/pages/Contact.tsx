@@ -60,18 +60,8 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative h-[600px] overflow-hidden">
-        <div className="absolute inset-0 bg-navy/80 z-10" />
-        <motion.img
-          src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGNvbW11bmljYXRpb258ZW58MXx8fHwxNzY3OTA2NjEyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-          alt="Contact us"
-          className="absolute inset-0 w-full h-full object-cover"
-          initial={{ scale: 1.1 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 10, ease: "easeOut" }}
-        />
-
-        <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center z-10">
+      <section className="relative h-[600px] overflow-hidden bg-navy">
+        <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
