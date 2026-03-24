@@ -21,7 +21,7 @@ export default function CorporateCitizenship() {
       number: "01",
       title: "Expand Healthcare Access",
       subtitle: "Bridging Pharmaceutical Gaps Across Africa",
-      description: "Making quality medicines and healthcare services accessible to underserved communities across the African continent.",
+      description: "Making quality medicines and healthcare services accessible to under-resourced communities across the African continent.",
       image: accessImage,
       stats: {
         value: "750K+",
@@ -37,8 +37,8 @@ export default function CorporateCitizenship() {
           content: "Since our founding, we've built comprehensive capabilities spanning the entire pharmaceutical value chain—from regulatory navigation and product registration across multiple African markets, to cold chain logistics ensuring vaccine and medicine integrity, to last-mile distribution reaching rural communities. Our expertise in navigating Africa's diverse regulatory landscape, combined with deep local knowledge, enables us to accelerate market access for life-saving treatments while maintaining the highest quality standards."
         },
         {
-          title: "Technology and Innovation",
-          content: "We leverage cutting-edge technology to overcome Africa's unique healthcare challenges. Our digital cold chain monitoring systems ensure temperature-sensitive vaccines maintain efficacy from manufacturer to patient. Real-time inventory tracking optimizes stock levels and prevents stockouts. Mobile health integration enables remote communities to access pharmaceutical services. Every innovation is designed to save time, reduce waste, and ultimately save lives across the continent."
+          title: "Technology and Progress",
+          content: "We use advanced technology to overcome Africa's unique healthcare challenges. Our digital cold chain monitoring systems ensure temperature-sensitive vaccines maintain efficacy from manufacturer to patient. Real-time inventory tracking optimizes stock levels and prevents stockouts. Mobile health integration enables remote communities to access pharmaceutical services. Every innovation is designed to save time, reduce waste, and ultimately save lives across the continent."
         },
         {
           title: "Community Health Partnerships",
@@ -143,7 +143,7 @@ export default function CorporateCitizenship() {
         },
         {
           title: "Water Stewardship",
-          content: "Clean water is fundamental to health. While our operations don't require significant water use, we invest in community water access initiatives, support clean water projects in underserved areas, protect local water sources from pharmaceutical contamination, and partner with NGOs delivering clean water solutions. We recognize that healthcare improvements mean little without access to safe water."
+          content: "Clean water is fundamental to health. While our operations don't require significant water use, we invest in community water access initiatives, support clean water projects in under-resourced areas, protect local water sources from pharmaceutical contamination, and partner with NGOs delivering clean water solutions. We recognize that healthcare improvements mean little without access to safe water."
         },
         {
           title: "Environmental Community Partnerships",
@@ -282,7 +282,7 @@ export default function CorporateCitizenship() {
               transition={{ duration: 0.8 }}
             >
               <div className="h-1 w-20 bg-orange mb-6" />
-              <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
+              <h1 className="text-6xl lg:text-7xl font-serif font-extrabold text-white mb-6 leading-tight">
                 Our Commitment to Corporate Citizenship
               </h1>
               <p className="text-xl text-white/90 mb-8 leading-relaxed">
@@ -323,7 +323,7 @@ export default function CorporateCitizenship() {
             viewport={{ once: true }}
             className="text-center"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-6">
               Guided by Purpose: Improving Lives Across Africa
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed mb-8">
@@ -331,7 +331,7 @@ export default function CorporateCitizenship() {
             </p>
 
             <div className="bg-gray-50 rounded-2xl p-8 mb-8">
-              <h3 className="text-2xl font-serif text-navy mb-6">Our Framework Alignment</h3>
+              <h3 className="text-2xl font-serif font-semibold leading-tight text-navy mb-6">Our Framework Alignment</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {[
                   { name: "UN SDG 3", desc: "Good Health & Well-Being" },
@@ -370,7 +370,7 @@ export default function CorporateCitizenship() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
               Four Pillars of Corporate Citizenship
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -392,7 +392,7 @@ export default function CorporateCitizenship() {
                 >
                   <div className="h-2 bg-gradient-to-r from-blue to-teal" />
                   <div className="p-8">
-                    <h3 className="text-2xl font-serif text-navy mb-6">{pillar.title}</h3>
+                    <h3 className="text-2xl font-serif font-semibold leading-tight text-navy mb-6">{pillar.title}</h3>
                     <p className="text-gray-600 leading-relaxed mb-6">
                       {pillar.description}
                     </p>
@@ -439,7 +439,7 @@ export default function CorporateCitizenship() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.8 }}
                 >
-                  <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+                  <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-4">
                     {pillar.title}
                   </h2>
                   <p className="text-xl text-gray-600 mb-6">
@@ -473,7 +473,7 @@ export default function CorporateCitizenship() {
                 viewport={{ once: true }}
                 className="max-w-4xl mx-auto"
               >
-                <h3 className="text-3xl font-serif text-navy text-center mb-8">Our Approach</h3>
+                <h3 className="text-3xl font-serif font-semibold leading-tight text-navy text-center mb-8">Our Approach</h3>
                 <div className="space-y-4">
                   {pillar.approach.map((item, index) => {
                     const accordionId = `${pillar.id}-${index}`;
@@ -535,7 +535,7 @@ export default function CorporateCitizenship() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-white mb-4">
               Our Public Goals: Measuring Impact
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
@@ -553,7 +553,7 @@ export default function CorporateCitizenship() {
                 transition={{ delay: categoryIndex * 0.1 }}
                 className="bg-white rounded-2xl p-8"
               >
-                <h3 className="text-2xl font-serif text-navy mb-6">{category.category}</h3>
+                <h3 className="text-2xl font-serif font-semibold leading-tight text-navy mb-6">{category.category}</h3>
                 <div className="space-y-6">
                   {category.goals.map((goal, goalIndex) => (
                     <div key={goalIndex} className="border-l-4 border-orange pl-6">
@@ -624,7 +624,7 @@ export default function CorporateCitizenship() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-white mb-6">
               Join Us in Building Healthier Communities
             </h2>
             <p className="text-xl text-white/90 mb-10 leading-relaxed">
