@@ -185,7 +185,7 @@ export default function RegulatoryCompliance() {
       subtitle: "Internationally Recognized Pharmaceutical Training Programs",
       image: pillar4Image,
       content: {
-        intro: "Regulatory compliance depends on competent, trained personnel. Our WHO-aligned training programs deliver internationally recognized competency-based education in pharmaceutical quality, regulatory affairs, and compliance managementâequipping African healthcare teams with skills to meet global standards.",
+        intro: "Regulatory compliance depends on competent, trained personnel. Our WHO-aligned training programs deliver internationally recognized competency-based education in pharmaceutical quality, regulatory affairs, and compliance management—equipping African healthcare teams with skills to meet global standards.",
         sections: [
           {
             heading: "GDP Training & Certification",
@@ -328,10 +328,10 @@ export default function RegulatoryCompliance() {
           >
             <div className="h-1 w-20 bg-orange mb-6 mx-auto" />
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-6 leading-tight">
-              We Navigate ComplexityâYou Focus on Healthcare Delivery
+              We Navigate Complexity—You Focus on Healthcare Delivery
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              Africa's regulatory landscape is diverse and evolving. With expertise across multiple regulatory authorities, WHO-aligned training programs, and comprehensive pharmacovigilance systems, we provide the regulatory confidence to bring safe, effective healthcare products to African marketsâempowering pharmaceutical companies, healthcare organizations, and professionals to focus on what matters most: patient care.
+              Africa's regulatory landscape is diverse and evolving. With expertise across multiple regulatory authorities, WHO-aligned training programs, and comprehensive pharmacovigilance systems, we provide the regulatory confidence to bring safe, effective healthcare products to African markets—empowering pharmaceutical companies, healthcare organizations, and professionals to focus on what matters most: patient care.
             </p>
           </motion.div>
         </div>

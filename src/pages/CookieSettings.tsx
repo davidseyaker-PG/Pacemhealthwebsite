@@ -88,7 +88,7 @@ export default function CookieSettings() {
       name: 'Strictly Necessary',
       required: true,
       enabled: true,
-      description: 'These cookies are essential for core site functionality and securityâsuch as maintaining sessions, preventing fraud, and enabling account access. Because they are essential, you cannot disable them.',
+      description: 'These cookies are essential for core site functionality and security—such as maintaining sessions, preventing fraud, and enabling account access. Because they are essential, you cannot disable them.',
       examples: [
         'Authentication and session management',
         'Security and fraud prevention',

@@ -69,7 +69,7 @@ export default function Investors() {
               Corporate Overview
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto mb-8">
-              Pacem Health is a leading health systems integrator focused on strengthening healthcare delivery across sub-Saharan Africa. We partner with governments, development organizations, and healthcare institutions to build resilient, self-sustaining health infrastructure through integrated pharmaceutical supply chains, medical equipment provisioning, healthcare facility development, and digital health solutionsâcreating sustainable value while transforming health outcomes for millions.
+              Pacem Health is a leading health systems integrator focused on strengthening healthcare delivery across sub-Saharan Africa. We partner with governments, development organizations, and healthcare institutions to build resilient, self-sustaining health infrastructure through integrated pharmaceutical supply chains, medical equipment provisioning, healthcare facility development, and digital health solutions—creating sustainable value while transforming health outcomes for millions.
             </p>
             <Link
               href="/corporate-overview"

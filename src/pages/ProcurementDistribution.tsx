@@ -101,7 +101,7 @@ export default function ProcurementDistribution() {
       image: costOptimizationImage,
       modalContent: {
         subtitle: "Strategic Procurement Delivering Measurable Savings",
-        overview: "Cost optimization isn't about cutting cornersâit's about strategic sourcing. Through competitive tendering, volume aggregation, and direct manufacturer negotiations, we consistently deliver meaningful cost reductions while maintaining quality standards. Our procurement expertise transforms health budgets into maximum impact.",
+        overview: "Cost optimization isn't about cutting corners—it's about strategic sourcing. Through competitive tendering, volume aggregation, and direct manufacturer negotiations, we consistently deliver meaningful cost reductions while maintaining quality standards. Our procurement expertise transforms health budgets into maximum impact.",
         highlights: [
           "Transparent RFQ processes with 3-5 pre-qualified suppliers",
           "meaningful cost reductions through competitive bidding",
@@ -137,7 +137,7 @@ export default function ProcurementDistribution() {
       image: qualityVerificationImage,
       modalContent: {
         subtitle: "Triple-Layer Quality Assurance for Patient Safety",
-        overview: "Quality cannot be compromised in healthcare. Our triple-layer verification systemâsupplier pre-qualification, batch testing, and pre-shipment inspectionâensures that every product meets WHO quality standards before reaching patients. With a high quality pass rate, we've built our reputation on uncompromising quality assurance.",
+        overview: "Quality cannot be compromised in healthcare. Our triple-layer verification system—supplier pre-qualification, batch testing, and pre-shipment inspection—ensures that every product meets WHO quality standards before reaching patients. With a high quality pass rate, we've built our reputation on uncompromising quality assurance.",
         highlights: [
           "high quality pass rate across all shipments",
           "Triple verification: pre-qualification, batch testing & pre-shipment inspection",
@@ -325,10 +325,10 @@ export default function ProcurementDistribution() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-navy mb-6 leading-tight">
-              We Don't Just Source ProductsâWe Build Supply Resilience
+              We Don't Just Source Products—We Build Supply Resilience
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              From needs assessment to final delivery, our integrated procurement and distribution services ensure quality-assured health products reach those who need themâon time, within budget, and fully compliant.
+              From needs assessment to final delivery, our integrated procurement and distribution services ensure quality-assured health products reach those who need them—on time, within budget, and fully compliant.
             </p>
           </motion.div>
         </div>
@@ -620,7 +620,7 @@ export default function ProcurementDistribution() {
               </h2>
               
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                We've built our procurement and distribution network through years of partnership with leading global health organizations, ministries of health, and international NGOs. Our commitment goes beyond transactionsâwe're your long-term supply chain partner.
+                We've built our procurement and distribution network through years of partnership with leading global health organizations, ministries of health, and international NGOs. Our commitment goes beyond transactions—we're your long-term supply chain partner.
               </p>
 
               <p className="text-gray-700 text-lg leading-relaxed">

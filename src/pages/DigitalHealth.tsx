@@ -107,7 +107,7 @@ export default function DigitalHealth() {
   const faqs = [
     {
       question: "How does the telemedicine platform work?",
-      answer: "Our telemedicine platform connects patients with licensed physicians through secure video consultations. Simply download our app, create an account, book an appointment or request an immediate consultation, and connect with a doctor via video call. The doctor can review your medical history, diagnose conditions, prescribe medications, and order testsâall digitally. Prescriptions are sent directly to your preferred pharmacy."
+      answer: "Our telemedicine platform connects patients with licensed physicians through secure video consultations. Simply download our app, create an account, book an appointment or request an immediate consultation, and connect with a doctor via video call. The doctor can review your medical history, diagnose conditions, prescribe medications, and order tests—all digitally. Prescriptions are sent directly to your preferred pharmacy."
     },
     {
       question: "Is my health data secure and private?",
@@ -133,11 +133,11 @@ export default function DigitalHealth() {
       subtitle: "Virtual Healthcare Accessible Anytime, Anywhere",
       image: telemedicineImage,
       content: {
-        intro: "Our telemedicine platform revolutionizes healthcare access by connecting patients with licensed physicians through secure video consultations. Whether you need immediate medical advice, specialist consultation, mental health support, or prescription refills, our platform delivers quality healthcare directly to your smartphone or computerâeliminating travel time, reducing costs, and improving access to care.",
+        intro: "Our telemedicine platform revolutionizes healthcare access by connecting patients with licensed physicians through secure video consultations. Whether you need immediate medical advice, specialist consultation, mental health support, or prescription refills, our platform delivers quality healthcare directly to your smartphone or computer—eliminating travel time, reducing costs, and improving access to care.",
         sections: [
           {
             heading: "Virtual Consultations with Licensed Physicians",
-            description: "Connect with board-certified doctors, specialists, and healthcare providers through HD video calls. Patients can schedule appointments or request immediate consultations for urgent non-emergency conditions. Physicians review medical history, conduct virtual examinations, diagnose conditions, and recommend treatmentsâall through secure, healthcare data protection-compliant video technology."
+            description: "Connect with board-certified doctors, specialists, and healthcare providers through HD video calls. Patients can schedule appointments or request immediate consultations for urgent non-emergency conditions. Physicians review medical history, conduct virtual examinations, diagnose conditions, and recommend treatments—all through secure, healthcare data protection-compliant video technology."
           },
           {
             heading: "Specialty Care & Expert Consultations",

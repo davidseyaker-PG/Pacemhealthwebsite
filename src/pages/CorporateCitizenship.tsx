@@ -30,11 +30,11 @@ export default function CorporateCitizenship() {
       approach: [
         {
           title: "Our Role in African Healthcare",
-          content: "As a trusted partner to ministries of health, international pharmaceutical companies, and healthcare providers across 15+ African countries, we bridge critical gaps in pharmaceutical access and healthcare delivery. Every day without essential medicines means lives at riskâwe work tirelessly to ensure quality healthcare products reach those who need them most, when they need them."
+          content: "As a trusted partner to ministries of health, international pharmaceutical companies, and healthcare providers across 15+ African countries, we bridge critical gaps in pharmaceutical access and healthcare delivery. Every day without essential medicines means lives at risk—we work tirelessly to ensure quality healthcare products reach those who need them most, when they need them."
         },
         {
           title: "Our Capabilities",
-          content: "Since our founding, we've built comprehensive capabilities spanning the entire pharmaceutical value chainâfrom regulatory navigation and product registration across multiple African markets, to cold chain logistics ensuring vaccine and medicine integrity, to last-mile distribution reaching rural communities. Our expertise in navigating Africa's diverse regulatory landscape, combined with deep local knowledge, enables us to accelerate market access for life-saving treatments while maintaining the highest quality standards."
+          content: "Since our founding, we've built comprehensive capabilities spanning the entire pharmaceutical value chain—from regulatory navigation and product registration across multiple African markets, to cold chain logistics ensuring vaccine and medicine integrity, to last-mile distribution reaching rural communities. Our expertise in navigating Africa's diverse regulatory landscape, combined with deep local knowledge, enables us to accelerate market access for life-saving treatments while maintaining the highest quality standards."
         },
         {
           title: "Technology and Innovation",
@@ -42,7 +42,7 @@ export default function CorporateCitizenship() {
         },
         {
           title: "Community Health Partnerships",
-          content: "Sustainable healthcare access requires strong community partnerships. We collaborate with local health workers, community health volunteers, and traditional leaders to understand unique needs and build culturally appropriate solutions. Our community engagement programs educate families on medication adherence, disease prevention, and proper medicine storageâempowering communities to take charge of their health outcomes."
+          content: "Sustainable healthcare access requires strong community partnerships. We collaborate with local health workers, community health volunteers, and traditional leaders to understand unique needs and build culturally appropriate solutions. Our community engagement programs educate families on medication adherence, disease prevention, and proper medicine storage—empowering communities to take charge of their health outcomes."
         }
       ]
     },
@@ -61,11 +61,11 @@ export default function CorporateCitizenship() {
       approach: [
         {
           title: "Professional Training Programs",
-          content: "Our WHO-certified training programs build critical competencies in Good Distribution Practice (GDP), Good Manufacturing Practice (GMP), pharmacovigilance, and regulatory affairs. We don't just deliver trainingâwe develop African healthcare leaders who will strengthen their countries' health systems for decades to come. Over 3,200 professionals across 15+ countries have completed our certification programs, bringing international quality standards to their organizations and communities."
+          content: "Our WHO-certified training programs build critical competencies in Good Distribution Practice (GDP), Good Manufacturing Practice (GMP), pharmacovigilance, and regulatory affairs. We don't just deliver training—we develop African healthcare leaders who will strengthen their countries' health systems for decades to come. Over 3,200 professionals across 15+ countries have completed our certification programs, bringing international quality standards to their organizations and communities."
         },
         {
           title: "Infrastructure Development",
-          content: "Sustainable healthcare requires robust infrastructure. We invest in cold chain facilities, quality-controlled warehouses, and distribution networks that meet international standards while adapting to local contexts. Our infrastructure partnerships help governments and private sector players build the physical foundations for reliable pharmaceutical supply chainsâfrom capital cities to remote rural areas."
+          content: "Sustainable healthcare requires robust infrastructure. We invest in cold chain facilities, quality-controlled warehouses, and distribution networks that meet international standards while adapting to local contexts. Our infrastructure partnerships help governments and private sector players build the physical foundations for reliable pharmaceutical supply chains—from capital cities to remote rural areas."
         },
         {
           title: "Regulatory System Strengthening",
@@ -73,7 +73,7 @@ export default function CorporateCitizenship() {
         },
         {
           title: "Knowledge Transfer and Mentorship",
-          content: "Lasting impact comes from transferring knowledge, not creating dependency. Our mentorship programs pair experienced international experts with emerging African healthcare leaders, fostering skills development, confidence building, and professional networks. We believe in growing local talent who understand both global best practices and local realitiesâcreating solutions that truly work in African contexts."
+          content: "Lasting impact comes from transferring knowledge, not creating dependency. Our mentorship programs pair experienced international experts with emerging African healthcare leaders, fostering skills development, confidence building, and professional networks. We believe in growing local talent who understand both global best practices and local realities—creating solutions that truly work in African contexts."
         }
       ]
     },
@@ -92,19 +92,19 @@ export default function CorporateCitizenship() {
       approach: [
         {
           title: "Our Core Values",
-          content: "Our valuesâExcellence, Partnership, Innovation, and Impactâare more than words on a wall. They guide every decision, shape our culture, and inspire how we serve African communities. Excellence drives our commitment to quality in everything we do. Partnership reflects our collaborative approach with clients, communities, and colleagues. Innovation pushes us to find better solutions to healthcare challenges. Impact reminds us that our work ultimately saves and improves lives."
+          content: "Our values—Excellence, Partnership, Innovation, and Impact—are more than words on a wall. They guide every decision, shape our culture, and inspire how we serve African communities. Excellence drives our commitment to quality in everything we do. Partnership reflects our collaborative approach with clients, communities, and colleagues. Innovation pushes us to find better solutions to healthcare challenges. Impact reminds us that our work ultimately saves and improves lives."
         },
         {
           title: "Local Talent Development",
-          content: "We believe Africa's healthcare future depends on African leadership. Our commitment to 92% local employment isn't just a metricâit's a philosophy. We actively recruit, develop, and promote African talent into leadership roles, providing career pathways from entry-level positions to executive leadership. Our talent development programs include technical training, leadership development, international exposure, and succession planning that ensures our impact continues for generations."
+          content: "We believe Africa's healthcare future depends on African leadership. Our commitment to 92% local employment isn't just a metric—it's a philosophy. We actively recruit, develop, and promote African talent into leadership roles, providing career pathways from entry-level positions to executive leadership. Our talent development programs include technical training, leadership development, international exposure, and succession planning that ensures our impact continues for generations."
         },
         {
           title: "Employee Growth and Engagement",
-          content: "Engaged employees deliver exceptional results. We invest in continuous learning opportunities, from regulatory certifications to MBA sponsorships. Our employee engagement initiatives include regular feedback mechanisms, transparent communication, recognition programs, and career advancement opportunities. We measure engagement annually and act on insightsâbecause our people's growth directly correlates with our ability to improve African healthcare."
+          content: "Engaged employees deliver exceptional results. We invest in continuous learning opportunities, from regulatory certifications to MBA sponsorships. Our employee engagement initiatives include regular feedback mechanisms, transparent communication, recognition programs, and career advancement opportunities. We measure engagement annually and act on insights—because our people's growth directly correlates with our ability to improve African healthcare."
         },
         {
           title: "Diversity, Inclusion, and Belonging",
-          content: "Our strength comes from our diversityâdiverse nationalities, cultures, perspectives, and experiences. We foster an inclusive environment where every team member feels valued, heard, and empowered to contribute their best. Our diversity initiatives span gender equity, cultural inclusion, disability accommodation, and equitable opportunity. We're building a workplace that reflects the rich diversity of the continent we serve."
+          content: "Our strength comes from our diversity—diverse nationalities, cultures, perspectives, and experiences. We foster an inclusive environment where every team member feels valued, heard, and empowered to contribute their best. Our diversity initiatives span gender equity, cultural inclusion, disability accommodation, and equitable opportunity. We're building a workplace that reflects the rich diversity of the continent we serve."
         },
         {
           title: "Employee Well-Being and Safety",
@@ -147,7 +147,7 @@ export default function CorporateCitizenship() {
         },
         {
           title: "Environmental Community Partnerships",
-          content: "We engage communities in environmental stewardship through tree planting initiatives, environmental health education programs, support for local conservation efforts, and employee environmental volunteer programs. Our partnerships recognize that environmental health and human health are inseparableâhealthy ecosystems support healthy communities."
+          content: "We engage communities in environmental stewardship through tree planting initiatives, environmental health education programs, support for local conservation efforts, and employee environmental volunteer programs. Our partnerships recognize that environmental health and human health are inseparable—healthy ecosystems support healthy communities."
         }
       ]
     }
@@ -286,7 +286,7 @@ export default function CorporateCitizenship() {
                 Our Commitment to Corporate Citizenship
               </h1>
               <p className="text-xl text-white/90 mb-8 leading-relaxed">
-                Our ESG strategy integrates environmental stewardship, social responsibility, and ethical governance into everything we doâimproving African healthcare access, building local capacity, empowering our people, and protecting the planet for future generations.
+                Our ESG strategy integrates environmental stewardship, social responsibility, and ethical governance into everything we do—improving African healthcare access, building local capacity, empowering our people, and protecting the planet for future generations.
               </p>
               <motion.button
                 whileHover={{ scale: 1.05, x: 5 }}
@@ -327,7 +327,7 @@ export default function CorporateCitizenship() {
               Guided by Purpose: Improving Lives Across Africa
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed mb-8">
-              Our corporate citizenship approach goes beyond complianceâit's about creating lasting, positive impact on the communities we serve. We operate with integrity, transparency, and accountability, measuring our progress against internationally recognized frameworks and holding ourselves to the highest standards.
+              Our corporate citizenship approach goes beyond compliance—it's about creating lasting, positive impact on the communities we serve. We operate with integrity, transparency, and accountability, measuring our progress against internationally recognized frameworks and holding ourselves to the highest standards.
             </p>
 
             <div className="bg-gray-50 rounded-2xl p-8 mb-8">

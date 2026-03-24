@@ -169,7 +169,7 @@ export default function PharmacyServices() {
     },
     {
       title: "Clinical Pharmacy Services",
-      subtitle: "Beyond DispensingâProfessional Health Services",
+      subtitle: "Beyond Dispensing—Professional Health Services",
       image: pillar2Image,
       content: {
         intro: "Pacem Health pharmacies provide clinical services that extend far beyond traditional prescription dispensing. Our pharmacists are trained healthcare professionals who deliver immunizations, conduct health screenings, manage chronic diseases, and provide medication therapy management to optimize your health outcomes.",
@@ -196,7 +196,7 @@ export default function PharmacyServices() {
           }
         ],
         highlights: [
-          "Walk-in immunizationsâno appointment needed",
+          "Walk-in immunizations—no appointment needed",
           "Comprehensive health screening services",
           "Medication therapy management by pharmacists",
           "Chronic disease counseling & support",
@@ -248,7 +248,7 @@ export default function PharmacyServices() {
       subtitle: "Online Ordering, Delivery & Teleconsultation",
       image: pillar4Image,
       content: {
-        intro: "Convenient healthcare access meets modern technology. Our digital pharmacy platform allows patients to upload prescriptions, order medications online, schedule home delivery, access digital health records, receive automated refill reminders, and consult with licensed pharmacists via video or phoneâall from the comfort of home or office.",
+        intro: "Convenient healthcare access meets modern technology. Our digital pharmacy platform allows patients to upload prescriptions, order medications online, schedule home delivery, access digital health records, receive automated refill reminders, and consult with licensed pharmacists via video or phone—all from the comfort of home or office.",
         sections: [
           {
             heading: "Online Prescription Ordering",
@@ -345,7 +345,7 @@ export default function PharmacyServices() {
           >
             <div className="h-1 w-20 bg-orange mb-6 mx-auto" />
             <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-6">
-              More Than Just a PharmacyâYour Healthcare Partner
+              More Than Just a Pharmacy—Your Healthcare Partner
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
               Pacem Health pharmacies combine <strong>convenient medication access</strong> with <strong>clinical expertise</strong> and <strong>personalized care</strong>. From prescription dispensing to chronic disease management, immunizations to digital consultations, we're here to support your health journey every step of the way.

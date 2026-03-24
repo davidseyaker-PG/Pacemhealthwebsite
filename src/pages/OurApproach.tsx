@@ -156,7 +156,7 @@ export default function OurApproach() {
               Strategy and Implementation, Seamlessly Integrated
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              We serve both <strong>global partners entering African markets</strong> and <strong>communities seeking quality healthcare</strong>. Our integrated approach delivers end-to-end solutions with unmatched efficiency and impact â combining unwavering quality standards, collaborative partnerships, purpose-built solutions, and deep local expertise.
+              We serve both <strong>global partners entering African markets</strong> and <strong>communities seeking quality healthcare</strong>. Our integrated approach delivers end-to-end solutions with unmatched efficiency and impact — combining unwavering quality standards, collaborative partnerships, purpose-built solutions, and deep local expertise.
             </p>
           </motion.div>
         </div>
