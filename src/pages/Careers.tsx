@@ -196,7 +196,7 @@ export default function Careers() {
                     placeholder="Job title or keyword"
                     value={jobSearch.keyword}
                     onChange={(e) => setJobSearch({ ...jobSearch, keyword: e.target.value })}
-                    className="w-full pl-12 pr-4 py-4 rounded-lg border-0 focus:ring-2 focus:ring-blue text-blue placeholder-gray-400"
+                    className="w-full pl-12 pr-4 py-4 rounded-lg border-0 focus:ring-2 focus:ring-blue text-navy placeholder-gray-400"
                   />
                 </div>
                 <div className="md:col-span-1 relative">
@@ -206,7 +206,7 @@ export default function Careers() {
                     placeholder="Country or city"
                     value={jobSearch.location}
                     onChange={(e) => setJobSearch({ ...jobSearch, location: e.target.value })}
-                    className="w-full pl-12 pr-4 py-4 rounded-lg border-0 focus:ring-2 focus:ring-blue text-blue placeholder-gray-400"
+                    className="w-full pl-12 pr-4 py-4 rounded-lg border-0 focus:ring-2 focus:ring-blue text-navy placeholder-gray-400"
                   />
                 </div>
                 <button
@@ -232,7 +232,7 @@ export default function Careers() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-6 leading-tight">
               Find Your Impact at Pacem Health
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -274,9 +274,9 @@ export default function Careers() {
                 >
                   <Link href={href}>
                     <div className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-blue hover:shadow-xl transition-all duration-300 transform hover:scale-105 cursor-pointer group">
-                      <h3 className="text-xl font-semibold text-blue mb-2 leading-tight">{category.title}</h3>
+                      <h3 className="text-xl font-semibold text-navy mb-2 leading-tight">{category.title}</h3>
                       <p className="text-gray-600 text-sm mb-4">{category.description}</p>
-                      <div className="text-blue font-semibold text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
+                      <div className="text-navy font-semibold text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
                         {category.count}
                         <ArrowRight className="w-4 h-4" />
                       </div>
@@ -300,7 +300,7 @@ export default function Careers() {
             className="text-center mb-16"
           >
             <div className="text-orange text-sm font-bold tracking-wide mb-4">STRATEGIC PROGRAMS</div>
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-6 leading-tight">
               Join Our Impact Programs
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -321,9 +321,9 @@ export default function Careers() {
                 >
                   <Link href={program.link}>
                     <div className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-blue hover:shadow-xl transition-all duration-300 transform hover:scale-105 cursor-pointer group h-full">
-                      <h3 className="text-xl font-semibold text-blue mb-2 leading-tight">{program.title}</h3>
+                      <h3 className="text-xl font-semibold text-navy mb-2 leading-tight">{program.title}</h3>
                       <p className="text-gray-600 text-sm mb-4">{program.description}</p>
-                      <div className="text-blue font-semibold text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
+                      <div className="text-navy font-semibold text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
                         Learn More
                         <ArrowRight className="w-4 h-4" />
                       </div>
@@ -342,7 +342,7 @@ export default function Careers() {
               className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-blue hover:shadow-xl transition-all duration-300 transform hover:scale-105 cursor-pointer group h-full flex items-center justify-center text-center"
             >
               <div>
-                <h3 className="text-xl font-semibold text-blue mb-2 leading-tight">More Programs Coming Soon</h3>
+                <h3 className="text-xl font-semibold text-navy mb-2 leading-tight">More Programs Coming Soon</h3>
                 <p className="text-gray-600 text-sm">Stay tuned for new opportunities</p>
               </div>
             </motion.div>
@@ -360,12 +360,12 @@ export default function Careers() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-6 leading-tight">
               Why Pacem Health
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Join a company where your work matters, your growth is supported, and your voice is heard. 
-              We're building more than a businessÃ¢ÂÂwe're building a culture of impact and belonging.
+              We're building more than a businessÃÂ¢ÃÂÃÂwe're building a culture of impact and belonging.
             </p>
           </motion.div>
 
@@ -380,7 +380,7 @@ export default function Careers() {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   className="bg-white rounded-xl p-8 border-t-4 border-blue shadow-lg hover:shadow-2xl transition-all duration-300"
                 >
-                  <h3 className="text-2xl font-serif font-semibold text-blue mb-4 leading-tight">{section.title}</h3>
+                  <h3 className="text-2xl font-serif font-semibold text-navy mb-4 leading-tight">{section.title}</h3>
                   <p className="text-gray-700 leading-relaxed">{section.description}</p>
                 </motion.div>
               );
@@ -399,7 +399,7 @@ export default function Careers() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-6 leading-tight">
               Career Pathways at Pacem Health
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -417,7 +417,7 @@ export default function Careers() {
               transition={{ duration: 0.6 }}
               className="bg-white rounded-xl p-8 border-t-4 border-blue shadow-lg hover:shadow-2xl transition-all duration-300"
             >
-              <h3 className="text-3xl font-serif font-semibold text-blue leading-tight mb-6">Early Careers</h3>
+              <h3 className="text-3xl font-serif font-semibold text-navy leading-tight mb-6">Early Careers</h3>
               
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Launch your career in global health with rotational programs, mentorship, and 
@@ -443,7 +443,7 @@ export default function Careers() {
                 </li>
               </ul>
 
-              <button className="text-blue hover:text-blue/80 font-semibold flex items-center gap-2 group">
+              <button className="text-navy hover:text-navy/80 font-semibold flex items-center gap-2 group">
                 Explore Early Career Opportunities
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
@@ -457,7 +457,7 @@ export default function Careers() {
               transition={{ duration: 0.6 }}
               className="bg-white rounded-xl p-8 border-t-4 border-blue shadow-lg hover:shadow-2xl transition-all duration-300"
             >
-              <h3 className="text-3xl font-serif font-semibold text-blue mb-6 leading-tight">Experienced Professionals</h3>
+              <h3 className="text-3xl font-serif font-semibold text-navy mb-6 leading-tight">Experienced Professionals</h3>
               
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Bring your expertise to scale. Lead strategic initiatives, mentor the next generation, 
@@ -483,7 +483,7 @@ export default function Careers() {
                 </li>
               </ul>
 
-              <button className="text-blue hover:text-blue/80 font-semibold flex items-center gap-2 group">
+              <button className="text-navy hover:text-navy/80 font-semibold flex items-center gap-2 group">
                 Explore Professional Opportunities
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
@@ -503,7 +503,7 @@ export default function Careers() {
             className="text-center mb-16"
           >
             <div className="text-orange text-sm font-bold tracking-wide mb-4">CREATING A CULTURE OF IMPACT</div>
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-6 leading-tight">
               Meet Team Pacem Health
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -529,7 +529,7 @@ export default function Careers() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/50 to-transparent flex items-end p-6">
                 <div className="text-white">
-                  <h3 className="text-xl font-serif font-semibold text-blue mb-2 leading-tight">Clinical Excellence</h3>
+                  <h3 className="text-xl font-serif font-semibold text-navy mb-2 leading-tight">Clinical Excellence</h3>
                   <p className="text-white/80 text-sm">Pharmacists and clinical advisors ensuring quality care</p>
                 </div>
               </div>
@@ -599,8 +599,8 @@ export default function Careers() {
               
               <div className="p-8 lg:p-12">
                 <div className="flex items-center gap-3 mb-4">
-                  <MessageCircle className="w-8 h-8 text-blue" />
-                  <h2 className="text-3xl font-serif font-bold text-blue leading-tight">Introducing Ada, Our Digital Assistant</h2>
+                  <MessageCircle className="w-8 h-8 text-navy" />
+                  <h2 className="text-3xl font-serif font-bold text-navy leading-tight">Introducing Ada, Our Digital Assistant</h2>
                 </div>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
