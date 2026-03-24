@@ -74,7 +74,7 @@ export default function Contact() {
       icon: Globe,
       title: 'Regional Offices',
       details: ['Lagos, Nigeria', 'Accra, Ghana', 'Johannesburg, South Africa'],
-      color: 'text-navy'
+      color: 'text-blue'
     }
   ];
 
@@ -90,8 +90,8 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative h-[500px] flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-navy/95 via-navy/90 to-navy/80 z-10" />
+      <section className="relative h-[600px] overflow-hidden">
+        <div className="absolute inset-0 bg-navy/80 z-10" />
         <motion.img
           src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGNvbW11bmljYXRpb258ZW58MXx8fHwxNzY3OTA2NjEyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
           alt="Contact us"
@@ -101,12 +101,12 @@ export default function Contact() {
           transition={{ duration: 10, ease: "easeOut" }}
         />
         
-        <div className="relative z-20 max-w-7xl mx-auto px-6 lg:px-8 w-full">
+        <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-4xl"
+            className="max-w-2xl"
           >
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -117,10 +117,10 @@ export default function Contact() {
               GET IN TOUCH
             </motion.div>
 
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-serif font-extrabold text-white mb-6 leading-tight">
               Contact Us
             </h1>
-            <p className="text-2xl text-white/90 leading-relaxed">
+            <p className="text-xl text-white/90 leading-relaxed">
               Let's discuss how we can partner to transform healthcare delivery across Africa
             </p>
           </motion.div>
@@ -143,7 +143,7 @@ export default function Contact() {
                   className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
                 >
                   <Icon className={`w-10 h-10 ${info.color} mb-4`} />
-                  <h3 className="text-xl font-serif text-navy mb-3">
+                  <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
                     {info.title}
                   </h3>
                   {info.details.map((detail, idx) => (
@@ -169,7 +169,7 @@ export default function Contact() {
               viewport={{ once: true }}
             >
               <div className="h-1 w-20 bg-orange mb-6" />
-              <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+              <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
                 Send Us a Message
               </h2>
               <p className="text-xl text-gray-700 leading-relaxed mb-8">
@@ -182,7 +182,7 @@ export default function Contact() {
                     <Clock className="w-6 h-6 text-blue" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-serif text-navy mb-2">
+                    <h3 className="text-xl font-serif font-semibold text-blue mb-2 leading-tight">
                       Quick Response Time
                     </h3>
                     <p className="text-gray-600">
@@ -196,7 +196,7 @@ export default function Contact() {
                     <MessageSquare className="w-6 h-6 text-teal" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-serif text-navy mb-2">
+                    <h3 className="text-xl font-serif font-semibold text-blue mb-2 leading-tight">
                       Dedicated Support
                     </h3>
                     <p className="text-gray-600">
@@ -210,7 +210,7 @@ export default function Contact() {
                     <Globe className="w-6 h-6 text-orange" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-serif text-navy mb-2">
+                    <h3 className="text-xl font-serif font-semibold text-blue mb-2 leading-tight">
                       Pan-African Coverage
                     </h3>
                     <p className="text-gray-600">
@@ -239,7 +239,7 @@ export default function Contact() {
               <form onSubmit={handleSubmit} className="bg-gray-50 p-8 rounded-lg shadow-md">
                 {/* Inquiry Type */}
                 <div className="mb-6">
-                  <label htmlFor="inquiryType" className="block text-sm font-semibold text-navy mb-2">
+                  <label htmlFor="inquiryType" className="block text-sm font-semibold text-blue mb-2">
                     Type of Inquiry *
                   </label>
                   <select
@@ -261,7 +261,7 @@ export default function Contact() {
                 {/* Name Fields */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                   <div>
-                    <label htmlFor="firstName" className="block text-sm font-semibold text-navy mb-2">
+                    <label htmlFor="firstName" className="block text-sm font-semibold text-blue mb-2">
                       First Name *
                     </label>
                     <input
@@ -276,7 +276,7 @@ export default function Contact() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="lastName" className="block text-sm font-semibold text-navy mb-2">
+                    <label htmlFor="lastName" className="block text-sm font-semibold text-blue mb-2">
                       Last Name *
                     </label>
                     <input
@@ -295,7 +295,7 @@ export default function Contact() {
                 {/* Email & Phone */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                   <div>
-                    <label htmlFor="email" className="block text-sm font-semibold text-navy mb-2">
+                    <label htmlFor="email" className="block text-sm font-semibold text-blue mb-2">
                       Email Address *
                     </label>
                     <input
@@ -310,7 +310,7 @@ export default function Contact() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="phone" className="block text-sm font-semibold text-navy mb-2">
+                    <label htmlFor="phone" className="block text-sm font-semibold text-blue mb-2">
                       Phone Number
                     </label>
                     <input
@@ -328,7 +328,7 @@ export default function Contact() {
                 {/* Company & Country */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                   <div>
-                    <label htmlFor="company" className="block text-sm font-semibold text-navy mb-2">
+                    <label htmlFor="company" className="block text-sm font-semibold text-blue mb-2">
                       Company/Organization
                     </label>
                     <input
@@ -342,7 +342,7 @@ export default function Contact() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="country" className="block text-sm font-semibold text-navy mb-2">
+                    <label htmlFor="country" className="block text-sm font-semibold text-blue mb-2">
                       Country
                     </label>
                     <input
@@ -359,7 +359,7 @@ export default function Contact() {
 
                 {/* Subject */}
                 <div className="mb-6">
-                  <label htmlFor="subject" className="block text-sm font-semibold text-navy mb-2">
+                  <label htmlFor="subject" className="block text-sm font-semibold text-blue mb-2">
                     Subject *
                   </label>
                   <input
@@ -376,7 +376,7 @@ export default function Contact() {
 
                 {/* Message */}
                 <div className="mb-6">
-                  <label htmlFor="message" className="block text-sm font-semibold text-navy mb-2">
+                  <label htmlFor="message" className="block text-sm font-semibold text-blue mb-2">
                     Message *
                   </label>
                   <textarea
@@ -441,7 +441,7 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
               Our Locations
             </h2>
             <p className="text-xl text-gray-600">
@@ -492,7 +492,7 @@ export default function Contact() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent" />
                   <div className="absolute bottom-4 left-4">
-                    <h3 className="text-2xl font-serif text-white">
+                    <h3 className="text-2xl font-serif font-semibold text-white leading-tight">
                       {location.city}
                     </h3>
                     <p className="text-white/90 text-sm">{location.country}</p>
@@ -534,7 +534,7 @@ export default function Contact() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6 leading-tight">
               Ready to Transform Healthcare Together?
             </h2>
             <p className="text-xl text-white/90 mb-8">
