@@ -100,7 +100,7 @@ export default function Contact() {
               viewport={{ once: true }}
             >
               <div className="h-1 w-20 bg-orange mb-6" />
-              <h2 className="text-4xl font-serif font-bold text-blue mb-4 leading-tight">
+              <h2 className="text-4xl font-serif font-bold text-navy mb-4 leading-tight">
                 Get in Touch
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-12">
@@ -109,21 +109,21 @@ export default function Contact() {
 
               <div className="space-y-10">
                 <div>
-                  <h3 className="text-sm font-semibold text-blue uppercase tracking-wider mb-2 leading-tight">Phone</h3>
-                  <a href="tel:+16168711799" className="text-2xl font-serif text-gray-900 hover:text-blue transition-colors">
+                  <h3 className="text-sm font-semibold text-navy uppercase tracking-wider mb-2 leading-tight">Phone</h3>
+                  <a href="tel:+16168711799" className="text-2xl font-serif text-gray-900 hover:text-navy transition-colors">
                     (616) 871-1799
                   </a>
                 </div>
 
                 <div>
-                  <h3 className="text-sm font-semibold text-blue uppercase tracking-wider mb-2 leading-tight">Email</h3>
-                  <a href="mailto:support@pacemhealth.com" className="text-2xl font-serif text-gray-900 hover:text-blue transition-colors">
+                  <h3 className="text-sm font-semibold text-navy uppercase tracking-wider mb-2 leading-tight">Email</h3>
+                  <a href="mailto:support@pacemhealth.com" className="text-2xl font-serif text-gray-900 hover:text-navy transition-colors">
                     support@pacemhealth.com
                   </a>
                 </div>
 
                 <div>
-                  <h3 className="text-sm font-semibold text-blue uppercase tracking-wider mb-2 leading-tight">Headquarters</h3>
+                  <h3 className="text-sm font-semibold text-navy uppercase tracking-wider mb-2 leading-tight">Headquarters</h3>
                   <p className="text-lg text-gray-700 leading-relaxed">
                     300 Ottawa Ave NW, 5th Floor<br />
                     Grand Rapids, MI 49503<br />
@@ -132,12 +132,12 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <h3 className="text-sm font-semibold text-blue uppercase tracking-wider mb-2 leading-tight">Business Hours</h3>
+                  <h3 className="text-sm font-semibold text-navy uppercase tracking-wider mb-2 leading-tight">Business Hours</h3>
                   <p className="text-lg text-gray-700">
-                    Monday – Friday, 8:00 AM – 6:00 PM EST
+                    Monday â Friday, 8:00 AM â 6:00 PM EST
                   </p>
                   <p className="text-sm text-gray-500 mt-1">
-                    We typically respond within 24–48 hours.
+                    We typically respond within 24â48 hours.
                   </p>
                 </div>
               </div>
@@ -151,13 +151,13 @@ export default function Contact() {
               viewport={{ once: true }}
             >
               <form onSubmit={handleSubmit} className="bg-gray-50 p-8 md:p-10 rounded-2xl">
-                <h3 className="text-2xl font-serif font-semibold text-blue mb-8 leading-tight">
+                <h3 className="text-2xl font-serif font-semibold text-navy mb-8 leading-tight">
                   Send Us a Message
                 </h3>
 
                 {/* Inquiry Type */}
                 <div className="mb-6">
-                  <label htmlFor="inquiryType" className="block text-sm font-semibold text-blue mb-2">
+                  <label htmlFor="inquiryType" className="block text-sm font-semibold text-navy mb-2">
                     Type of Inquiry *
                   </label>
                   <select
@@ -179,7 +179,7 @@ export default function Contact() {
                 {/* Name Fields */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                   <div>
-                    <label htmlFor="firstName" className="block text-sm font-semibold text-blue mb-2">
+                    <label htmlFor="firstName" className="block text-sm font-semibold text-navy mb-2">
                       First Name *
                     </label>
                     <input
@@ -194,7 +194,7 @@ export default function Contact() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="lastName" className="block text-sm font-semibold text-blue mb-2">
+                    <label htmlFor="lastName" className="block text-sm font-semibold text-navy mb-2">
                       Last Name *
                     </label>
                     <input
@@ -213,7 +213,7 @@ export default function Contact() {
                 {/* Email & Phone */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                   <div>
-                    <label htmlFor="email" className="block text-sm font-semibold text-blue mb-2">
+                    <label htmlFor="email" className="block text-sm font-semibold text-navy mb-2">
                       Email Address *
                     </label>
                     <input
@@ -228,7 +228,7 @@ export default function Contact() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="phone" className="block text-sm font-semibold text-blue mb-2">
+                    <label htmlFor="phone" className="block text-sm font-semibold text-navy mb-2">
                       Phone Number
                     </label>
                     <input
@@ -246,7 +246,7 @@ export default function Contact() {
                 {/* Company & Country */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                   <div>
-                    <label htmlFor="company" className="block text-sm font-semibold text-blue mb-2">
+                    <label htmlFor="company" className="block text-sm font-semibold text-navy mb-2">
                       Company / Organization
                     </label>
                     <input
@@ -260,7 +260,7 @@ export default function Contact() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="country" className="block text-sm font-semibold text-blue mb-2">
+                    <label htmlFor="country" className="block text-sm font-semibold text-navy mb-2">
                       Country
                     </label>
                     <input
@@ -277,7 +277,7 @@ export default function Contact() {
 
                 {/* Subject */}
                 <div className="mb-6">
-                  <label htmlFor="subject" className="block text-sm font-semibold text-blue mb-2">
+                  <label htmlFor="subject" className="block text-sm font-semibold text-navy mb-2">
                     Subject *
                   </label>
                   <input
@@ -294,7 +294,7 @@ export default function Contact() {
 
                 {/* Message */}
                 <div className="mb-8">
-                  <label htmlFor="message" className="block text-sm font-semibold text-blue mb-2">
+                  <label htmlFor="message" className="block text-sm font-semibold text-navy mb-2">
                     Message *
                   </label>
                   <textarea
