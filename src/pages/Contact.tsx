@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import { Mail, Phone, MapPin, Clock, Send, Building2, Globe, MessageSquare } from 'lucide-react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -28,12 +27,10 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
+
     setTimeout(() => {
       setIsSubmitting(false);
       setSubmitStatus('success');
-      // Reset form after success
       setTimeout(() => {
         setFormData({
           firstName: '',
@@ -50,33 +47,6 @@ export default function Contact() {
       }, 3000);
     }, 1500);
   };
-
-  const contactInfo = [
-    {
-      icon: Building2,
-      title: 'Headquarters',
-      details: ['123 Health Plaza', 'Nairobi, Kenya', 'East Africa'],
-      color: 'text-orange'
-    },
-    {
-      icon: Phone,
-      title: 'Phone',
-      details: ['+254 (0) 20 123 4567', '+234 (0) 1 234 5678', 'Mon-Fri, 8am-6pm EAT'],
-      color: 'text-blue'
-    },
-    {
-      icon: Mail,
-      title: 'Email',
-      details: ['info@pacemhealth.com', 'partnerships@pacemhealth.com', 'support@pacemhealth.com'],
-      color: 'text-teal'
-    },
-    {
-      icon: Globe,
-      title: 'Regional Offices',
-      details: ['Lagos, Nigeria', 'Accra, Ghana', 'Johannesburg, South Africa'],
-      color: 'text-blue'
-    }
-  ];
 
   const inquiryTypes = [
     { value: 'general', label: 'General Inquiry' },
@@ -100,7 +70,7 @@ export default function Contact() {
           animate={{ scale: 1 }}
           transition={{ duration: 10, ease: "easeOut" }}
         />
-        
+
         <div className="relative h-full max-w-7xl mx-auto px-6 flex items-center z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -121,122 +91,80 @@ export default function Contact() {
               Contact Us
             </h1>
             <p className="text-xl text-white/90 leading-relaxed">
-              Let's discuss how we can partner to transform healthcare delivery across Africa
+              Let's discuss how we can partner to strengthen healthcare delivery across Africa.
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* Contact Info Cards */}
-      <section className="py-20 bg-gray-50">
+      {/* Contact Info + Form Section */}
+      <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {contactInfo.map((info, index) => {
-              const Icon = info.icon;
-              return (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.1 }}
-                  className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
-                >
-                  <Icon className={`w-10 h-10 ${info.color} mb-4`} />
-                  <h3 className="text-xl font-serif font-semibold text-blue mb-3 leading-tight">
-                    {info.title}
-                  </h3>
-                  {info.details.map((detail, idx) => (
-                    <p key={idx} className="text-gray-600 text-sm mb-1">
-                      {detail}
-                    </p>
-                  ))}
-                </motion.div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-16">
 
-      {/* Contact Form Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Left Column - Form Introduction */}
+            {/* Left Column - Contact Details */}
             <motion.div
+              className="lg:col-span-2"
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
               <div className="h-1 w-20 bg-orange mb-6" />
-              <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-6 leading-tight">
-                Send Us a Message
+              <h2 className="text-4xl font-serif font-bold text-blue mb-4 leading-tight">
+                Get in Touch
               </h2>
-              <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                Whether you're a global health partner looking to enter African markets, a healthcare provider seeking solutions, or simply want to learn more about our services, we're here to help.
+              <p className="text-lg text-gray-600 leading-relaxed mb-12">
+                Whether you're a global health partner, a healthcare provider seeking solutions, or simply want to learn more, we're here to help.
               </p>
 
-              <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-blue/10 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Clock className="w-6 h-6 text-blue" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-serif font-semibold text-blue mb-2 leading-tight">
-                      Quick Response Time
-                    </h3>
-                    <p className="text-gray-600">
-                      We typically respond to inquiries within 24-48 hours during business days.
-                    </p>
-                  </div>
+              <div className="space-y-10">
+                <div>
+                  <h3 className="text-sm font-semibold text-blue uppercase tracking-wider mb-2 leading-tight">Phone</h3>
+                  <a href="tel:+16168711799" className="text-2xl font-serif text-gray-900 hover:text-blue transition-colors">
+                    (616) 871-1799
+                  </a>
                 </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-teal/10 rounded-full flex items-center justify-center flex-shrink-0">
-                    <MessageSquare className="w-6 h-6 text-teal" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-serif font-semibold text-blue mb-2 leading-tight">
-                      Dedicated Support
-                    </h3>
-                    <p className="text-gray-600">
-                      Our team of experts is ready to discuss your specific needs and provide tailored solutions.
-                    </p>
-                  </div>
+                <div>
+                  <h3 className="text-sm font-semibold text-blue uppercase tracking-wider mb-2 leading-tight">Email</h3>
+                  <a href="mailto:support@pacemhealth.com" className="text-2xl font-serif text-gray-900 hover:text-blue transition-colors">
+                    support@pacemhealth.com
+                  </a>
                 </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-orange/10 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Globe className="w-6 h-6 text-orange" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-serif font-semibold text-blue mb-2 leading-tight">
-                      Pan-African Coverage
-                    </h3>
-                    <p className="text-gray-600">
-                      With regional offices across the continent, we're always close to our partners.
-                    </p>
-                  </div>
+                <div>
+                  <h3 className="text-sm font-semibold text-blue uppercase tracking-wider mb-2 leading-tight">Headquarters</h3>
+                  <p className="text-lg text-gray-700 leading-relaxed">
+                    300 Ottawa Ave NW, 5th Floor<br />
+                    Grand Rapids, MI 49503<br />
+                    United States
+                  </p>
                 </div>
-              </div>
 
-              {/* Image */}
-              <div className="mt-10 rounded-lg overflow-hidden shadow-lg">
-                <img
-                  src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjdXN0b21lciUyMHNlcnZpY2UlMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzY3ODQxMTUyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                  alt="Customer service"
-                  className="w-full h-64 object-cover"
-                />
+                <div>
+                  <h3 className="text-sm font-semibold text-blue uppercase tracking-wider mb-2 leading-tight">Business Hours</h3>
+                  <p className="text-lg text-gray-700">
+                    Monday – Friday, 8:00 AM – 6:00 PM EST
+                  </p>
+                  <p className="text-sm text-gray-500 mt-1">
+                    We typically respond within 24–48 hours.
+                  </p>
+                </div>
               </div>
             </motion.div>
 
             {/* Right Column - Contact Form */}
             <motion.div
+              className="lg:col-span-3"
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <form onSubmit={handleSubmit} className="bg-gray-50 p-8 rounded-lg shadow-md">
+              <form onSubmit={handleSubmit} className="bg-gray-50 p-8 md:p-10 rounded-2xl">
+                <h3 className="text-2xl font-serif font-semibold text-blue mb-8 leading-tight">
+                  Send Us a Message
+                </h3>
+
                 {/* Inquiry Type */}
                 <div className="mb-6">
                   <label htmlFor="inquiryType" className="block text-sm font-semibold text-blue mb-2">
@@ -248,7 +176,7 @@ export default function Contact() {
                     value={formData.inquiryType}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue focus:border-transparent transition-all bg-white"
                   >
                     {inquiryTypes.map(type => (
                       <option key={type.value} value={type.value}>
@@ -320,7 +248,7 @@ export default function Contact() {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue focus:border-transparent transition-all"
-                      placeholder="+254 123 456 789"
+                      placeholder="+1 (555) 123-4567"
                     />
                   </div>
                 </div>
@@ -329,7 +257,7 @@ export default function Contact() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                   <div>
                     <label htmlFor="company" className="block text-sm font-semibold text-blue mb-2">
-                      Company/Organization
+                      Company / Organization
                     </label>
                     <input
                       type="text"
@@ -338,7 +266,7 @@ export default function Contact() {
                       value={formData.company}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue focus:border-transparent transition-all"
-                      placeholder="Your Company"
+                      placeholder="Your Organization"
                     />
                   </div>
                   <div>
@@ -352,7 +280,7 @@ export default function Contact() {
                       value={formData.country}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue focus:border-transparent transition-all"
-                      placeholder="Kenya"
+                      placeholder="United States"
                     />
                   </div>
                 </div>
@@ -375,7 +303,7 @@ export default function Contact() {
                 </div>
 
                 {/* Message */}
-                <div className="mb-6">
+                <div className="mb-8">
                   <label htmlFor="message" className="block text-sm font-semibold text-blue mb-2">
                     Message *
                   </label>
@@ -397,7 +325,7 @@ export default function Contact() {
                   disabled={isSubmitting || submitStatus === 'success'}
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  className={`w-full py-4 rounded-lg font-semibold text-lg flex items-center justify-center gap-2 transition-all ${
+                  className={`w-full py-4 rounded-lg font-semibold text-lg transition-all ${
                     submitStatus === 'success'
                       ? 'bg-green-500 text-white'
                       : 'bg-blue text-white hover:bg-blue/90'
@@ -405,19 +333,13 @@ export default function Contact() {
                 >
                   {isSubmitting ? (
                     <>
-                      <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                      <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin inline-block mr-2" />
                       Sending...
                     </>
                   ) : submitStatus === 'success' ? (
-                    <>
-                      <span>✓</span>
-                      Message Sent Successfully!
-                    </>
+                    'Message Sent Successfully!'
                   ) : (
-                    <>
-                      Send Message
-                      <Send className="w-5 h-5" />
-                    </>
+                    'Send Message'
                   )}
                 </motion.button>
 
@@ -436,127 +358,35 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Map/Office Locations Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <div className="h-1 w-20 bg-orange mb-4 mx-auto" />
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-blue mb-4 leading-tight">
-              Our Locations
-            </h2>
-            <p className="text-xl text-gray-600">
-              Pan-African presence with regional offices serving the continent
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                city: 'Nairobi',
-                country: 'Kenya',
-                region: 'East Africa Headquarters',
-                address: '123 Health Plaza, Westlands',
-                phone: '+254 (0) 20 123 4567',
-                image: 'https://images.unsplash.com/photo-1694702740570-0a31ee1525c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBidWlsZGluZ3xlbnwxfHx8fDE3Njc4MjAzNDB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
-              },
-              {
-                city: 'Lagos',
-                country: 'Nigeria',
-                region: 'West Africa Regional Office',
-                address: '456 Victoria Island, Lagos',
-                phone: '+234 (0) 1 234 5678',
-                image: 'https://images.unsplash.com/photo-1694702740570-0a31ee1525c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBidWlsZGluZ3xlbnwxfHx8fDE3Njc4MjAzNDB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
-              },
-              {
-                city: 'Johannesburg',
-                country: 'South Africa',
-                region: 'Southern Africa Regional Office',
-                address: '789 Sandton Drive, Sandton',
-                phone: '+27 (0) 11 234 5678',
-                image: 'https://images.unsplash.com/photo-1694702740570-0a31ee1525c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBidWlsZGluZ3xlbnwxfHx8fDE3Njc4MjAzNDB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
-              }
-            ].map((location, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300"
-              >
-                <div className="relative h-48 overflow-hidden">
-                  <img
-                    src={location.image}
-                    alt={location.city}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent" />
-                  <div className="absolute bottom-4 left-4">
-                    <h3 className="text-2xl font-serif font-semibold text-white leading-tight">
-                      {location.city}
-                    </h3>
-                    <p className="text-white/90 text-sm">{location.country}</p>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <p className="text-sm font-semibold text-orange mb-3">
-                    {location.region}
-                  </p>
-                  <div className="space-y-2 text-gray-600">
-                    <div className="flex items-start gap-2">
-                      <MapPin className="w-4 h-4 text-blue mt-1 flex-shrink-0" />
-                      <span className="text-sm">{location.address}</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <Phone className="w-4 h-4 text-blue flex-shrink-0" />
-                      <span className="text-sm">{location.phone}</span>
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
-      <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-navy/95 z-10" />
-        <motion.img
-          src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGNvbW11bmljYXRpb258ZW58MXx8fHwxNzY3OTA2NjEyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-          alt="Contact background"
-          className="absolute inset-0 w-full h-full object-cover opacity-20"
-        />
-        
-        <div className="relative z-20 max-w-4xl mx-auto px-6 text-center">
+      <section className="py-20 bg-navy">
+        <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6 leading-tight">
-              Ready to Transform Healthcare Together?
+              Ready to Partner With Us?
             </h2>
-            <p className="text-xl text-white/90 mb-8">
-              Join the leading healthcare partners across Africa who trust Pacem Health to deliver excellence
+            <p className="text-xl text-white/90 mb-10">
+              Join the healthcare partners across Africa who trust Pacem Health to deliver quality, reliability, and reach.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <motion.a
-                href="tel:+254201234567"
+                href="tel:+16168711799"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-orange text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-orange/90 transition-colors flex items-center gap-2"
+                className="bg-orange text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-orange/90 transition-colors"
               >
-                <Phone className="w-5 h-5" />
-                Call Us Now
+                Call (616) 871-1799
               </motion.a>
               <motion.a
-                href="mailto:info@pacemhealth.com"
+                href="mailto:support@pacemhealth.com"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/20 transition-colors flex items-center gap-2"
+                className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/20 transition-colors"
               >
-                <Mail className="w-5 h-5" />
                 Email Us
               </motion.a>
             </div>
