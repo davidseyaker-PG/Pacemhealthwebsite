@@ -50,7 +50,7 @@ export default function Careers() {
       icon: Stethoscope,
       title: 'Clinical & Pharmacy',
       description: 'Pharmacists, clinical advisors, pharmacy operations',
-      color: 'bg-teal',
+      color: 'bg-green',
       count: 'View Roles'
     },
     {
@@ -78,7 +78,7 @@ export default function Careers() {
       icon: GraduationCap,
       title: 'Training & Education',
       description: 'Healthcare training, capacity building, curriculum development',
-      color: 'bg-teal',
+      color: 'bg-green',
       count: 'View Roles'
     },
     {
@@ -102,7 +102,7 @@ export default function Careers() {
       title: 'Healthcare Development Program',
       description: 'Build sustainable healthcare systems in under-resourced communities across Africa',
       icon: Heart,
-      color: 'from-blue to-teal',
+      color: 'from-blue to-green',
       link: '/programs/healthcare-development'
     },
     {
@@ -116,7 +116,7 @@ export default function Careers() {
       title: 'Pediatric Pharmacy Program',
       description: 'Specialized program for improving child health outcomes through pharmaceutical care',
       icon: Sparkles,
-      color: 'from-teal to-blue',
+      color: 'from-green to-blue',
       link: '/programs/pediatric-pharmacy'
     },
     {
@@ -130,7 +130,7 @@ export default function Careers() {
       title: 'Social Enterprise Program',
       description: 'Community-based healthcare solutions that create sustainable local impact',
       icon: Users,
-      color: 'from-orange to-teal',
+      color: 'from-orange to-green',
       link: '/programs'
     }
   ];
@@ -593,7 +593,7 @@ export default function Careers() {
             className="bg-white rounded-2xl shadow-xl overflow-hidden"
           >
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-              <div className="relative h-80 lg:h-full bg-gradient-to-br from-blue/5 to-teal/5 flex items-center justify-center p-8">
+              <div className="relative h-80 lg:h-full bg-gradient-to-br from-blue/5 to-green/5 flex items-center justify-center p-8">
                 <AdaChatDemo />
               </div>
               
@@ -616,7 +616,7 @@ export default function Careers() {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center gap-2"
+                  className="bg-green hover:bg-green-light text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center gap-2"
                 >
                   Chat with Ada
                   <ArrowRight className="w-5 h-5" />
@@ -628,7 +628,7 @@ export default function Careers() {
       </section>
 
       {/* Talent Community CTA */}
-      <section className="py-20 bg-gradient-to-r from-purple-600 to-purple-700 text-white">
+      <section className="py-20 bg-gradient-to-r from-navy to-navy-light text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -646,7 +646,7 @@ export default function Careers() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-white text-purple-600 hover:bg-gray-100 px-10 py-5 rounded-lg font-semibold transition-all duration-300 inline-flex items-center gap-3 text-lg"
+              className="bg-white text-navy hover:bg-gray-100 px-10 py-5 rounded-lg font-semibold transition-all duration-300 inline-flex items-center gap-3 text-lg"
             >
               <Mail className="w-6 h-6" />
               JOIN OUR TALENT COMMUNITY
