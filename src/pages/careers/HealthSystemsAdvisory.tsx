@@ -97,7 +97,7 @@ export default function HealthSystemsAdvisory() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6">
+            <h1 className="text-6xl lg:text-7xl font-serif font-extrabold leading-tight text-white mb-6">
               Health Systems Advisory Careers
             </h1>
             <p className="text-xl text-white/90 max-w-3xl leading-relaxed mb-12">
@@ -143,7 +143,7 @@ export default function HealthSystemsAdvisory() {
                   <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5 pointer-events-none" />
                 </div>
                 <div className="md:col-span-2">
-                  <button className="w-full bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300">
+                  <button className="w-full bg-green hover:bg-green-light text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300">
                     Search
                   </button>
                 </div>
@@ -166,7 +166,7 @@ export default function HealthSystemsAdvisory() {
                 className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 sticky top-6"
               >
                 <div className="flex items-center justify-between mb-6">
-                  <h3 className="font-bold text-navy">Refine Your Search</h3>
+                  <h3 className="font-serif font-semibold leading-tight text-navy">Refine Your Search</h3>
                   <button className="text-sm text-gray-400 hover:text-gray-600">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
@@ -292,7 +292,7 @@ export default function HealthSystemsAdvisory() {
 
                 {/* Job Count and Sort */}
                 <div className="bg-white px-6 py-4 flex items-center justify-between border-b border-gray-200">
-                  <h2 className="text-2xl font-bold text-blue">
+                  <h2 className="text-2xl font-serif font-bold leading-tight text-navy">
                     {filteredJobs.length} Jobs
                   </h2>
                   <div className="flex items-center gap-2">
@@ -348,10 +348,10 @@ export default function HealthSystemsAdvisory() {
                       </p>
 
                       <div className="flex items-center gap-3 mb-4">
-                        <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-xs font-medium">
+                        <span className="px-3 py-1 bg-navy/10 text-navy rounded-full text-xs font-medium">
                           {job.employmentType}
                         </span>
-                        <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">
+                        <span className="px-3 py-1 bg-blue/10 text-blue rounded-full text-xs font-medium">
                           {job.level}
                         </span>
                         {job.tags.map((tag, i) => (
@@ -361,7 +361,7 @@ export default function HealthSystemsAdvisory() {
                         ))}
                       </div>
 
-                      <div className="bg-orange-50 border border-orange-200 rounded-lg p-4">
+                      <div className="bg-orange/5 border border-orange/20 rounded-lg p-4">
                         <p className="text-sm text-gray-700">
                           <strong>To Apply:</strong> Send your resume to{' '}
                           <a href="mailto:careers@pacemhealth.com" className="text-blue hover:text-blue/80 font-semibold">
