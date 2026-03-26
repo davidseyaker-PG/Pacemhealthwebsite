@@ -846,8 +846,8 @@ export default function Investors() {
                     <div>
                       <div className="font-semibold mb-1">Address</div>
                       <div className="text-white/80">
-                        1776 I Street NW<br />
-                        Washington, D.C. 20006<br />
+                        300 Ottawa Ave NW, 5th Floor<br />
+                        Grand Rapids, MI 49503<br />
                         United States
                       </div>
                     </div>
@@ -857,8 +857,8 @@ export default function Investors() {
                     <Phone className="w-5 h-5 text-orange flex-shrink-0 mt-1" />
                     <div>
                       <div className="font-semibold mb-1">Phone</div>
-                      <a href="tel:+12025551234" className="text-white/80 hover:text-orange transition-colors">
-                        +1 (202) 555-1234
+                      <a href="tel:+16168711799" className="text-white/80 hover:text-orange transition-colors">
+                        (616) 871-1799
                       </a>
                     </div>
                   </div>
