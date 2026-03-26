@@ -67,7 +67,7 @@ export default function Support() {
       icon: Phone,
       title: 'Call Us',
       description: 'Speak with our support team',
-      detail: '+1 (800) 555-PACEM',
+      detail: '(616) 871-1799',
       color: 'bg-blue'
     },
     {
@@ -75,7 +75,7 @@ export default function Support() {
       title: 'Email Us',
       description: 'Send us your questions',
       detail: 'support@pacemhealth.com',
-      color: 'bg-teal'
+      color: 'bg-green'
     },
     {
       icon: MessageCircle,
@@ -99,7 +99,7 @@ export default function Support() {
       title: 'Technical Support',
       description: 'Expert assistance for equipment troubleshooting, maintenance, and technical issues.',
       image: 'https://images.unsplash.com/photo-1724260793422-7754e5d06fbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNobmljYWwlMjBzdXBwb3J0JTIwZW5naW5lZXIlMjBjb21wdXRlcnxlbnwxfHx8fDE3Njc5MjQ3MDR8MA&ixlib=rb-4.1.0&q=80&w=1080',
-      color: 'bg-teal'
+      color: 'bg-green'
     },
     {
       icon: Server,
@@ -144,7 +144,7 @@ export default function Support() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue via-blue to-blue/90 py-16 sm:py-20 lg:py-24">
+      <section className="relative bg-gradient-to-br from-navy via-navy to-navy/90 py-16 sm:py-20 lg:py-24">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.1),transparent)]"></div>
         </div>
@@ -156,7 +156,7 @@ export default function Support() {
             variants={fadeInUp}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif text-white mb-4 sm:mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-extrabold leading-tight text-white mb-4 sm:mb-6">
               How Can We Help?
             </h1>
             <p className="text-lg sm:text-xl text-white/90 mb-8 sm:mb-10 max-w-3xl mx-auto">
@@ -190,7 +190,7 @@ export default function Support() {
             variants={fadeInUp}
             className="text-center mb-10 sm:mb-12"
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-navy mb-3 sm:mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-3 sm:mb-4">
               Get In Touch
             </h2>
             <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
@@ -212,7 +212,7 @@ export default function Support() {
                 <div className={`inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 ${method.color} rounded-full mb-4 sm:mb-6 group-hover:scale-110 transition-transform`}>
                   <method.icon className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
                 </div>
-                <h3 className="text-xl sm:text-2xl font-serif text-navy mb-2">
+                <h3 className="text-xl sm:text-2xl font-serif font-semibold leading-tight text-navy mb-2">
                   {method.title}
                 </h3>
                 <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">
@@ -237,7 +237,7 @@ export default function Support() {
             variants={fadeInUp}
             className="text-center mb-10 sm:mb-12"
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-navy mb-3 sm:mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-3 sm:mb-4">
               Featured Support Services
             </h2>
             <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
@@ -271,7 +271,7 @@ export default function Support() {
                     </div>
                   </div>
                   <div className="p-5 sm:p-6">
-                    <h3 className="text-lg sm:text-xl font-serif text-navy mb-2 sm:mb-3">
+                    <h3 className="text-lg sm:text-xl font-serif font-semibold leading-tight text-navy mb-2 sm:mb-3">
                       {service.title}
                     </h3>
                     <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
@@ -295,7 +295,7 @@ export default function Support() {
             variants={fadeInUp}
             className="text-center mb-10 sm:mb-12"
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-navy mb-3 sm:mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-3 sm:mb-4">
               What do you need help with?
             </h2>
             <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
@@ -336,7 +336,7 @@ export default function Support() {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-navy mb-3 sm:mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-3 sm:mb-4">
               Need Immediate Assistance?
             </h2>
             <p className="text-base sm:text-lg text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto">
@@ -364,7 +364,7 @@ export default function Support() {
             className="bg-white rounded-2xl p-5 sm:p-6 max-w-3xl w-full max-h-[95vh] overflow-y-auto"
           >
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-xl sm:text-2xl font-serif text-navy">Submit a Support Ticket</h2>
+              <h2 className="text-xl sm:text-2xl font-serif font-bold leading-tight text-navy">Submit a Support Ticket</h2>
               <button
                 className="text-gray-500 hover:text-gray-700 transition-colors"
                 onClick={() => setShowTicketForm(false)}
