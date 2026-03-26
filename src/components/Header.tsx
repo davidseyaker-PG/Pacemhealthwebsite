@@ -189,21 +189,21 @@ export function Header() {
                   {/* View All Solutions Link */}
                   <div className="border-t border-gray-200 mt-4 pt-3 px-4">
                     <Link href="/" className="text-blue hover:text-navy font-heading font-semibold text-sm flex items-center gap-1 transition-colors">
-                      View All Solutions →
+                      View All Solutions ->
                     </Link>
                   </div>
 
                   {/* Support Link */}
                   <div className="border-t border-gray-200 mt-2 pt-3 px-4">
                     <Link href="/support" className="text-orange hover:text-orange/80 font-heading font-semibold text-sm flex items-center gap-1 transition-colors">
-                      Need Help? Visit Support Center →
+                      Need Help? Visit Support Center ->
                     </Link>
                   </div>
 
                   {/* Shop Link */}
                   <div className="border-t border-gray-200 mt-2 pt-3 px-4">
                     <Link href="/shop" className="text-blue hover:text-navy font-heading font-semibold text-sm flex items-center gap-1 transition-colors">
-                      Browse Products in Our Shop →
+                      Browse Products in Our Shop ->
                     </Link>
                   </div>
                 </div>
@@ -226,15 +226,18 @@ export function Header() {
                 <ChevronDown className="w-4 h-4" />
               </button>
               {openDropdown === 'logins' && (
-                <div className="absolute top-full right-0 mt-2 w-56 bg-white shadow-lg rounded-lg border border-gray-200 py-2 animate-in fade-in slide-in-from-top-1 duration-150">
-                  <Link href="/login/portal" className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-navy transition-colors">
-                    Healthcare Portal
+                <div className="absolute top-full right-0 mt-2 w-72 bg-white shadow-lg rounded-lg border border-gray-200 py-2 animate-in fade-in slide-in-from-top-1 duration-150">
+                  <Link href="/login/portal" className="block px-4 py-3 hover:bg-gray-50 transition-colors">
+                    <div className="font-heading font-semibold text-navy text-sm">Product Catalog</div>
+                    <div className="text-xs text-gray-500">Browse products, specs, and place orders</div>
                   </Link>
-                  <Link href="/login/supplier" className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-navy transition-colors">
-                    Supplier Login
+                  <Link href="/login/supplier" className="block px-4 py-3 hover:bg-gray-50 transition-colors">
+                    <div className="font-heading font-semibold text-navy text-sm">Supplier Login</div>
+                    <div className="text-xs text-gray-500">For upstream supply chain partners</div>
                   </Link>
-                  <Link href="/login/pharmacy" className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-navy transition-colors">
-                    Pharmacy Connect
+                  <Link href="/login/pharmacy" className="block px-4 py-3 hover:bg-gray-50 transition-colors">
+                    <div className="font-heading font-semibold text-navy text-sm">Pharmacy Connect</div>
+                    <div className="text-xs text-gray-500">Partner portal for pharmacy clients</div>
                   </Link>
                 </div>
               )}

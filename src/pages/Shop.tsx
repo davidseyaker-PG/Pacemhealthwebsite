@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
-import { Package, GraduationCap, TestTube, Stethoscope, Wrench, Snowflake, Smartphone, RefreshCw, ShoppingCart, Globe, ShieldCheck, Headphones, ArrowRight, FileDown, X, Building2, User, Mail, Phone, MapPin, Calendar, Package2, MessageSquare } from 'lucide-react';
+import { Package, GraduationCap, TestTube, Stethoscope, Wrench, Snowflake, Smartphone, RefreshCw, ShoppingCart, Globe, ShieldCheck, Headphones, ArrowRight, FileDown, X, Building2, User, Mail, Phone, MapPin, Calendar, Package2, MessageSquare, Lock } from 'lucide-react';
+import { Link } from 'wouter';
 import { useState } from 'react';
 
 export default function Shop() {
@@ -146,8 +147,11 @@ export default function Shop() {
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-extrabold leading-tight text-white mb-4 sm:mb-6">
               Pacem Health Shop
             </h1>
-            <p className="text-lg sm:text-xl text-white/90 max-w-3xl mx-auto">
-              Quality medical equipment, training tools, and healthcare solutions for Sub-Saharan Africa
+            <p className="text-lg sm:text-xl text-white/90 max-w-3xl mx-auto mb-6">
+              Browse our general catalog, download product guides, and connect with our team to place orders for training tools, equipment accessories, and healthcare supplies.
+            </p>
+            <p className="text-sm text-white/60 max-w-2xl mx-auto">
+              Looking for regulated pharmaceuticals or full product specifications? Access our <Link href="/login/portal" className="text-orange underline hover:text-orange/80">Healthcare Portal</Link> for the complete catalog.
             </p>
           </motion.div>
         </div>
@@ -319,6 +323,36 @@ export default function Shop() {
                 <FileDown className="w-5 h-5" />
               </motion.button>
             </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Healthcare Portal Callout */}
+      <section className="py-12 sm:py-16 lg:py-20 bg-navy">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeInUp}
+            className="text-center"
+          >
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-blue rounded-full mb-6">
+              <Lock className="w-8 h-8 text-white" />
+            </div>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold leading-tight text-white mb-3 sm:mb-4">
+              Need Access to Our Full Product Catalog?
+            </h2>
+            <p className="text-base sm:text-lg text-white/80 mb-8 max-w-2xl mx-auto">
+              Our Healthcare Portal provides tiered access to regulated pharmaceuticals, full product specifications, pricing, and order management. Register for an account or browse as a guest.
+            </p>
+            <Link
+              href="/login/portal"
+              className="inline-flex items-center justify-center gap-2 bg-orange text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium hover:bg-orange/90 transition-all shadow-lg"
+            >
+              Go to Healthcare Portal
+              <ArrowRight className="w-5 h-5" />
+            </Link>
           </motion.div>
         </div>
       </section>
