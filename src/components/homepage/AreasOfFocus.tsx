@@ -103,7 +103,7 @@ export function AreasOfFocus() {
                   <div className="border-t-4 border-green p-6">
                     <h3 className="text-blue font-heading font-semibold hover:text-blue-light transition-colors duration-300 flex items-center gap-2">
                       {area.title}
-                      <span className="group-hover:translate-x-1 transition-transform duration-300">></span>
+                      <span className="group-hover:translate-x-1 transition-transform duration-300">{'>'}</span>
                     </h3>
                   </div>
                 </div>
