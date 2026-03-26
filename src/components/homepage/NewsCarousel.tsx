@@ -95,14 +95,14 @@ export function NewsCarousel() {
             {newsStories.map((story, index) => (
               <motion.div
                 key={index}
-                className="min-w-[calc(33.333%-16px)] group cursor-pointer"
+                className="min-w-[calc(33.333%-16px)] group cursor-pointer h-full"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
               >
-                <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
-                  <div className="overflow-hidden h-56">
+                <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 h-full flex flex-col">
+                  <div className="overflow-hidden h-56 flex-shrink-0">
                     <motion.img
                       src={story.image}
                       alt={story.title}
@@ -110,8 +110,8 @@ export function NewsCarousel() {
                       whileHover={{ scale: 1.1 }}
                     />
                   </div>
-                  <div className="border-t-4 border-green p-6">
-                    <h3 className="text-navy font-heading font-semibold mb-4 leading-snug">{story.title}</h3>
+                  <div className="border-t-4 border-green p-6 flex flex-col flex-grow">
+                    <h3 className="text-navy font-heading font-semibold mb-4 leading-snug flex-grow">{story.title}</h3>
                     <Link
                       href={story.link}
                       className="text-blue hover:text-blue-light transition-colors duration-300 inline-flex items-center gap-1"

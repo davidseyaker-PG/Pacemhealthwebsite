@@ -2,26 +2,30 @@ import { motion } from 'motion/react';
 
 const stats = [
   {
-    value: 'WHO-approved',
-    description: 'Quality-assured certification meeting international healthcare standards',
+    value: '25+',
+    label: 'TARGET COUNTRIES',
+    description: 'Planned market presence across African nations by 2027',
     background: 'bg-blue',
     textColor: 'text-white',
   },
   {
-    value: '15+',
-    description: 'Countries served across Africa with reliable infrastructure and distribution networks',
+    value: '1,500+',
+    label: 'PARTNER FACILITIES',
+    description: 'Target healthcare facilities in our distribution and service network',
     background: 'bg-navy',
     textColor: 'text-white',
   },
   {
-    value: '3M+',
-    description: 'Patients and communities reached through our distribution and service networks',
+    value: '15M+',
+    label: 'LIVES IMPACTED',
+    description: 'Projected reach through our healthcare solutions and partnerships',
     background: 'bg-navy',
     textColor: 'text-white',
   },
   {
-    value: '50+',
-    description: 'Healthcare partners collaborating to expand equitable access and outcomes',
+    value: '200%',
+    label: 'GROWTH TARGET',
+    description: 'Projected year-over-year revenue growth as we scale operations',
     background: 'bg-navy',
     textColor: 'text-white',
   },
@@ -40,10 +44,10 @@ export function StatsSection() {
         >
           <div className="w-16 h-1 bg-green mx-auto mb-6" />
           <h2 className="text-4xl md:text-5xl font-heading font-extrabold mb-4">
-            Pacem Health: Company at a Glance
+            Our Strategic Growth Targets
           </h2>
           <p className="text-xl text-gray-300">
-            Built to scale. Ready to deliver. Positioned for impact across Africa.
+            Building the infrastructure to transform healthcare across Africa.
           </p>
         </motion.div>
 
@@ -58,11 +62,24 @@ export function StatsSection() {
               whileHover={{ y: -5 }}
               className={`${stat.background} ${stat.textColor} rounded-lg p-8 shadow-lg hover:shadow-2xl transition-all duration-300`}
             >
-              <div className="text-4xl md:text-5xl font-heading font-extrabold mb-4 text-green">{stat.value}</div>
+              <div className="text-4xl md:text-5xl font-heading font-extrabold mb-2 text-green">{stat.value}</div>
+              <div className="text-sm font-heading font-bold tracking-wider text-orange mb-3">{stat.label}</div>
               <p className="leading-relaxed opacity-90">{stat.description}</p>
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.5 }}
+          className="mt-8 text-center"
+        >
+          <p className="text-sm text-gray-400 max-w-3xl mx-auto">
+            Pacem Health is an early-stage company. These figures represent strategic growth targets and are subject to market conditions, successful capital raises, and execution of our business plan. They are not guarantees of future performance.
+          </p>
+        </motion.div>
       </div>
     </section>
   );
