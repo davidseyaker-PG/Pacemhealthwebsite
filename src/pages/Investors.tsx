@@ -44,7 +44,7 @@ export default function Investors() {
             transition={{ duration: 0.6 }}
             className="max-w-4xl"
           >
-            <h1 className="text-6xl lg:text-7xl font-serif text-white mb-6">
+            <h1 className="text-6xl lg:text-7xl font-serif font-extrabold leading-tight text-white mb-6">
               Invest in Africa's Healthcare Future
             </h1>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
@@ -65,15 +65,15 @@ export default function Investors() {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-8">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-8">
               Corporate Overview
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto mb-8">
-              Pacem Health is a leading health systems integrator focused on strengthening healthcare delivery across sub-Saharan Africa. We partner with governments, development organizations, and healthcare institutions to build resilient, self-sustaining health infrastructure through integrated pharmaceutical supply chains, medical equipment provisioning, healthcare facility development, and digital health solutions—creating sustainable value while transforming health outcomes for millions.
+              Pacem Health is a leading health systems integrator focused on strengthening healthcare delivery across sub-Saharan Africa. We partner with governments, development organizations, and healthcare institutions to build resilient, self-sustaining health infrastructure through integrated pharmaceutical supply chains, medical equipment provisioning, healthcare facility development, and digital health solutions -- creating sustainable value while transforming health outcomes for millions.
             </p>
             <Link
               href="/corporate-overview"
-              className="inline-flex items-center gap-2 bg-[#0d2d4a] text-white hover:bg-[#0d2d4a]/90 px-8 py-4 rounded-lg font-semibold transition-all duration-300 group"
+              className="inline-flex items-center gap-2 bg-navy text-white hover:bg-navy/90 px-8 py-4 rounded-lg font-semibold transition-all duration-300 group"
             >
               READ MORE
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -95,7 +95,7 @@ export default function Investors() {
             <div className="flex items-center justify-between">
               <div>
                 <div className="text-sm font-bold text-orange tracking-wider mb-2">FEATURED UPDATES</div>
-                <h2 className="text-3xl font-serif text-navy">Latest Developments</h2>
+                <h2 className="text-3xl font-serif font-bold leading-tight text-navy">Latest Developments</h2>
               </div>
               <a 
                 href="/news" 
@@ -130,7 +130,7 @@ export default function Investors() {
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 p-8 z-20">
                   <div className="text-white/80 text-sm mb-3 font-semibold">January 15, 2026</div>
-                  <h3 className="text-2xl lg:text-3xl font-serif text-white mb-3 leading-tight">
+                  <h3 className="text-2xl lg:text-3xl font-serif font-semibold text-white mb-3 leading-tight">
                     Pacem Health Secures $45M Partnership with African Development Bank
                   </h3>
                   <p className="text-white/90 leading-relaxed">
@@ -158,7 +158,7 @@ export default function Investors() {
                     </span>
                   </div>
                   <div className="text-gray-500 text-sm mb-2 font-semibold">January 12, 2026</div>
-                  <h3 className="text-xl font-serif text-navy mb-3 leading-tight group-hover:text-navy transition-colors">
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3 group-hover:text-navy transition-colors">
                     Kenya Operations Launch: First 50 Healthcare Facilities Onboarded
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed line-clamp-3">
@@ -189,12 +189,12 @@ export default function Investors() {
               >
                 <div className="flex-1">
                   <div className="mb-3">
-                    <span className="bg-teal/10 text-teal px-3 py-1 rounded-full text-xs font-bold tracking-wider">
+                    <span className="bg-green/10 text-green px-3 py-1 rounded-full text-xs font-bold tracking-wider">
                       FINANCIAL MILESTONE
                     </span>
                   </div>
                   <div className="text-gray-500 text-sm mb-2 font-semibold">January 8, 2026</div>
-                  <h3 className="text-xl font-serif text-navy mb-3 leading-tight group-hover:text-navy transition-colors">
+                  <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3 group-hover:text-navy transition-colors">
                     Q4 2025 Revenue Exceeds Projections by 40%, Signaling Strong Market Demand
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed line-clamp-3">
@@ -220,7 +220,7 @@ export default function Investors() {
       </section>
 
       {/* Annual Stakeholder Report Section */}
-      <section className="py-20 bg-[#5B9BD5]">
+      <section className="py-20 bg-blue">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -229,7 +229,7 @@ export default function Investors() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-white mb-6">
               2025 Annual Stakeholder Report
             </h2>
             <p className="text-lg text-white/90 max-w-3xl mx-auto">
@@ -307,7 +307,7 @@ export default function Investors() {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="text-center"
           >
-            <button className="inline-flex items-center gap-2 bg-white text-[#5B9BD5] hover:bg-white/90 px-8 py-4 rounded-lg font-semibold transition-all duration-300">
+            <button className="inline-flex items-center gap-2 bg-white text-blue hover:bg-white/90 px-8 py-4 rounded-lg font-semibold transition-all duration-300">
               <Download className="w-5 h-5" />
               Download Complete 2025 Report
             </button>
@@ -325,7 +325,7 @@ export default function Investors() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-6">
               Latest Quarterly Updates
             </h2>
             <div className="text-5xl font-bold text-navy mb-2">Q4</div>
@@ -401,7 +401,7 @@ export default function Investors() {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="text-center"
           >
-            <button className="inline-flex items-center gap-2 bg-[#0d2d4a] text-white hover:bg-[#0d2d4a]/90 px-8 py-4 rounded-lg font-semibold transition-all duration-300">
+            <button className="inline-flex items-center gap-2 bg-navy text-white hover:bg-navy/90 px-8 py-4 rounded-lg font-semibold transition-all duration-300">
               VIEW ALL QUARTERLY UPDATES
             </button>
           </motion.div>
@@ -418,7 +418,7 @@ export default function Investors() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-6">
               A Massive Market Opportunity
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -461,7 +461,7 @@ export default function Investors() {
             >
               <div className="text-5xl font-bold mb-2 text-navy">$66B</div>
               <div className="text-xl font-semibold mb-3 text-navy">Infrastructure Gap</div>
-              <div className="text-gray-600">Annual healthcare infrastructure gap requiring immediate investment and innovative solutions</div>
+              <div className="text-gray-600">Annual healthcare infrastructure gap requiring immediate investment and practical solutions</div>
             </motion.div>
           </div>
         </div>
@@ -476,7 +476,7 @@ export default function Investors() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-12">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-12">
               Why Pacem Health
             </h2>
             
@@ -486,9 +486,9 @@ export default function Investors() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
-                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-[#4a9fd8]"
+                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-blue"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">Integrated Solutions Platform</h3>
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">Integrated Solutions Platform</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Complete healthcare value chain from pharmaceutical supply to digital health, 
                   providing end-to-end solutions that address Africa's unique healthcare challenges.
@@ -500,9 +500,9 @@ export default function Investors() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-[#f37321]"
+                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-orange"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">Government & Institutional Focus</h3>
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">Government & Institutional Focus</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Strategic partnerships with ministries of health, development banks, and large healthcare 
                   institutions provide stable, long-term revenue opportunities and market access.
@@ -514,9 +514,9 @@ export default function Investors() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-[#00a3ad]"
+                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-green"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">Proven Business Model</h3>
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">Proven Business Model</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Built on decades of pharmaceutical distribution expertise from McKesson, the largest 
                   healthcare company in the U.S., adapted specifically for African markets.
@@ -528,9 +528,9 @@ export default function Investors() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.3 }}
-                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-[#0d2d4a]"
+                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-navy"
               >
-                <h3 className="text-xl font-serif text-navy mb-3">Experienced Leadership</h3>
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-3">Experienced Leadership</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Founded by pharmaceutical industry veterans with combined 100+ years of experience 
                   across 30+ African countries, backed by deep operational expertise.
@@ -551,7 +551,7 @@ export default function Investors() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-6">
               Ambitious Growth Roadmap
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -642,7 +642,7 @@ export default function Investors() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-6">
               Target Strategic Partnerships
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -660,7 +660,7 @@ export default function Investors() {
               className="bg-gradient-to-br from-gray-50 to-white rounded-xl p-8 border border-gray-200 hover:shadow-xl transition-all duration-300"
             >
               <div className="text-orange font-bold mb-4">TARGET PARTNERSHIP</div>
-              <h3 className="text-xl font-serif text-navy mb-4">African Development Bank</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-4">African Development Bank</h3>
               <p className="text-gray-600 mb-4">
                 Multi-year collaboration framework focused on healthcare infrastructure development 
                 across 12+ African countries.
@@ -679,7 +679,7 @@ export default function Investors() {
               className="bg-gradient-to-br from-gray-50 to-white rounded-xl p-8 border border-gray-200 hover:shadow-xl transition-all duration-300"
             >
               <div className="text-orange font-bold mb-4">TARGET PARTNERSHIP</div>
-              <h3 className="text-xl font-serif text-navy mb-4">Ministry of Health, Kenya</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-4">Ministry of Health, Kenya</h3>
               <p className="text-gray-600 mb-4">
                 Strategic memorandum of understanding for integrated healthcare delivery 
                 across 15+ counties.
@@ -698,7 +698,7 @@ export default function Investors() {
               className="bg-gradient-to-br from-gray-50 to-white rounded-xl p-8 border border-gray-200 hover:shadow-xl transition-all duration-300"
             >
               <div className="text-orange font-bold mb-4">TARGET PARTNERSHIP</div>
-              <h3 className="text-xl font-serif text-navy mb-4">Government of Ghana</h3>
+              <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-4">Government of Ghana</h3>
               <p className="text-gray-600 mb-4">
                 National healthcare program targeting 75,000+ patients through community 
                 health initiatives.
@@ -722,7 +722,7 @@ export default function Investors() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-serif mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight mb-6">
               Aligned with UN Sustainable Development Goals
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
@@ -815,7 +815,7 @@ export default function Investors() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-6">
               Investment Inquiries
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -828,7 +828,7 @@ export default function Investors() {
             {/* Contact Information */}
             <div className="lg:col-span-1">
               <div className="bg-navy rounded-xl p-8 text-white h-full">
-                <h3 className="text-xl font-serif mb-6">Contact Information</h3>
+                <h3 className="text-xl font-serif font-semibold leading-tight mb-6">Contact Information</h3>
                 
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
@@ -985,7 +985,7 @@ export default function Investors() {
       </section>
 
       {/* Bottom CTA */}
-      <section className="py-16 bg-gradient-to-r from-blue to-teal text-white">
+      <section className="py-16 bg-gradient-to-r from-navy to-navy-light text-white">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -993,7 +993,7 @@ export default function Investors() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl font-serif mb-4">
+            <h2 className="text-3xl font-serif font-bold leading-tight mb-4">
               Ready to Join Africa's Healthcare Revolution?
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
