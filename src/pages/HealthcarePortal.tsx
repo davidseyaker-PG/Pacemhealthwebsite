@@ -5,6 +5,7 @@ import { Eye, UserPlus, Handshake, ArrowRight, ShieldCheck, Package, FileText, C
 
 export default function HealthcarePortal() {
   const [showRegisterForm, setShowRegisterForm] = useState(false);
+  const [showContactSales, setShowContactSales] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -206,7 +207,7 @@ export default function HealthcarePortal() {
                   <motion.button
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    onClick={() => tier.name === 'Registered Customer' ? setShowRegisterForm(true) : undefined}
+                    onClick={() => tier.name === 'Registered Customer' ? setShowRegisterForm(true) : tier.name === 'Verified Partner' ? setShowContactSales(true) : undefined}
                     className={`w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-medium transition-all ${tier.actionStyle}`}
                   >
                     {tier.action}
@@ -392,6 +393,107 @@ export default function HealthcarePortal() {
                 </motion.button>
               </div>
             </form>
+          </motion.div>
+        </div>
+      )}
+
+      {/* Contact Sales Modal */}
+      {showContactSales && (
+        <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 p-4 overflow-y-auto">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.95 }}
+            className="bg-white rounded-2xl shadow-2xl max-w-lg w-full my-8"
+          >
+            <div className="bg-gradient-to-r from-navy to-blue p-6 sm:p-8 rounded-t-2xl">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h2 className="text-2xl sm:text-3xl font-serif font-bold leading-tight text-white mb-2">
+                    Become a Verified Partner
+                  </h2>
+                  <p className="text-white/90 text-sm sm:text-base">
+                    Priority access, contract pricing, and dedicated support
+                  </p>
+                </div>
+                <button
+                  className="text-white/80 hover:text-white transition-colors"
+                  onClick={() => setShowContactSales(false)}
+                >
+                  <X className="w-6 h-6" />
+                </button>
+              </div>
+            </div>
+
+            <div className="p-6 sm:p-8">
+              <p className="text-gray-700 mb-6">
+                Contact our sales team to discuss partnership terms. Once a formal agreement is in place, your organization will be upgraded to Partner-level access with contract pricing, priority fulfillment, a dedicated account manager, and API integration.
+              </p>
+
+              <div className="space-y-4 mb-6">
+                <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-xl">
+                  <div className="inline-flex items-center justify-center w-10 h-10 bg-blue rounded-full flex-shrink-0">
+                    <Mail className="w-5 h-5 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-gray-500 font-medium">Email</p>
+                    <a href="mailto:sales@pacemhealth.com" className="text-blue font-semibold hover:underline">
+                      sales@pacemhealth.com
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-xl">
+                  <div className="inline-flex items-center justify-center w-10 h-10 bg-blue rounded-full flex-shrink-0">
+                    <Phone className="w-5 h-5 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-gray-500 font-medium">Phone</p>
+                    <a href="tel:+16168711799" className="text-blue font-semibold hover:underline">
+                      (616) 871-1799
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-xl">
+                  <div className="inline-flex items-center justify-center w-10 h-10 bg-blue rounded-full flex-shrink-0">
+                    <MapPin className="w-5 h-5 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-gray-500 font-medium">Office</p>
+                    <p className="text-navy font-semibold">300 Ottawa Ave NW, 5th Floor</p>
+                    <p className="text-gray-600 text-sm">Grand Rapids, MI 49503, USA</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-green/10 border border-green/20 rounded-xl p-4 mb-6">
+                <p className="text-sm text-gray-700">
+                  <span className="font-semibold text-navy">Already a Registered Customer?</span> Your account history and order records will carry over when you upgrade to Partner status. Many of our current partners began as registered customers.
+                </p>
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-gray-200">
+                <motion.button
+                  type="button"
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  onClick={() => setShowContactSales(false)}
+                  className="flex-1 inline-flex items-center justify-center gap-2 bg-gray-100 text-gray-700 px-6 py-3 rounded-full font-medium hover:bg-gray-200 transition-all"
+                >
+                  Close
+                </motion.button>
+                <motion.a
+                  href="mailto:sales@pacemhealth.com?subject=Partnership%20Inquiry%20-%20Healthcare%20Portal"
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  className="flex-1 inline-flex items-center justify-center gap-2 bg-navy text-white px-6 py-3 rounded-full font-medium hover:bg-navy/90 transition-all shadow-lg"
+                >
+                  Send Email
+                  <ArrowRight className="w-4 h-4" />
+                </motion.a>
+              </div>
+            </div>
           </motion.div>
         </div>
       )}
