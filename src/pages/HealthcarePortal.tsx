@@ -207,7 +207,7 @@ export default function HealthcarePortal() {
                   <motion.button
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    onClick={() => tier.name === 'Registered Customer' ? setShowRegisterForm(true) : tier.name === 'Verified Partner' ? setShowContactSales(true) : undefined}
+                    onClick={() => tier.name === 'Guest Access' ? window.open('https://pacem-market-access-production.up.railway.app/catalog', '_blank') : tier.name === 'Registered Customer' ? window.open('https://pacem-market-access-production.up.railway.app/register', '_blank') : tier.name === 'Verified Partner' ? setShowContactSales(true) : undefined}
                     className={`w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-medium transition-all ${tier.actionStyle}`}
                   >
                     {tier.action}
