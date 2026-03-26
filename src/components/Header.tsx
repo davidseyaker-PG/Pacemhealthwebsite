@@ -15,6 +15,9 @@ export function Header() {
           <Link href="/contact" className="text-gray-300 hover:text-white transition-colors font-heading">
             Contact Us
           </Link>
+          <Link href="/shop" className="text-gray-300 hover:text-white transition-colors font-heading">
+            Shop
+          </Link>
           <Link href="/careers" className="text-gray-300 hover:text-white transition-colors font-heading">
             Careers
           </Link>
@@ -263,6 +266,7 @@ export function Header() {
             <Link href="/programs" className="block py-2 font-heading font-semibold text-navy">Commitments</Link>
             <Link href="/solutions/pharmaceutical-supplies" className="block py-2 font-heading font-semibold text-navy">Business Solutions</Link>
             <Link href="/news-stories" className="block py-2 font-heading font-semibold text-navy">News & Stories</Link>
+            <Link href="/shop" className="block py-2 font-heading font-semibold text-navy">Shop</Link>
             <div className="pt-2 border-t border-gray-200">
               <Link href="/login/portal" className="block py-2 font-heading font-semibold text-orange">Logins</Link>
             </div>
