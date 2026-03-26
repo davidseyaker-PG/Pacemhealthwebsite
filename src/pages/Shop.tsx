@@ -119,11 +119,46 @@ export default function Shop() {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log(formData);
-    setIsQuoteModalOpen(false);
+    setIsSubmitting(true);
+    try {
+      const response = await fetch('https://pacem-market-access-production.up.railway.app/api/quote-request', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          organization: formData.organization,
+          country: formData.country,
+          products: formData.category,
+          quantity: formData.quantity,
+          deliveryTimeline: formData.timeline,
+          message: formData.description,
+        }),
+      });
+      if (response.ok) {
+        setSubmitStatus('success');
+        setIsQuoteModalOpen(false);
+        alert('Quote request submitted. Our team will prepare your quote and respond within 1-2 business days.');
+        setFormData({ name: '', email: '', phone: '', organization: '', position: '', country: '', category: '', quantity: '', timeline: '', budget: '', description: '' });
+        setTimeout(() => setSubmitStatus('idle'), 5000);
+      } else {
+        setSubmitStatus('error');
+        alert('Something went wrong. Please try again or email us at sales@pacemhealth.com.');
+        setTimeout(() => setSubmitStatus('idle'), 5000);
+      }
+    } catch {
+      setSubmitStatus('error');
+      alert('Something went wrong. Please try again or email us at sales@pacemhealth.com.');
+      setTimeout(() => setSubmitStatus('idle'), 5000);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (

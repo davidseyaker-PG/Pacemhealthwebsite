@@ -26,12 +26,36 @@ export default function HealthcarePortal() {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Portal registration submitted:', formData);
-    alert('Thank you for registering. Our team will review your application and contact you within 1-2 business days.');
-    setShowRegisterForm(false);
-    setFormData({ name: '', email: '', phone: '', organization: '', country: '', role: '', reason: '' });
+    setIsSubmitting(true);
+    try {
+      const response = await fetch('https://pacem-market-access-production.up.railway.app/api/portal-register', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        setSubmitStatus('success');
+        setShowRegisterForm(false);
+        setFormData({ name: '', email: '', phone: '', organization: '', country: '', role: '', reason: '' });
+        alert('Thank you for registering. Our team will review your application and contact you within 1-2 business days.');
+        setTimeout(() => setSubmitStatus('idle'), 5000);
+      } else {
+        setSubmitStatus('error');
+        alert('Something went wrong. Please try again or email us at sales@pacemhealth.com.');
+        setTimeout(() => setSubmitStatus('idle'), 5000);
+      }
+    } catch {
+      setSubmitStatus('error');
+      alert('Something went wrong. Please try again or email us at sales@pacemhealth.com.');
+      setTimeout(() => setSubmitStatus('idle'), 5000);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const tiers = [

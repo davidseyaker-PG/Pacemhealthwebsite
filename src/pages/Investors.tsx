@@ -19,10 +19,41 @@ export default function Investors() {
 
   const [activeQuarterlyTab, setActiveQuarterlyTab] = useState('summary');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Investment inquiry submitted:', formData);
-    alert('Thank you for your interest. Our investor relations team will contact you shortly.');
+    setIsSubmitting(true);
+    try {
+      const response = await fetch('https://pacem-market-access-production.up.railway.app/api/investor-inquiry', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          company: formData.organization,
+          investorType: formData.investorType,
+          message: formData.message,
+        }),
+      });
+      if (response.ok) {
+        setSubmitStatus('success');
+        alert('Thank you for your interest. Our investor relations team will contact you shortly.');
+        setFormData({ name: '', email: '', organization: '', investorType: '', message: '' });
+        setTimeout(() => setSubmitStatus('idle'), 5000);
+      } else {
+        setSubmitStatus('error');
+        alert('Something went wrong. Please try again or email us at sales@pacemhealth.com.');
+        setTimeout(() => setSubmitStatus('idle'), 5000);
+      }
+    } catch {
+      setSubmitStatus('error');
+      alert('Something went wrong. Please try again or email us at sales@pacemhealth.com.');
+      setTimeout(() => setSubmitStatus('idle'), 5000);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (

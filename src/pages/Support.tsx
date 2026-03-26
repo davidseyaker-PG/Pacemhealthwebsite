@@ -44,22 +44,36 @@ export default function Support() {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
-    console.log('Support ticket submitted:', formData);
-    setShowTicketForm(false);
-    // Reset form
-    setFormData({
-      category: '',
-      name: '',
-      email: '',
-      phone: '',
-      organization: '',
-      priority: 'medium',
-      subject: '',
-      description: ''
-    });
+    setIsSubmitting(true);
+    try {
+      const response = await fetch('https://pacem-market-access-production.up.railway.app/api/support-ticket', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        setSubmitStatus('success');
+        setShowTicketForm(false);
+        alert('Support ticket submitted. Our team will respond within 24 hours.');
+        setFormData({ category: '', name: '', email: '', phone: '', organization: '', priority: 'medium', subject: '', description: '' });
+        setTimeout(() => setSubmitStatus('idle'), 5000);
+      } else {
+        setSubmitStatus('error');
+        alert('Something went wrong. Please try again or email us at support@pacemhealth.com.');
+        setTimeout(() => setSubmitStatus('idle'), 5000);
+      }
+    } catch {
+      setSubmitStatus('error');
+      alert('Something went wrong. Please try again or email us at support@pacemhealth.com.');
+      setTimeout(() => setSubmitStatus('idle'), 5000);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactMethods = [
