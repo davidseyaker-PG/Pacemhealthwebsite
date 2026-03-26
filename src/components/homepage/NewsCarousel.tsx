@@ -117,7 +117,7 @@ export function NewsCarousel() {
                       className="text-blue hover:text-blue-light transition-colors duration-300 inline-flex items-center gap-1"
                     >
                       Read More
-                      <span className="group-hover:translate-x-1 transition-transform duration-300">›</span>
+                      <span className="group-hover:translate-x-1 transition-transform duration-300">></span>
                     </Link>
                   </div>
                 </div>

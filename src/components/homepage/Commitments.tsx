@@ -20,7 +20,7 @@ export function Commitments() {
             </h2>
             <div className="space-y-4 text-gray-600">
               <p>
-                At Pacem Health, we believe that access to quality healthcare is a fundamental right. Our commitment goes beyond delivering productsâwe invest in the infrastructure, partnerships, and locally-led programs that make lasting change possible.
+                At Pacem Health, we believe that access to quality healthcare is a fundamental right. Our commitment goes beyond delivering products -- we invest in the infrastructure, partnerships, and locally-led programs that make lasting change possible.
               </p>
               <p>
                 Through sustainable partnerships and community-focused initiatives, we work alongside governments and health providers to build stronger, more equitable health systems. From rural clinics to urban hospitals, our presence ensures that quality-assured medicines and reliable equipment reach the communities that need them most.
