@@ -28,24 +28,29 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    setTimeout(() => {
+    try {
+      const response = await fetch('https://pacem-market-access-production.up.railway.app/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+      const data = await response.json();
+      if (response.ok && data.success) {
+        setSubmitStatus('success');
+        setTimeout(() => {
+          setFormData({ firstName: '', lastName: '', email: '', phone: '', company: '', country: '', subject: '', message: '', inquiryType: 'general' });
+          setSubmitStatus('idle');
+        }, 3000);
+      } else {
+        setSubmitStatus('error');
+        setTimeout(() => setSubmitStatus('idle'), 5000);
+      }
+    } catch {
+      setSubmitStatus('error');
+      setTimeout(() => setSubmitStatus('idle'), 5000);
+    } finally {
       setIsSubmitting(false);
-      setSubmitStatus('success');
-      setTimeout(() => {
-        setFormData({
-          firstName: '',
-          lastName: '',
-          email: '',
-          phone: '',
-          company: '',
-          country: '',
-          subject: '',
-          message: '',
-          inquiryType: 'general'
-        });
-        setSubmitStatus('idle');
-      }, 3000);
-    }, 1500);
+    }
   };
 
   const inquiryTypes = [
@@ -318,6 +323,8 @@ export default function Contact() {
                   className={`w-full py-4 rounded-lg font-semibold text-lg transition-all ${
                     submitStatus === 'success'
                       ? 'bg-green-500 text-white'
+                      : submitStatus === 'error'
+                      ? 'bg-red-500 text-white'
                       : 'bg-blue text-white hover:bg-blue/90'
                   } ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''}`}
                 >
@@ -339,7 +346,16 @@ export default function Contact() {
                     animate={{ opacity: 1, y: 0 }}
                     className="mt-4 text-center text-green-600 text-sm"
                   >
-                    Thank you for contacting us! We'll get back to you shortly.
+                    Thank you for contacting us! We'll get back to you within 1-2 business days.
+                  </motion.p>
+                )}
+                {submitStatus === 'error' && (
+                  <motion.p
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    className="mt-4 text-center text-red-600 text-sm"
+                  >
+                    Something went wrong. Please try again or email us directly at sales@pacemhealth.com.
                   </motion.p>
                 )}
               </form>
