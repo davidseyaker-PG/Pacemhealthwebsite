@@ -189,21 +189,21 @@ export function Header() {
                   {/* View All Solutions Link */}
                   <div className="border-t border-gray-200 mt-4 pt-3 px-4">
                     <Link href="/" className="text-blue hover:text-navy font-heading font-semibold text-sm flex items-center gap-1 transition-colors">
-                      View All Solutions ->
+                      View All Solutions {'>'}
                     </Link>
                   </div>
 
                   {/* Support Link */}
                   <div className="border-t border-gray-200 mt-2 pt-3 px-4">
                     <Link href="/support" className="text-orange hover:text-orange/80 font-heading font-semibold text-sm flex items-center gap-1 transition-colors">
-                      Need Help? Visit Support Center ->
+                      Need Help? Visit Support Center {'>'}
                     </Link>
                   </div>
 
                   {/* Shop Link */}
                   <div className="border-t border-gray-200 mt-2 pt-3 px-4">
                     <Link href="/shop" className="text-blue hover:text-navy font-heading font-semibold text-sm flex items-center gap-1 transition-colors">
-                      Browse Products in Our Shop ->
+                      Browse Products in Our Shop {'>'}
                     </Link>
                   </div>
                 </div>
