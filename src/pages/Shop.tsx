@@ -46,7 +46,7 @@ export default function Shop() {
       title: 'Education & Training',
       description: 'Training materials and educational resources',
       image: 'https://images.unsplash.com/photo-1767023469101-d923c6c7e9c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwdHJhaW5pbmclMjBlZHVjYXRpb258ZW58MXx8fHwxNzY3ODUxODIwfDA&ixlib=rb-4.1.0&q=80&w=1080',
-      color: 'bg-teal'
+      color: 'bg-green'
     },
     {
       icon: TestTube,
@@ -67,7 +67,7 @@ export default function Shop() {
       title: 'Parts & Accessories',
       description: 'Replacement parts and equipment accessories',
       image: 'https://images.unsplash.com/photo-1661078483043-6a586b684f17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwcGFydHMlMjBhY2Nlc3Nvcmllc3xlbnwxfHx8fDE3Njc5MjcyNzF8MA&ixlib=rb-4.1.0&q=80&w=1080',
-      color: 'bg-teal'
+      color: 'bg-green'
     },
     {
       icon: Snowflake,
@@ -88,7 +88,7 @@ export default function Shop() {
       title: 'Refurbished Equipment',
       description: 'Certified pre-owned medical equipment',
       image: 'https://images.unsplash.com/photo-1758101512269-660feabf64fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWZ1cmJpc2hlZCUyMG1lZGljYWwlMjBlcXVpcG1lbnR8ZW58MXx8fHwxNzY3OTI3MjcyfDA&ixlib=rb-4.1.0&q=80&w=1080',
-      color: 'bg-teal'
+      color: 'bg-green'
     }
   ];
 
@@ -143,7 +143,7 @@ export default function Shop() {
             <div className="inline-flex items-center gap-2 mb-6">
               <ShoppingCart className="w-10 h-10 sm:w-12 sm:h-12 text-orange" />
             </div>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif text-white mb-4 sm:mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-extrabold leading-tight text-white mb-4 sm:mb-6">
               Pacem Health Shop
             </h1>
             <p className="text-lg sm:text-xl text-white/90 max-w-3xl mx-auto">
@@ -189,7 +189,7 @@ export default function Shop() {
             variants={fadeInUp}
             className="text-center mb-10 sm:mb-12"
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-navy mb-3 sm:mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-3 sm:mb-4">
               Shop by Category
             </h2>
             <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
@@ -218,7 +218,7 @@ export default function Shop() {
                     <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent"></div>
                   </div>
                   <div className="p-5 sm:p-6 flex flex-col flex-grow">
-                    <h3 className="text-lg sm:text-xl font-serif text-navy mb-2">
+                    <h3 className="text-lg sm:text-xl font-serif font-semibold leading-tight text-navy mb-2">
                       {category.title}
                     </h3>
                     <p className="text-sm sm:text-base text-gray-600 leading-relaxed mb-4 flex-grow">
@@ -253,7 +253,7 @@ export default function Shop() {
             variants={fadeInUp}
             className="text-center mb-10 sm:mb-12"
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-navy mb-3 sm:mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-3 sm:mb-4">
               Why Choose Pacem Health?
             </h2>
           </motion.div>
@@ -272,7 +272,7 @@ export default function Shop() {
                 <div className="inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 bg-blue rounded-full mb-4 sm:mb-6">
                   <feature.icon className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
                 </div>
-                <h3 className="text-xl sm:text-2xl font-serif text-navy mb-3">
+                <h3 className="text-xl sm:text-2xl font-serif font-semibold leading-tight text-navy mb-3">
                   {feature.title}
                 </h3>
                 <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
@@ -293,7 +293,7 @@ export default function Shop() {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-navy mb-3 sm:mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold leading-tight text-navy mb-3 sm:mb-4">
               Need Custom Solutions?
             </h2>
             <p className="text-base sm:text-lg text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto">
@@ -336,7 +336,7 @@ export default function Shop() {
             <div className="bg-gradient-to-r from-navy to-blue p-6 sm:p-8 rounded-t-2xl">
               <div className="flex justify-between items-start">
                 <div>
-                  <h2 className="text-2xl sm:text-3xl font-serif text-white mb-2">
+                  <h2 className="text-2xl sm:text-3xl font-serif font-bold leading-tight text-white mb-2">
                     Request a Custom Quote
                   </h2>
                   <p className="text-white/90 text-sm sm:text-base">
@@ -356,7 +356,7 @@ export default function Shop() {
             <form onSubmit={handleSubmit} className="p-6 sm:p-8">
               {/* Contact Information */}
               <div className="mb-8">
-                <h3 className="text-xl font-serif text-navy mb-4 flex items-center gap-2">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-4 flex items-center gap-2">
                   <User className="w-5 h-5 text-navy" />
                   Contact Information
                 </h3>
@@ -465,7 +465,7 @@ export default function Shop() {
 
               {/* Project Details */}
               <div className="mb-8">
-                <h3 className="text-xl font-serif text-navy mb-4 flex items-center gap-2">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-4 flex items-center gap-2">
                   <Package2 className="w-5 h-5 text-navy" />
                   Project Details
                 </h3>
@@ -551,7 +551,7 @@ export default function Shop() {
 
               {/* Additional Details */}
               <div className="mb-8">
-                <h3 className="text-xl font-serif text-navy mb-4 flex items-center gap-2">
+                <h3 className="text-xl font-serif font-semibold leading-tight text-navy mb-4 flex items-center gap-2">
                   <MessageSquare className="w-5 h-5 text-navy" />
                   Additional Details
                 </h3>
