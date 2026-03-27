@@ -29,7 +29,7 @@ export default function Contact() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('https://pacem-market-access-production.up.railway.app/api/contact', {
+      const response = await fetch('https://portal.pacemhealth.com/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),

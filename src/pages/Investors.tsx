@@ -26,7 +26,7 @@ export default function Investors() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const response = await fetch('https://pacem-market-access-production.up.railway.app/api/investor-inquiry', {
+      const response = await fetch('https://portal.pacemhealth.com/api/investor-inquiry', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

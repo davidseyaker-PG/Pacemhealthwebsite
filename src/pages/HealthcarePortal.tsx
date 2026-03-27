@@ -111,7 +111,7 @@ export default function HealthcarePortal() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
-                href="https://pacem-market-access-production.up.railway.app/register"
+                href="https://portal.pacemhealth.com/register"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
@@ -195,7 +195,7 @@ export default function HealthcarePortal() {
                     </motion.button>
                   ) : (
                     <motion.a
-                      href={tier.name === 'Guest Access' ? 'https://pacem-market-access-production.up.railway.app/portal' : 'https://pacem-market-access-production.up.railway.app/register'}
+                      href={tier.name === 'Guest Access' ? 'https://portal.pacemhealth.com/portal' : 'https://portal.pacemhealth.com/register'}
                       target="_blank"
                       rel="noopener noreferrer"
                       whileHover={{ scale: 1.02 }}

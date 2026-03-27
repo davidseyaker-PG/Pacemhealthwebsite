@@ -51,7 +51,7 @@ export default function Support() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const response = await fetch('https://pacem-market-access-production.up.railway.app/api/support-ticket', {
+      const response = await fetch('https://portal.pacemhealth.com/api/support-ticket', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),

@@ -126,7 +126,7 @@ export default function Shop() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const response = await fetch('https://pacem-market-access-production.up.railway.app/api/quote-request', {
+      const response = await fetch('https://portal.pacemhealth.com/api/quote-request', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
