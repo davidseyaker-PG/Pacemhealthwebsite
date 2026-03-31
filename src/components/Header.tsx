@@ -230,18 +230,18 @@ export function Header() {
               </button>
               {openDropdown === 'logins' && (
                 <div className="absolute top-full right-0 mt-2 w-72 bg-white shadow-lg rounded-lg border border-gray-200 py-2 animate-in fade-in slide-in-from-top-1 duration-150">
-                  <a href="https://portal.pacemhealth.com/portal" className="block px-4 py-3 hover:bg-gray-50 transition-colors">
+                  <Link href="/login/portal" className="block px-4 py-3 hover:bg-gray-50 transition-colors">
                     <div className="font-heading font-semibold text-navy text-sm">Product Catalog</div>
                     <div className="text-xs text-gray-500">Browse products, specs, and place orders</div>
-                  </a>
-                  <a href="https://portal.pacemhealth.com/login" className="block px-4 py-3 hover:bg-gray-50 transition-colors">
+                  </Link>
+                  <Link href="/login/portal" className="block px-4 py-3 hover:bg-gray-50 transition-colors">
                     <div className="font-heading font-semibold text-navy text-sm">Supplier Login</div>
                     <div className="text-xs text-gray-500">For upstream supply chain partners</div>
-                  </a>
-                  <a href="https://portal.pacemhealth.com/login" className="block px-4 py-3 hover:bg-gray-50 transition-colors">
+                  </Link>
+                  <Link href="/login/portal" className="block px-4 py-3 hover:bg-gray-50 transition-colors">
                     <div className="font-heading font-semibold text-navy text-sm">Pharmacy Connect</div>
                     <div className="text-xs text-gray-500">Partner portal for pharmacy clients</div>
-                  </a>
+                  </Link>
                 </div>
               )}
             </div>
@@ -268,7 +268,7 @@ export function Header() {
             <Link href="/news-stories" className="block py-2 font-heading font-semibold text-navy">News & Stories</Link>
             <Link href="/shop" className="block py-2 font-heading font-semibold text-navy">Shop</Link>
             <div className="pt-2 border-t border-gray-200">
-              <a href="https://portal.pacemhealth.com/portal" className="block py-2 font-heading font-semibold text-orange">Product Catalog</a>
+              <Link href="/login/portal" className="block py-2 font-heading font-semibold text-orange">Product Catalog</Link>
             </div>
           </nav>
         </div>

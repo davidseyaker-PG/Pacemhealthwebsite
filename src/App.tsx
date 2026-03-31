@@ -29,8 +29,7 @@ import PacemExcellence from "./pacem-excellence";
 import PediatricPharmacy from "./pediatric-pharmacy";
 import Support from "./pages/Support";
 import Shop from "./pages/Shop";
-// HealthcarePortal page removed — /login/portal now redirects to external portal
-import { useEffect } from "react";
+import HealthcarePortal from "./pages/HealthcarePortal";
 import OurCompany from "./pages/about/OurCompany";
 import Leadership from "./pages/about/Leadership";
 import LeaderBio from "./pages/about/LeaderBio";
@@ -257,12 +256,7 @@ function App() {
           />
           <Route path="/support" component={Support} />
           <Route path="/shop" component={Shop} />
-          <Route path="/login/portal">
-            {() => {
-              useEffect(() => { window.location.href = "https://portal.pacemhealth.com/portal"; }, []);
-              return <div className="py-20 text-center"><p className="text-gray-600">Redirecting to the Product Portal...</p></div>;
-            }}
-          </Route>
+          <Route path="/login/portal" component={HealthcarePortal} />
           <Route path="/privacy-policy" component={PrivacyPolicy} />
           <Route path="/terms-of-service" component={TermsOfService} />
           <Route path="/cookie-settings" component={CookieSettings} />

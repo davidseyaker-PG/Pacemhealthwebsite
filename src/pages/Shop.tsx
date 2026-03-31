@@ -186,7 +186,7 @@ export default function Shop() {
               Browse our general catalog, download product guides, and connect with our team to place orders for training tools, equipment accessories, and healthcare supplies.
             </p>
             <p className="text-sm text-white/60 max-w-2xl mx-auto">
-              Looking for regulated pharmaceuticals or full product specifications? Access our <a href="https://portal.pacemhealth.com/portal" className="text-orange underline hover:text-orange/80">Healthcare Portal</a> for the complete catalog.
+              Looking for regulated pharmaceuticals or full product specifications? Access our <Link href="/login/portal" className="text-orange underline hover:text-orange/80">Healthcare Portal</Link> for the complete catalog.
             </p>
           </motion.div>
         </div>
@@ -381,13 +381,13 @@ export default function Shop() {
             <p className="text-base sm:text-lg text-white/80 mb-8 max-w-2xl mx-auto">
               Our Healthcare Portal provides tiered access to regulated pharmaceuticals, full product specifications, pricing, and order management. Register for an account or browse as a guest.
             </p>
-            <a
-              href="https://portal.pacemhealth.com/portal"
+            <Link
+              href="/login/portal"
               className="inline-flex items-center justify-center gap-2 bg-orange text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium hover:bg-orange/90 transition-all shadow-lg"
             >
               Go to Healthcare Portal
               <ArrowRight className="w-5 h-5" />
-            </a>
+            </Link>
           </motion.div>
         </div>
       </section>
