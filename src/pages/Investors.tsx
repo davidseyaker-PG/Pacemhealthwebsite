@@ -3,10 +3,10 @@ import { Link } from 'wouter';
 import { motion } from 'motion/react';
 import { TrendingUp, Users, Building2, Target, ArrowRight, CheckCircle2, Mail, Phone, MapPin, FileText, Download, ExternalLink } from 'lucide-react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
-import heroImage from 'figma:asset/47f3e42a0e8789a57177122815bba7dc752ee55c.png';
-import jpMorganConferenceImage from 'figma:asset/07613fdf74f8f9a95fcfe0ff900feb1bc15a3cfc.png';
-import kenyaOperationsImage from 'figma:asset/be6339830644be225ab3eb00d1acd86b9f755bd2.png';
-import q4ResultsImage from 'figma:asset/edc3cbc1afc3ece465b97cffd92fcb354bcf1f5b.png';
+import heroImage from '../assets/47f3e42a0e8789a57177122815bba7dc752ee55c.png';
+import jpMorganConferenceImage from '../assets/07613fdf74f8f9a95fcfe0ff900feb1bc15a3cfc.png';
+import kenyaOperationsImage from '../assets/be6339830644be225ab3eb00d1acd86b9f755bd2.png';
+import q4ResultsImage from '../assets/edc3cbc1afc3ece465b97cffd92fcb354bcf1f5b.png';
 
 export default function Investors() {
   const [formData, setFormData] = useState({

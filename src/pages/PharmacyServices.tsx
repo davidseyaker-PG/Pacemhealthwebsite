@@ -2,11 +2,11 @@ import { motion } from "motion/react";
 import { useState } from "react";
 import { ArrowRight, CheckCircle, X } from "lucide-react";
 import { ServiceBreadcrumb } from "../components/ServiceBreadcrumb";
-import heroImage from "figma:asset/92961bf1e989f95d373bb8a32d151a786e49efa7.png";
-import pillar1Image from "figma:asset/43b775249f0da819314ecca04e1bb2d4d961fa39.png";
-import pillar2Image from "figma:asset/c933b7ce04bd5211190d4040579d505dd38ca78a.png";
-import pillar3Image from "figma:asset/144d7c80965c8f464e86d4f40ea056866aaf22f1.png";
-import pillar4Image from "figma:asset/ee881f55ba26e61996fe1f778c6e9898ea397f82.png";
+import heroImage from "../assets/92961bf1e989f95d373bb8a32d151a786e49efa7.png";
+import pillar1Image from "../assets/43b775249f0da819314ecca04e1bb2d4d961fa39.png";
+import pillar2Image from "../assets/c933b7ce04bd5211190d4040579d505dd38ca78a.png";
+import pillar3Image from "../assets/144d7c80965c8f464e86d4f40ea056866aaf22f1.png";
+import pillar4Image from "../assets/ee881f55ba26e61996fe1f778c6e9898ea397f82.png";
 
 export default function PharmacyServices() {
   const [selectedPillar, setSelectedPillar] = useState<number | null>(null);

@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
-import heroImage from 'figma:asset/b57d35428c93383e6fa708fce857702def4533cf.png';
-import inspireImage from 'figma:asset/584966ecdbf06d97187474045952e8f6fa6ae001.png';
-import mobilizeImage from 'figma:asset/f1c7d0452f41217cb3b9e1ee979ef334484264d2.png';
-import partnerImage from 'figma:asset/6e564376298b3ac3fefa656ba21c61ce580ee369.png';
-import transformImage from 'figma:asset/54ebd154e7c4865d614741c73112d09c2bd5c241.png';
-import createImage from 'figma:asset/7537b46b6a38a79ff2259b35905b300569006baa.png';
+import heroImage from '../../assets/b57d35428c93383e6fa708fce857702def4533cf.png';
+import inspireImage from '../../assets/584966ecdbf06d97187474045952e8f6fa6ae001.png';
+import mobilizeImage from '../../assets/f1c7d0452f41217cb3b9e1ee979ef334484264d2.png';
+import partnerImage from '../../assets/6e564376298b3ac3fefa656ba21c61ce580ee369.png';
+import transformImage from '../../assets/54ebd154e7c4865d614741c73112d09c2bd5c241.png';
+import createImage from '../../assets/7537b46b6a38a79ff2259b35905b300569006baa.png';
 
 const impactTabs = [
   {

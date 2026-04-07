@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
 import { FileText, Target, TrendingUp, Users, BookOpen, Award, Settings, BarChart3, CheckCircle2, ClipboardCheck, AlertCircle, RefreshCw } from 'lucide-react';
-import heroImage from 'figma:asset/f7b117f6e75ef195c971e9d1cfc1b0907bf545b7.png';
+import heroImage from '../../assets/f7b117f6e75ef195c971e9d1cfc1b0907bf545b7.png';
 
 export default function QualityStandards() {
   const qmsComponents = [

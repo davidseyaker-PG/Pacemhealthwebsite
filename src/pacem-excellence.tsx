@@ -1,11 +1,11 @@
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
 import { Shield, Microscope, GraduationCap, Award, FlaskConical, Building2, TrendingUp, Users, BookOpen, Beaker, Laptop, Target } from 'lucide-react';
-import labTestingImage from 'figma:asset/7c3545a19d6c6c7a205272bf38a5901154a48959.png';
-import scholarImage from 'figma:asset/1020a55d339f663981a87b7dc8b1f1ecc48a9fe8.png';
-import mobileScienceImage from 'figma:asset/e7f3de164d321b6c548064a6dfaa63483184ea62.png';
-import stemTruckImage from 'figma:asset/b27e042133348d421addc21c21f4cb22fa917c25.png';
-import heroImage from 'figma:asset/3d7b890980e284e96be9c4a0477e38f0cc035996.png';
+import labTestingImage from './assets/7c3545a19d6c6c7a205272bf38a5901154a48959.png';
+import scholarImage from './assets/1020a55d339f663981a87b7dc8b1f1ecc48a9fe8.png';
+import mobileScienceImage from './assets/e7f3de164d321b6c548064a6dfaa63483184ea62.png';
+import stemTruckImage from './assets/b27e042133348d421addc21c21f4cb22fa917c25.png';
+import heroImage from './assets/3d7b890980e284e96be9c4a0477e38f0cc035996.png';
 
 export default function PacemExcellence() {
   const fadeInUp = {

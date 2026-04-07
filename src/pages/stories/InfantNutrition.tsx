@@ -3,13 +3,13 @@ import { motion } from 'motion/react';
 import { ArrowRight, Calendar, Clock, Share2, ChevronLeft, ChevronRight, Download } from 'lucide-react';
 import { Link } from 'wouter';
 import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
-import infantNutritionImg from 'figma:asset/c345068955ef3bfc48f34e2b2bc6ac441c34069f.png';
-import communityHealthImg from 'figma:asset/1ccf00b90b7dea706dbcbc91a60729367f043716.png';
-import productCatalogImg from 'figma:asset/b75b6c3d301e30dd2c37a3f33a8b9165f8b5d0f1.png';
-import pharmaceuticalHubImg from 'figma:asset/44fd008152cbbf2ddf85747e909f6ee06523968b.png';
-import infantFeedingImg from 'figma:asset/08c7a27e0019d0d9c1b5f6f3562b2b783c5490b4.png';
-import babyPortraitImg from 'figma:asset/743a592456394ba5da3f48f3ec1319d9e1ea97bd.png';
-import babyBottleImg from 'figma:asset/58d6924292e06f7ea8f92cb33d5440e243a4237d.png';
+import infantNutritionImg from '../../assets/c345068955ef3bfc48f34e2b2bc6ac441c34069f.png';
+import communityHealthImg from '../../assets/1ccf00b90b7dea706dbcbc91a60729367f043716.png';
+import productCatalogImg from '../../assets/b75b6c3d301e30dd2c37a3f33a8b9165f8b5d0f1.png';
+import pharmaceuticalHubImg from '../../assets/44fd008152cbbf2ddf85747e909f6ee06523968b.png';
+import infantFeedingImg from '../../assets/08c7a27e0019d0d9c1b5f6f3562b2b783c5490b4.png';
+import babyPortraitImg from '../../assets/743a592456394ba5da3f48f3ec1319d9e1ea97bd.png';
+import babyBottleImg from '../../assets/58d6924292e06f7ea8f92cb33d5440e243a4237d.png';
 
 export default function InfantNutrition() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

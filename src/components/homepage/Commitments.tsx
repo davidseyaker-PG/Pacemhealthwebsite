@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { SectionLabel } from '../SectionLabel';
-import communityImage from 'figma:asset/3a80344ce29f147be7556f3f35a6d616d58fa6e9.png';
+import communityImage from '../../assets/3a80344ce29f147be7556f3f35a6d616d58fa6e9.png';
 
 export function Commitments() {
   return (

@@ -3,12 +3,12 @@ import { motion } from 'motion/react';
 import { ArrowRight, Calendar, Clock, Share2, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'wouter';
 import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
-import vaccineVialsImg from 'figma:asset/40c257b000b003a0cb10d8e96fa5884d236d1969.png';
-import distributionExpansionImg from 'figma:asset/22e445325eddecfb7772176310bd52ca8fa9a676.png';
-import communityHealthImg from 'figma:asset/1ccf00b90b7dea706dbcbc91a60729367f043716.png';
-import digitalHealthImg from 'figma:asset/03eb96b456de1a93479dd6b367eaf75b17092649.png';
-import automatedWarehouseImg from 'figma:asset/ff0862815e91e12b2d9a3cfdf52c995c47c6c120.png';
-import pharmaQualityControlImg from 'figma:asset/c088e809fc0059831087428dcf388b52a8fe5f8b.png';
+import vaccineVialsImg from '../../assets/40c257b000b003a0cb10d8e96fa5884d236d1969.png';
+import distributionExpansionImg from '../../assets/22e445325eddecfb7772176310bd52ca8fa9a676.png';
+import communityHealthImg from '../../assets/1ccf00b90b7dea706dbcbc91a60729367f043716.png';
+import digitalHealthImg from '../../assets/03eb96b456de1a93479dd6b367eaf75b17092649.png';
+import automatedWarehouseImg from '../../assets/ff0862815e91e12b2d9a3cfdf52c995c47c6c120.png';
+import pharmaQualityControlImg from '../../assets/c088e809fc0059831087428dcf388b52a8fe5f8b.png';
 
 export default function PartnershipAnnouncement() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

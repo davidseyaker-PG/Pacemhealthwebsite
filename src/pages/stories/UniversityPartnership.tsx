@@ -3,13 +3,13 @@ import { motion } from 'motion/react';
 import { ArrowRight, Calendar, Clock, Share2, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'wouter';
 import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
-import universityPartnershipImg from 'figma:asset/8f7e2d6bc1728d4c75289e7e6ae1935bcf367806.png';
-import companyLaunchImg from 'figma:asset/02d42d707511272b88d4c2c144be611ba1600a10.png';
-import communityHealthImg from 'figma:asset/1ccf00b90b7dea706dbcbc91a60729367f043716.png';
-import marketEntryImg from 'figma:asset/c88e4fb775957e420c8bfcf1cf1554fc5bfd3581.png';
-import universityNairobiImg from 'figma:asset/c279300f49096f0a581896f907345ac2a38a6e43.png';
-import engineeringBuildingImg from 'figma:asset/ba3057cc8d8956d976391f87932cbf5a5e97c790.png';
-import campusModernImg from 'figma:asset/8c7ac8c4253ebeb010bdb9993db78bb8681914bd.png';
+import universityPartnershipImg from '../../assets/8f7e2d6bc1728d4c75289e7e6ae1935bcf367806.png';
+import companyLaunchImg from '../../assets/02d42d707511272b88d4c2c144be611ba1600a10.png';
+import communityHealthImg from '../../assets/1ccf00b90b7dea706dbcbc91a60729367f043716.png';
+import marketEntryImg from '../../assets/c88e4fb775957e420c8bfcf1cf1554fc5bfd3581.png';
+import universityNairobiImg from '../../assets/c279300f49096f0a581896f907345ac2a38a6e43.png';
+import engineeringBuildingImg from '../../assets/ba3057cc8d8956d976391f87932cbf5a5e97c790.png';
+import campusModernImg from '../../assets/8c7ac8c4253ebeb010bdb9993db78bb8681914bd.png';
 
 export default function UniversityPartnership() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

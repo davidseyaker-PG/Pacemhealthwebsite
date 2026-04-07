@@ -3,10 +3,10 @@ import { motion } from 'motion/react';
 import { ArrowRight, Calendar, Clock, Share2, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'wouter';
 import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
-import pharmaceuticalHubImg from 'figma:asset/44fd008152cbbf2ddf85747e909f6ee06523968b.png';
-import companyLaunchImg from 'figma:asset/02d42d707511272b88d4c2c144be611ba1600a10.png';
-import distributionExpansionImg from 'figma:asset/22e445325eddecfb7772176310bd52ca8fa9a676.png';
-import marketEntryImg from 'figma:asset/c88e4fb775957e420c8bfcf1cf1554fc5bfd3581.png';
+import pharmaceuticalHubImg from '../../assets/44fd008152cbbf2ddf85747e909f6ee06523968b.png';
+import companyLaunchImg from '../../assets/02d42d707511272b88d4c2c144be611ba1600a10.png';
+import distributionExpansionImg from '../../assets/22e445325eddecfb7772176310bd52ca8fa9a676.png';
+import marketEntryImg from '../../assets/c88e4fb775957e420c8bfcf1cf1554fc5bfd3581.png';
 
 export default function PharmaceuticalHub() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

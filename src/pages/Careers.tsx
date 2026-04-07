@@ -24,10 +24,10 @@ import {
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { Link } from 'wouter';
 import AdaChatDemo from '../components/AdaChatDemo';
-import heroImage from 'figma:asset/bd46e08f5be58c554628f026e784538d8e4ce2f0.png';
-import clinicalTeamImage from 'figma:asset/5d19dfe343e6afa70426c031ecae84547745e8ea.png';
-import technologyTeamImage from 'figma:asset/6f7b074f12ea0e17657b24959b96b4ecfc415b2b.png';
-import leadershipTeamImage from 'figma:asset/4dc0563245f8269c4b06ecab14bd4078bcfc53d2.png';
+import heroImage from '../assets/bd46e08f5be58c554628f026e784538d8e4ce2f0.png';
+import clinicalTeamImage from '../assets/5d19dfe343e6afa70426c031ecae84547745e8ea.png';
+import technologyTeamImage from '../assets/6f7b074f12ea0e17657b24959b96b4ecfc415b2b.png';
+import leadershipTeamImage from '../assets/4dc0563245f8269c4b06ecab14bd4078bcfc53d2.png';
 
 export default function Careers() {
   const [jobSearch, setJobSearch] = useState({ keyword: '', location: '' });

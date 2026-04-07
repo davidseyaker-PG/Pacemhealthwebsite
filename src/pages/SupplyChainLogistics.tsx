@@ -4,17 +4,17 @@ import { ArrowRight, CheckCircle, X } from "lucide-react";
 import { ServiceBreadcrumb } from "../components/ServiceBreadcrumb";
 
 // Import hero image
-import heroImage from 'figma:asset/3a7cb7aba883ebd469b6b110f67942aef938b015.png';
+import heroImage from '../assets/3a7cb7aba883ebd469b6b110f67942aef938b015.png';
 // Import demand planning image
-import demandPlanningImage from 'figma:asset/c1b5f01ca507c53b63a3d71c7d32135abcc5f718.png';
+import demandPlanningImage from '../assets/c1b5f01ca507c53b63a3d71c7d32135abcc5f718.png';
 // Import regional hub image
-import regionalHubImage from 'figma:asset/bcaa20217527e6220b2b6e551273b32557d0a42a.png';
+import regionalHubImage from '../assets/bcaa20217527e6220b2b6e551273b32557d0a42a.png';
 // Import cold chain image
-import coldChainImage from 'figma:asset/cf0952f8d2c5302c5f0acf65b7847a7df4d97c18.png';
+import coldChainImage from '../assets/cf0952f8d2c5302c5f0acf65b7847a7df4d97c18.png';
 // Import last-mile delivery image
-import lastMileImage from 'figma:asset/acf6d0ffd30a3d3fdccacd92be062b3cc4f5556b.png';
+import lastMileImage from '../assets/acf6d0ffd30a3d3fdccacd92be062b3cc4f5556b.png';
 // Import integrated supply chain image
-import integratedSupplyChainImage from 'figma:asset/a1e2a2ced8d43cec5741e7f8b4d00433e64a8713.png';
+import integratedSupplyChainImage from '../assets/a1e2a2ced8d43cec5741e7f8b4d00433e64a8713.png';
 
 export default function SupplyChainLogistics() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);

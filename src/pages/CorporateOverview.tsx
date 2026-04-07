@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Building2, Globe, Users, Target, TrendingUp, Award, Lightbulb, Shield, Play } from 'lucide-react';
 import { Link } from 'wouter';
-import videoThumbnail from 'figma:asset/c497a40634acfc563fd9463211ff8c99cbdae36a.png';
+import videoThumbnail from '../assets/c497a40634acfc563fd9463211ff8c99cbdae36a.png';
 
 export default function CorporateOverview() {
   return (

@@ -4,17 +4,17 @@ import { ArrowRight, X, Check } from "lucide-react";
 import { ServiceBreadcrumb } from "../components/ServiceBreadcrumb";
 
 // Import hero image
-import heroImage from 'figma:asset/e1e42c3346441cf7ca5269bf646e3125e8f76893.png';
+import heroImage from '../assets/e1e42c3346441cf7ca5269bf646e3125e8f76893.png';
 // Import supplier network image
-import supplierNetworkImage from 'figma:asset/30493905e846ef1fad895302a0f19f4c7a401c0a.png';
+import supplierNetworkImage from '../assets/30493905e846ef1fad895302a0f19f4c7a401c0a.png';
 // Import cost optimization image
-import costOptimizationImage from 'figma:asset/77d07c928da14c430acae2357229be3f67a40af1.png';
+import costOptimizationImage from '../assets/77d07c928da14c430acae2357229be3f67a40af1.png';
 // Import quality verification image
-import qualityVerificationImage from 'figma:asset/f1973b6cebaf4c3623263246929dbf5686bc646c.png';
+import qualityVerificationImage from '../assets/f1973b6cebaf4c3623263246929dbf5686bc646c.png';
 // Import logistics image
-import logisticsImage from 'figma:asset/8b107eb2657e8d63dd14693855810d1cd43edcb4.png';
+import logisticsImage from '../assets/8b107eb2657e8d63dd14693855810d1cd43edcb4.png';
 // Import strategic partnership image
-import partnershipImage from 'figma:asset/e1d2ef8deba701c4d43fe7a574a0b4fcfddd5a9d.png';
+import partnershipImage from '../assets/e1d2ef8deba701c4d43fe7a574a0b4fcfddd5a9d.png';
 
 export default function ProcurementDistribution() {
   const [selectedPillar, setSelectedPillar] = useState<number | null>(null);

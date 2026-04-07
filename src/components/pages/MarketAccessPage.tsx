@@ -4,24 +4,24 @@ import { ServiceBreadcrumb } from '../ServiceBreadcrumb';
 import { useState } from 'react';
 
 // Import hero image
-import heroImage from 'figma:asset/2ea91c7969bf0a40f124cfbd09213e708d6fdec9.png';
+import heroImage from '../../assets/2ea91c7969bf0a40f124cfbd09213e708d6fdec9.png';
 
 // Import pillar images
-import pillar01Image from 'figma:asset/f45abfec1847afa7a1f8bc034fab148fadc16722.png';
-import pillar02Image from 'figma:asset/7edd4d80b0284086cd13369f47740168a67bb57c.png';
-import pillar03Image from 'figma:asset/84b6d833e29389c31bee727a23a1e7d6b46078be.png';
-import pillar04Image from 'figma:asset/399dcd5edf54b6eb6928c6e0d80fdbd70043d713.png';
+import pillar01Image from '../../assets/f45abfec1847afa7a1f8bc034fab148fadc16722.png';
+import pillar02Image from '../../assets/7edd4d80b0284086cd13369f47740168a67bb57c.png';
+import pillar03Image from '../../assets/84b6d833e29389c31bee727a23a1e7d6b46078be.png';
+import pillar04Image from '../../assets/399dcd5edf54b6eb6928c6e0d80fdbd70043d713.png';
 
 // Import compliance badge
-import whoGdpBadge from 'figma:asset/7bc150127cbd25d48f1299b3fe81d0b053a9348e.png';
-import iso9001Badge from 'figma:asset/ea0f25b348665fff9dba230427b0f2a2a98f4cbc.png';
-import licensedDistributorBadge from 'figma:asset/aebd1b590b6d8161955dc8c5228fc2db9b6169fb.png';
-import coldChainBadge from 'figma:asset/b926cbc186046071374014dd789f84e83a6c806e.png';
-import pharmacovigilanceBadge from 'figma:asset/b2f1a5cab48889b992de4b882bb92e466d4a6b8a.png';
-import financialComplianceBadge from 'figma:asset/6e8e250ac3b61b7d53fecfa5897cf91781b71555.png';
+import whoGdpBadge from '../../assets/7bc150127cbd25d48f1299b3fe81d0b053a9348e.png';
+import iso9001Badge from '../../assets/ea0f25b348665fff9dba230427b0f2a2a98f4cbc.png';
+import licensedDistributorBadge from '../../assets/aebd1b590b6d8161955dc8c5228fc2db9b6169fb.png';
+import coldChainBadge from '../../assets/b926cbc186046071374014dd789f84e83a6c806e.png';
+import pharmacovigilanceBadge from '../../assets/b2f1a5cab48889b992de4b882bb92e466d4a6b8a.png';
+import financialComplianceBadge from '../../assets/6e8e250ac3b61b7d53fecfa5897cf91781b71555.png';
 
 // Import partnership image
-import partnershipImage from 'figma:asset/a47215a7d43e5093e47d924ef76070cc562f2cba.png';
+import partnershipImage from '../../assets/a47215a7d43e5093e47d924ef76070cc562f2cba.png';
 
 const keyStats = [
   { 

@@ -2,10 +2,10 @@ import { motion } from "motion/react";
 import { useState } from "react";
 import { ArrowRight, CheckCircle, X } from "lucide-react";
 import { ServiceBreadcrumb } from "../components/ServiceBreadcrumb";
-import mobileClinicImage from "figma:asset/e125aa6190dc223e12e3da98fe623be7164f6436.png";
-import chwProgramImage from "figma:asset/ddc68d34f166395ba96ffc496278206e171a59fc.png";
-import publicHealthCampaignImage from "figma:asset/99400051ee05873bdc7871470932ce9bf6fd6b34.png";
-import ruralInfrastructureImage from "figma:asset/7dd4ba68b000ed51c3234cb4b3defa9950498ca8.png";
+import mobileClinicImage from "../assets/e125aa6190dc223e12e3da98fe623be7164f6436.png";
+import chwProgramImage from "../assets/ddc68d34f166395ba96ffc496278206e171a59fc.png";
+import publicHealthCampaignImage from "../assets/99400051ee05873bdc7871470932ce9bf6fd6b34.png";
+import ruralInfrastructureImage from "../assets/7dd4ba68b000ed51c3234cb4b3defa9950498ca8.png";
 
 export default function CommunityHealth() {
   const [selectedPillar, setSelectedPillar] = useState<number | null>(null);

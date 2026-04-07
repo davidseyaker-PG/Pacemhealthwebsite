@@ -1,10 +1,10 @@
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
 import { Link } from "wouter";
-import healthcareDevImg from "figma:asset/3615afc07e05ae980b9b2915f1c1aeccc7563c09.png";
-import pediatricPharmacyImg from "figma:asset/3a717d5080ebad97a4068ae660de0862e4d89607.png";
-import pacemExcellenceImg from "figma:asset/7e51baf34655f079cee32f8acadb6cc16297b1da.png";
-import heroImage from "figma:asset/694710ff7618c78caac00211fbe6504a8413d923.png";
+import healthcareDevImg from "../assets/3615afc07e05ae980b9b2915f1c1aeccc7563c09.png";
+import pediatricPharmacyImg from "../assets/3a717d5080ebad97a4068ae660de0862e4d89607.png";
+import pacemExcellenceImg from "../assets/7e51baf34655f079cee32f8acadb6cc16297b1da.png";
+import heroImage from "../assets/694710ff7618c78caac00211fbe6504a8413d923.png";
 
 export default function Programs() {
   const programs = [

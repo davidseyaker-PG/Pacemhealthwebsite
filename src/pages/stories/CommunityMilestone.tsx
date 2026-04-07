@@ -3,13 +3,13 @@ import { motion } from 'motion/react';
 import { ArrowRight, Calendar, Clock, Share2, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'wouter';
 import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
-import communityHealthImg from 'figma:asset/1ccf00b90b7dea706dbcbc91a60729367f043716.png';
-import distributionExpansionImg from 'figma:asset/22e445325eddecfb7772176310bd52ca8fa9a676.png';
-import vaccineVialsImg from 'figma:asset/40c257b000b003a0cb10d8e96fa5884d236d1969.png';
-import digitalHealthImg from 'figma:asset/03eb96b456de1a93479dd6b367eaf75b17092649.png';
-import neonatalCareImg from 'figma:asset/9c46f33e9191ab6113c4a1a6f4965bc2cd4b45bf.png';
-import healthWorkerPatientImg from 'figma:asset/e1c1e87a925045e9524de5ddf3b17d87ee23c73c.png';
-import diagnosticLabImg from 'figma:asset/f04efdfddf57ab394e90635477b4782f4ea12046.png';
+import communityHealthImg from '../../assets/1ccf00b90b7dea706dbcbc91a60729367f043716.png';
+import distributionExpansionImg from '../../assets/22e445325eddecfb7772176310bd52ca8fa9a676.png';
+import vaccineVialsImg from '../../assets/40c257b000b003a0cb10d8e96fa5884d236d1969.png';
+import digitalHealthImg from '../../assets/03eb96b456de1a93479dd6b367eaf75b17092649.png';
+import neonatalCareImg from '../../assets/9c46f33e9191ab6113c4a1a6f4965bc2cd4b45bf.png';
+import healthWorkerPatientImg from '../../assets/e1c1e87a925045e9524de5ddf3b17d87ee23c73c.png';
+import diagnosticLabImg from '../../assets/f04efdfddf57ab394e90635477b4782f4ea12046.png';
 
 export default function CommunityMilestone() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

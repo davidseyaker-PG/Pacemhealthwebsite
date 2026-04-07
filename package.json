@@ -59,6 +59,7 @@
   },
   "scripts": {
     "dev": "vite",
+    "prebuild": "node generate-assets.mjs",
     "build": "vite build"
   }
 }

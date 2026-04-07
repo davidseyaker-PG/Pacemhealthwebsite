@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
 import { MapPin, ArrowRight } from 'lucide-react';
-import childMedicineImage from 'figma:asset/b1291e7ff7bb428fa3e28708acb64d3e823fa423.png';
+import childMedicineImage from './assets/b1291e7ff7bb428fa3e28708acb64d3e823fa423.png';
 
 export default function PediatricPharmacy() {
   const fadeInUp = {

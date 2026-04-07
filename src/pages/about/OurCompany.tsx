@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Download } from 'lucide-react';
 import { Link } from 'wouter';
-import partnershipImage from 'figma:asset/b44f646b4420de97c03315aae69cfa18146efc14.png';
-import accountabilityImage from 'figma:asset/1046ae3a93c7085bd26ffc18f9da87ba3eca78dc.png';
-import excellenceImage from 'figma:asset/8712fbe1da3e019a1db43190c491503533761199.png';
-import equityImage from 'figma:asset/4f5afa9a02e0acc819d73f95b102e33b7211f4b2.png';
-import mutualRespectImage from 'figma:asset/226e4076e8527098921a3b17c29d7eb9397df76a.png';
-import heroImage from 'figma:asset/ea6c8fb96b5cfbcca769ba24799b06a0bd30a208.png';
+import partnershipImage from '../../assets/b44f646b4420de97c03315aae69cfa18146efc14.png';
+import accountabilityImage from '../../assets/1046ae3a93c7085bd26ffc18f9da87ba3eca78dc.png';
+import excellenceImage from '../../assets/8712fbe1da3e019a1db43190c491503533761199.png';
+import equityImage from '../../assets/4f5afa9a02e0acc819d73f95b102e33b7211f4b2.png';
+import mutualRespectImage from '../../assets/226e4076e8527098921a3b17c29d7eb9397df76a.png';
+import heroImage from '../../assets/ea6c8fb96b5cfbcca769ba24799b06a0bd30a208.png';
 
 export default function OurCompany() {
   const [activeTab, setActiveTab] = useState('partnership');

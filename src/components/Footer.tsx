@@ -1,6 +1,6 @@
 import { Link } from 'wouter';
 import { Linkedin, Twitter, Facebook, Youtube, Phone, Mail, MapPin } from 'lucide-react';
-import pacemHealthLogo from "figma:asset/a8a15e6407f38496b80f4cc77d6cab12480f615e.png";
+import pacemHealthLogo from "../assets/a8a15e6407f38496b80f4cc77d6cab12480f615e.png";
 
 export function Footer() {
   return (

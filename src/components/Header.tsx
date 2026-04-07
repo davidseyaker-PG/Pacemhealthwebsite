@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'wouter';
 import { ChevronDown, Search, Menu, X } from 'lucide-react';
-import pacemHealthLogo from "figma:asset/a8a15e6407f38496b80f4cc77d6cab12480f615e.png";
+import pacemHealthLogo from "../assets/a8a15e6407f38496b80f4cc77d6cab12480f615e.png";
 
 export function Header() {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);

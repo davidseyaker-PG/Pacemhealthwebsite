@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { ArrowRight, CheckCircle } from "lucide-react";
 import { ServiceBreadcrumb } from "../components/ServiceBreadcrumb";
-import heroImage from "figma:asset/8f44cd417d655d6f081f59d7b51171dc1270878d.png";
+import heroImage from "../assets/8f44cd417d655d6f081f59d7b51171dc1270878d.png";
 
 export default function PharmaceuticalDistribution() {
   const productCategories = [

@@ -3,13 +3,13 @@ import { motion } from 'motion/react';
 import { ArrowRight, Calendar, Clock, Share2, ChevronLeft, ChevronRight, Download } from 'lucide-react';
 import { Link } from 'wouter';
 import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
-import companyLaunchImg from 'figma:asset/02d42d707511272b88d4c2c144be611ba1600a10.png';
-import productCatalogImg from 'figma:asset/b75b6c3d301e30dd2c37a3f33a8b9165f8b5d0f1.png';
-import marketEntryImg from 'figma:asset/c88e4fb775957e420c8bfcf1cf1554fc5bfd3581.png';
-import distributionExpansionImg from 'figma:asset/22e445325eddecfb7772176310bd52ca8fa9a676.png';
-import healthWorkerDigitalImg from 'figma:asset/5f98cdc84d0207f9a494410f04f0be962e1341ff.png';
-import surgicalRoomImg from 'figma:asset/a01a517ef10b4c3617be8a68f7a1396c957366b7.png';
-import labTechnicianImg from 'figma:asset/7c3545a19d6c6c7a205272bf38a5901154a48959.png';
+import companyLaunchImg from '../../assets/02d42d707511272b88d4c2c144be611ba1600a10.png';
+import productCatalogImg from '../../assets/b75b6c3d301e30dd2c37a3f33a8b9165f8b5d0f1.png';
+import marketEntryImg from '../../assets/c88e4fb775957e420c8bfcf1cf1554fc5bfd3581.png';
+import distributionExpansionImg from '../../assets/22e445325eddecfb7772176310bd52ca8fa9a676.png';
+import healthWorkerDigitalImg from '../../assets/5f98cdc84d0207f9a494410f04f0be962e1341ff.png';
+import surgicalRoomImg from '../../assets/a01a517ef10b4c3617be8a68f7a1396c957366b7.png';
+import labTechnicianImg from '../../assets/7c3545a19d6c6c7a205272bf38a5901154a48959.png';
 
 export default function CompanyLaunch() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

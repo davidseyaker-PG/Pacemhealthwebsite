@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Bot, User, Loader2 } from 'lucide-react';
 
-import adaAvatar from 'figma:asset/4c5515bdefb686d908038e9baa0d278c3bc9eae3.png';
+import adaAvatar from '../assets/4c5515bdefb686d908038e9baa0d278c3bc9eae3.png';
 
 interface Message {
   id: number;

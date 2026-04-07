@@ -2,11 +2,11 @@ import { motion } from "motion/react";
 import { useState } from "react";
 import { ArrowRight, CheckCircle, X } from "lucide-react";
 import { ServiceBreadcrumb } from "../components/ServiceBreadcrumb";
-import heroImage from "figma:asset/64df82914a34a7e7488506a878fdfeca3ff95b28.png";
-import techPlatformImage from "figma:asset/7c3545a19d6c6c7a205272bf38a5901154a48959.png";
-import testingServicesImage from "figma:asset/262f5fc13c9bb8fef9c6a7c4d405572fdc463ec7.png";
-import qualityAssuranceImage from "figma:asset/e8428c7c18768d92e0055362cae67ec2c162c66a.png";
-import serviceNetworkImage from "figma:asset/a7a6a25b535878280d30e933867cb006806b459e.png";
+import heroImage from "../assets/64df82914a34a7e7488506a878fdfeca3ff95b28.png";
+import techPlatformImage from "../assets/7c3545a19d6c6c7a205272bf38a5901154a48959.png";
+import testingServicesImage from "../assets/262f5fc13c9bb8fef9c6a7c4d405572fdc463ec7.png";
+import qualityAssuranceImage from "../assets/e8428c7c18768d92e0055362cae67ec2c162c66a.png";
+import serviceNetworkImage from "../assets/a7a6a25b535878280d30e933867cb006806b459e.png";
 
 export default function LaboratoryDiagnostics() {
   const [selectedPillar, setSelectedPillar] = useState<number | null>(null);

@@ -1,12 +1,12 @@
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
-import heroStudentsImage from 'figma:asset/09b8771a02d610843b420a905cf063c2d9690401.png';
-import discoveryImage from 'figma:asset/09b8771a02d610843b420a905cf063c2d9690401.png';
-import universityImage from 'figma:asset/01e48fa181569f4541cceb857bc9d96e8ffe9261.png';
-import logisticsImage from 'figma:asset/f917350bc6ad08cfca83edb79e254064d71be334.png';
-import mckessonImage from 'figma:asset/1233bf0f9954d79a83ab3bc0d1efd3219cc54d97.png';
-import founderImage from 'figma:asset/91a0b3257aa726f3586683a13f3edec5be0ad068.png';
-import pacemHealthImage from 'figma:asset/0c7e331563a053d79be1240babeaf48885c1d154.png';
+import heroStudentsImage from '../../assets/09b8771a02d610843b420a905cf063c2d9690401.png';
+import discoveryImage from '../../assets/09b8771a02d610843b420a905cf063c2d9690401.png';
+import universityImage from '../../assets/01e48fa181569f4541cceb857bc9d96e8ffe9261.png';
+import logisticsImage from '../../assets/f917350bc6ad08cfca83edb79e254064d71be334.png';
+import mckessonImage from '../../assets/1233bf0f9954d79a83ab3bc0d1efd3219cc54d97.png';
+import founderImage from '../../assets/91a0b3257aa726f3586683a13f3edec5be0ad068.png';
+import pacemHealthImage from '../../assets/0c7e331563a053d79be1240babeaf48885c1d154.png';
 
 const milestones = [
   {

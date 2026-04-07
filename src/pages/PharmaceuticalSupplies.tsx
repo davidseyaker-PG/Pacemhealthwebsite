@@ -3,13 +3,13 @@ import { useState } from "react";
 import { ArrowRight, CheckCircle, X } from "lucide-react";
 import { ServiceBreadcrumb } from "../components/ServiceBreadcrumb";
 import { Link } from "wouter";
-import heroImage from "figma:asset/9521ba9df93f4a5805515c8b0b8089fadcfbad29.png";
-import pillar1Image from "figma:asset/57b36a980b6730d3b5004be0a634f36ff1002c6b.png";
-import pillar2Image from "figma:asset/b7d72f019dd08c2cacdba37a71abd47c83e03eea.png";
-import pillar3Image from "figma:asset/2417c24cf4dc9233bac119f85efa3778e91da1a2.png";
-import pillar4Image from "figma:asset/6c29025208493340e771b4cdecad797aec5e9e2c.png";
-import pharmaDistImage from "figma:asset/0d58b8232985d3c2ca269bc1cd4ecdc561c6bf86.png";
-import medicalSuppliesImage from "figma:asset/aea4fbe7c4580e9643f116f7ecbaebf6a503ca3b.png";
+import heroImage from "../assets/9521ba9df93f4a5805515c8b0b8089fadcfbad29.png";
+import pillar1Image from "../assets/57b36a980b6730d3b5004be0a634f36ff1002c6b.png";
+import pillar2Image from "../assets/b7d72f019dd08c2cacdba37a71abd47c83e03eea.png";
+import pillar3Image from "../assets/2417c24cf4dc9233bac119f85efa3778e91da1a2.png";
+import pillar4Image from "../assets/6c29025208493340e771b4cdecad797aec5e9e2c.png";
+import pharmaDistImage from "../assets/0d58b8232985d3c2ca269bc1cd4ecdc561c6bf86.png";
+import medicalSuppliesImage from "../assets/aea4fbe7c4580e9643f116f7ecbaebf6a503ca3b.png";
 
 export default function PharmaceuticalSupplies() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);

@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Volume2, VolumeX, Pause, Play, ArrowRight } from 'lucide-react';
-import pharmacistImage from 'figma:asset/3cd1ef3764761daafd731eb97df09a022f16574f.png';
-import surgicalTeamImage from 'figma:asset/9ec4bd36ec6bfe56d1fba52edb07a30df90fed32.png';
-import vaccineImage from 'figma:asset/09eb4d61f652287cad3af6490a7fdfced087a8a2.png';
+import pharmacistImage from '../assets/3cd1ef3764761daafd731eb97df09a022f16574f.png';
+import surgicalTeamImage from '../assets/9ec4bd36ec6bfe56d1fba52edb07a30df90fed32.png';
+import vaccineImage from '../assets/09eb4d61f652287cad3af6490a7fdfced087a8a2.png';
 
 interface Slide {
   image: string;

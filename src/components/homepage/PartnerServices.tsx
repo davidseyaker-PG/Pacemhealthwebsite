@@ -1,10 +1,10 @@
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
 import { SectionLabel } from '../SectionLabel';
-import marketAccessImage from 'figma:asset/c88e4fb775957e420c8bfcf1cf1554fc5bfd3581.png';
-import procurementImage from 'figma:asset/297e6529a400e0d9c6b4db3bd1930a63995a2f1d.png';
-import supplyChainImage from 'figma:asset/92e6af869de73c12165a36de5f06fa291bb76724.png';
-import regulatoryImage from 'figma:asset/5b1221aa4de28fdbad4420eb78f8feddaff6de52.png';
+import marketAccessImage from '../../assets/c88e4fb775957e420c8bfcf1cf1554fc5bfd3581.png';
+import procurementImage from '../../assets/297e6529a400e0d9c6b4db3bd1930a63995a2f1d.png';
+import supplyChainImage from '../../assets/92e6af869de73c12165a36de5f06fa291bb76724.png';
+import regulatoryImage from '../../assets/5b1221aa4de28fdbad4420eb78f8feddaff6de52.png';
 
 const services = [
   {

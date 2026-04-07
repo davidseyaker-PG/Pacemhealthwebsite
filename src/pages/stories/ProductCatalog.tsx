@@ -3,13 +3,13 @@ import { motion } from 'motion/react';
 import { ArrowRight, Calendar, Clock, Share2, ChevronLeft, ChevronRight, Download } from 'lucide-react';
 import { Link } from 'wouter';
 import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
-import productCatalogImg from 'figma:asset/b75b6c3d301e30dd2c37a3f33a8b9165f8b5d0f1.png';
-import companyLaunchImg from 'figma:asset/02d42d707511272b88d4c2c144be611ba1600a10.png';
-import marketEntryImg from 'figma:asset/c88e4fb775957e420c8bfcf1cf1554fc5bfd3581.png';
-import vaccineVialsImg from 'figma:asset/40c257b000b003a0cb10d8e96fa5884d236d1969.png';
-import ctScannerImg from 'figma:asset/5f6fa446a3e7c9ecb1afecc0e9506ea04f287f60.png';
-import medicalDeviceImg from 'figma:asset/5bb9c17902070451bddd0165c35fa445603956cb.png';
-import equipmentGridImg from 'figma:asset/44b30efb68e484dd35d7907dcfa16d782b54eafb.png';
+import productCatalogImg from '../../assets/b75b6c3d301e30dd2c37a3f33a8b9165f8b5d0f1.png';
+import companyLaunchImg from '../../assets/02d42d707511272b88d4c2c144be611ba1600a10.png';
+import marketEntryImg from '../../assets/c88e4fb775957e420c8bfcf1cf1554fc5bfd3581.png';
+import vaccineVialsImg from '../../assets/40c257b000b003a0cb10d8e96fa5884d236d1969.png';
+import ctScannerImg from '../../assets/5f6fa446a3e7c9ecb1afecc0e9506ea04f287f60.png';
+import medicalDeviceImg from '../../assets/5bb9c17902070451bddd0165c35fa445603956cb.png';
+import equipmentGridImg from '../../assets/44b30efb68e484dd35d7907dcfa16d782b54eafb.png';
 
 export default function ProductCatalog() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

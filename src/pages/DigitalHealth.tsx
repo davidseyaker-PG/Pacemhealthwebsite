@@ -2,11 +2,11 @@ import { motion } from "motion/react";
 import { useState } from "react";
 import { ArrowRight, CheckCircle, X } from "lucide-react";
 import { ServiceBreadcrumb } from "../components/ServiceBreadcrumb";
-import heroImage from "figma:asset/36ffce28ba0fc01bd98274ca5340d73fb488d02e.png";
-import telemedicineImage from "figma:asset/677cf865b715620a1b4c53cabfcf0856765f092c.png";
-import ehrImage from "figma:asset/c874f5262943ccf93909825e5bc09bc2b26b8dc9.png";
-import patientAppImage from "figma:asset/129d9f8b4ccc20e6fc94493ea7632bfdc05b4404.png";
-import analyticsAIImage from "figma:asset/918325c99a948605d8ecf362c975b096ef0428bb.png";
+import heroImage from "../assets/36ffce28ba0fc01bd98274ca5340d73fb488d02e.png";
+import telemedicineImage from "../assets/677cf865b715620a1b4c53cabfcf0856765f092c.png";
+import ehrImage from "../assets/c874f5262943ccf93909825e5bc09bc2b26b8dc9.png";
+import patientAppImage from "../assets/129d9f8b4ccc20e6fc94493ea7632bfdc05b4404.png";
+import analyticsAIImage from "../assets/918325c99a948605d8ecf362c975b096ef0428bb.png";
 
 export default function DigitalHealth() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);

@@ -2,14 +2,14 @@ import { motion } from "motion/react";
 import { useState } from "react";
 import { ArrowRight, CheckCircle, X } from "lucide-react";
 import { ServiceBreadcrumb } from "../components/ServiceBreadcrumb";
-import heroImage from "figma:asset/53a40d92200e4ec4ea643675f0aa3bb27a18513b.png";
-import pillar1Image from "figma:asset/b34f9559665bfcb23e52b45b74f89ec8fd606d93.png";
-import pillar2Image from "figma:asset/a8d7222a88c41926203320173fe95a7dafd270b2.png";
-import pillar3Image from "figma:asset/d4dd8d76ee635e5e869787fe9b8e07cc2152f7b2.png";
-import pillar4Image from "figma:asset/9ae61367450c5ccbb73ea3263115c3910c1f3b25.png";
-import kenyaPPBLogo from "figma:asset/daa06e12ae22e7223e32e7ef93d5709316a6141a.png";
-import ghanaFDALogo from "figma:asset/530566238562b93c548b548f2cb14a1f82e95e40.png";
-import nafdacLogo from "figma:asset/052de86a356ddd3ef0ece4e54ff7b37b9838c5b6.png";
+import heroImage from "../assets/53a40d92200e4ec4ea643675f0aa3bb27a18513b.png";
+import pillar1Image from "../assets/b34f9559665bfcb23e52b45b74f89ec8fd606d93.png";
+import pillar2Image from "../assets/a8d7222a88c41926203320173fe95a7dafd270b2.png";
+import pillar3Image from "../assets/d4dd8d76ee635e5e869787fe9b8e07cc2152f7b2.png";
+import pillar4Image from "../assets/9ae61367450c5ccbb73ea3263115c3910c1f3b25.png";
+import kenyaPPBLogo from "../assets/daa06e12ae22e7223e32e7ef93d5709316a6141a.png";
+import ghanaFDALogo from "../assets/530566238562b93c548b548f2cb14a1f82e95e40.png";
+import nafdacLogo from "../assets/052de86a356ddd3ef0ece4e54ff7b37b9838c5b6.png";
 
 export default function RegulatoryCompliance() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);

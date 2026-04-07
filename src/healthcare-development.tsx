@@ -1,10 +1,10 @@
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
 import { Activity, GraduationCap, Megaphone, Stethoscope, Wind, Droplet, BarChart3, Building2, Pill, Hand, School, Wrench, Heart, Globe2 } from 'lucide-react';
-import chwTrainingImage from 'figma:asset/ddc68d34f166395ba96ffc496278206e171a59fc.png';
-import communityEducationImage from 'figma:asset/e8a2df3e96bb868687359e490b635a591c186c20.png';
-import providerEducationImage from 'figma:asset/df610e8fe12c597f9918e82a68170dc2369070f9.png';
-import heroImage from 'figma:asset/3b0f4aac6c5d570a4568e7b16a39572ffc1e6b2e.png';
+import chwTrainingImage from './assets/ddc68d34f166395ba96ffc496278206e171a59fc.png';
+import communityEducationImage from './assets/e8a2df3e96bb868687359e490b635a591c186c20.png';
+import providerEducationImage from './assets/df610e8fe12c597f9918e82a68170dc2369070f9.png';
+import heroImage from './assets/3b0f4aac6c5d570a4568e7b16a39572ffc1e6b2e.png';
 
 export default function HealthcareDevelopment() {
   const fadeInUp = {

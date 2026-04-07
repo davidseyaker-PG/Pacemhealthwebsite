@@ -3,13 +3,13 @@ import { motion } from 'motion/react';
 import { ArrowRight, Calendar, Clock, Share2, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'wouter';
 import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
-import marketEntryImg from 'figma:asset/c88e4fb775957e420c8bfcf1cf1554fc5bfd3581.png';
-import companyLaunchImg from 'figma:asset/02d42d707511272b88d4c2c144be611ba1600a10.png';
-import productCatalogImg from 'figma:asset/b75b6c3d301e30dd2c37a3f33a8b9165f8b5d0f1.png';
-import distributionExpansionImg from 'figma:asset/22e445325eddecfb7772176310bd52ca8fa9a676.png';
-import strategyChartsImg from 'figma:asset/d0d5355d4aebf16dfbd3c5904973e87dc4872533.png';
-import dataAnalysisImg from 'figma:asset/00f5a530a8d4002b66469459e27d06aad7ce5e38.png';
-import teamPlanningImg from 'figma:asset/1e7dead491e62c3c5cc88d37a33f590516533241.png';
+import marketEntryImg from '../../assets/c88e4fb775957e420c8bfcf1cf1554fc5bfd3581.png';
+import companyLaunchImg from '../../assets/02d42d707511272b88d4c2c144be611ba1600a10.png';
+import productCatalogImg from '../../assets/b75b6c3d301e30dd2c37a3f33a8b9165f8b5d0f1.png';
+import distributionExpansionImg from '../../assets/22e445325eddecfb7772176310bd52ca8fa9a676.png';
+import strategyChartsImg from '../../assets/d0d5355d4aebf16dfbd3c5904973e87dc4872533.png';
+import dataAnalysisImg from '../../assets/00f5a530a8d4002b66469459e27d06aad7ce5e38.png';
+import teamPlanningImg from '../../assets/1e7dead491e62c3c5cc88d37a33f590516533241.png';
 
 export default function MarketEntry() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

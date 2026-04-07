@@ -2,11 +2,11 @@ import { motion } from "motion/react";
 import { useState } from "react";
 import { ArrowRight, CheckCircle, X } from "lucide-react";
 import { ServiceBreadcrumb } from "../components/ServiceBreadcrumb";
-import heroImage from "figma:asset/63392901cf2e5d6e18a784d5db79fb554d5c18aa.png";
-import pillar1Image from "figma:asset/7d112e15eb00197cb038c7b13999f6d18557fe2d.png";
-import pillar2Image from "figma:asset/3a98fc96a20513179a7b03802127a0e52b13e83d.png";
-import pillar3Image from "figma:asset/e393c692654cc2d52943f3a8fc514f97c64c5c0b.png";
-import pillar4Image from "figma:asset/c23242523ae865e7e685df2e0390046b687e84cc.png";
+import heroImage from "../assets/63392901cf2e5d6e18a784d5db79fb554d5c18aa.png";
+import pillar1Image from "../assets/7d112e15eb00197cb038c7b13999f6d18557fe2d.png";
+import pillar2Image from "../assets/3a98fc96a20513179a7b03802127a0e52b13e83d.png";
+import pillar3Image from "../assets/e393c692654cc2d52943f3a8fc514f97c64c5c0b.png";
+import pillar4Image from "../assets/c23242523ae865e7e685df2e0390046b687e84cc.png";
 
 export default function MedicalEquipment() {
   const [selectedPillar, setSelectedPillar] = useState<number | null>(null);

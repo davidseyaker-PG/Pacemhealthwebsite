@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { Link } from "wouter";
 import { CheckCircle, ArrowRight, Target, Shield, Users, Lightbulb, TrendingUp, Globe, Building2, Zap, Award } from "lucide-react";
-import heroImage from "figma:asset/1360f77dc6f8810ca5c43a1ccd02731f871d62ec.png";
+import heroImage from "../assets/1360f77dc6f8810ca5c43a1ccd02731f871d62ec.png";
 
 export default function OurApproach() {
   const coreValues = [

@@ -2,13 +2,13 @@ import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
 import { ChevronDown } from 'lucide-react';
-import partnershipImage from 'figma:asset/b44f646b4420de97c03315aae69cfa18146efc14.png';
-import accountabilityImage from 'figma:asset/1046ae3a93c7085bd26ffc18f9da87ba3eca78dc.png';
-import excellenceImage from 'figma:asset/8712fbe1da3e019a1db43190c491503533761199.png';
-import equityImage from 'figma:asset/4f5afa9a02e0acc819d73f95b102e33b7211f4b2.png';
-import mutualRespectImage from 'figma:asset/226e4076e8527098921a3b17c29d7eb9397df76a.png';
-import missionImage from 'figma:asset/3615afc07e05ae980b9b2915f1c1aeccc7563c09.png';
-import visionImage from 'figma:asset/cb157bf7eeffd2ee0e34e387eb4226e051d81756.png';
+import partnershipImage from '../../assets/b44f646b4420de97c03315aae69cfa18146efc14.png';
+import accountabilityImage from '../../assets/1046ae3a93c7085bd26ffc18f9da87ba3eca78dc.png';
+import excellenceImage from '../../assets/8712fbe1da3e019a1db43190c491503533761199.png';
+import equityImage from '../../assets/4f5afa9a02e0acc819d73f95b102e33b7211f4b2.png';
+import mutualRespectImage from '../../assets/226e4076e8527098921a3b17c29d7eb9397df76a.png';
+import missionImage from '../../assets/3615afc07e05ae980b9b2915f1c1aeccc7563c09.png';
+import visionImage from '../../assets/cb157bf7eeffd2ee0e34e387eb4226e051d81756.png';
 
 export default function MissionVision() {
   const [activeValue, setActiveValue] = useState('partnership');

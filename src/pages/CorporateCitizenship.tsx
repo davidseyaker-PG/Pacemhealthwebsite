@@ -1,11 +1,11 @@
 import { motion } from "motion/react";
 import { useState } from "react";
 import { ArrowRight, ChevronDown, CheckCircle, Users, Heart, Leaf, Target } from "lucide-react";
-import heroImage from "figma:asset/2e170ddaa1a8a9649a2983449b47672843abb7c3.png";
-import accessImage from "figma:asset/c65ddf11f55990fdb08536f163ce1f86697a1266.png";
-import capacityImage from "figma:asset/5492ae38758d4197e3b907b48acad7185b4a838f.png";
-import peopleImage from "figma:asset/eaa642f4b240a653fbb36e871a347a37c4369d46.png";
-import sustainabilityImage from "figma:asset/012e7c9fb4c8c1280093a37e8d7cc19360ff1d86.png";
+import heroImage from "../assets/2e170ddaa1a8a9649a2983449b47672843abb7c3.png";
+import accessImage from "../assets/c65ddf11f55990fdb08536f163ce1f86697a1266.png";
+import capacityImage from "../assets/5492ae38758d4197e3b907b48acad7185b4a838f.png";
+import peopleImage from "../assets/eaa642f4b240a653fbb36e871a347a37c4369d46.png";
+import sustainabilityImage from "../assets/012e7c9fb4c8c1280093a37e8d7cc19360ff1d86.png";
 
 export default function CorporateCitizenship() {
   const [openAccordion, setOpenAccordion] = useState<string | null>(null);

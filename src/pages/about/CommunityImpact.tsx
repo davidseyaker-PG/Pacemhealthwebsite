@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
-import heroImage from 'figma:asset/7dad1dbe8ca44f21e82d5cbb1aedd31a67a52fc7.png';
+import heroImage from '../../assets/7dad1dbe8ca44f21e82d5cbb1aedd31a67a52fc7.png';
 
 export default function CommunityImpact() {
   const impactAreas = [

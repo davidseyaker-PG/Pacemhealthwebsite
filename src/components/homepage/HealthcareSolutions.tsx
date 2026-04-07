@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
 import { SectionLabel } from '../SectionLabel';
-import labScientistImage from 'figma:asset/47f3e42a0e8789a57177122815bba7dc752ee55c.png';
+import labScientistImage from '../../assets/47f3e42a0e8789a57177122815bba7dc752ee55c.png';
 
 export function HealthcareSolutions() {
   return (

@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
 import { Shield, Scale, Eye, Lock, FileText, AlertCircle, CheckCircle, Users, Globe, Building2, Heart, Award } from 'lucide-react';
-import heroImage from 'figma:asset/d5af171be4c697d3ddbfcf1622198d24682a769c.png';
+import heroImage from '../../assets/d5af171be4c697d3ddbfcf1622198d24682a769c.png';
 
 export default function EthicsCompliance() {
   const coreValues = [

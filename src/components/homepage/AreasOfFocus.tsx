@@ -1,12 +1,12 @@
 import { motion } from 'motion/react';
 import { SectionLabel } from '../SectionLabel';
 import { Link } from 'wouter';
-import pharmaDistImage from 'figma:asset/d4667a8dae869db713eb296a7e79ef6833197ef8.png';
-import pharmacyServicesImage from 'figma:asset/4784e854b2c897e4e36260584a05b8b42aba5687.png';
-import medicalEquipmentImage from 'figma:asset/66cddba03389af46f6ea5b713f7db4bfaa934ec8.png';
-import laboratoryImage from 'figma:asset/80adf0921af998d32c42918456fb79ef6702916a.png';
-import communityHealthImage from 'figma:asset/b16efa35141d1aae3f045dabcdf401ba9de63f93.png';
-import digitalHealthImage from 'figma:asset/d2b38c228dfb2584d04731930a858ff5b4d4acb6.png';
+import pharmaDistImage from '../../assets/d4667a8dae869db713eb296a7e79ef6833197ef8.png';
+import pharmacyServicesImage from '../../assets/4784e854b2c897e4e36260584a05b8b42aba5687.png';
+import medicalEquipmentImage from '../../assets/66cddba03389af46f6ea5b713f7db4bfaa934ec8.png';
+import laboratoryImage from '../../assets/80adf0921af998d32c42918456fb79ef6702916a.png';
+import communityHealthImage from '../../assets/b16efa35141d1aae3f045dabcdf401ba9de63f93.png';
+import digitalHealthImage from '../../assets/d2b38c228dfb2584d04731930a858ff5b4d4acb6.png';
 
 const areas = [
   {

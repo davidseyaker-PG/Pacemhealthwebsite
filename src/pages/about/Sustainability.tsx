@@ -1,13 +1,13 @@
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
 import { ArrowRight, Leaf, Droplet, Recycle, Globe, Heart, Users, CheckCircle2, Target, Award, TrendingUp } from 'lucide-react';
-import heroImage from "figma:asset/a0458ca71553fc8ee319f1ade7fe8397fa6220a3.png";
-import supplyChainImage from "figma:asset/b6bec3588abc7dbc8754dbc214a52d23e15bbb73.png";
-import communityHealthImage from "figma:asset/8a476a1d897174525d65104773610b4f593bd97e.png";
-import workforceDevelopmentImage from "figma:asset/659f664fee8b8cc2e798a0877a3fcf371327be7f.png";
-import programsCardImage from "figma:asset/5988e2e563b1fdc80cb4b870d67f6fe7eea90de9.png";
-import approachCardImage from "figma:asset/339dd2fd338d88af8ef2a72a3faa6b6e00a5d61c.png";
-import historyCardImage from "figma:asset/58cdfc1012d629d542a7d33044809488a308189c.png";
+import heroImage from "../../assets/a0458ca71553fc8ee319f1ade7fe8397fa6220a3.png";
+import supplyChainImage from "../../assets/b6bec3588abc7dbc8754dbc214a52d23e15bbb73.png";
+import communityHealthImage from "../../assets/8a476a1d897174525d65104773610b4f593bd97e.png";
+import workforceDevelopmentImage from "../../assets/659f664fee8b8cc2e798a0877a3fcf371327be7f.png";
+import programsCardImage from "../../assets/5988e2e563b1fdc80cb4b870d67f6fe7eea90de9.png";
+import approachCardImage from "../../assets/339dd2fd338d88af8ef2a72a3faa6b6e00a5d61c.png";
+import historyCardImage from "../../assets/58cdfc1012d629d542a7d33044809488a308189c.png";
 
 export default function Sustainability() {
   const focusAreas = [

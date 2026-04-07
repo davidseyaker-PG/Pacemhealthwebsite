@@ -3,11 +3,11 @@ import { motion } from 'motion/react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'wouter';
 import { SectionLabel } from '../SectionLabel';
-import distributionNetworkImage from 'figma:asset/99194abf93f5b366a9eb22ea35ddd6b869c19111.png';
-import partnershipImage from 'figma:asset/70103a84eb746e919fd03ed32f6184dadfa6b63a.png';
-import communityMilestoneImage from 'figma:asset/1b161e16825c5b7fa1d47f09570ae8d56c883b8b.png';
-import digitalHealthImage from 'figma:asset/03eb96b456de1a93479dd6b367eaf75b17092649.png';
-import whoCertificationImage from 'figma:asset/d7d9796d0e2661031cab4035eaad951a82b88c56.png';
+import distributionNetworkImage from '../../assets/99194abf93f5b366a9eb22ea35ddd6b869c19111.png';
+import partnershipImage from '../../assets/70103a84eb746e919fd03ed32f6184dadfa6b63a.png';
+import communityMilestoneImage from '../../assets/1b161e16825c5b7fa1d47f09570ae8d56c883b8b.png';
+import digitalHealthImage from '../../assets/03eb96b456de1a93479dd6b367eaf75b17092649.png';
+import whoCertificationImage from '../../assets/d7d9796d0e2661031cab4035eaad951a82b88c56.png';
 
 const newsStories = [
   {

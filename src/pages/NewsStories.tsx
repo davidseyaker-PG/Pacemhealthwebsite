@@ -3,17 +3,17 @@ import { motion } from 'motion/react';
 import { ArrowRight, Calendar, Clock, Search } from 'lucide-react';
 import { Link } from 'wouter';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
-import infantNutritionImg from 'figma:asset/c345068955ef3bfc48f34e2b2bc6ac441c34069f.png';
-import companyLaunchImg from 'figma:asset/02d42d707511272b88d4c2c144be611ba1600a10.png';
-import productCatalogImg from 'figma:asset/b75b6c3d301e30dd2c37a3f33a8b9165f8b5d0f1.png';
-import pharmaceuticalHubImg from 'figma:asset/44fd008152cbbf2ddf85747e909f6ee06523968b.png';
-import universityPartnershipImg from 'figma:asset/8f7e2d6bc1728d4c75289e7e6ae1935bcf367806.png';
-import marketEntryImg from 'figma:asset/c88e4fb775957e420c8bfcf1cf1554fc5bfd3581.png';
-import distributionExpansionImg from 'figma:asset/22e445325eddecfb7772176310bd52ca8fa9a676.png';
-import partnershipHandshakeImg from 'figma:asset/9db084c65b7ac4de77b79de6e4a02db5d61c91c0.png';
-import vaccineVialsImg from 'figma:asset/40c257b000b003a0cb10d8e96fa5884d236d1969.png';
-import communityHealthImg from 'figma:asset/1ccf00b90b7dea706dbcbc91a60729367f043716.png';
-import digitalHealthImg from 'figma:asset/03eb96b456de1a93479dd6b367eaf75b17092649.png';
+import infantNutritionImg from '../assets/c345068955ef3bfc48f34e2b2bc6ac441c34069f.png';
+import companyLaunchImg from '../assets/02d42d707511272b88d4c2c144be611ba1600a10.png';
+import productCatalogImg from '../assets/b75b6c3d301e30dd2c37a3f33a8b9165f8b5d0f1.png';
+import pharmaceuticalHubImg from '../assets/44fd008152cbbf2ddf85747e909f6ee06523968b.png';
+import universityPartnershipImg from '../assets/8f7e2d6bc1728d4c75289e7e6ae1935bcf367806.png';
+import marketEntryImg from '../assets/c88e4fb775957e420c8bfcf1cf1554fc5bfd3581.png';
+import distributionExpansionImg from '../assets/22e445325eddecfb7772176310bd52ca8fa9a676.png';
+import partnershipHandshakeImg from '../assets/9db084c65b7ac4de77b79de6e4a02db5d61c91c0.png';
+import vaccineVialsImg from '../assets/40c257b000b003a0cb10d8e96fa5884d236d1969.png';
+import communityHealthImg from '../assets/1ccf00b90b7dea706dbcbc91a60729367f043716.png';
+import digitalHealthImg from '../assets/03eb96b456de1a93479dd6b367eaf75b17092649.png';
 
 export default function NewsStories() {
   const [activeFilter, setActiveFilter] = useState('All News');

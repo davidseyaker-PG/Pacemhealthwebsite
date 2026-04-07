@@ -3,13 +3,13 @@ import { motion } from 'motion/react';
 import { ArrowRight, Calendar, Clock, Share2, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'wouter';
 import { ImageWithFallback } from '../../components/figma/ImageWithFallback';
-import digitalHealthImg from 'figma:asset/03eb96b456de1a93479dd6b367eaf75b17092649.png';
-import distributionExpansionImg from 'figma:asset/22e445325eddecfb7772176310bd52ca8fa9a676.png';
-import vaccineVialsImg from 'figma:asset/40c257b000b003a0cb10d8e96fa5884d236d1969.png';
-import communityHealthImg from 'figma:asset/1ccf00b90b7dea706dbcbc91a60729367f043716.png';
-import digitalHealthPlatform1 from 'figma:asset/38d5674372eb08b64371147a62effc15707d7649.png';
-import digitalHealthPlatform2 from 'figma:asset/dbcadb84bc6114fad0b49bc12a08aec15bb1660a.png';
-import digitalHealthPlatform3 from 'figma:asset/36ffce28ba0fc01bd98274ca5340d73fb488d02e.png';
+import digitalHealthImg from '../../assets/03eb96b456de1a93479dd6b367eaf75b17092649.png';
+import distributionExpansionImg from '../../assets/22e445325eddecfb7772176310bd52ca8fa9a676.png';
+import vaccineVialsImg from '../../assets/40c257b000b003a0cb10d8e96fa5884d236d1969.png';
+import communityHealthImg from '../../assets/1ccf00b90b7dea706dbcbc91a60729367f043716.png';
+import digitalHealthPlatform1 from '../../assets/38d5674372eb08b64371147a62effc15707d7649.png';
+import digitalHealthPlatform2 from '../../assets/dbcadb84bc6114fad0b49bc12a08aec15bb1660a.png';
+import digitalHealthPlatform3 from '../../assets/36ffce28ba0fc01bd98274ca5340d73fb488d02e.png';
 
 export default function DigitalPlatform() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

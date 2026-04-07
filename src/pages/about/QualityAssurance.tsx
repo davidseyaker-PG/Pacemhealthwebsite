@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { Link } from 'wouter';
 import { Shield, CheckCircle, FileCheck, FlaskConical, Eye, Award, Building2, Users, FileText, Truck, ClipboardCheck, Globe } from 'lucide-react';
-import heroImage from 'figma:asset/0822cbe7ba417a9da0a1d08bf4da0e5f4631c329.png';
+import heroImage from '../../assets/0822cbe7ba417a9da0a1d08bf4da0e5f4631c329.png';
 
 export default function QualityAssurance() {
   const tripleVerifiedComponents = [
